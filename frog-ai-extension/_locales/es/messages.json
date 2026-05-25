@@ -1,0 +1,2894 @@
+{
+  "name": {
+    "message": "Skim AI"
+  },
+  "extName": {
+    "message": "Skim AI - Traduce y aprende"
+  },
+  "extDescription": {
+    "message": "Skim AI es una extensión de navegador de código abierto diseñada para ayudarte a aprender idiomas en profundidad desde cualquier sitio web."
+  },
+  "uninstallSurveyUrl": {
+    "message": "https://tally.so/r/nPK6Ob"
+  },
+  "dataTypes_string": {
+    "message": "Texto"
+  },
+  "dataTypes_number": {
+    "message": "Número"
+  },
+  "contextMenu_translate": {
+    "message": "Traducir"
+  },
+  "contextMenu_translateSelection": {
+    "message": "Traducir \"%s\""
+  },
+  "contextMenu_showOriginal": {
+    "message": "Mostrar original"
+  },
+  "sidePanel_firefoxUserActionHint": {
+    "message": "En Firefox, abre Skim AI desde la barra lateral del navegador."
+  },
+  "sidePanel_firefoxUserActionHelpText": {
+    "message": "Aprende a abrir la barra lateral de Firefox"
+  },
+  "sidePanel_firefoxUserActionHelpUrl": {
+    "message": "https://support.mozilla.org/en-US/kb/use-sidebar-access-tools-and-vertical-tabs"
+  },
+  "popup_theme": {
+    "message": "Tema"
+  },
+  "popup_autoLang": {
+    "message": "Auto"
+  },
+  "popup_sourceLang": {
+    "message": "Origen"
+  },
+  "popup_targetLang": {
+    "message": "Destino"
+  },
+  "popup_translate": {
+    "message": "Traducir"
+  },
+  "popup_showOriginal": {
+    "message": "Mostrar original"
+  },
+  "popup_enabledFloatingButton": {
+    "message": "Activar botón flotante"
+  },
+  "popup_enabledSelectionToolbar": {
+    "message": "Activar barra de selección"
+  },
+  "popup_alwaysTranslate": {
+    "message": "Traducir siempre este sitio"
+  },
+  "popup_addToWhitelist": {
+    "message": "Activar extensión en este sitio"
+  },
+  "popup_addToBlacklist": {
+    "message": "Desactivar extensión en este sitio"
+  },
+  "popup_options": {
+    "message": "Opciones"
+  },
+  "popup_hover": {
+    "message": "Pasar el cursor"
+  },
+  "popup_translateParagraph": {
+    "message": "para traducir el párrafo"
+  },
+  "popup_hub_tooltip": {
+    "message": "Traduce texto con varios modelos al mismo tiempo"
+  },
+  "popup_discord_tooltip": {
+    "message": "Únete a Discord para conectar con desarrolladores y obtener acceso anticipado a nuevas funciones"
+  },
+  "popup_blog_notification": {
+    "message": "Novedades de Skim AI"
+  },
+  "popup_aiSmartContext": {
+    "message": "Contexto inteligente de IA"
+  },
+  "popup_aiSmartContextDescription": {
+    "message": "Usa el contexto de la página web para mejorar la calidad de la traducción. Requiere un proveedor de traducción LLM."
+  },
+  "popup_more_title": {
+    "message": "Más"
+  },
+  "popup_more_translationHub": {
+    "message": "Centro de traducción"
+  },
+  "popup_more_joinDiscord": {
+    "message": "Unirse a Discord"
+  },
+  "popup_more_joinWechat": {
+    "message": "Unirse al grupo de WeChat"
+  },
+  "popup_more_starGithub": {
+    "message": "Marcar con estrella en GitHub"
+  },
+  "popup_more_rateUs": {
+    "message": "Calificarnos"
+  },
+  "popup_more_ebook": {
+    "message": "Lector de libros electrónicos de terceros"
+  },
+  "popup_more_tutorial": {
+    "message": "Tutorial"
+  },
+  "errorRecovery_title": {
+    "message": "Algo salió mal"
+  },
+  "errorRecovery_description": {
+    "message": "El modo de recuperación está activo. Puedes exportar tu configuración actual como copia de seguridad y luego restablecer la configuración e intentarlo de nuevo."
+  },
+  "errorRecovery_backupTitle": {
+    "message": "Primero haz una copia de seguridad de la configuración actual (recomendado)"
+  },
+  "errorRecovery_exportWithApiKeys": {
+    "message": "Exportar con claves API"
+  },
+  "errorRecovery_exportWithoutApiKeys": {
+    "message": "Exportar sin claves API"
+  },
+  "errorRecovery_recoveryTitle": {
+    "message": "Opciones de recuperación"
+  },
+  "errorRecovery_refreshPage": {
+    "message": "Actualizar la página"
+  },
+  "errorRecovery_resetAction": {
+    "message": "Restablecer configuración predeterminada"
+  },
+  "errorRecovery_resetSuccess": {
+    "message": "Recuperación completada. La configuración se ha restablecido"
+  },
+  "errorRecovery_resetFailed": {
+    "message": "Error de recuperación. No se pudo restablecer la configuración"
+  },
+  "errorRecovery_errorDetails": {
+    "message": "Detalles del error"
+  },
+  "errorRecovery_resetDialog_title": {
+    "message": "¿Restablecer configuración?"
+  },
+  "errorRecovery_resetDialog_description": {
+    "message": "Esto reemplazará tu configuración actual por los valores predeterminados."
+  },
+  "errorRecovery_resetDialog_confirm": {
+    "message": "Restablecer"
+  },
+  "errorRecovery_resetDialog_cancel": {
+    "message": "Cancelar"
+  },
+  "options_commandPalette_placeholder": {
+    "message": "Buscar configuración..."
+  },
+  "options_commandPalette_noResults": {
+    "message": "No se encontró configuración"
+  },
+  "options_sidebar_settings": {
+    "message": "Configuración"
+  },
+  "options_sidebar_tools": {
+    "message": "Herramientas"
+  },
+  "options_sidebar_product": {
+    "message": "Producto"
+  },
+  "options_tools_translationHub": {
+    "message": "Centro de traducción"
+  },
+  "options_setAPIKeyWarning_please": {
+    "message": "Configura la clave API en"
+  },
+  "options_setAPIKeyWarning_page": {
+    "message": "página"
+  },
+  "options_betaExperience_title": {
+    "message": "Experiencia beta"
+  },
+  "options_betaExperience_description": {
+    "message": "Activa funciones experimentales y acceso anticipado a nuevas funcionalidades. Estas funciones pueden ser inestables o estar incompletas."
+  },
+  "options_betaExperience_enabled": {
+    "message": "Activar experiencia beta"
+  },
+  "options_apiProviders_title": {
+    "message": "Proveedores de API"
+  },
+  "options_apiProviders_description": {
+    "message": "Configura proveedores de API para traducción e información de vocabulario. Tenemos más de 20 proveedores integrados y admitimos cualquier proveedor de API compatible con OpenAI."
+  },
+  "options_apiProviders_promotion_ai302_description": {
+    "message": "Haz clic en el enlace de la derecha para registrarte en 302.AI y obtener 1 USD de crédito API"
+  },
+  "options_apiProviders_promotion_ai302_action": {
+    "message": "Registrarse para obtener una clave API gratis"
+  },
+  "options_apiProviders_promotion_ai302_addProvider": {
+    "message": "Añadir configuración de 302.AI"
+  },
+  "options_apiProviders_addProvider": {
+    "message": "Añadir proveedor"
+  },
+  "options_apiProviders_badges_featureCount": {
+    "message": "$1 funciones"
+  },
+  "options_apiProviders_dialog_title": {
+    "message": "Añadir nuevo proveedor"
+  },
+  "options_apiProviders_dialog_groups_builtInProviders_title": {
+    "message": "Proveedores LLM integrados"
+  },
+  "options_apiProviders_dialog_groups_builtInProviders_description": {
+    "message": "Proveedores integrados de modelos de lenguaje grandes; no hace falta completar la mayoría de configuraciones, como Base URL"
+  },
+  "options_apiProviders_dialog_groups_openaiCompatibleProviders_title": {
+    "message": "Proveedores personalizados compatibles con OpenAI"
+  },
+  "options_apiProviders_dialog_groups_openaiCompatibleProviders_description": {
+    "message": "Si no encuentras el proveedor de AI que deseas, selecciona Proveedor personalizado para configurar cualquier proveedor compatible con OpenAI, como Zhipu AI"
+  },
+  "options_apiProviders_dialog_groups_pureTranslationProviders_title": {
+    "message": "Proveedores de traducción pura"
+  },
+  "options_apiProviders_dialog_groups_pureTranslationProviders_description": {
+    "message": "Proveedores centrados en funciones de traducción sin capacidades de modelos de lenguaje grandes"
+  },
+  "options_apiProviders_form_fields_name": {
+    "message": "Nombre"
+  },
+  "options_apiProviders_form_fields_description": {
+    "message": "Descripción"
+  },
+  "options_apiProviders_form_fields_apiKey": {
+    "message": "Clave API"
+  },
+  "options_apiProviders_form_fields_baseURL": {
+    "message": "Base URL"
+  },
+  "options_apiProviders_form_fields_optional": {
+    "message": "Opcional"
+  },
+  "options_apiProviders_form_duplicate": {
+    "message": "Duplicar"
+  },
+  "options_apiProviders_form_delete": {
+    "message": "Eliminar"
+  },
+  "options_apiProviders_form_deleteDialog_title": {
+    "message": "¿Eliminar proveedor?"
+  },
+  "options_apiProviders_form_deleteDialog_description": {
+    "message": "Esta acción no se puede deshacer. Las funciones que usan este proveedor se reasignarán automáticamente a otro proveedor disponible."
+  },
+  "options_apiProviders_form_deleteDialog_confirm": {
+    "message": "Eliminar"
+  },
+  "options_apiProviders_form_deleteDialog_cancel": {
+    "message": "Cancelar"
+  },
+  "options_apiProviders_form_atLeastOneLLMProvider": {
+    "message": "Se requiere al menos un proveedor de traducción LLM."
+  },
+  "options_apiProviders_form_providerInUseCannotDisable": {
+    "message": "No se puede desactivar \"$1\" porque actualmente lo usan $2 función(es)."
+  },
+  "options_apiProviders_form_duplicateProviderName": {
+    "message": "Nombre de proveedor duplicado \"$1\""
+  },
+  "options_apiProviders_form_defaultProvider_translate": {
+    "message": "Establecer como proveedor de traducción predeterminado"
+  },
+  "options_apiProviders_form_models_translate_title": {
+    "message": "Modelo de traducción"
+  },
+  "options_apiProviders_form_models_translate_customTitle": {
+    "message": "Modelo de traducción personalizado"
+  },
+  "options_apiProviders_form_models_translate_placeholder": {
+    "message": "Selecciona un modelo"
+  },
+  "options_apiProviders_form_models_fetchModels": {
+    "message": "Obtener modelos disponibles"
+  },
+  "options_apiProviders_form_models_fetchError": {
+    "message": "No se pudieron obtener los modelos"
+  },
+  "options_apiProviders_form_models_clickToRetry": {
+    "message": "Haz clic para reintentar"
+  },
+  "options_apiProviders_form_models_noModels": {
+    "message": "No hay modelos disponibles"
+  },
+  "options_apiProviders_form_models_selectModel": {
+    "message": "Selecciona un modelo"
+  },
+  "options_apiProviders_form_models_apiKeyRequired": {
+    "message": "Añade primero una clave API"
+  },
+  "options_apiProviders_form_models_searchModels": {
+    "message": "Buscar modelos..."
+  },
+  "options_apiProviders_form_models_noModelsFound": {
+    "message": "No se encontraron modelos"
+  },
+  "options_apiProviders_form_featureProviders": {
+    "message": "Proveedores de funciones"
+  },
+  "options_apiProviders_form_advancedOptions": {
+    "message": "Opciones avanzadas"
+  },
+  "options_apiProviders_form_providerSettingLabels_region": {
+    "message": "Región"
+  },
+  "options_apiProviders_form_temperature": {
+    "message": "Temperatura"
+  },
+  "options_apiProviders_form_temperatureHint": {
+    "message": "Controla la aleatoriedad en las respuestas. Los valores más bajos (0) son más deterministas; los más altos son más creativos. El rango varía según el proveedor. Déjalo vacío para usar el valor predeterminado del proveedor."
+  },
+  "options_apiProviders_form_headers": {
+    "message": "Encabezados"
+  },
+  "options_apiProviders_form_headersHint": {
+    "message": "Encabezados HTTP personalizados enviados al crear el cliente del proveedor de IA. Déjalo vacío para usar los valores predeterminados; usa {} para desactivarlos."
+  },
+  "options_apiProviders_form_providerOptions": {
+    "message": "Opciones del proveedor"
+  },
+  "options_apiProviders_form_providerOptionsHint": {
+    "message": "Opciones específicas del proveedor para funciones API no estándar, como el modo thinking/reasoning. Consulta la documentación de Vercel AI SDK o la documentación oficial de tu proveedor para ver detalles de configuración."
+  },
+  "options_apiProviders_form_providerOptionsDocsLink": {
+    "message": "Ver documentación del proveedor"
+  },
+  "options_apiProviders_form_providerOptionsRecommendationTrigger": {
+    "message": "Ver opciones recomendadas del proveedor"
+  },
+  "options_apiProviders_form_providerOptionsRecommendationTitle": {
+    "message": "Opciones recomendadas del proveedor detectadas"
+  },
+  "options_apiProviders_form_providerOptionsRecommendationDescription": {
+    "message": "Revisa y aplica manualmente la configuración recomendada."
+  },
+  "options_apiProviders_form_providerOptionsRecommendationApply": {
+    "message": "Aplicar"
+  },
+  "options_apiProviders_form_providerOptionsRecommendationApplied": {
+    "message": "Aplicado"
+  },
+  "options_apiProviders_form_invalidJson": {
+    "message": "Formato JSON no válido"
+  },
+  "options_apiProviders_providers_description_openai": {
+    "message": "Proporciona modelos como GPT-4o"
+  },
+  "options_apiProviders_providers_description_deepseek": {
+    "message": "Recomendado para usar en China"
+  },
+  "options_apiProviders_providers_description_openrouter": {
+    "message": "Interfaz unificada para varios proveedores LLM con precios de pago por uso"
+  },
+  "options_apiProviders_providers_description_ollama": {
+    "message": "Ejecuta modelos de lenguaje grandes localmente en tu equipo con privacidad completa"
+  },
+  "options_apiProviders_providers_description_google": {
+    "message": "Modelos AI principales de Google con capacidades avanzadas de razonamiento"
+  },
+  "options_apiProviders_providers_description_anthropic": {
+    "message": "Modelos Claude conocidos por su seguridad y excelente razonamiento"
+  },
+  "options_apiProviders_providers_description_xai": {
+    "message": "Empresa de AI de Elon Musk que ofrece modelos Grok con acceso a datos en tiempo real"
+  },
+  "options_apiProviders_providers_description_siliconflow": {
+    "message": "Plataforma de inferencia de alto rendimiento para modelos chinos e internacionales"
+  },
+  "options_apiProviders_providers_description_tensdaq": {
+    "message": "Plataforma revolucionaria de pujas AI MaaS con precios impulsados por el mercado, que elimina los altos precios fijos"
+  },
+  "options_apiProviders_providers_description_ai302": {
+    "message": "Proporciona los modelos más recientes y completos con API de pago por uso"
+  },
+  "options_apiProviders_providers_description_openaiCompatible": {
+    "message": "Compatible con API de terceros y OpenAI"
+  },
+  "options_apiProviders_providers_description_deeplx": {
+    "message": "API de DeepL no oficial"
+  },
+  "options_apiProviders_providers_description_deepl": {
+    "message": "API oficial de DeepL"
+  },
+  "options_apiProviders_providers_description_bedrock": {
+    "message": "Servicio administrado de AWS para modelos fundacionales de nivel empresarial"
+  },
+  "options_apiProviders_providers_description_groq": {
+    "message": "Hardware especializado para inferencia LLM ultrarrápida"
+  },
+  "options_apiProviders_providers_description_deepinfra": {
+    "message": "Inferencia en la nube rentable para modelos populares de código abierto"
+  },
+  "options_apiProviders_providers_description_mistral": {
+    "message": "Empresa europea de AI especializada en modelos multilingües eficientes"
+  },
+  "options_apiProviders_providers_description_togetherai": {
+    "message": "Plataforma colaborativa para ejecutar y ajustar modelos de código abierto"
+  },
+  "options_apiProviders_providers_description_cohere": {
+    "message": "AI enfocada en empresas con sólidas capacidades multilingües y RAG"
+  },
+  "options_apiProviders_providers_description_fireworks": {
+    "message": "Plataforma de inferencia lista para producción para modelos de código abierto"
+  },
+  "options_apiProviders_providers_description_cerebras": {
+    "message": "Inferencia AI ultrarrápida para traducción y análisis de texto rápidos"
+  },
+  "options_apiProviders_providers_description_replicate": {
+    "message": "Acceso a diversos modelos de código abierto para tareas de traducción especializadas"
+  },
+  "options_apiProviders_providers_description_perplexity": {
+    "message": "AI mejorada con conocimiento en tiempo real para traducciones contextuales y asistencia de lectura"
+  },
+  "options_apiProviders_providers_description_vercel": {
+    "message": "Modelos AI optimizados para traducción y análisis de contenido web"
+  },
+  "options_apiProviders_providers_description_volcengine": {
+    "message": "Plataforma cloud AI de ByteDance que ofrece modelos Doubao para traducción y lectura"
+  },
+  "options_apiProviders_providers_description_minimax": {
+    "message": "Plataforma MiniMax AI que ofrece modelos avanzados MiniMax-M2 para generación de texto"
+  },
+  "options_apiProviders_providers_description_alibaba": {
+    "message": "Serie de modelos Qwen de Alibaba Cloud con razonamiento avanzado y capacidades multilingües"
+  },
+  "options_apiProviders_providers_description_moonshotai": {
+    "message": "Serie de modelos Kimi de Moonshot AI con razonamiento sólido y capacidades de contexto largo"
+  },
+  "options_apiProviders_providers_description_huggingface": {
+    "message": "API de inferencia de Hugging Face que proporciona acceso a miles de modelos de código abierto"
+  },
+  "options_apiProviders_apiKey_showAPIKey": {
+    "message": "Mostrar clave API"
+  },
+  "options_apiProviders_howToConfigure": {
+    "message": "¿Cómo configurar?"
+  },
+  "options_apiProviders_testConnection_button": {
+    "message": "Probar conexión"
+  },
+  "options_apiProviders_testConnection_testing": {
+    "message": "Probando..."
+  },
+  "options_general_title": {
+    "message": "General"
+  },
+  "options_general_appearance_title": {
+    "message": "Apariencia"
+  },
+  "options_general_appearance_theme": {
+    "message": "Tema"
+  },
+  "options_general_appearance_system": {
+    "message": "Sistema"
+  },
+  "options_general_appearance_light": {
+    "message": "Claro"
+  },
+  "options_general_appearance_dark": {
+    "message": "Oscuro"
+  },
+  "options_general_featureProviders_title": {
+    "message": "Proveedores de funciones"
+  },
+  "options_general_featureProviders_description": {
+    "message": "Elige qué proveedor usar para cada función"
+  },
+  "options_general_featureProviders_customActions": {
+    "message": "Acciones AI personalizadas"
+  },
+  "options_general_featureProviders_features_translate": {
+    "message": "Traducción de página"
+  },
+  "options_general_featureProviders_features_selectionToolbar_translate": {
+    "message": "Traducción de la barra de selección"
+  },
+  "options_general_featureProviders_features_tts": {
+    "message": "Texto a voz"
+  },
+  "options_general_featureProviders_features_inputTranslation": {
+    "message": "Traducción de entrada"
+  },
+  "options_general_featureProviders_features_videoSubtitles": {
+    "message": "Subtítulos de video"
+  },
+  "options_general_translationConfig_model_title": {
+    "message": "Modelo"
+  },
+  "options_general_translationConfig_model_enterCustomModel": {
+    "message": "Introduce el nombre del modelo personalizado"
+  },
+  "options_general_clearCache_title": {
+    "message": "Borrar caché"
+  },
+  "options_general_clearCache_description": {
+    "message": "Borra toda la caché de traducción en tu navegador"
+  },
+  "options_general_clearCache_clearing": {
+    "message": "Borrando..."
+  },
+  "options_general_clearCache_dialog_title": {
+    "message": "Borrar caché"
+  },
+  "options_general_clearCache_dialog_trigger": {
+    "message": "Borrar caché"
+  },
+  "options_general_clearCache_dialog_confirm": {
+    "message": "Confirmar"
+  },
+  "options_general_clearCache_dialog_cancel": {
+    "message": "Cancelar"
+  },
+  "options_general_clearCache_dialog_description": {
+    "message": "Esta operación borrará toda la caché de traducción. Esta acción no se puede deshacer."
+  },
+  "options_general_languageDetection_title": {
+    "message": "Detección de idioma"
+  },
+  "options_general_languageDetection_description": {
+    "message": "Afecta la detección de idioma para traducción automática, la detección de idiomas omitidos y la precisión de selección de voz."
+  },
+  "options_general_languageDetection_mode_basic": {
+    "message": "Básica"
+  },
+  "options_general_languageDetection_mode_llm": {
+    "message": "LLM"
+  },
+  "options_general_languageDetection_provider_label": {
+    "message": "Proveedor de detección"
+  },
+  "options_general_languageDetection_provider_placeholder": {
+    "message": "Selecciona un proveedor"
+  },
+  "options_general_languageDetection_status_noProviders": {
+    "message": "Configura primero un proveedor LLM"
+  },
+  "options_general_languageDetection_status_basicRecommend": {
+    "message": "Se recomienda activar LLM"
+  },
+  "options_general_languageDetection_status_llmEnabled": {
+    "message": "Detección LLM activada"
+  },
+  "options_siteControl_title": {
+    "message": "Control de sitios"
+  },
+  "options_siteControl_mode_title": {
+    "message": "Modo de activación de la extensión"
+  },
+  "options_siteControl_mode_description": {
+    "message": "Usa el modo de lista negra para desactivar la extensión en sitios específicos, o el modo de lista blanca para limitarla solo a sitios específicos."
+  },
+  "options_siteControl_mode_blacklist": {
+    "message": "Desactivar solo en sitios listados"
+  },
+  "options_siteControl_mode_whitelist": {
+    "message": "Ejecutar solo en sitios listados"
+  },
+  "options_siteControl_patterns_enterUrlPattern": {
+    "message": "Introduce patrón de URL (p. ej., example.com)"
+  },
+  "options_siteControl_patterns_urlPattern": {
+    "message": "Patrón de URL"
+  },
+  "options_overlayTools_title": {
+    "message": "Herramientas superpuestas"
+  },
+  "options_overlayTools_floatingButton_title": {
+    "message": "Botón flotante"
+  },
+  "options_overlayTools_selectionToolbar_title": {
+    "message": "Barra de selección"
+  },
+  "options_overlayTools_contextMenu_title": {
+    "message": "Menú contextual"
+  },
+  "options_overlayTools_inputTranslation_title": {
+    "message": "Traducción de entrada"
+  },
+  "options_inputTranslation_provider_title": {
+    "message": "Proveedor de traducción"
+  },
+  "options_inputTranslation_provider_description": {
+    "message": "Elige qué proveedor de traducción usar para la traducción de entrada"
+  },
+  "options_inputTranslation_provider_label": {
+    "message": "Proveedor"
+  },
+  "options_inputTranslation_toggle_title": {
+    "message": "Activar traducción con triple espacio"
+  },
+  "options_inputTranslation_toggle_description": {
+    "message": "Pulsa la barra espaciadora 3 veces rápidamente en cualquier campo de entrada para traducir su contenido"
+  },
+  "options_inputTranslation_languages_title": {
+    "message": "Idiomas de traducción"
+  },
+  "options_inputTranslation_languages_description": {
+    "message": "Elige los idiomas de origen y destino para la traducción de entrada"
+  },
+  "options_inputTranslation_languages_sourceCode": {
+    "message": "Idioma de origen de la página"
+  },
+  "options_inputTranslation_languages_targetCode": {
+    "message": "Idioma de destino de la traducción"
+  },
+  "options_inputTranslation_languages_enableCycle": {
+    "message": "Intercambiar dirección cada vez"
+  },
+  "options_inputTranslation_threshold_title": {
+    "message": "Umbral de activación"
+  },
+  "options_inputTranslation_threshold_description": {
+    "message": "Intervalo de tiempo entre pulsaciones de espacio para activar la traducción"
+  },
+  "options_inputTranslation_threshold_label": {
+    "message": "Umbral (ms)"
+  },
+  "options_inputTranslation_threshold_hint": {
+    "message": "Tiempo en milisegundos entre pulsaciones consecutivas de espacio (100-1000ms)"
+  },
+  "options_inputTranslation_threshold_error": {
+    "message": "El valor debe estar entre $1 y $2"
+  },
+  "options_floatingButtonAndToolbar_title": {
+    "message": "Botón flotante y barra de herramientas"
+  },
+  "options_floatingButtonAndToolbar_floatingButtonDemoImageAlt": {
+    "message": "Demostración del botón flotante"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbarDemoImageAlt": {
+    "message": "Demostración de la barra de selección"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_globalToggle_title": {
+    "message": "Activar botón flotante"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_globalToggle_description": {
+    "message": "Muestra el botón flotante en páginas web para acceder rápidamente a las funciones de Skim AI"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_closeMenu_disableForSite": {
+    "message": "Desactivar para este sitio"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_closeMenu_disableGlobally": {
+    "message": "Desactivar globalmente"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_disabledSites_title": {
+    "message": "Sitios con botón flotante desactivado"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_disabledSites_description": {
+    "message": "Configura los sitios web donde se debe desactivar el botón flotante"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_disabledSites_enterUrlPattern": {
+    "message": "Introduce patrón de URL"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_disabledSites_urlPattern": {
+    "message": "Patrón de URL"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_clickAction_title": {
+    "message": "Acción al hacer clic"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_clickAction_description": {
+    "message": "Elige la acción al hacer clic en el botón flotante"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_clickAction_panel": {
+    "message": "Abrir panel lateral"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_clickAction_translate": {
+    "message": "Alternar traducción de página"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_side_title": {
+    "message": "Lado del botón"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_side_description": {
+    "message": "Elige en qué lado de la página se fija el botón flotante"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_side_left": {
+    "message": "Izquierda"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_side_right": {
+    "message": "Derecha"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_globalToggle_title": {
+    "message": "Activar barra de selección"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_globalToggle_description": {
+    "message": "Muestra la barra de herramientas al seleccionar texto en páginas web para traducción rápida, voz y acciones AI"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_opacity_title": {
+    "message": "Opacidad"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_opacity_description": {
+    "message": "Ajusta la opacidad de la barra de selección y de la ventana expandida que se abre desde ella"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_featureToggles_title": {
+    "message": "Alternadores de funciones"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_featureToggles_description": {
+    "message": "Elige qué funciones integradas mostrar en la barra de selección"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_featureToggles_translate": {
+    "message": "Traducir"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_featureToggles_speak": {
+    "message": "Leer en voz alta"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_closeMenu_disableForSite": {
+    "message": "Desactivar para este sitio"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_closeMenu_disableGlobally": {
+    "message": "Desactivar globalmente"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_disabledSites_title": {
+    "message": "Sitios con barra de selección desactivada"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_disabledSites_description": {
+    "message": "Configura los sitios web donde se debe desactivar la barra de selección"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_disabledSites_enterUrlPattern": {
+    "message": "Introduce patrón de URL"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_disabledSites_urlPattern": {
+    "message": "Patrón de URL"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_customActionFailed": {
+    "message": "Falló la acción personalizada"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_customActionFailedFallback": {
+    "message": "Falló la solicitud de acción personalizada"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_actionUnavailable": {
+    "message": "La acción seleccionada no está disponible"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_missingSelection": {
+    "message": "No hay texto seleccionado disponible"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_providerDisabled": {
+    "message": "El proveedor seleccionado está desactivado"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_providerUnavailable": {
+    "message": "El proveedor seleccionado no está disponible"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_provider": {
+    "message": "Proveedor"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_selectProvider": {
+    "message": "Selecciona un proveedor"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_noProviderAvailable": {
+    "message": "No hay proveedores disponibles"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_useProviderDefaultModel": {
+    "message": "Usar modelo predeterminado del proveedor"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_useCustomModel": {
+    "message": "Usar modelo personalizado"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_customModel": {
+    "message": "Modelo personalizado"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_model": {
+    "message": "Modelo"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_modelNotAvailableForNonLLM": {
+    "message": "La configuración de modelo solo está disponible para proveedores LLM"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_translate_title": {
+    "message": "Traducción de selección"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_translate_description": {
+    "message": "Configura proveedor y modelo para la función de traducción de la barra de selección"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_title": {
+    "message": "Acciones AI personalizadas"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_description": {
+    "message": "Añade tus propias acciones AI estructuradas para texto seleccionado"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_add": {
+    "message": "Añadir acción AI"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_edit": {
+    "message": "Editar acción AI"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_empty": {
+    "message": "Aún no hay acciones AI personalizadas"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_noEnabledLlmProvider": {
+    "message": "Activa al menos un proveedor LLM antes de crear acciones AI personalizadas"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_table_name": {
+    "message": "Nombre"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_table_provider": {
+    "message": "Proveedor"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_table_fields": {
+    "message": "Campos"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_table_actions": {
+    "message": "Acciones"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_name": {
+    "message": "Nombre"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_icon": {
+    "message": "Icono"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_chooseAriaLabel": {
+    "message": "Elegir icono"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_chooseTitle": {
+    "message": "Elegir un icono"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_inputPlaceholder": {
+    "message": "Introduce el nombre del icono"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpAriaLabel": {
+    "message": "Más ayuda sobre iconos"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpTitle": {
+    "message": "¿No encuentras el icono que quieres?"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpStepBrowsePrefix": {
+    "message": "Busca iconos en"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpStepBrowseSuffix": {
+    "message": ""
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpStepCopyPrefix": {
+    "message": "Copia el nombre del icono, por ejemplo "
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpStepCopySuffix": {
+    "message": ", y pégalo en el campo."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_provider": {
+    "message": "Proveedor (requiere compatibilidad con salida estructurada)"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_selectProvider": {
+    "message": "Selecciona un proveedor"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_systemPrompt": {
+    "message": "Prompt del sistema"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_prompt": {
+    "message": "Prompt"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_outputSchema": {
+    "message": "Esquema de salida"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_addField": {
+    "message": "Añadir campo"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldName": {
+    "message": "Nombre del campo"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldType": {
+    "message": "Tipo de campo"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldDescription": {
+    "message": "Descripción"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldDescriptionPlaceholder": {
+    "message": "Describe qué debe contener este campo..."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldSpeaking": {
+    "message": "Activar lectura en voz alta"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_actions": {
+    "message": "Acciones"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_cancel": {
+    "message": "Cancelar"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_save": {
+    "message": "Guardar"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_defaultFieldName": {
+    "message": "Resultado"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldNamePlaceholder": {
+    "message": "Nombre del campo"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_autoFieldPrefix": {
+    "message": "Campo"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_addFieldDialog_title": {
+    "message": "Añadir campo de salida"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_editFieldDialog_title": {
+    "message": "Editar campo de salida"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_editFieldDialog_save": {
+    "message": "Guardar"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteFieldDialog_title": {
+    "message": "¿Eliminar campo de salida?"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteFieldDialog_description": {
+    "message": "Este campo de salida se eliminará."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteFieldDialog_confirm": {
+    "message": "Eliminar"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteFieldDialog_cancel": {
+    "message": "Cancelar"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_title": {
+    "message": "Conexión de Notebase"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_description": {
+    "message": "Guarda los resultados estructurados de esta acción en una Notebase remota."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_loginRequiredTitle": {
+    "message": "Inicia sesión para configurar Notebase"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_loginRequiredDescription": {
+    "message": "Inicia sesión en readfrog.app antes de elegir una Notebase o editar asignaciones."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_loginAction": {
+    "message": "Iniciar sesión"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tableLabel": {
+    "message": "Notebase"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tablePlaceholder": {
+    "message": "Selecciona una Notebase"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tableClearOption": {
+    "message": "Desconectar Notebase"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_refreshAction": {
+    "message": "Actualizar"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_emptyTitle": {
+    "message": "Aún no hay Notebases"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_emptyDescription": {
+    "message": "Crea una Notebase en readfrog.app y vuelve aquí para asignar campos."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_openNotebaseAction": {
+    "message": "Abrir Notebase"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_betaLockedTitle": {
+    "message": "Esta cuenta no está en la beta de Notebase"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_betaLockedDescription": {
+    "message": "Puedes mantener esta acción configurada, pero elegir Notebases y sincronizar resultados está limitado por ahora a cuentas beta seleccionadas."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tableUnavailableTitle": {
+    "message": "La Notebase seleccionada ya no está disponible"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tableUnavailableDescription": {
+    "message": "Actualiza o elige otra Notebase antes de volver a guardar."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tableUnavailableOption": {
+    "message": "no disponible"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_schemaErrorTitle": {
+    "message": "No se pudo cargar el esquema de la Notebase"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_schemaErrorDescription": {
+    "message": "Intenta actualizar el esquema de nuevo en un momento."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_schemaLoading": {
+    "message": "Cargando esquema de la Notebase..."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingsLabel": {
+    "message": "Asignaciones de campos"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingsEmpty": {
+    "message": "Aún no hay asignaciones. Añade una cuando estés listo para guardar campos."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_addMappingAction": {
+    "message": "Añadir asignación"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_removeMappingAction": {
+    "message": "Eliminar asignación"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_localFieldLabel": {
+    "message": "Campo de acción"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_localFieldPlaceholder": {
+    "message": "Selecciona un campo de acción"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_remoteFieldLabel": {
+    "message": "Campo de Notebase"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_remoteFieldPlaceholder": {
+    "message": "Selecciona un campo de Notebase"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_columnUnavailableOption": {
+    "message": "eliminado"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_invalidMappingsTitle": {
+    "message": "Algunas asignaciones requieren atención"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_invalidMappingsDescription": {
+    "message": "Las asignaciones no válidas se conservan, pero Guardar en Notebase permanece desactivado hasta que las corrijas."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingMissingLocal": {
+    "message": "El campo de acción asignado ya no existe."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingMissingRemote": {
+    "message": "El campo de Notebase asignado ya no existe."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingMissingSchema": {
+    "message": "Actualiza el esquema de la Notebase para validar esta asignación."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingIncompatible": {
+    "message": "Los tipos de campo ya no coinciden."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_tokens_selection": {
+    "message": "Contenido del texto seleccionado"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_tokens_paragraphs": {
+    "message": "Texto de párrafos intersectados unido con líneas en blanco, truncado a los primeros 2000 caracteres cuando se envía a acciones AI personalizadas"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_tokens_targetLanguage": {
+    "message": "Idioma de destino del usuario"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_tokens_webTitle": {
+    "message": "Título de la página web"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_tokens_webContent": {
+    "message": "Contenido de la página web extraído de la página actual, truncado a los primeros 2000 caracteres"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_delete": {
+    "message": "Eliminar"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteDialog_title": {
+    "message": "¿Eliminar acción personalizada?"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteDialog_description": {
+    "message": "Esta acción no se puede deshacer."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteDialog_confirm": {
+    "message": "Eliminar"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteDialog_cancel": {
+    "message": "Cancelar"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dialogTitle": {
+    "message": "Elegir una plantilla"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dialogDescription": {
+    "message": "Selecciona una plantilla para crear rápidamente una nueva acción AI, o empieza desde cero."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dictionary_name": {
+    "message": "Diccionario"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dictionary_description": {
+    "message": "Busca palabras con definiciones, fonética y traducciones de párrafos"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dictionary_systemPrompt": {
+    "message": "Eres un asistente de diccionario para estudiantes de idiomas.\n\n## Objetivo\nDado un término y sus párrafos circundantes, produce una entrada de diccionario concisa que coincida con el objeto de salida requerido.\n\n## Reglas\n1. Céntrate en el significado que mejor coincida con los párrafos proporcionados.\n2. Normaliza Término a su forma base/canónica.\n3. Mantén Definición precisa y fácil para estudiantes.\n4. Mantén Párrafos exactamente como se proporcionan en el prompt.\n5. Fonética debe usar la notación estándar del idioma del término (p. ej., IPA para inglés, pinyin para mandarín, romaji para japonés).\n6. Categoría gramatical en inglés (noun, verb, adjective, etc.).\n7. Dificultad debe ser un nivel CEFR (A1, A2, B1, B2, C1 o C2).\n8. Si un campo es desconocido, devuelve una cadena vacía en lugar de adivinar.\n9. Responde en {{targetLanguage}} para todos los campos textuales, salvo que se requiera texto en la forma de origen para mayor claridad.\n\n## Ejemplos\n\n### Ejemplo 1\nEntrada: Selección=\"blossoms\", Párrafos=\"The ephemeral beauty of cherry blossoms reminds us to cherish each moment.\", Idioma de destino=chino\n\nSalida:\n- Término: blossom\n- Fonética: /ˈblɒs.əm/\n- Categoría gramatical: noun\n- Párrafos: The ephemeral beauty of cherry blossoms reminds us to cherish each moment.\n- Definición: 花；花朵（尤指果树的花）\n- Traducción de párrafos: 樱花短暂的美丽提醒我们珍惜每一刻。\n- Dificultad: B2\n\n### Ejemplo 2\nEntrada: Selección=\"感動\", Párrafos=\"この映画はつまらないと思ったけど、最後は感動した。\", Idioma de destino=inglés\n\nSalida:\n- Término: 感動\n- Fonética: kandou\n- Categoría gramatical: noun\n- Párrafos: この映画はつまらないと思ったけど、最後は感動した。\n- Definición: Being deeply moved; emotional touch\n- Traducción de párrafos: I thought this movie was boring, but the ending was moving.\n- Dificultad: B1"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dictionary_prompt": {
+    "message": "## Entrada\nSelección: {{selection}}\nPárrafos: {{paragraphs}}\nIdioma de destino: {{targetLanguage}}"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dictionary_fieldTerm": {
+    "message": "Término"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dictionary_fieldTermDescription": {
+    "message": "Lema base/canónico del término seleccionado."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dictionary_fieldPhonetic": {
+    "message": "Fonética"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dictionary_fieldPhoneticDescription": {
+    "message": "Transcripción fonética estándar para el idioma del término (p. ej., IPA para inglés, pinyin para mandarín, romaji para japonés)."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dictionary_fieldPartOfSpeech": {
+    "message": "Categoría gramatical"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dictionary_fieldPartOfSpeechDescription": {
+    "message": "Categoría gramatical (p. ej., noun, verb, adjective)."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dictionary_fieldParagraphs": {
+    "message": "Párrafos"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dictionary_fieldParagraphsDescription": {
+    "message": "Los párrafos del prompt anterior. No los reescribas."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dictionary_fieldDefinition": {
+    "message": "Definición"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dictionary_fieldDefinitionDescription": {
+    "message": "Una definición concisa para el sentido contextual."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dictionary_fieldParagraphsTranslation": {
+    "message": "Traducción de párrafos"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dictionary_fieldParagraphsTranslationDescription": {
+    "message": "La traducción de los párrafos."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dictionary_fieldDifficulty": {
+    "message": "Dificultad"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dictionary_fieldDifficultyDescription": {
+    "message": "Nivel de dificultad CEFR estimado A1, A2, B1, B2, C1 o C2."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_improveWriting_name": {
+    "message": "Mejorar escritura"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_improveWriting_description": {
+    "message": "Analiza errores de escritura y sugiere mejoras"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_improveWriting_systemPrompt": {
+    "message": "Eres un asistente de escritura para estudiantes de idiomas.\n\n## Objetivo\nDado un texto seleccionado y sus párrafos circundantes, analiza problemas de escritura y produce una versión mejorada.\n\n## Política de idioma (crítica)\n1. Detecta el idioma original de Selección como {{originLanguage}}.\n2. El campo \"Análisis de errores\" debe escribirse en {{targetLanguage}}.\n3. El campo \"Versión mejorada\" debe mantenerse en {{originLanguage}}.\n4. Nunca traduzcas \"Versión mejorada\" a {{targetLanguage}} a menos que {{originLanguage}} ya sea {{targetLanguage}}.\n\n## Reglas de escritura\n1. Identifica errores de gramática, ortografía, puntuación y elección de palabras.\n2. Mantén las ediciones naturales y conserva la intención y el tono del autor.\n3. Si no hay errores importantes, indícalo claramente en \"Análisis de errores\" y devuelve una \"Versión mejorada\" ligeramente pulida.\n4. Mantén \"Versión mejorada\" concisa y directamente utilizable.\n\n## Ejemplos\nEjemplo A:\n- Selección: \"He go to school yesterday, and he don't finish his homework.\"\n- {{originLanguage}} detectado: inglés\n- {{targetLanguage}}: chino\n- Análisis de errores (chino — {{targetLanguage}}): 存在主谓一致和时态错误：go 应改为 went，don't 应改为 didn't，finish 应改为 finish 的过去时语境搭配。\n- Versión mejorada (inglés — {{originLanguage}}): He went to school yesterday, and he didn't finish his homework.\n\nEjemplo B:\n- Selección: \"昨日私は友達に会いて、一緒に映画を見るました。\"\n- {{originLanguage}} detectado: japonés\n- {{targetLanguage}}: inglés\n- Análisis de errores (inglés — {{targetLanguage}}): There are verb conjugation errors: \"会いて\" should be \"会って\" (te-form of 会う), and \"見るました\" should be \"見ました\" (past tense of 見る in masu-form).\n- Versión mejorada (japonés — {{originLanguage}}): 昨日私は友達に会って、一緒に映画を見ました。"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_improveWriting_prompt": {
+    "message": "## Entrada\nSelección: {{selection}}\nPárrafos: {{paragraphs}}\nIdioma de destino: {{targetLanguage}}"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_improveWriting_fieldErrorAnalysis": {
+    "message": "Análisis de errores"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_improveWriting_fieldErrorAnalysisDescription": {
+    "message": "Explica problemas de gramática, ortografía, puntuación y elección de palabras en {{targetLanguage}}."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_improveWriting_fieldImprovedVersion": {
+    "message": "Versión mejorada"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_improveWriting_fieldImprovedVersionDescription": {
+    "message": "Versión corregida y mejorada del texto seleccionado en su idioma original."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_blank_name": {
+    "message": "En blanco"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_blank_description": {
+    "message": "Empieza desde cero con una acción vacía"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_nameRequired": {
+    "message": "El nombre es obligatorio"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_duplicateName": {
+    "message": "Nombre de acción duplicado \"$1\""
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_invalidIcon": {
+    "message": "Cadena de icono Iconify no válida"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_providerRequired": {
+    "message": "Selecciona un proveedor LLM activado"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_outputSchemaRequired": {
+    "message": "Añade al menos un campo de salida"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_fieldKeyRequired": {
+    "message": "El nombre del campo es obligatorio"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_duplicateFieldKey": {
+    "message": "Los nombres de campo deben ser únicos"
+  },
+  "options_floatingButtonAndToolbar_contextMenu_title": {
+    "message": "Menú contextual"
+  },
+  "options_floatingButtonAndToolbar_contextMenu_translate_title": {
+    "message": "Activar traducción en menú contextual"
+  },
+  "options_floatingButtonAndToolbar_contextMenu_translate_description": {
+    "message": "Añade opciones de traducción al menú contextual del navegador para traducir rápidamente páginas y selecciones"
+  },
+  "options_translation_title": {
+    "message": "Traducción"
+  },
+  "options_translation_requestQueueConfig_title": {
+    "message": "Tasa de traducción"
+  },
+  "options_translation_requestQueueConfig_firstOnDescription": {
+    "message": "Ajusta la velocidad de procesamiento de las solicitudes de traducción usando el"
+  },
+  "options_translation_requestQueueConfig_lastOnDescription": {
+    "message": "algoritmo"
+  },
+  "options_translation_requestQueueConfig_capacity_title": {
+    "message": "Recuento máximo de solicitudes en ráfaga"
+  },
+  "options_translation_requestQueueConfig_capacity_description": {
+    "message": "El recuento de solicitudes temporales en ráfaga permitido determina el número máximo de solicitudes que se pueden procesar de forma concurrente durante un periodo corto"
+  },
+  "options_translation_requestQueueConfig_rate_title": {
+    "message": "Solicitudes promedio por segundo"
+  },
+  "options_translation_requestQueueConfig_rate_description": {
+    "message": "Solicitudes promedio por segundo, pero permite configurar un recuento máximo en ráfaga para enviar temporalmente solicitudes excedentes"
+  },
+  "options_translation_batchQueueConfig_title": {
+    "message": "Traducción por lotes"
+  },
+  "options_translation_batchQueueConfig_description": {
+    "message": "Configura límites de caracteres y recuento máximo de párrafos para la traducción por lotes (solo efectivo para traducción LLM)"
+  },
+  "options_translation_batchQueueConfig_maxCharactersPerBatch_title": {
+    "message": "Caracteres máximos"
+  },
+  "options_translation_batchQueueConfig_maxCharactersPerBatch_description": {
+    "message": "Número máximo de caracteres permitido por solicitud por lote para controlar el volumen de contenido de cada traducción"
+  },
+  "options_translation_batchQueueConfig_maxItemsPerBatch_title": {
+    "message": "Recuento máximo de párrafos"
+  },
+  "options_translation_batchQueueConfig_maxItemsPerBatch_description": {
+    "message": "Número máximo de párrafos para cada traducción por lote para controlar el volumen de contenido de cada traducción"
+  },
+  "options_translation_batchQueueConfig_statisticsLink": {
+    "message": "Se ahorraron aproximadamente $1 de coste en los últimos 7 días"
+  },
+  "options_translation_autoTranslateWebsite_title": {
+    "message": "Traducción automática por sitio web"
+  },
+  "options_translation_autoTranslateWebsite_description": {
+    "message": "Traducir siempre este sitio web"
+  },
+  "options_translation_autoTranslateWebsite_urlPattern": {
+    "message": "Patrón de URL"
+  },
+  "options_translation_autoTranslateWebsite_enterUrlPattern": {
+    "message": "Introduce patrón de URL"
+  },
+  "options_translation_personalizedPrompts_title": {
+    "message": "Prompts personalizados"
+  },
+  "options_translation_personalizedPrompts_description": {
+    "message": "Personalizar distintos tipos de Prompts te permite ajustar tú mismo el tipo de Prompt durante la traducción. Un Prompt representa el texto que el usuario envía al LLM."
+  },
+  "options_translation_personalizedPrompts_communityPrompts": {
+    "message": "Obtener o compartir prompts de la comunidad"
+  },
+  "options_translation_personalizedPrompts_communityPromptsUrl": {
+    "message": "https://github.com/mengxi-ream/read-frog/discussions/821"
+  },
+  "options_translation_personalizedPrompts_addPrompt": {
+    "message": "Añadir Prompt"
+  },
+  "options_translation_personalizedPrompts_default": {
+    "message": "Predeterminado"
+  },
+  "options_translation_personalizedPrompts_importSuccess": {
+    "message": "Importación correcta"
+  },
+  "options_translation_personalizedPrompts_import": {
+    "message": "Importar"
+  },
+  "options_translation_personalizedPrompts_export": {
+    "message": "Exportar"
+  },
+  "options_translation_personalizedPrompts_current": {
+    "message": "en uso"
+  },
+  "options_translation_personalizedPrompts_editPrompt_title": {
+    "message": "Editar Prompt"
+  },
+  "options_translation_personalizedPrompts_editPrompt_name": {
+    "message": "Nombre"
+  },
+  "options_translation_personalizedPrompts_editPrompt_systemPrompt": {
+    "message": "Prompt del sistema"
+  },
+  "options_translation_personalizedPrompts_editPrompt_prompt": {
+    "message": "Prompt"
+  },
+  "options_translation_personalizedPrompts_editPrompt_promptCellInput_input": {
+    "message": "Contenido de texto a traducir"
+  },
+  "options_translation_personalizedPrompts_editPrompt_promptCellInput_targetLanguage": {
+    "message": "Idioma de destino"
+  },
+  "options_translation_personalizedPrompts_editPrompt_promptCellInput_webTitle": {
+    "message": "Título de la página web"
+  },
+  "options_translation_personalizedPrompts_editPrompt_promptCellInput_webContent": {
+    "message": "Contenido de la página web (truncado a los primeros 2000 caracteres)"
+  },
+  "options_translation_personalizedPrompts_editPrompt_promptCellInput_webSummary": {
+    "message": "Resumen de la página web (requiere contexto inteligente de IA)"
+  },
+  "options_translation_personalizedPrompts_editPrompt_save": {
+    "message": "Guardar cambios"
+  },
+  "options_translation_personalizedPrompts_editPrompt_close": {
+    "message": "Cancelar"
+  },
+  "options_translation_personalizedPrompts_deletePrompt_title": {
+    "message": "Eliminar Prompt"
+  },
+  "options_translation_personalizedPrompts_deletePrompt_description": {
+    "message": "Confirmar eliminación del prompt"
+  },
+  "options_translation_personalizedPrompts_deletePrompt_confirm": {
+    "message": "Confirmar"
+  },
+  "options_translation_personalizedPrompts_deletePrompt_cancel": {
+    "message": "Cancelar"
+  },
+  "options_translation_personalizedPrompts_exportPrompt_exportSelected": {
+    "message": "Exportar seleccionados"
+  },
+  "options_translation_personalizedPrompts_exportPrompt_cancel": {
+    "message": "Cancelar"
+  },
+  "options_translation_translationStyle_title": {
+    "message": "Estilo de visualización de traducción"
+  },
+  "options_translation_translationStyle_description": {
+    "message": "Define cualquier estilo que quieras para distinguir los resultados de traducción del texto original"
+  },
+  "options_translation_translationStyle_useCustomStyle": {
+    "message": "Usar estilo CSS personalizado"
+  },
+  "options_translation_translationStyle_useCustomStyleDescription": {
+    "message": "Admite cualquier CSS, incluidas fuentes, animaciones y estilos específicos de idioma"
+  },
+  "options_translation_translationStyle_presetStyle": {
+    "message": "Estilo preestablecido"
+  },
+  "options_translation_translationStyle_cssEditor": {
+    "message": "Editor CSS"
+  },
+  "options_translation_translationStyle_preview": {
+    "message": "Vista previa"
+  },
+  "options_translation_translationStyle_stylePreviewLanguage": {
+    "message": "Idioma"
+  },
+  "options_translation_translationStyle_stylePreviewDirection": {
+    "message": "Dirección"
+  },
+  "options_translation_translationStyle_stylePreviewTranslatedText": {
+    "message": "Texto traducido"
+  },
+  "options_translation_translationStyle_style_default": {
+    "message": "Ninguno"
+  },
+  "options_translation_translationStyle_style_blur": {
+    "message": "Efecto de desenfoque"
+  },
+  "options_translation_translationStyle_style_blockquote": {
+    "message": "Cita en bloque"
+  },
+  "options_translation_translationStyle_style_weakened": {
+    "message": "Atenuado"
+  },
+  "options_translation_translationStyle_style_dashedLine": {
+    "message": "Línea discontinua"
+  },
+  "options_translation_translationStyle_style_border": {
+    "message": "Borde"
+  },
+  "options_translation_translationStyle_style_textColor": {
+    "message": "Color del texto"
+  },
+  "options_translation_translationStyle_style_background": {
+    "message": "Fondo"
+  },
+  "options_translation_translationStyle_customCSS_editor_placeholder": {
+    "message": "/* Example: Custom style with color and background */\n[data-read-frog-custom-translation-style='custom'] {\n  color: #414535;\n  background-color: light-dark(#F2E3BC, #C19875);\n  padding: 2px 4px;\n  border-radius: 4px;\n}\n"
+  },
+  "options_translation_translationStyle_customCSS_editor_saveButton": {
+    "message": "Guardar"
+  },
+  "options_translation_translationStyle_customCSS_editor_savedButton": {
+    "message": "Guardado"
+  },
+  "options_translation_translationStyle_customCSS_editor_validation_validating": {
+    "message": "Validando..."
+  },
+  "options_translation_translationStyle_customCSS_editor_validation_valid": {
+    "message": "CSS válido"
+  },
+  "options_translation_translationStyle_customCSS_editor_validation_syntaxError": {
+    "message": "CSS tiene errores de sintaxis"
+  },
+  "options_translation_translationStyle_customCSS_editor_validation_tooLong": {
+    "message": "CSS es demasiado largo"
+  },
+  "options_translation_translationStyle_customCSS_editor_validation_saved": {
+    "message": "Todos los cambios guardados"
+  },
+  "options_translation_translationMode_title": {
+    "message": "Modo de traducción"
+  },
+  "options_translation_translationMode_description": {
+    "message": "Elige cómo se muestra el texto traducido: bilingüe o solo traducción."
+  },
+  "options_translation_translationMode_mode_bilingual": {
+    "message": "Bilingüe"
+  },
+  "options_translation_translationMode_mode_translationOnly": {
+    "message": "Solo traducción"
+  },
+  "options_translation_translateRange_title": {
+    "message": "Rango de traducción"
+  },
+  "options_translation_translateRange_description": {
+    "message": "Selecciona si traducir solo el contenido principal o todo el contenido de la página."
+  },
+  "options_translation_translateRange_range_main": {
+    "message": "Contenido principal"
+  },
+  "options_translation_translateRange_range_all": {
+    "message": "Todo el contenido"
+  },
+  "options_translation_pageTranslationShortcut_title": {
+    "message": "Atajo de traducción de página"
+  },
+  "options_translation_pageTranslationShortcut_description": {
+    "message": "Personaliza la tecla de atajo para traducir páginas web completas"
+  },
+  "options_translation_preloadConfig_title": {
+    "message": "Rango de pretraducción"
+  },
+  "options_translation_preloadConfig_description": {
+    "message": "Controla cuánto contenido por debajo de la ventana visible se pretraduce para ahorrar costes de API"
+  },
+  "options_translation_preloadConfig_margin_title": {
+    "message": "Distancia de precarga (píxeles)"
+  },
+  "options_translation_preloadConfig_margin_description": {
+    "message": "Qué tan lejos por debajo de la ventana visible empezar a traducir contenido. Los valores más bajos ahorran costes de API, pero pueden causar retrasos al desplazarse."
+  },
+  "options_translation_preloadConfig_threshold_title": {
+    "message": "Umbral de visibilidad"
+  },
+  "options_translation_preloadConfig_threshold_description": {
+    "message": "Porcentaje de visibilidad del elemento requerido para activar la traducción (0-1). Los valores más altos retrasan la traducción hasta que sea visible una mayor parte del elemento."
+  },
+  "options_translation_smallParagraphFilter_title": {
+    "message": "Filtro de párrafos pequeños"
+  },
+  "options_translation_smallParagraphFilter_description": {
+    "message": "Omitir la traducción de nodos de texto con menos caracteres o palabras que el umbral (0 = desactivado)"
+  },
+  "options_translation_smallParagraphFilter_minCharacters_title": {
+    "message": "Caracteres mínimos"
+  },
+  "options_translation_smallParagraphFilter_minCharacters_description": {
+    "message": "Los nodos de texto con menos caracteres que este valor no se traducirán. El recuento de caracteres incluye espacios en blanco."
+  },
+  "options_translation_smallParagraphFilter_minWords_title": {
+    "message": "Palabras mínimas"
+  },
+  "options_translation_smallParagraphFilter_minWords_description": {
+    "message": "Los nodos de texto con menos palabras que este valor no se traducirán. Usa Intl.Segmenter para un recuento preciso de palabras en todos los idiomas."
+  },
+  "options_translation_smallParagraphFilter_error": {
+    "message": "El valor debe estar entre $1 y $2"
+  },
+  "options_translation_nodeTranslationHotkey_title": {
+    "message": "Atajo de traducción al pasar el cursor o mantener pulsado"
+  },
+  "options_translation_nodeTranslationHotkey_description": {
+    "message": "Personaliza la tecla modificadora al pasar el cursor o usa pulsación larga para traducir párrafos"
+  },
+  "options_translation_nodeTranslationHotkey_enable": {
+    "message": "Activar"
+  },
+  "options_translation_llmProviderConfigured": {
+    "message": "Proveedor LLM seleccionado para $1"
+  },
+  "options_translation_llmProviderNotConfigured": {
+    "message": "No se seleccionó ningún proveedor LLM para $1"
+  },
+  "options_translation_autoTranslateLanguages_title": {
+    "message": "Traducción automática por idioma"
+  },
+  "options_translation_autoTranslateLanguages_description": {
+    "message": "Traduce automáticamente el contenido de la página cuando se detectan idiomas específicos"
+  },
+  "options_translation_autoTranslateLanguages_selectLanguages": {
+    "message": "Seleccionar idiomas"
+  },
+  "options_translation_autoTranslateLanguages_detection_label": {
+    "message": "Detección de idioma"
+  },
+  "options_translation_autoTranslateLanguages_detection_basic": {
+    "message": "Básica"
+  },
+  "options_translation_autoTranslateLanguages_detection_llm": {
+    "message": "LLM"
+  },
+  "options_translation_autoTranslateLanguages_detection_description": {
+    "message": "La detección básica es rápida y gratis. La detección LLM es más precisa, pero añade latencia y costes de API. Requiere idiomas de traducción automática configurados."
+  },
+  "options_translation_skipLanguages_title": {
+    "message": "Omisión automática por idioma"
+  },
+  "options_translation_skipLanguages_description": {
+    "message": "Omite automáticamente la traducción de párrafos cuando se detectan idiomas específicos"
+  },
+  "options_translation_skipLanguages_targetLanguageSkip": {
+    "message": "Omitir idioma de destino"
+  },
+  "options_translation_skipLanguages_targetLanguageSkipDescription": {
+    "message": "Antes de traducir, detecta si el párrafo ya está en el idioma de destino. El texto coincidente se omite sin enviar una solicitud. Desactivar esto no cambia la protección posterior que oculta salidas de traducción sin cambios."
+  },
+  "options_translation_skipLanguages_selectLanguages": {
+    "message": "Seleccionar idiomas"
+  },
+  "options_translation_skipLanguages_detection_label": {
+    "message": "Detección de idioma"
+  },
+  "options_translation_skipLanguages_detection_basic": {
+    "message": "Básica"
+  },
+  "options_translation_skipLanguages_detection_llm": {
+    "message": "LLM"
+  },
+  "options_translation_skipLanguages_detection_description": {
+    "message": "La detección básica es rápida y gratis. La detección LLM es más precisa, pero añade latencia y costes de API."
+  },
+  "options_translation_aiContentAware_title": {
+    "message": "Traducción con contexto inteligente de IA"
+  },
+  "options_translation_aiContentAware_description": {
+    "message": "Mejora la calidad de la traducción proporcionando contexto de la página web a la AI"
+  },
+  "options_translation_aiContentAware_enable": {
+    "message": "Activar traducción con contexto inteligente de IA"
+  },
+  "options_translation_aiContentAware_enableDescription": {
+    "message": "La AI usa el resumen de la página web para mejorar la precisión de traducción. Requiere proveedor LLM. Añade latencia al empezar a traducir una página y aumenta los costes de API."
+  },
+  "options_tts_title": {
+    "message": "Texto a voz"
+  },
+  "options_tts_description": {
+    "message": "Usa la configuración de voz de Edge TTS para el botón Leer en voz alta."
+  },
+  "options_tts_voice_label": {
+    "message": "Voz"
+  },
+  "options_tts_voice_fallback": {
+    "message": "Alternativa"
+  },
+  "options_tts_voice_selectPlaceholder": {
+    "message": "Selecciona una voz"
+  },
+  "options_tts_voice_preview": {
+    "message": "Vista previa"
+  },
+  "options_tts_voice_previewSample": {
+    "message": "¡Hola desde Skim AI! Así sonaré al leer en voz alta."
+  },
+  "options_tts_languageVoice_label": {
+    "message": "Voz por idioma"
+  },
+  "options_tts_languageVoice_reset": {
+    "message": "Restablecer a predeterminado"
+  },
+  "options_tts_languageVoice_description": {
+    "message": "Selecciona un idioma y asigna una voz usada cuando TTS detecte ese idioma."
+  },
+  "options_tts_rate_label": {
+    "message": "Velocidad (%)"
+  },
+  "options_tts_rate_hint": {
+    "message": "Acepta valores enteros entre -100 y 100"
+  },
+  "options_tts_pitch_label": {
+    "message": "Tono (Hz)"
+  },
+  "options_tts_pitch_hint": {
+    "message": "Acepta valores enteros entre -100 y 100"
+  },
+  "options_tts_volume_label": {
+    "message": "Volumen (%)"
+  },
+  "options_tts_volume_hint": {
+    "message": "Acepta valores enteros entre -100 y 100"
+  },
+  "options_tts_betaDisabled": {
+    "message": "Activa Experiencia beta para personalizar la configuración de texto a voz."
+  },
+  "options_statistics_title": {
+    "message": "Estadísticas"
+  },
+  "options_statistics_batchRequest_title": {
+    "message": "Solicitudes de traducción por lotes ahorradas"
+  },
+  "options_statistics_batchRequest_description": {
+    "message": "Porcentaje de solicitudes ahorradas por traducción por lotes en el periodo"
+  },
+  "options_statistics_batchRequest_originalRequestCount": {
+    "message": "Recuento de solicitudes originales"
+  },
+  "options_statistics_batchRequest_batchRequestCount": {
+    "message": "Recuento de solicitudes por lotes"
+  },
+  "options_config_title": {
+    "message": "Configuración"
+  },
+  "options_config_about_title": {
+    "message": "Acerca de"
+  },
+  "options_config_about_description": {
+    "message": "Skim AI nació en abril de 2025"
+  },
+  "options_config_about_mission": {
+    "message": "Skim AI busca ampliar el acceso igualitario a educación de alta calidad en la era de la AI haciendo asequibles experiencias de aprendizaje que se sientan más cercanas a un profesor real, en el aprendizaje de idiomas, medicina y otros campos intensivos en conocimiento."
+  },
+  "options_config_about_analytics_title": {
+    "message": "Ayuda a mejorar la experiencia de usuario"
+  },
+  "options_config_about_analytics_tooltip": {
+    "message": "Cuando está activado, Skim AI envía señales anónimas de uso del producto para que podamos verificar la fiabilidad de las funciones, mejorar el rendimiento y el acabado de la UX, y priorizar trabajos futuros."
+  },
+  "options_config_sync_title": {
+    "message": "Sincronización manual de configuración"
+  },
+  "options_config_sync_description": {
+    "message": "Importa y exporta manualmente tus ajustes de configuración"
+  },
+  "options_config_sync_import": {
+    "message": "Importar configuración"
+  },
+  "options_config_sync_export": {
+    "message": "Exportar configuración"
+  },
+  "options_config_sync_importSuccess": {
+    "message": "Configuración importada correctamente"
+  },
+  "options_config_sync_exportSuccess": {
+    "message": "Configuración exportada correctamente"
+  },
+  "options_config_sync_importError": {
+    "message": "Error al importar"
+  },
+  "options_config_sync_versionTooNew": {
+    "message": "La versión de configuración importada es más reciente; actualiza Skim AI a la última versión"
+  },
+  "options_config_sync_migrationError": {
+    "message": "Error de migración"
+  },
+  "options_config_sync_validationError": {
+    "message": "Error de validación de configuración"
+  },
+  "options_config_sync_exportOptions_title": {
+    "message": "Seleccionar opciones de exportación"
+  },
+  "options_config_sync_exportOptions_description": {
+    "message": "Elige si incluir claves API en la configuración exportada. Incluir claves API puede filtrar información sensible, por lo que se recomienda usarlo solo en entornos seguros."
+  },
+  "options_config_sync_exportOptions_includeAPIKeys": {
+    "message": "Incluir claves API"
+  },
+  "options_config_sync_exportOptions_excludeAPIKeys": {
+    "message": "Excluir claves API"
+  },
+  "options_config_sync_exportOptions_cancel": {
+    "message": "Cancelar"
+  },
+  "options_config_sync_viewConfig_expand": {
+    "message": "Expandir configuración"
+  },
+  "options_config_sync_viewConfig_collapse": {
+    "message": "Contraer configuración"
+  },
+  "options_config_sync_googleDrive_title": {
+    "message": "Sincronización cloud con Google Drive"
+  },
+  "options_config_sync_googleDrive_description": {
+    "message": "Descarga la configuración cuando la remota es más reciente, sube la configuración cuando la local es más reciente"
+  },
+  "options_config_sync_googleDrive_sync": {
+    "message": "Sincronizar con Google Drive"
+  },
+  "options_config_sync_googleDrive_syncing": {
+    "message": "Sincronizando..."
+  },
+  "options_config_sync_googleDrive_syncSuccess_uploaded": {
+    "message": "Configuración local subida a la nube"
+  },
+  "options_config_sync_googleDrive_syncSuccess_downloaded": {
+    "message": "Configuración remota aplicada"
+  },
+  "options_config_sync_googleDrive_syncSuccess_sameChanges": {
+    "message": "Mismos cambios en ambos lados, sincronizado"
+  },
+  "options_config_sync_googleDrive_syncSuccess_noChange": {
+    "message": "Ya está sincronizado"
+  },
+  "options_config_sync_googleDrive_syncSuccess_unresolved": {
+    "message": "Conflictos resueltos y sincronizados"
+  },
+  "options_config_sync_googleDrive_syncError": {
+    "message": "Error de sincronización, inténtalo de nuevo"
+  },
+  "options_config_sync_googleDrive_metadataCorrupted": {
+    "message": "Metadatos de sincronización dañados, configuración remota aplicada"
+  },
+  "options_config_sync_googleDrive_lastSyncTime": {
+    "message": "Última sincronización a las"
+  },
+  "options_config_sync_googleDrive_logout": {
+    "message": "Cerrar sesión"
+  },
+  "options_config_sync_googleDrive_logoutSuccess": {
+    "message": "Sesión de cuenta de Google cerrada"
+  },
+  "options_config_sync_googleDrive_unresolved_title": {
+    "message": "Resolución de sincronización de configuración"
+  },
+  "options_config_sync_googleDrive_unresolved_description": {
+    "message": "Las configuraciones local y remota difieren. Elige qué versión conservar para cada campo."
+  },
+  "options_config_sync_googleDrive_unresolved_resolved": {
+    "message": "Resuelto"
+  },
+  "options_config_sync_googleDrive_unresolved_unresolved": {
+    "message": "Sin resolver"
+  },
+  "options_config_sync_googleDrive_unresolved_localValue": {
+    "message": "Valor local"
+  },
+  "options_config_sync_googleDrive_unresolved_remoteValue": {
+    "message": "Valor remoto"
+  },
+  "options_config_sync_googleDrive_unresolved_useLocal": {
+    "message": "Usar local"
+  },
+  "options_config_sync_googleDrive_unresolved_useRemote": {
+    "message": "Usar remoto"
+  },
+  "options_config_sync_googleDrive_unresolved_useAllLocal": {
+    "message": "Usar todo local"
+  },
+  "options_config_sync_googleDrive_unresolved_useAllRemote": {
+    "message": "Usar todo remoto"
+  },
+  "options_config_sync_googleDrive_unresolved_reset": {
+    "message": "Restablecer selección"
+  },
+  "options_config_sync_googleDrive_unresolved_progress": {
+    "message": "$1/$2 cambios resueltos"
+  },
+  "options_config_sync_googleDrive_unresolved_confirm": {
+    "message": "Confirmar sincronización"
+  },
+  "options_config_sync_googleDrive_unresolved_cancel": {
+    "message": "Cancelar"
+  },
+  "options_config_sync_googleDrive_unresolved_hasUnresolvedInChildren": {
+    "message": "⚠ Contiene cambios sin resolver"
+  },
+  "options_config_sync_googleDrive_unresolved_item": {
+    "message": "elemento"
+  },
+  "options_config_sync_googleDrive_unresolved_items": {
+    "message": "elementos"
+  },
+  "options_config_sync_googleDrive_unresolved_unresolvedPrompt": {
+    "message": "[Unresolved - Please select]"
+  },
+  "options_config_sync_googleDrive_unresolved_localLatest": {
+    "message": "Local más reciente"
+  },
+  "options_config_sync_googleDrive_unresolved_remoteLatest": {
+    "message": "Remoto más reciente"
+  },
+  "options_config_sync_googleDrive_unresolved_bothChanged": {
+    "message": "Ambos cambiaron"
+  },
+  "options_config_sync_googleDrive_unresolved_localChanged": {
+    "message": "Local cambió"
+  },
+  "options_config_sync_googleDrive_unresolved_remoteChanged": {
+    "message": "Remoto cambió"
+  },
+  "options_config_sync_googleDrive_unresolved_configValid": {
+    "message": "La configuración es válida"
+  },
+  "options_config_sync_googleDrive_unresolved_configInvalid": {
+    "message": "La configuración no es válida"
+  },
+  "options_config_sync_googleDrive_unresolved_resolveToContinue": {
+    "message": "Resuelve los conflictos para continuar"
+  },
+  "options_config_sync_googleDrive_unresolved_validationAlert_title": {
+    "message": "La configuración combinada tiene errores de validación."
+  },
+  "options_config_sync_googleDrive_unresolved_validationAlert_description": {
+    "message": "Ajusta las diferencias siguientes para corregir:"
+  },
+  "options_config_sync_googleDrive_unresolved_moreErrors": {
+    "message": "...y $1 errores más"
+  },
+  "options_config_backup_title": {
+    "message": "Copia de seguridad de configuración"
+  },
+  "options_config_backup_description": {
+    "message": "Se crean copias de seguridad automáticas cada hora si la configuración cambia. Puedes restaurar configuraciones anteriores aquí. (Máximo $1 copias de seguridad)"
+  },
+  "options_config_backup_loading": {
+    "message": "Cargando copias de seguridad..."
+  },
+  "options_config_backup_backupNow": {
+    "message": "Crear copia ahora"
+  },
+  "options_config_backup_backupSuccess": {
+    "message": "Copia de seguridad creada correctamente"
+  },
+  "options_config_backup_restoreSuccess": {
+    "message": "Configuración restaurada correctamente"
+  },
+  "options_config_backup_empty_title": {
+    "message": "Aún no hay copias de seguridad disponibles"
+  },
+  "options_config_backup_empty_description": {
+    "message": "Las copias de seguridad se crean automáticamente cada hora si la configuración cambia."
+  },
+  "options_config_backup_item_extensionVersion": {
+    "message": "Versión de la extensión:"
+  },
+  "options_config_backup_item_schemaVersion": {
+    "message": "Versión del esquema:"
+  },
+  "options_config_backup_item_restore": {
+    "message": "Restaurar"
+  },
+  "options_config_backup_item_export": {
+    "message": "Exportar"
+  },
+  "options_config_backup_item_delete": {
+    "message": "Eliminar"
+  },
+  "options_config_backup_restore_title": {
+    "message": "¿Restaurar copia de seguridad de configuración?"
+  },
+  "options_config_backup_restore_description": {
+    "message": "Tu configuración actual se respaldará automáticamente si es diferente de la copia de seguridad más reciente. La copia más antigua puede eliminarse si el número de copias supera el límite."
+  },
+  "options_config_backup_restore_cancel": {
+    "message": "Cancelar"
+  },
+  "options_config_backup_restore_confirm": {
+    "message": "Restaurar"
+  },
+  "options_config_backup_delete_title": {
+    "message": "¿Eliminar copia de seguridad?"
+  },
+  "options_config_backup_delete_description": {
+    "message": "¿Seguro que quieres eliminar esta copia de seguridad? Esta acción no se puede deshacer."
+  },
+  "options_config_backup_delete_cancel": {
+    "message": "Cancelar"
+  },
+  "options_config_backup_delete_confirm": {
+    "message": "Eliminar"
+  },
+  "options_config_resetConfig_title": {
+    "message": "Restablecer configuración"
+  },
+  "options_config_resetConfig_description": {
+    "message": "Restablecer toda la configuración al valor predeterminado"
+  },
+  "options_config_resetConfig_dialog_title": {
+    "message": "Restablecer configuración"
+  },
+  "options_config_resetConfig_dialog_trigger": {
+    "message": "Restablecer configuración"
+  },
+  "options_config_resetConfig_dialog_confirm": {
+    "message": "Confirmar"
+  },
+  "options_config_resetConfig_dialog_cancel": {
+    "message": "Cancelar"
+  },
+  "options_config_resetConfig_dialog_description": {
+    "message": "Esta operación borrará todas tus configuraciones personalizadas y las restablecerá a los valores predeterminados. Confirma para continuar."
+  },
+  "options_videoSubtitles_title": {
+    "message": "Subtítulos de video"
+  },
+  "options_videoSubtitles_description": {
+    "message": "Actualmente solo admite subtítulos de videos de YouTube"
+  },
+  "options_videoSubtitles_provider_title": {
+    "message": "Proveedor de traducción"
+  },
+  "options_videoSubtitles_provider_description": {
+    "message": "Elige qué proveedor de traducción usar para la traducción de subtítulos de video"
+  },
+  "options_videoSubtitles_provider_label": {
+    "message": "Proveedor"
+  },
+  "options_videoSubtitles_enable": {
+    "message": "Activar subtítulos de video"
+  },
+  "options_videoSubtitles_enableDescription": {
+    "message": "Cuando está activado, aparecerá un botón de traducción en los controles del reproductor de YouTube. Haz clic para empezar a traducir subtítulos."
+  },
+  "options_videoSubtitles_autoStart": {
+    "message": "Activar subtítulos automáticamente"
+  },
+  "options_videoSubtitles_autoStartDescription": {
+    "message": "Activa automáticamente la traducción de subtítulos cuando se carga el video."
+  },
+  "options_videoSubtitles_style_title": {
+    "message": "Estilo de subtítulos"
+  },
+  "options_videoSubtitles_style_description": {
+    "message": "Personaliza la apariencia de los subtítulos"
+  },
+  "options_videoSubtitles_style_preview": {
+    "message": "Vista previa"
+  },
+  "options_videoSubtitles_style_displayMode_title": {
+    "message": "Modo de visualización"
+  },
+  "options_videoSubtitles_style_displayMode_bilingual": {
+    "message": "Bilingüe"
+  },
+  "options_videoSubtitles_style_displayMode_originalOnly": {
+    "message": "Solo original"
+  },
+  "options_videoSubtitles_style_displayMode_translationOnly": {
+    "message": "Solo traducción"
+  },
+  "options_videoSubtitles_style_translationPosition_title": {
+    "message": "Posición de la traducción"
+  },
+  "options_videoSubtitles_style_translationPosition_above": {
+    "message": "Arriba"
+  },
+  "options_videoSubtitles_style_translationPosition_below": {
+    "message": "Abajo"
+  },
+  "options_videoSubtitles_style_generalSettings": {
+    "message": "General"
+  },
+  "options_videoSubtitles_style_mainSubtitle": {
+    "message": "Subtítulo principal"
+  },
+  "options_videoSubtitles_style_translationSubtitle": {
+    "message": "Subtítulo de traducción"
+  },
+  "options_videoSubtitles_style_containerStyle": {
+    "message": "Fondo"
+  },
+  "options_videoSubtitles_style_fontFamily": {
+    "message": "Fuente"
+  },
+  "options_videoSubtitles_style_fontScale": {
+    "message": "Escala de fuente"
+  },
+  "options_videoSubtitles_style_color": {
+    "message": "Color"
+  },
+  "options_videoSubtitles_style_fontWeight": {
+    "message": "Grosor de fuente"
+  },
+  "options_videoSubtitles_style_backgroundOpacity": {
+    "message": "Opacidad del fondo"
+  },
+  "options_videoSubtitles_style_reset": {
+    "message": "Restablecer a predeterminado"
+  },
+  "options_videoSubtitles_aiSegmentation_title": {
+    "message": "Segmentación inteligente de IA"
+  },
+  "options_videoSubtitles_aiSegmentation_enable": {
+    "message": "Activar segmentación inteligente de IA"
+  },
+  "options_videoSubtitles_aiSegmentation_enableDescription": {
+    "message": "Usa AI para segmentar subtítulos de forma inteligente y mejorar la legibilidad. La línea de tiempo la determina la AI, lo que ocasionalmente puede causar desajustes de tiempo. Requiere proveedor de traducción LLM."
+  },
+  "options_videoSubtitles_aiSegmentation_clearCache": {
+    "message": "Borrar caché"
+  },
+  "options_videoSubtitles_aiSegmentation_clearing": {
+    "message": "Borrando..."
+  },
+  "options_videoSubtitles_aiSegmentation_clearCacheDialog_title": {
+    "message": "Borrar caché de segmentación AI"
+  },
+  "options_videoSubtitles_aiSegmentation_clearCacheDialog_description": {
+    "message": "Esto eliminará todos los resultados de segmentación AI en caché. La próxima vez que reproduzcas un video con segmentación AI activada, se volverán a procesar los subtítulos."
+  },
+  "options_videoSubtitles_aiSegmentation_clearCacheDialog_cancel": {
+    "message": "Cancelar"
+  },
+  "options_videoSubtitles_aiSegmentation_clearCacheDialog_confirm": {
+    "message": "Confirmar"
+  },
+  "options_videoSubtitles_requestQueueConfig_title": {
+    "message": "Tasa de traducción de subtítulos"
+  },
+  "options_videoSubtitles_requestQueueConfig_firstOnDescription": {
+    "message": "Ajusta la velocidad de procesamiento de las solicitudes de traducción de subtítulos usando el"
+  },
+  "options_videoSubtitles_requestQueueConfig_lastOnDescription": {
+    "message": "algoritmo"
+  },
+  "options_videoSubtitles_requestQueueConfig_capacity_title": {
+    "message": "Recuento máximo de solicitudes en ráfaga"
+  },
+  "options_videoSubtitles_requestQueueConfig_capacity_description": {
+    "message": "El recuento de solicitudes temporales en ráfaga permitido determina el número máximo de solicitudes de traducción de subtítulos que se pueden procesar de forma concurrente durante un periodo corto"
+  },
+  "options_videoSubtitles_requestQueueConfig_rate_title": {
+    "message": "Solicitudes promedio por segundo"
+  },
+  "options_videoSubtitles_requestQueueConfig_rate_description": {
+    "message": "Solicitudes promedio de traducción de subtítulos por segundo, pero permite configurar un recuento máximo en ráfaga para enviar temporalmente solicitudes excedentes"
+  },
+  "options_videoSubtitles_batchQueueConfig_title": {
+    "message": "Traducción de subtítulos por lotes"
+  },
+  "options_videoSubtitles_batchQueueConfig_description": {
+    "message": "Configura límites de caracteres y recuento máximo de párrafos para la traducción por lotes (solo efectivo para traducción LLM)"
+  },
+  "options_videoSubtitles_batchQueueConfig_maxCharactersPerBatch_title": {
+    "message": "Caracteres máximos"
+  },
+  "options_videoSubtitles_batchQueueConfig_maxCharactersPerBatch_description": {
+    "message": "Número máximo de caracteres permitido por solicitud por lote, usado para controlar el volumen de contenido por traducción"
+  },
+  "options_videoSubtitles_batchQueueConfig_maxItemsPerBatch_title": {
+    "message": "Recuento máximo de párrafos"
+  },
+  "options_videoSubtitles_batchQueueConfig_maxItemsPerBatch_description": {
+    "message": "Párrafos máximos por traducción por lote, usado para controlar el volumen de contenido por traducción"
+  },
+  "options_videoSubtitles_customPrompts_title": {
+    "message": "Prompts personalizados de subtítulos"
+  },
+  "options_videoSubtitles_customPrompts_description": {
+    "message": "Personaliza plantillas de prompts para la traducción de subtítulos (separadas de los prompts de traducción de páginas web)"
+  },
+  "options_videoSubtitles_customPrompts_editPrompt_promptCellInput_input": {
+    "message": "Texto de subtítulos a traducir"
+  },
+  "options_videoSubtitles_customPrompts_editPrompt_promptCellInput_targetLanguage": {
+    "message": "Idioma de destino"
+  },
+  "options_videoSubtitles_customPrompts_editPrompt_promptCellInput_videoTitle": {
+    "message": "Título del video"
+  },
+  "options_videoSubtitles_customPrompts_editPrompt_promptCellInput_videoSummary": {
+    "message": "Resumen del video (requiere contexto inteligente de IA)"
+  },
+  "options_whatsNew_title": {
+    "message": "Novedades"
+  },
+  "options_survey_title": {
+    "message": "Mejorar subtítulos 🎁"
+  },
+  "options_rateUs_title": {
+    "message": "Calificarnos"
+  },
+  "side_sourceLang": {
+    "message": "Idioma de origen"
+  },
+  "side_targetLang": {
+    "message": "Idioma de destino"
+  },
+  "side_fileExport": {
+    "message": "Exportar archivo"
+  },
+  "translateService_title": {
+    "message": "Servicio de traducción"
+  },
+  "translateService_description": {
+    "message": "Solo para traducir la página web"
+  },
+  "translateService_normalTranslator": {
+    "message": "Traductor normal"
+  },
+  "translateService_aiTranslator": {
+    "message": "Traductor AI"
+  },
+  "translateService_selectServices": {
+    "message": "Seleccionar servicios"
+  },
+  "translateService_translationProviders": {
+    "message": "Proveedores de traducción"
+  },
+  "translateService_configureAPI": {
+    "message": "Configurar API"
+  },
+  "translatePrompt_title": {
+    "message": "Estilo de traducción AI"
+  },
+  "translatePrompt_description": {
+    "message": "Selecciona un Prompt para usar durante la traducción. Añade o modifica Prompts personalizados en la página de opciones."
+  },
+  "languageLevel": {
+    "message": "Tu nivel del idioma de origen"
+  },
+  "languageLevels_beginner": {
+    "message": "Principiante"
+  },
+  "languageLevels_intermediate": {
+    "message": "Intermedio"
+  },
+  "languageLevels_advanced": {
+    "message": "Avanzado"
+  },
+  "noAPIKeyConfig_warning": {
+    "message": "Si quieres usar modelos AI, primero configura la clave API en la página de opciones"
+  },
+  "noAPIKeyConfig_warningWithLink_youMust": {
+    "message": "Debes"
+  },
+  "noAPIKeyConfig_warningWithLink_setTheAPIKey": {
+    "message": "configurar la clave API"
+  },
+  "noAPIKeyConfig_warningWithLink_firstOnThe": {
+    "message": "primero en la"
+  },
+  "noAPIKeyConfig_warningWithLink_optionsPage": {
+    "message": "opciones"
+  },
+  "noAPIKeyConfig_warningWithLink_page": {
+    "message": "página"
+  },
+  "languageDetection_llmFailed": {
+    "message": "Falló la detección de idioma LLM; se recurrió a la detección básica"
+  },
+  "translation_sameLanguage": {
+    "message": "Los idiomas de origen y destino deben ser diferentes"
+  },
+  "translation_autoModeSameLanguage": {
+    "message": "El idioma detectado '$1' es el mismo que el idioma de destino"
+  },
+  "speak_fetchingAudio": {
+    "message": "Generando audio..."
+  },
+  "speak_playingAudio": {
+    "message": "Reproduciendo audio..."
+  },
+  "speak_failedToGenerateSpeech": {
+    "message": "No se pudo generar voz"
+  },
+  "speak_noTextSelected": {
+    "message": "No hay texto seleccionado"
+  },
+  "speak_openaiNotConfigured": {
+    "message": "El proveedor OpenAI no está configurado o activado"
+  },
+  "speak_openaiApiKeyNotConfigured": {
+    "message": "La clave API de OpenAI no está configurada"
+  },
+  "action_copy": {
+    "message": "Copiar"
+  },
+  "action_copied": {
+    "message": "Copiado"
+  },
+  "action_regenerate": {
+    "message": "Regenerar"
+  },
+  "action_viewContextDetails": {
+    "message": "Contexto"
+  },
+  "action_saveToNotebase": {
+    "message": "Guardar en Notebase"
+  },
+  "action_saveToNotebaseSaving": {
+    "message": "Guardando..."
+  },
+  "action_saveToNotebaseSuccess": {
+    "message": "Guardado en Notebase"
+  },
+  "action_saveToNotebaseFailed": {
+    "message": "No se pudo guardar en Notebase"
+  },
+  "action_saveToNotebaseLoginRequired": {
+    "message": "Inicia sesión en readfrog.app para guardar en Notebase"
+  },
+  "action_saveToNotebaseBetaRequired": {
+    "message": "Esta cuenta aún no está inscrita en la beta de Notebase"
+  },
+  "action_saveToNotebaseTableUnavailable": {
+    "message": "La Notebase seleccionada ya no está disponible"
+  },
+  "action_saveToNotebaseConnectionInvalid": {
+    "message": "Esta conexión de Notebase está desactualizada. Actualízala en Acciones AI personalizadas y corrige las asignaciones."
+  },
+  "action_saveToNotebaseNoMappings": {
+    "message": "Añade al menos una asignación válida antes de guardar"
+  },
+  "action_contextDetailsTitleLabel": {
+    "message": "Título"
+  },
+  "action_contextDetailsParagraphsLabel": {
+    "message": "Párrafos"
+  },
+  "action_translation": {
+    "message": "Traducción"
+  },
+  "action_speak": {
+    "message": "Leer en voz alta"
+  },
+  "action_playing": {
+    "message": "Reproduciendo"
+  },
+  "thinking_label": {
+    "message": "Pensando"
+  },
+  "thinking_complete": {
+    "message": "Razonamiento completo"
+  },
+  "thinking_expand": {
+    "message": "Expandir razonamiento"
+  },
+  "thinking_collapse": {
+    "message": "Contraer razonamiento"
+  },
+  "shortcutKeySelector_placeholder": {
+    "message": "Introduce el atajo"
+  },
+  "subtitles_actions_downloadSource": {
+    "message": "Descargar subtítulos de origen"
+  },
+  "subtitles_state_loading": {
+    "message": "Skim AI está cargando subtítulos"
+  },
+  "subtitles_state_error": {
+    "message": "Se produjo un error"
+  },
+  "subtitles_errors_http429": {
+    "message": "429 Demasiadas solicitudes a la API de subtítulos de youtube; inténtalo de nuevo más tarde"
+  },
+  "subtitles_errors_http404": {
+    "message": "404 Subtítulos de Youtube no encontrados"
+  },
+  "subtitles_errors_http403": {
+    "message": "403 Acceso a subtítulos de Youtube denegado"
+  },
+  "subtitles_errors_http500": {
+    "message": "500 Error del servidor de Youtube"
+  },
+  "subtitles_errors_httpUnknown": {
+    "message": "Error HTTP $1"
+  },
+  "subtitles_errors_invalidResponse": {
+    "message": "Formato de respuesta de subtítulos de Youtube no válido"
+  },
+  "subtitles_errors_networkError": {
+    "message": "Se produjo un error de red al obtener subtítulos"
+  },
+  "subtitles_errors_fetchSubTimeout": {
+    "message": "Se agotó el tiempo al obtener subtítulos de youtube"
+  },
+  "subtitles_errors_buttonNotFound": {
+    "message": "Botón de subtítulos no encontrado"
+  },
+  "subtitles_errors_noSubtitlesFound": {
+    "message": "No hay subtítulos disponibles para este video"
+  },
+  "subtitles_errors_videoNotFound": {
+    "message": "Elemento de video no encontrado"
+  },
+  "subtitles_errors_controlsBarNotFound": {
+    "message": "Barra de controles no encontrada"
+  },
+  "subtitles_errors_aiRateLimited": {
+    "message": "Demasiadas solicitudes, inténtalo de nuevo más tarde"
+  },
+  "subtitles_errors_aiAuthFailed": {
+    "message": "Error de autenticación de API; revisa tu clave API"
+  },
+  "subtitles_errors_aiServiceUnavailable": {
+    "message": "Servicio de traducción temporalmente no disponible"
+  },
+  "subtitles_errors_aiNoResponse": {
+    "message": "El servicio AI no respondió; se usa el texto original"
+  },
+  "hotkey_control": {
+    "message": "Ctrl"
+  },
+  "hotkey_alt": {
+    "message": "Opción"
+  },
+  "hotkey_shift": {
+    "message": "Mayús"
+  },
+  "hotkey_backtick": {
+    "message": "Acento grave"
+  },
+  "hotkey_clickAndHold": {
+    "message": "Hacer clic y mantener"
+  },
+  "translationHub_searchLanguages": {
+    "message": "Buscar idiomas..."
+  },
+  "translationHub_noLanguagesFound": {
+    "message": "No se encontraron idiomas"
+  },
+  "translationHub_exchangeLanguages": {
+    "message": "Intercambiar idiomas"
+  },
+  "translationHub_title": {
+    "message": "Traducción de texto Multi-API"
+  },
+  "translationHub_noServicesSelected": {
+    "message": "No se seleccionaron servicios de traducción"
+  },
+  "translationHub_noServicesDescription": {
+    "message": "Selecciona servicios de traducción arriba para ver aquí las tarjetas de traducción."
+  },
+  "translationHub_inputPlaceholder": {
+    "message": "Introduce texto para traducir..."
+  },
+  "translationHub_translate": {
+    "message": "Traducir"
+  },
+  "translationHub_copiedToClipboard": {
+    "message": "¡Traducción copiada al portapapeles!"
+  },
+  "translationHub_copyTranslation": {
+    "message": "Copiar traducción"
+  },
+  "translationHub_expandCard": {
+    "message": "Expandir tarjeta"
+  },
+  "translationHub_collapseCard": {
+    "message": "Contraer tarjeta"
+  },
+  "translationHub_expandAllCards": {
+    "message": "Expandir todo"
+  },
+  "translationHub_collapseAllCards": {
+    "message": "Contraer todo"
+  },
+  "translationHub_deleteCard": {
+    "message": "Eliminar tarjeta"
+  },
+  "translationHub_translationFailed": {
+    "message": "Falló la traducción"
+  },
+  "translationHub_translationFailedFallback": {
+    "message": "Falló la traducción"
+  },
+  "translationHub_retryTranslation": {
+    "message": "Reintentar traducción"
+  },
+  "languages_eng": {
+    "message": "Inglés"
+  },
+  "languages_cmn": {
+    "message": "Chino simplificado"
+  },
+  "languages_cmnHant": {
+    "message": "Chino tradicional"
+  },
+  "languages_yue": {
+    "message": "Cantonés"
+  },
+  "languages_spa": {
+    "message": "Español"
+  },
+  "languages_rus": {
+    "message": "Ruso"
+  },
+  "languages_arb": {
+    "message": "Árabe"
+  },
+  "languages_ben": {
+    "message": "Bengalí"
+  },
+  "languages_hin": {
+    "message": "Hindi"
+  },
+  "languages_por": {
+    "message": "Portugués"
+  },
+  "languages_ind": {
+    "message": "Indonesio"
+  },
+  "languages_jpn": {
+    "message": "Japonés"
+  },
+  "languages_fra": {
+    "message": "Francés"
+  },
+  "languages_deu": {
+    "message": "Alemán"
+  },
+  "languages_jav": {
+    "message": "Javanés"
+  },
+  "languages_kor": {
+    "message": "Coreano"
+  },
+  "languages_tel": {
+    "message": "Telugu"
+  },
+  "languages_vie": {
+    "message": "Vietnamita"
+  },
+  "languages_mar": {
+    "message": "Maratí"
+  },
+  "languages_ita": {
+    "message": "Italiano"
+  },
+  "languages_tam": {
+    "message": "Tamil"
+  },
+  "languages_tur": {
+    "message": "Turco"
+  },
+  "languages_urd": {
+    "message": "Urdu"
+  },
+  "languages_guj": {
+    "message": "Guyaratí"
+  },
+  "languages_pol": {
+    "message": "Polaco"
+  },
+  "languages_ukr": {
+    "message": "Ucraniano"
+  },
+  "languages_kan": {
+    "message": "Canarés"
+  },
+  "languages_mai": {
+    "message": "Maithili"
+  },
+  "languages_mal": {
+    "message": "Malayalam"
+  },
+  "languages_pes": {
+    "message": "Persa"
+  },
+  "languages_mya": {
+    "message": "Birmano"
+  },
+  "languages_swh": {
+    "message": "Suajili"
+  },
+  "languages_sun": {
+    "message": "Sundanés"
+  },
+  "languages_ron": {
+    "message": "Rumano"
+  },
+  "languages_pan": {
+    "message": "Panyabí"
+  },
+  "languages_bho": {
+    "message": "Bhojpuri"
+  },
+  "languages_amh": {
+    "message": "Amárico"
+  },
+  "languages_hau": {
+    "message": "Hausa"
+  },
+  "languages_fuv": {
+    "message": "Fula"
+  },
+  "languages_bos": {
+    "message": "Bosnio"
+  },
+  "languages_hrv": {
+    "message": "Croata"
+  },
+  "languages_nld": {
+    "message": "Neerlandés"
+  },
+  "languages_srp": {
+    "message": "Serbio"
+  },
+  "languages_tha": {
+    "message": "Tailandés"
+  },
+  "languages_ckb": {
+    "message": "Kurdo central"
+  },
+  "languages_yor": {
+    "message": "Yoruba"
+  },
+  "languages_uzn": {
+    "message": "Uzbeko"
+  },
+  "languages_zlm": {
+    "message": "Malayo"
+  },
+  "languages_ibo": {
+    "message": "Igbo"
+  },
+  "languages_npi": {
+    "message": "Nepalí"
+  },
+  "languages_ceb": {
+    "message": "Cebuano"
+  },
+  "languages_skr": {
+    "message": "Saraiki"
+  },
+  "languages_tgl": {
+    "message": "Tagalo"
+  },
+  "languages_hun": {
+    "message": "Húngaro"
+  },
+  "languages_azj": {
+    "message": "Azerbaiyano"
+  },
+  "languages_sin": {
+    "message": "Cingalés"
+  },
+  "languages_koi": {
+    "message": "Komi permio"
+  },
+  "languages_ell": {
+    "message": "Griego"
+  },
+  "languages_ces": {
+    "message": "Checo"
+  },
+  "languages_mag": {
+    "message": "Magahi"
+  },
+  "languages_run": {
+    "message": "Kirundi"
+  },
+  "languages_bel": {
+    "message": "Bielorruso"
+  },
+  "languages_plt": {
+    "message": "Malgache"
+  },
+  "languages_qug": {
+    "message": "Quichua de Chimborazo"
+  },
+  "languages_mad": {
+    "message": "Madurés"
+  },
+  "languages_nya": {
+    "message": "Chichewa"
+  },
+  "languages_zyb": {
+    "message": "Zhuang"
+  },
+  "languages_pbu": {
+    "message": "Pastún"
+  },
+  "languages_kin": {
+    "message": "Kiñaruanda"
+  },
+  "languages_zul": {
+    "message": "Zulú"
+  },
+  "languages_bul": {
+    "message": "Búlgaro"
+  },
+  "languages_swe": {
+    "message": "Sueco"
+  },
+  "languages_lin": {
+    "message": "Lingala"
+  },
+  "languages_som": {
+    "message": "Somalí"
+  },
+  "languages_hms": {
+    "message": "Miao qiandong"
+  },
+  "languages_hnj": {
+    "message": "Hmong njua"
+  },
+  "languages_ilo": {
+    "message": "Ilocano"
+  },
+  "languages_kaz": {
+    "message": "Kazajo"
+  },
+  "languages_heb": {
+    "message": "Hebreo"
+  },
+  "languages_nob": {
+    "message": "Noruego bokmål"
+  },
+  "languages_nno": {
+    "message": "Noruego nynorsk"
+  },
+  "languages_afr": {
+    "message": "Afrikáans"
+  },
+  "languages_sqi": {
+    "message": "Albanés"
+  },
+  "languages_asm": {
+    "message": "Asamés"
+  },
+  "languages_eus": {
+    "message": "Vasco"
+  },
+  "languages_bre": {
+    "message": "Bretón"
+  },
+  "languages_cat": {
+    "message": "Catalán"
+  },
+  "languages_cos": {
+    "message": "Corso"
+  },
+  "languages_cym": {
+    "message": "Galés"
+  },
+  "languages_dan": {
+    "message": "Danés"
+  },
+  "languages_div": {
+    "message": "Dhivehi"
+  },
+  "languages_epo": {
+    "message": "Esperanto"
+  },
+  "languages_ekk": {
+    "message": "Estonio"
+  },
+  "languages_fao": {
+    "message": "Feroés"
+  },
+  "languages_fij": {
+    "message": "Fiyiano"
+  },
+  "languages_fin": {
+    "message": "Finés"
+  },
+  "languages_fry": {
+    "message": "Frisón occidental"
+  },
+  "languages_gla": {
+    "message": "Gaélico escocés"
+  },
+  "languages_gle": {
+    "message": "Irlandés"
+  },
+  "languages_glg": {
+    "message": "Gallego"
+  },
+  "languages_grn": {
+    "message": "Guaraní"
+  },
+  "languages_hat": {
+    "message": "Criollo haitiano"
+  },
+  "languages_haw": {
+    "message": "Hawaiano"
+  },
+  "languages_hye": {
+    "message": "Armenio"
+  },
+  "languages_ido": {
+    "message": "Ido"
+  },
+  "languages_ina": {
+    "message": "Interlingua"
+  },
+  "languages_isl": {
+    "message": "Islandés"
+  },
+  "languages_kat": {
+    "message": "Georgiano"
+  },
+  "languages_khm": {
+    "message": "Jemer"
+  },
+  "languages_kir": {
+    "message": "Kirguís"
+  },
+  "languages_lao": {
+    "message": "Lao"
+  },
+  "languages_lat": {
+    "message": "Latín"
+  },
+  "languages_lvs": {
+    "message": "Letón"
+  },
+  "languages_lit": {
+    "message": "Lituano"
+  },
+  "languages_ltz": {
+    "message": "Luxemburgués"
+  },
+  "languages_mkd": {
+    "message": "Macedonio"
+  },
+  "languages_mlt": {
+    "message": "Maltés"
+  },
+  "languages_mon": {
+    "message": "Mongol"
+  },
+  "languages_mri": {
+    "message": "Maorí"
+  },
+  "languages_nso": {
+    "message": "Sotho del norte"
+  },
+  "languages_oci": {
+    "message": "Occitano"
+  },
+  "languages_ori": {
+    "message": "Odia"
+  },
+  "languages_orm": {
+    "message": "Oromo"
+  },
+  "languages_prs": {
+    "message": "Dari"
+  },
+  "languages_san": {
+    "message": "Sánscrito"
+  },
+  "languages_slk": {
+    "message": "Eslovaco"
+  },
+  "languages_slv": {
+    "message": "Esloveno"
+  },
+  "languages_smo": {
+    "message": "Samoano"
+  },
+  "languages_sna": {
+    "message": "Shona"
+  },
+  "languages_snd": {
+    "message": "Sindhi"
+  },
+  "languages_sot": {
+    "message": "Sotho del sur"
+  },
+  "languages_tah": {
+    "message": "Tahitiano"
+  },
+  "languages_tat": {
+    "message": "Tártaro"
+  },
+  "languages_tgk": {
+    "message": "Tayiko"
+  },
+  "languages_tir": {
+    "message": "Tigriña"
+  },
+  "languages_ton": {
+    "message": "Tongano"
+  },
+  "languages_tsn": {
+    "message": "Setsuana"
+  },
+  "languages_tuk": {
+    "message": "Turcomano"
+  },
+  "languages_uig": {
+    "message": "Uigur"
+  },
+  "languages_vol": {
+    "message": "Volapük"
+  },
+  "languages_wol": {
+    "message": "Wólof"
+  },
+  "languages_xho": {
+    "message": "Xhosa"
+  },
+  "languages_ydd": {
+    "message": "Yidis"
+  },
+  "languages_aka": {
+    "message": "Akan"
+  },
+  "languages_bam": {
+    "message": "Bambara"
+  },
+  "languages_bis": {
+    "message": "Bislama"
+  },
+  "languages_bod": {
+    "message": "Tibetano"
+  },
+  "languages_che": {
+    "message": "Checheno"
+  },
+  "languages_chv": {
+    "message": "Chuvasio"
+  },
+  "languages_dzo": {
+    "message": "Dzongkha"
+  },
+  "languages_ewe": {
+    "message": "Ewe"
+  },
+  "languages_kab": {
+    "message": "Cabilio"
+  },
+  "languages_lug": {
+    "message": "Luganda"
+  },
+  "languages_oss": {
+    "message": "Osetio"
+  },
+  "languages_ssw": {
+    "message": "Suazi"
+  },
+  "languages_ven": {
+    "message": "Venda"
+  },
+  "languages_war": {
+    "message": "Samareño"
+  },
+  "languages_nde": {
+    "message": "Ndebele del norte"
+  },
+  "languages_nbl": {
+    "message": "Ndebele del sur"
+  },
+  "languages_pam": {
+    "message": "Pampango"
+  },
+  "languages_hil": {
+    "message": "Hiligainón"
+  },
+  "languages_bcl": {
+    "message": "Bikol central"
+  },
+  "languages_min": {
+    "message": "Minangkabau"
+  },
+  "languages_ace": {
+    "message": "Acehnés"
+  },
+  "languages_bug": {
+    "message": "Buginés"
+  },
+  "languages_ban": {
+    "message": "Balinés"
+  },
+  "languages_bjn": {
+    "message": "Banjar"
+  },
+  "languages_mak": {
+    "message": "Macasar"
+  },
+  "languages_sas": {
+    "message": "Sasak"
+  },
+  "languages_tet": {
+    "message": "Tetun"
+  },
+  "languages_cha": {
+    "message": "Chamorro"
+  },
+  "languages_niu": {
+    "message": "Niueano"
+  },
+  "languages_tvl": {
+    "message": "Tuvaluano"
+  },
+  "languages_gil": {
+    "message": "Gilbertés"
+  },
+  "languages_mah": {
+    "message": "Marshalés"
+  },
+  "languages_pau": {
+    "message": "Palauano"
+  },
+  "languages_wls": {
+    "message": "Wallisiano"
+  },
+  "languages_rar": {
+    "message": "Rarotongano"
+  },
+  "languages_hif": {
+    "message": "Hindi de Fiyi"
+  }
+}

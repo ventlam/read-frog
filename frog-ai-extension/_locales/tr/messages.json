@@ -1,0 +1,2801 @@
+{
+  "name": {
+    "message": "Skim AI"
+  },
+  "extName": {
+    "message": "Skim AI - Çevir ve Öğren"
+  },
+  "extDescription": {
+    "message": "Skim AI, herhangi bir web sitesinden dilleri derinlemesine öğrenmenize yardımcı olmak için tasarlanmış açık kaynaklı bir tarayıcı uzantısıdır."
+  },
+  "uninstallSurveyUrl": {
+    "message": "https://tally.so/r/nPK6Ob"
+  },
+  "dataTypes_string": {
+    "message": "Metin"
+  },
+  "dataTypes_number": {
+    "message": "Sayı"
+  },
+  "contextMenu_translate": {
+    "message": "Çevir"
+  },
+  "contextMenu_translateSelection": {
+    "message": "\"%s\" Çevir"
+  },
+  "contextMenu_showOriginal": {
+    "message": "Orijinali Göster"
+  },
+  "sidePanel_firefoxUserActionHint": {
+    "message": "Firefox'ta Skim AI'u tarayıcının kenar çubuğundan açın."
+  },
+  "sidePanel_firefoxUserActionHelpText": {
+    "message": "Firefox kenar çubuğunu açmayı öğrenin"
+  },
+  "sidePanel_firefoxUserActionHelpUrl": {
+    "message": "https://support.mozilla.org/tr/kb/use-sidebar-access-tools-and-vertical-tabs"
+  },
+  "popup_theme": {
+    "message": "Tema"
+  },
+  "popup_autoLang": {
+    "message": "Otomatik"
+  },
+  "popup_sourceLang": {
+    "message": "Kaynak"
+  },
+  "popup_targetLang": {
+    "message": "Hedef"
+  },
+  "popup_translate": {
+    "message": "Çevir"
+  },
+  "popup_showOriginal": {
+    "message": "Orijinali Göster"
+  },
+  "popup_enabledFloatingButton": {
+    "message": "Yüzen butonu etkinleştir"
+  },
+  "popup_enabledSelectionToolbar": {
+    "message": "Seçim araç çubuğunu etkinleştir"
+  },
+  "popup_alwaysTranslate": {
+    "message": "Bu siteyi her zaman çevir"
+  },
+  "popup_addToWhitelist": {
+    "message": "Bu sitede uzantıyı etkinleştir"
+  },
+  "popup_addToBlacklist": {
+    "message": "Bu sitede uzantıyı devre dışı bırak"
+  },
+  "popup_options": {
+    "message": "Seçenekler"
+  },
+  "popup_hover": {
+    "message": "Üzerine Gel"
+  },
+  "popup_translateParagraph": {
+    "message": "paragrafı çevirmek için"
+  },
+  "popup_hub_tooltip": {
+    "message": "Birden fazla çeviri modeliyle aynı anda metin çevirin"
+  },
+  "popup_discord_tooltip": {
+    "message": "Geliştiricilerle bağlantı kurmak ve yeni özelliklere erken erişim sağlamak için Discord'a katılın"
+  },
+  "popup_blog_notification": {
+    "message": "Skim AI'da yenilikler"
+  },
+  "popup_aiSmartContext": {
+    "message": "AI Akıllı Bağlam"
+  },
+  "popup_aiSmartContextDescription": {
+    "message": "Çeviri kalitesini artırmak için web sayfası bağlamını kullanır. LLM çeviri sağlayıcısı gerektirir."
+  },
+  "popup_more_title": {
+    "message": "Daha Fazla"
+  },
+  "popup_more_translationHub": {
+    "message": "Çeviri Merkezi"
+  },
+  "popup_more_joinDiscord": {
+    "message": "Discord'a Katıl"
+  },
+  "popup_more_joinWechat": {
+    "message": "WeChat Grubuna Katıl"
+  },
+  "popup_more_starGithub": {
+    "message": "Github'da Yıldız Ver"
+  },
+  "popup_more_rateUs": {
+    "message": "Bizi Değerlendirin"
+  },
+  "popup_more_ebook": {
+    "message": "Üçüncü Taraf E-kitap Okuyucu"
+  },
+  "popup_more_tutorial": {
+    "message": "Rehber"
+  },
+  "errorRecovery_title": {
+    "message": "Bir sorun oluştu"
+  },
+  "errorRecovery_description": {
+    "message": "Kurtarma modu etkin. Geçerli ayarlarınızı yedek olarak dışa aktarabilir, ardından ayarları sıfırlayıp tekrar deneyebilirsiniz."
+  },
+  "errorRecovery_backupTitle": {
+    "message": "Önce geçerli ayarları yedekleyin (önerilir)"
+  },
+  "errorRecovery_exportWithApiKeys": {
+    "message": "API Anahtarlarıyla Dışa Aktar"
+  },
+  "errorRecovery_exportWithoutApiKeys": {
+    "message": "API Anahtarları olmadan Dışa Aktar"
+  },
+  "errorRecovery_recoveryTitle": {
+    "message": "Kurtarma seçenekleri"
+  },
+  "errorRecovery_refreshPage": {
+    "message": "Sayfayı yenile"
+  },
+  "errorRecovery_resetAction": {
+    "message": "Varsayılan ayarlara sıfırla"
+  },
+  "errorRecovery_resetSuccess": {
+    "message": "Kurtarma tamamlandı. Ayarlar sıfırlandı"
+  },
+  "errorRecovery_resetFailed": {
+    "message": "Kurtarma başarısız oldu. Ayarlar sıfırlanamadı"
+  },
+  "errorRecovery_errorDetails": {
+    "message": "Hata ayrıntıları"
+  },
+  "errorRecovery_resetDialog_title": {
+    "message": "Ayarlar sıfırlansın mı?"
+  },
+  "errorRecovery_resetDialog_description": {
+    "message": "Geçerli ayarlarınız varsayılan değerlerle değiştirilecektir."
+  },
+  "errorRecovery_resetDialog_confirm": {
+    "message": "Sıfırla"
+  },
+  "errorRecovery_resetDialog_cancel": {
+    "message": "İptal"
+  },
+  "options_commandPalette_placeholder": {
+    "message": "Ayarları ara..."
+  },
+  "options_commandPalette_noResults": {
+    "message": "Ayar bulunamadı"
+  },
+  "options_sidebar_settings": {
+    "message": "Ayarlar"
+  },
+  "options_sidebar_tools": {
+    "message": "Araçlar"
+  },
+  "options_sidebar_product": {
+    "message": "Ürün"
+  },
+  "options_tools_translationHub": {
+    "message": "Çeviri Merkezi"
+  },
+  "options_setAPIKeyWarning_please": {
+    "message": "Lütfen API Anahtarını"
+  },
+  "options_setAPIKeyWarning_page": {
+    "message": "sayfasında ayarlayın"
+  },
+  "options_betaExperience_title": {
+    "message": "Beta Deneyimi"
+  },
+  "options_betaExperience_description": {
+    "message": "Deneysel özellikleri ve yeni işlevlere erken erişimi etkinleştirin. Bu özellikler kararsız veya eksik olabilir."
+  },
+  "options_betaExperience_enabled": {
+    "message": "Beta Deneyimini Etkinleştir"
+  },
+  "options_apiProviders_title": {
+    "message": "API Sağlayıcıları"
+  },
+  "options_apiProviders_description": {
+    "message": "Çeviri ve kelime analizi işlevleri için API sağlayıcılarını buradan yapılandırın. 20'den fazla yerleşik sağlayıcımız var ve OpenAI uyumlu tüm API sağlayıcılarını destekliyoruz."
+  },
+  "options_apiProviders_promotion_ai302_description": {
+    "message": "302.AI'ye kaydolmak ve 1 USD API kredisi almak için sağdaki bağlantıya tıklayın"
+  },
+  "options_apiProviders_promotion_ai302_action": {
+    "message": "Ücretsiz API Anahtarı Almak İçin Kaydolun"
+  },
+  "options_apiProviders_promotion_ai302_addProvider": {
+    "message": "302.AI Yapılandırması Ekle"
+  },
+  "options_apiProviders_addProvider": {
+    "message": "Sağlayıcı Ekle"
+  },
+  "options_apiProviders_badges_featureCount": {
+    "message": "$1 özellik"
+  },
+  "options_apiProviders_dialog_title": {
+    "message": "Yeni Sağlayıcı Ekle"
+  },
+  "options_apiProviders_dialog_groups_builtInProviders_title": {
+    "message": "Yerleşik LLM Sağlayıcıları"
+  },
+  "options_apiProviders_dialog_groups_builtInProviders_description": {
+    "message": "Yerleşik büyük dil modeli sağlayıcıları, Base URL gibi çoğu yapılandırmayı doldurmaya gerek yok"
+  },
+  "options_apiProviders_dialog_groups_openaiCompatibleProviders_title": {
+    "message": "OpenAI Uyumlu Özel Sağlayıcılar"
+  },
+  "options_apiProviders_dialog_groups_openaiCompatibleProviders_description": {
+    "message": "İstediğiniz AI sağlayıcısını bulamıyorsanız, Zhipu AI gibi herhangi bir OpenAI uyumlu sağlayıcıyı yapılandırmak için Özel Sağlayıcı'yı seçin"
+  },
+  "options_apiProviders_dialog_groups_pureTranslationProviders_title": {
+    "message": "Saf Çeviri Sağlayıcıları"
+  },
+  "options_apiProviders_dialog_groups_pureTranslationProviders_description": {
+    "message": "Büyük dil modeli yetenekleri olmadan çeviri özelliklerine odaklanan sağlayıcılar"
+  },
+  "options_apiProviders_form_fields_name": {
+    "message": "Ad"
+  },
+  "options_apiProviders_form_fields_description": {
+    "message": "Açıklama"
+  },
+  "options_apiProviders_form_fields_apiKey": {
+    "message": "API Anahtarı"
+  },
+  "options_apiProviders_form_fields_baseURL": {
+    "message": "Base URL"
+  },
+  "options_apiProviders_form_fields_optional": {
+    "message": "İsteğe Bağlı"
+  },
+  "options_apiProviders_form_duplicate": {
+    "message": "Çoğalt"
+  },
+  "options_apiProviders_form_delete": {
+    "message": "Sil"
+  },
+  "options_apiProviders_form_deleteDialog_title": {
+    "message": "Sağlayıcıyı sil?"
+  },
+  "options_apiProviders_form_deleteDialog_description": {
+    "message": "Bu işlem geri alınamaz. Bu sağlayıcıyı kullanan özellikler otomatik olarak başka bir mevcut sağlayıcıya yeniden atanacaktır."
+  },
+  "options_apiProviders_form_deleteDialog_confirm": {
+    "message": "Sil"
+  },
+  "options_apiProviders_form_deleteDialog_cancel": {
+    "message": "İptal"
+  },
+  "options_apiProviders_form_atLeastOneLLMProvider": {
+    "message": "En az bir LLM çeviri sağlayıcısı gereklidir."
+  },
+  "options_apiProviders_form_duplicateProviderName": {
+    "message": "Yinelenen sağlayıcı adı \"$1\""
+  },
+  "options_apiProviders_form_defaultProvider_translate": {
+    "message": "Varsayılan çeviri sağlayıcısı olarak ayarla"
+  },
+  "options_apiProviders_form_models_translate_title": {
+    "message": "Çeviri Modeli"
+  },
+  "options_apiProviders_form_models_translate_customTitle": {
+    "message": "Özel Çeviri Modeli"
+  },
+  "options_apiProviders_form_models_translate_placeholder": {
+    "message": "Bir model seçin"
+  },
+  "options_apiProviders_form_models_fetchModels": {
+    "message": "Mevcut modelleri getir"
+  },
+  "options_apiProviders_form_models_fetchError": {
+    "message": "Modeller getirilemedi"
+  },
+  "options_apiProviders_form_models_clickToRetry": {
+    "message": "Yeniden denemek için tıklayın"
+  },
+  "options_apiProviders_form_models_noModels": {
+    "message": "Mevcut model yok"
+  },
+  "options_apiProviders_form_models_selectModel": {
+    "message": "Model seç"
+  },
+  "options_apiProviders_form_models_apiKeyRequired": {
+    "message": "Lütfen önce API anahtarı ekleyin"
+  },
+  "options_apiProviders_form_models_searchModels": {
+    "message": "Model ara..."
+  },
+  "options_apiProviders_form_models_noModelsFound": {
+    "message": "Model bulunamadı"
+  },
+  "options_apiProviders_form_featureProviders": {
+    "message": "Özellik Sağlayıcıları"
+  },
+  "options_apiProviders_form_advancedOptions": {
+    "message": "Gelişmiş Seçenekler"
+  },
+  "options_apiProviders_form_providerSettingLabels_region": {
+    "message": "Bölge"
+  },
+  "options_apiProviders_form_temperature": {
+    "message": "Sıcaklık"
+  },
+  "options_apiProviders_form_temperatureHint": {
+    "message": "Yanıtlardaki rastgeleliği kontrol eder. Düşük değerler (0) daha belirleyici, yüksek değerler daha yaratıcıdır. Aralık sağlayıcıya göre değişir. Sağlayıcı varsayılanını kullanmak için boş bırakın."
+  },
+  "options_apiProviders_form_headers": {
+    "message": "Başlıklar"
+  },
+  "options_apiProviders_form_headersHint": {
+    "message": "AI sağlayıcı istemcisi oluşturulurken gönderilecek özel HTTP başlıkları. Sağlayıcı varsayılanlarını kullanmak için boş bırakın; varsayılanları devre dışı bırakmak için {} kullanın."
+  },
+  "options_apiProviders_form_providerOptions": {
+    "message": "Sağlayıcı Seçenekleri"
+  },
+  "options_apiProviders_form_providerOptionsHint": {
+    "message": "Düşünme/akıl yürütme modu gibi standart dışı API özellikleri için sağlayıcıya özel seçenekler. Ayrıntılar için Vercel AI SDK belgelerine veya sağlayıcınızın resmi belgelerine bakın."
+  },
+  "options_apiProviders_form_providerOptionsDocsLink": {
+    "message": "Sağlayıcı Belgelerini Görüntüle"
+  },
+  "options_apiProviders_form_providerOptionsRecommendationTrigger": {
+    "message": "Önerilen sağlayıcı seçeneklerini görüntüle"
+  },
+  "options_apiProviders_form_providerOptionsRecommendationTitle": {
+    "message": "Önerilen sağlayıcı seçenekleri bulundu"
+  },
+  "options_apiProviders_form_providerOptionsRecommendationDescription": {
+    "message": "Önerilen yapılandırmayı gözden geçirip manuel olarak uygulayın."
+  },
+  "options_apiProviders_form_providerOptionsRecommendationApply": {
+    "message": "Uygula"
+  },
+  "options_apiProviders_form_providerOptionsRecommendationApplied": {
+    "message": "Uygulandı"
+  },
+  "options_apiProviders_form_invalidJson": {
+    "message": "Geçersiz JSON formatı"
+  },
+  "options_apiProviders_providers_description_openai": {
+    "message": "GPT-4o gibi modeller sağlar"
+  },
+  "options_apiProviders_providers_description_deepseek": {
+    "message": "Çin'de kullanım için önerilir"
+  },
+  "options_apiProviders_providers_description_openrouter": {
+    "message": "Kullandıkça öde fiyatlandırmasıyla birden fazla LLM sağlayıcısı için birleşik arayüz"
+  },
+  "options_apiProviders_providers_description_ollama": {
+    "message": "Tam gizlilik için büyük dil modellerini makinenizde yerel olarak çalıştırın"
+  },
+  "options_apiProviders_providers_description_google": {
+    "message": "Gelişmiş akıl yürütme yeteneklerine sahip Google'ın amiral gemisi AI modelleri"
+  },
+  "options_apiProviders_providers_description_anthropic": {
+    "message": "Güvenlik ve akıl yürütme mükemmelliğiyle tanınan Claude modelleri"
+  },
+  "options_apiProviders_providers_description_xai": {
+    "message": "Gerçek zamanlı veri erişimli Grok modelleri sunan Elon Musk'ın AI şirketi"
+  },
+  "options_apiProviders_providers_description_siliconflow": {
+    "message": "Çin ve uluslararası modeller için yüksek performanslı çıkarım platformu"
+  },
+  "options_apiProviders_providers_description_tensdaq": {
+    "message": "Yüksek maliyetli sabit fiyatlandırmayı ortadan kaldıran pazar odaklı fiyatlandırma ile devrimci açık artırma AI MaaS platformu"
+  },
+  "options_apiProviders_providers_description_ai302": {
+    "message": "Kullandıkça öde API ile en son ve en kapsamlı modelleri sağlar"
+  },
+  "options_apiProviders_providers_description_openaiCompatible": {
+    "message": "Üçüncü taraf ve OpenAI API uyumlu"
+  },
+  "options_apiProviders_providers_description_deeplx": {
+    "message": "Resmi olmayan DeepL API"
+  },
+  "options_apiProviders_providers_description_deepl": {
+    "message": "Resmi DeepL API"
+  },
+  "options_apiProviders_providers_description_bedrock": {
+    "message": "Kurumsal düzeyde temel modeller için AWS yönetilen hizmeti"
+  },
+  "options_apiProviders_providers_description_groq": {
+    "message": "Ultra hızlı LLM çıkarım hızları için özel donanım"
+  },
+  "options_apiProviders_providers_description_deepinfra": {
+    "message": "Popüler açık kaynak modelleri için uygun maliyetli bulut çıkarımı"
+  },
+  "options_apiProviders_providers_description_mistral": {
+    "message": "Verimli çok dilli modellerde uzmanlaşmış Avrupalı AI şirketi"
+  },
+  "options_apiProviders_providers_description_togetherai": {
+    "message": "Açık kaynak modellerini çalıştırma ve ince ayar yapma için işbirlikçi platform"
+  },
+  "options_apiProviders_providers_description_cohere": {
+    "message": "Güçlü çok dilli ve RAG yetenekleriyle kurumsal odaklı AI"
+  },
+  "options_apiProviders_providers_description_fireworks": {
+    "message": "Açık kaynak modelleri için üretime hazır çıkarım platformu"
+  },
+  "options_apiProviders_providers_description_cerebras": {
+    "message": "Hızlı çeviri ve metin analizi için ultra hızlı AI çıkarımı"
+  },
+  "options_apiProviders_providers_description_replicate": {
+    "message": "Özel çeviri görevleri için çeşitli açık kaynak modellere erişim"
+  },
+  "options_apiProviders_providers_description_perplexity": {
+    "message": "Bağlamsal çeviriler ve okuma yardımı için gerçek zamanlı bilgi ile güçlendirilmiş AI"
+  },
+  "options_apiProviders_providers_description_vercel": {
+    "message": "Web içeriği çevirisi ve analizi için optimize edilmiş AI modelleri"
+  },
+  "options_apiProviders_providers_description_volcengine": {
+    "message": "Çeviri ve okuma için Doubao modelleri sunan ByteDance'ın bulut AI platformu"
+  },
+  "options_apiProviders_providers_description_minimax": {
+    "message": "Gelişmiş MiniMax-M2 modelleri sunan MiniMax AI platformu"
+  },
+  "options_apiProviders_providers_description_alibaba": {
+    "message": "Alibaba Cloud'un Qwen model serisi, gelişmiş muhakeme ve çok dilli yeteneklerle"
+  },
+  "options_apiProviders_providers_description_moonshotai": {
+    "message": "Moonshot AI'ın güçlü muhakeme ve uzun bağlam yeteneklerine sahip Kimi model serisi"
+  },
+  "options_apiProviders_providers_description_huggingface": {
+    "message": "Binlerce açık kaynak modele erişim sağlayan Hugging Face Çıkarım API'si"
+  },
+  "options_apiProviders_apiKey_showAPIKey": {
+    "message": "API Anahtarını Göster"
+  },
+  "options_apiProviders_howToConfigure": {
+    "message": "Nasıl yapılandırılır?"
+  },
+  "options_apiProviders_testConnection_button": {
+    "message": "Bağlantıyı Test Et"
+  },
+  "options_apiProviders_testConnection_testing": {
+    "message": "Test ediliyor..."
+  },
+  "options_general_title": {
+    "message": "Genel"
+  },
+  "options_general_appearance_title": {
+    "message": "Görünüm"
+  },
+  "options_general_appearance_theme": {
+    "message": "Tema"
+  },
+  "options_general_appearance_system": {
+    "message": "Sistem"
+  },
+  "options_general_appearance_light": {
+    "message": "Açık"
+  },
+  "options_general_appearance_dark": {
+    "message": "Koyu"
+  },
+  "options_general_featureProviders_title": {
+    "message": "Özellik Sağlayıcıları"
+  },
+  "options_general_featureProviders_description": {
+    "message": "Her özellik için kullanılacak sağlayıcıyı seçin"
+  },
+  "options_general_featureProviders_customActions": {
+    "message": "Özel AI Eylemleri"
+  },
+  "options_general_featureProviders_features_translate": {
+    "message": "Sayfa Çevirisi"
+  },
+  "options_general_featureProviders_features_selectionToolbar_translate": {
+    "message": "Seçim Araç Çubuğu Çevirisi"
+  },
+  "options_general_featureProviders_features_tts": {
+    "message": "Metin Okuma"
+  },
+  "options_general_featureProviders_features_inputTranslation": {
+    "message": "Giriş Çevirisi"
+  },
+  "options_general_featureProviders_features_videoSubtitles": {
+    "message": "Video Altyazıları"
+  },
+  "options_general_translationConfig_model_title": {
+    "message": "Model"
+  },
+  "options_general_translationConfig_model_enterCustomModel": {
+    "message": "Özel model adını girin"
+  },
+  "options_general_clearCache_title": {
+    "message": "Önbelleği Temizle"
+  },
+  "options_general_clearCache_description": {
+    "message": "Tarayıcınızdaki tüm çeviri önbelleğini temizleyin"
+  },
+  "options_general_clearCache_clearing": {
+    "message": "Temizleniyor..."
+  },
+  "options_general_clearCache_dialog_title": {
+    "message": "Önbelleği Temizle"
+  },
+  "options_general_clearCache_dialog_trigger": {
+    "message": "Önbelleği Temizle"
+  },
+  "options_general_clearCache_dialog_confirm": {
+    "message": "Onayla"
+  },
+  "options_general_clearCache_dialog_cancel": {
+    "message": "İptal"
+  },
+  "options_general_clearCache_dialog_description": {
+    "message": "Bu işlem tüm çeviri önbelleğini temizleyecektir. Bu işlem geri alınamaz."
+  },
+  "options_general_languageDetection_title": {
+    "message": "Dil Algılama"
+  },
+  "options_general_languageDetection_description": {
+    "message": "Otomatik çeviri dil algılama, atlama dil algılama ve Konuşma ses seçimi doğruluğunu etkiler."
+  },
+  "options_general_languageDetection_mode_basic": {
+    "message": "Temel"
+  },
+  "options_general_languageDetection_mode_llm": {
+    "message": "LLM"
+  },
+  "options_general_languageDetection_provider_label": {
+    "message": "Algılama Sağlayıcısı"
+  },
+  "options_general_languageDetection_provider_placeholder": {
+    "message": "Bir sağlayıcı seçin"
+  },
+  "options_general_languageDetection_status_noProviders": {
+    "message": "Önce bir LLM sağlayıcısı yapılandırın"
+  },
+  "options_general_languageDetection_status_basicRecommend": {
+    "message": "LLM etkinleştirmesi önerilir"
+  },
+  "options_general_languageDetection_status_llmEnabled": {
+    "message": "LLM algılama etkin"
+  },
+  "options_siteControl_title": {
+    "message": "Site Kontrolü"
+  },
+  "options_siteControl_mode_title": {
+    "message": "Uzantı Etkinleştirme Modu"
+  },
+  "options_siteControl_mode_description": {
+    "message": "Kara liste modunu kullanarak uzantıyı belirli sitelerde devre dışı bırakabilir veya beyaz liste modunu kullanarak yalnızca belirli sitelerle sınırlayabilirsiniz."
+  },
+  "options_siteControl_mode_blacklist": {
+    "message": "Yalnızca listelenen sitelerde devre dışı bırak"
+  },
+  "options_siteControl_mode_whitelist": {
+    "message": "Yalnızca listelenen sitelerde çalıştır"
+  },
+  "options_siteControl_patterns_enterUrlPattern": {
+    "message": "URL deseni girin (örn. example.com)"
+  },
+  "options_siteControl_patterns_urlPattern": {
+    "message": "URL Deseni"
+  },
+  "options_overlayTools_title": {
+    "message": "Kaplama Araçları"
+  },
+  "options_overlayTools_floatingButton_title": {
+    "message": "Yüzen Buton"
+  },
+  "options_overlayTools_selectionToolbar_title": {
+    "message": "Seçim Araç Çubuğu"
+  },
+  "options_overlayTools_contextMenu_title": {
+    "message": "Bağlam Menüsü"
+  },
+  "options_overlayTools_inputTranslation_title": {
+    "message": "Giriş Çevirisi"
+  },
+  "options_inputTranslation_provider_title": {
+    "message": "Çeviri Sağlayıcısı"
+  },
+  "options_inputTranslation_provider_description": {
+    "message": "Giriş çevirisi için kullanılacak çeviri sağlayıcısını seçin"
+  },
+  "options_inputTranslation_provider_label": {
+    "message": "Sağlayıcı"
+  },
+  "options_inputTranslation_toggle_title": {
+    "message": "Üçlü Boşluk Çevirisini Etkinleştir"
+  },
+  "options_inputTranslation_toggle_description": {
+    "message": "Herhangi bir giriş alanında boşluk tuşuna hızlıca 3 kez basarak içeriği çevirin"
+  },
+  "options_inputTranslation_languages_title": {
+    "message": "Çeviri Dilleri"
+  },
+  "options_inputTranslation_languages_description": {
+    "message": "Giriş çevirisi için kaynak ve hedef dilleri seçin"
+  },
+  "options_inputTranslation_languages_sourceCode": {
+    "message": "Sayfa Kaynak Dili"
+  },
+  "options_inputTranslation_languages_targetCode": {
+    "message": "Sayfa Hedef Dili"
+  },
+  "options_inputTranslation_languages_enableCycle": {
+    "message": "Her seferinde yönü değiştir"
+  },
+  "options_inputTranslation_threshold_title": {
+    "message": "Tetikleme Eşiği"
+  },
+  "options_inputTranslation_threshold_description": {
+    "message": "Boşluk tuşuna basışlar arasındaki zaman aralığı"
+  },
+  "options_inputTranslation_threshold_label": {
+    "message": "Eşik (ms)"
+  },
+  "options_inputTranslation_threshold_hint": {
+    "message": "Ardışık boşluk tuşuna basışlar arasındaki milisaniye cinsinden süre (100-1000ms)"
+  },
+  "options_inputTranslation_threshold_error": {
+    "message": "Değer $1 ile $2 arasında olmalıdır"
+  },
+  "options_floatingButtonAndToolbar_title": {
+    "message": "Yüzen Buton ve Araç Çubuğu"
+  },
+  "options_floatingButtonAndToolbar_floatingButtonDemoImageAlt": {
+    "message": "Yüzen Buton Demosu"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbarDemoImageAlt": {
+    "message": "Seçim Araç Çubuğu Demosu"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_globalToggle_title": {
+    "message": "Yüzen Butonu Etkinleştir"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_globalToggle_description": {
+    "message": "Skim AI özelliklerine hızlı erişim için web sayfalarında yüzen butonu görüntüle"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_closeMenu_disableForSite": {
+    "message": "Bu site için devre dışı bırak"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_closeMenu_disableGlobally": {
+    "message": "Genel olarak devre dışı bırak"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_disabledSites_title": {
+    "message": "Yüzen Buton Devre Dışı Siteler"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_disabledSites_description": {
+    "message": "Yüzen butonun devre dışı bırakılması gereken web sitelerini yapılandırın"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_disabledSites_enterUrlPattern": {
+    "message": "URL kalıbı girin"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_disabledSites_urlPattern": {
+    "message": "URL Kalıbı"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_clickAction_title": {
+    "message": "Tıklama Eylemi"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_clickAction_description": {
+    "message": "Yüzen butona tıklandığında gerçekleştirilecek eylemi seçin"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_clickAction_panel": {
+    "message": "Yan Paneli Aç"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_clickAction_translate": {
+    "message": "Sayfa Çevirisini Aç/Kapat"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_side_title": {
+    "message": "Düğme tarafı"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_side_description": {
+    "message": "Yüzen düğmenin sayfanın hangi kenarına sabitleneceğini seçin"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_side_left": {
+    "message": "Sol"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_side_right": {
+    "message": "Sağ"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_globalToggle_title": {
+    "message": "Seçim Araç Çubuğunu Etkinleştir"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_globalToggle_description": {
+    "message": "Web sayfalarında metin seçtiğinizde araç çubuğunu göstererek hızlı çeviri, seslendirme ve AI eylemleri sunar"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_opacity_title": {
+    "message": "Opaklık"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_opacity_description": {
+    "message": "Seçim araç çubuğunun ve buradan açılan genişletilmiş pencerenin opaklığını ayarlayın"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_featureToggles_title": {
+    "message": "Özellik Açma/Kapama"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_featureToggles_description": {
+    "message": "Seçim araç çubuğunda hangi yerleşik özelliklerin gösterileceğini seçin"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_featureToggles_translate": {
+    "message": "Çeviri"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_featureToggles_speak": {
+    "message": "Sesli Okuma"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_closeMenu_disableForSite": {
+    "message": "Bu site için devre dışı bırak"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_closeMenu_disableGlobally": {
+    "message": "Genel olarak devre dışı bırak"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_disabledSites_title": {
+    "message": "Seçim Araç Çubuğu Devre Dışı Siteler"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_disabledSites_description": {
+    "message": "Seçim araç çubuğunun devre dışı bırakılması gereken web sitelerini yapılandırın"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_disabledSites_enterUrlPattern": {
+    "message": "URL kalıbı girin"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_disabledSites_urlPattern": {
+    "message": "URL Kalıbı"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_customActionFailed": {
+    "message": "Özel eylem başarısız oldu"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_customActionFailedFallback": {
+    "message": "Özel eylem isteği başarısız oldu"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_actionUnavailable": {
+    "message": "Seçilen eylem kullanılamıyor"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_missingSelection": {
+    "message": "Seçili metin yok"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_providerDisabled": {
+    "message": "Seçilen sağlayıcı devre dışı"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_providerUnavailable": {
+    "message": "Seçilen sağlayıcı kullanılamıyor"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_provider": {
+    "message": "Sağlayıcı"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_selectProvider": {
+    "message": "Sağlayıcı seçin"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_noProviderAvailable": {
+    "message": "Kullanılabilir sağlayıcı yok"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_useProviderDefaultModel": {
+    "message": "Sağlayıcının varsayılan modelini kullan"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_useCustomModel": {
+    "message": "Özel model kullan"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_customModel": {
+    "message": "Özel model"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_model": {
+    "message": "Model"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_modelNotAvailableForNonLLM": {
+    "message": "Model ayarları yalnızca LLM sağlayıcılarında kullanılabilir"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_translate_title": {
+    "message": "Seçim Çevirisi"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_translate_description": {
+    "message": "Seçim araç çubuğu çeviri özelliği için sağlayıcı ve model yapılandırın"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_title": {
+    "message": "Özel AI Eylemleri"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_description": {
+    "message": "Seçilen metin için kendi yapılandırılmış AI eylemlerinizi ekleyin"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_add": {
+    "message": "AI Eylemi Ekle"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_edit": {
+    "message": "AI Eylemini Düzenle"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_empty": {
+    "message": "Henüz özel AI eylemi yok"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_noEnabledLlmProvider": {
+    "message": "Özel AI eylemleri oluşturmadan önce en az bir LLM sağlayıcısını etkinleştirin"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_table_name": {
+    "message": "Ad"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_table_provider": {
+    "message": "Sağlayıcı"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_table_fields": {
+    "message": "Alanlar"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_table_actions": {
+    "message": "İşlemler"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_name": {
+    "message": "Ad"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_icon": {
+    "message": "Simge"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_chooseAriaLabel": {
+    "message": "Simge seç"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_chooseTitle": {
+    "message": "Bir simge seçin"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_inputPlaceholder": {
+    "message": "Simge adını girin"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpAriaLabel": {
+    "message": "Daha fazla simge yardımı"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpTitle": {
+    "message": "Aradığınız simgeyi bulamadınız mı?"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpStepBrowsePrefix": {
+    "message": ""
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpStepBrowseSuffix": {
+    "message": "üzerinde simgelere göz atın"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpStepCopyPrefix": {
+    "message": "Örneğin "
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpStepCopySuffix": {
+    "message": " simge adını kopyalayıp alana yapıştırın."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_provider": {
+    "message": "Sağlayıcı (yapılandırılmış çıktı desteği gerekir)"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_selectProvider": {
+    "message": "Sağlayıcı seçin"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_systemPrompt": {
+    "message": "Sistem Promptu"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_prompt": {
+    "message": "Prompt"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_outputSchema": {
+    "message": "Çıkış Şeması"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_addField": {
+    "message": "Alan Ekle"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldName": {
+    "message": "Alan Adı"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldType": {
+    "message": "Alan Türü"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldDescription": {
+    "message": "Açıklama"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldDescriptionPlaceholder": {
+    "message": "Bu alanın ne içermesi gerektiğini açıklayın..."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldSpeaking": {
+    "message": "Sesli okumayı etkinleştir"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_actions": {
+    "message": "İşlemler"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_cancel": {
+    "message": "İptal"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_save": {
+    "message": "Kaydet"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_defaultFieldName": {
+    "message": "sonuç"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldNamePlaceholder": {
+    "message": "alan_adı"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_autoFieldPrefix": {
+    "message": "alan"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_addFieldDialog_title": {
+    "message": "Çıktı Alanı Ekle"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_editFieldDialog_title": {
+    "message": "Çıktı Alanını Düzenle"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_editFieldDialog_save": {
+    "message": "Kaydet"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteFieldDialog_title": {
+    "message": "Çıktı Alanı Silinsin mi?"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteFieldDialog_description": {
+    "message": "Bu çıktı alanı kaldırılacaktır."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteFieldDialog_confirm": {
+    "message": "Sil"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteFieldDialog_cancel": {
+    "message": "İptal"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_title": {
+    "message": "Notebase Bağlantısı"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_description": {
+    "message": "Bu eylemin yapılandırılmış sonuçlarını uzak bir Notebase'e kaydedin."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_loginRequiredTitle": {
+    "message": "Notebase yapılandırmak için giriş yapın"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_loginRequiredDescription": {
+    "message": "notebase seçmeden veya eşlemeleri düzenlemeden önce readfrog.app'te oturum açın."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_loginAction": {
+    "message": "Giriş yap"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tableLabel": {
+    "message": "Notebase"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tablePlaceholder": {
+    "message": "Bir notebase seçin"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tableClearOption": {
+    "message": "Notebase bağlama"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_refreshAction": {
+    "message": "Yenile"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_emptyTitle": {
+    "message": "Henüz Notebase yok"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_emptyDescription": {
+    "message": "readfrog.app'te bir notebase oluşturun, sonra alanları eşlemek için buraya dönün."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_openNotebaseAction": {
+    "message": "Notebase'i Aç"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_betaLockedTitle": {
+    "message": "Bu hesap Notebase beta programında değil"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_betaLockedDescription": {
+    "message": "Bu action yapılandırmasını koruyabilirsiniz, ancak Notebase seçimi ve sonuç senkronizasyonu şimdilik yalnızca seçili beta hesapları için açık."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tableUnavailableTitle": {
+    "message": "Seçilen notebase artık kullanılamıyor"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tableUnavailableDescription": {
+    "message": "Tekrar kaydetmeden önce yenileyin veya başka bir notebase seçin."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tableUnavailableOption": {
+    "message": "kullanılamıyor"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_schemaErrorTitle": {
+    "message": "notebase şeması yüklenemedi"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_schemaErrorDescription": {
+    "message": "Kısa süre sonra yeniden yenilemeyi deneyin."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_schemaLoading": {
+    "message": "notebase şeması yükleniyor..."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingsLabel": {
+    "message": "Alan Eşlemeleri"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingsEmpty": {
+    "message": "Henüz eşleme yok. Alanları kaydetmeye hazır olduğunuzda bir tane ekleyin."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_addMappingAction": {
+    "message": "Eşleme Ekle"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_removeMappingAction": {
+    "message": "Eşlemeyi Kaldır"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_localFieldLabel": {
+    "message": "Eylem alanı"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_localFieldPlaceholder": {
+    "message": "Bir eylem alanı seçin"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_remoteFieldLabel": {
+    "message": "Notebase alanı"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_remoteFieldPlaceholder": {
+    "message": "Bir notebase alanı seçin"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_columnUnavailableOption": {
+    "message": "silinmiş"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_invalidMappingsTitle": {
+    "message": "Bazı eşlemeler ilgi gerektiriyor"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_invalidMappingsDescription": {
+    "message": "Geçersiz eşlemeler korunur, ancak siz düzeltmeden önce Save to Notebase devre dışı kalır."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingMissingLocal": {
+    "message": "Eşlenen eylem alanı artık yok."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingMissingRemote": {
+    "message": "Eşlenen notebase alanı artık yok."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingMissingSchema": {
+    "message": "Bu eşlemeyi doğrulamak için notebase şemasını yenileyin."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingIncompatible": {
+    "message": "Alan türleri artık eşleşmiyor."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_tokens_selection": {
+    "message": "Seçilen metin içeriği"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_tokens_paragraphs": {
+    "message": "Seçimle kesişen paragraf metni; boş satırlarla birleştirilir ve özel AI eylemlerine gönderilirken ilk 2000 karaktere kısaltılır"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_tokens_targetLanguage": {
+    "message": "Kullanıcının hedef dili"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_tokens_webTitle": {
+    "message": "Web sayfası başlığı"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_tokens_webContent": {
+    "message": "Geçerli sayfadan çıkarılan ve ilk 2000 karaktere kısaltılan web sayfası içeriği"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_delete": {
+    "message": "Sil"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteDialog_title": {
+    "message": "Özel eylem silinsin mi?"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteDialog_description": {
+    "message": "Bu işlem geri alınamaz."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteDialog_confirm": {
+    "message": "Sil"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteDialog_cancel": {
+    "message": "İptal"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_nameRequired": {
+    "message": "Ad gerekli"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_duplicateName": {
+    "message": "Yinelenen eylem adı \"$1\""
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_invalidIcon": {
+    "message": "Geçersiz Iconify simge metni"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_providerRequired": {
+    "message": "Etkin bir LLM sağlayıcısı seçin"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_outputSchemaRequired": {
+    "message": "En az bir çıktı alanı ekleyin"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_fieldKeyRequired": {
+    "message": "Alan adı gerekli"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_duplicateFieldKey": {
+    "message": "Alan adları benzersiz olmalıdır"
+  },
+  "options_floatingButtonAndToolbar_contextMenu_title": {
+    "message": "Bağlam Menüsü"
+  },
+  "options_floatingButtonAndToolbar_contextMenu_translate_title": {
+    "message": "Bağlam Menüsü Çevirisini Etkinleştir"
+  },
+  "options_floatingButtonAndToolbar_contextMenu_translate_description": {
+    "message": "Sayfa veya seçili metni hızlıca çevirmek için tarayıcı sağ tıklama menüsüne çeviri seçenekleri ekle"
+  },
+  "options_translation_title": {
+    "message": "Çeviri"
+  },
+  "options_translation_requestQueueConfig_title": {
+    "message": "Çeviri Hızı"
+  },
+  "options_translation_requestQueueConfig_firstOnDescription": {
+    "message": "Çeviri isteklerinin işleme hızını"
+  },
+  "options_translation_requestQueueConfig_lastOnDescription": {
+    "message": "algoritmasıyla ayarlayın"
+  },
+  "options_translation_requestQueueConfig_capacity_title": {
+    "message": "Maksimum Ani İstek Sayısı"
+  },
+  "options_translation_requestQueueConfig_capacity_description": {
+    "message": "İzin verilen geçici ani istek sayısı, kısa bir süre içinde eşzamanlı olarak işlenebilecek maksimum istek sayısını belirler"
+  },
+  "options_translation_requestQueueConfig_rate_title": {
+    "message": "Saniyedeki Ortalama İstek"
+  },
+  "options_translation_requestQueueConfig_rate_description": {
+    "message": "Saniyedeki ortalama istek, ancak geçici olarak fazla istek göndermek için maksimum ani sayısını yapılandırmaya izin verir"
+  },
+  "options_translation_batchQueueConfig_title": {
+    "message": "Toplu Çeviri"
+  },
+  "options_translation_batchQueueConfig_description": {
+    "message": "Toplu çeviri için karakter limitleri ve maksimum paragraf sayısını yapılandırın (yalnızca LLM çevirisi için geçerlidir)"
+  },
+  "options_translation_batchQueueConfig_maxCharactersPerBatch_title": {
+    "message": "Maksimum Karakter"
+  },
+  "options_translation_batchQueueConfig_maxCharactersPerBatch_description": {
+    "message": "Her çevirinin içerik hacmini kontrol etmek için toplu istek başına izin verilen maksimum karakter sayısı"
+  },
+  "options_translation_batchQueueConfig_maxItemsPerBatch_title": {
+    "message": "Maksimum Paragraf Sayısı"
+  },
+  "options_translation_batchQueueConfig_maxItemsPerBatch_description": {
+    "message": "Her çevirinin içerik hacmini kontrol etmek için her toplu çeviri için maksimum paragraf sayısı"
+  },
+  "options_translation_batchQueueConfig_statisticsLink": {
+    "message": "Son 7 günde yaklaşık $1 maliyet tasarrufu sağlandı"
+  },
+  "options_translation_autoTranslateWebsite_title": {
+    "message": "Web Sitesine Göre Otomatik Çevir"
+  },
+  "options_translation_autoTranslateWebsite_description": {
+    "message": "Bu web sitesini her zaman çevir"
+  },
+  "options_translation_autoTranslateWebsite_urlPattern": {
+    "message": "URL Kalıbı"
+  },
+  "options_translation_autoTranslateWebsite_enterUrlPattern": {
+    "message": "URL Kalıbı Girin"
+  },
+  "options_translation_personalizedPrompts_title": {
+    "message": "Kişiselleştirilmiş Promptlar"
+  },
+  "options_translation_personalizedPrompts_description": {
+    "message": "Farklı türde Promptları özelleştirmek, çeviri sırasında Prompt türünü kendiniz ayarlamanıza olanak tanır. Prompt, kullanıcının LLM'ye gönderdiği metni temsil eder."
+  },
+  "options_translation_personalizedPrompts_communityPrompts": {
+    "message": "Topluluktan prompt al veya paylaş"
+  },
+  "options_translation_personalizedPrompts_communityPromptsUrl": {
+    "message": "https://github.com/mengxi-ream/read-frog/discussions/821"
+  },
+  "options_translation_personalizedPrompts_addPrompt": {
+    "message": "Prompt Ekle"
+  },
+  "options_translation_personalizedPrompts_default": {
+    "message": "Varsayılan"
+  },
+  "options_translation_personalizedPrompts_importSuccess": {
+    "message": "İçe Aktarma Başarılı"
+  },
+  "options_translation_personalizedPrompts_import": {
+    "message": "İçe Aktar"
+  },
+  "options_translation_personalizedPrompts_export": {
+    "message": "Dışa Aktar"
+  },
+  "options_translation_personalizedPrompts_current": {
+    "message": "kullanımda"
+  },
+  "options_translation_personalizedPrompts_editPrompt_title": {
+    "message": "Promptu Düzenle"
+  },
+  "options_translation_personalizedPrompts_editPrompt_name": {
+    "message": "Ad"
+  },
+  "options_translation_personalizedPrompts_editPrompt_systemPrompt": {
+    "message": "Sistem Promptu"
+  },
+  "options_translation_personalizedPrompts_editPrompt_prompt": {
+    "message": "Prompt"
+  },
+  "options_translation_personalizedPrompts_editPrompt_promptCellInput_input": {
+    "message": "Çevrilecek metin içeriği"
+  },
+  "options_translation_personalizedPrompts_editPrompt_promptCellInput_targetLanguage": {
+    "message": "Hedef dil"
+  },
+  "options_translation_personalizedPrompts_editPrompt_promptCellInput_webTitle": {
+    "message": "Web sayfası başlığı"
+  },
+  "options_translation_personalizedPrompts_editPrompt_promptCellInput_webContent": {
+    "message": "Web sayfası içeriği (ilk 2000 karaktere kısaltılır)"
+  },
+  "options_translation_personalizedPrompts_editPrompt_promptCellInput_webSummary": {
+    "message": "Web sayfası özeti (AI Akıllı Bağlam gerektirir)"
+  },
+  "options_translation_personalizedPrompts_editPrompt_save": {
+    "message": "Değişiklikleri Kaydet"
+  },
+  "options_translation_personalizedPrompts_editPrompt_close": {
+    "message": "İptal"
+  },
+  "options_translation_personalizedPrompts_deletePrompt_title": {
+    "message": "Promptu Sil"
+  },
+  "options_translation_personalizedPrompts_deletePrompt_description": {
+    "message": "Promptu silmeyi onayla"
+  },
+  "options_translation_personalizedPrompts_deletePrompt_confirm": {
+    "message": "Onayla"
+  },
+  "options_translation_personalizedPrompts_deletePrompt_cancel": {
+    "message": "İptal"
+  },
+  "options_translation_personalizedPrompts_exportPrompt_exportSelected": {
+    "message": "Seçilenleri Dışa Aktar"
+  },
+  "options_translation_personalizedPrompts_exportPrompt_cancel": {
+    "message": "İptal"
+  },
+  "options_translation_translationStyle_title": {
+    "message": "Çeviri Görüntüleme Stili"
+  },
+  "options_translation_translationStyle_description": {
+    "message": "Çeviri sonuçlarını orijinal metinden ayırt etmek için istediğiniz herhangi bir stili ayarlayın"
+  },
+  "options_translation_translationStyle_useCustomStyle": {
+    "message": "Özel CSS Stili Kullan"
+  },
+  "options_translation_translationStyle_useCustomStyleDescription": {
+    "message": "Yazı tipleri, animasyonlar ve dile özgü stiller dahil herhangi bir CSS'yi destekler"
+  },
+  "options_translation_translationStyle_presetStyle": {
+    "message": "Hazır Stil"
+  },
+  "options_translation_translationStyle_cssEditor": {
+    "message": "CSS Editörü"
+  },
+  "options_translation_translationStyle_preview": {
+    "message": "Önizleme"
+  },
+  "options_translation_translationStyle_stylePreviewLanguage": {
+    "message": "Dil"
+  },
+  "options_translation_translationStyle_stylePreviewDirection": {
+    "message": "Yön"
+  },
+  "options_translation_translationStyle_stylePreviewTranslatedText": {
+    "message": "Çevrilmiş Metin"
+  },
+  "options_translation_translationStyle_style_default": {
+    "message": "Yok"
+  },
+  "options_translation_translationStyle_style_blur": {
+    "message": "Bulanıklık Efekti"
+  },
+  "options_translation_translationStyle_style_blockquote": {
+    "message": "Alıntı"
+  },
+  "options_translation_translationStyle_style_weakened": {
+    "message": "Zayıflatılmış"
+  },
+  "options_translation_translationStyle_style_dashedLine": {
+    "message": "Kesikli Çizgi"
+  },
+  "options_translation_translationStyle_style_border": {
+    "message": "Kenarlık"
+  },
+  "options_translation_translationStyle_style_textColor": {
+    "message": "Metin Rengi"
+  },
+  "options_translation_translationStyle_style_background": {
+    "message": "Arka Plan"
+  },
+  "options_translation_translationStyle_customCSS_editor_placeholder": {
+    "message": "/* Örnek: Renk ve arka planlı özel stil */\n[data-read-frog-custom-translation-style='custom'] {\n  color: #414535;\n  background-color: light-dark(#F2E3BC, #C19875);\n  padding: 2px 4px;\n  border-radius: 4px;\n}\n"
+  },
+  "options_translation_translationStyle_customCSS_editor_saveButton": {
+    "message": "Kaydet"
+  },
+  "options_translation_translationStyle_customCSS_editor_savedButton": {
+    "message": "Kaydedildi"
+  },
+  "options_translation_translationStyle_customCSS_editor_validation_validating": {
+    "message": "Doğrulanıyor..."
+  },
+  "options_translation_translationStyle_customCSS_editor_validation_valid": {
+    "message": "CSS geçerli"
+  },
+  "options_translation_translationStyle_customCSS_editor_validation_syntaxError": {
+    "message": "CSS sözdizimi hataları içeriyor"
+  },
+  "options_translation_translationStyle_customCSS_editor_validation_tooLong": {
+    "message": "CSS çok uzun"
+  },
+  "options_translation_translationStyle_customCSS_editor_validation_saved": {
+    "message": "Tüm değişiklikler kaydedildi"
+  },
+  "options_translation_translationMode_title": {
+    "message": "Çeviri Modu"
+  },
+  "options_translation_translationMode_description": {
+    "message": "Çevrilmiş metnin nasıl görüntüleneceğini seçin: iki dilli veya yalnızca çeviri."
+  },
+  "options_translation_translationMode_mode_bilingual": {
+    "message": "İki Dilli"
+  },
+  "options_translation_translationMode_mode_translationOnly": {
+    "message": "Yalnızca Çeviri"
+  },
+  "options_translation_translateRange_title": {
+    "message": "Çeviri Kapsamı"
+  },
+  "options_translation_translateRange_description": {
+    "message": "Sayfadaki yalnızca ana içeriğin mi yoksa tüm içeriğin mi çevrileceğini seçin."
+  },
+  "options_translation_translateRange_range_main": {
+    "message": "Ana İçerik"
+  },
+  "options_translation_translateRange_range_all": {
+    "message": "Tüm İçerik"
+  },
+  "options_translation_pageTranslationShortcut_title": {
+    "message": "Sayfa Çeviri Kısayolu"
+  },
+  "options_translation_pageTranslationShortcut_description": {
+    "message": "Tüm web sayfalarını çevirmek için kısayol tuşunu özelleştirin"
+  },
+  "options_translation_preloadConfig_title": {
+    "message": "Ön Çeviri Aralığı"
+  },
+  "options_translation_preloadConfig_description": {
+    "message": "API maliyetlerinden tasarruf etmek için görünüm alanının altındaki ne kadar içeriğin önceden çevrileceğini kontrol edin"
+  },
+  "options_translation_preloadConfig_margin_title": {
+    "message": "Ön Yükleme Mesafesi (piksel)"
+  },
+  "options_translation_preloadConfig_margin_description": {
+    "message": "İçeriği çevirmeye başlamak için görünüm alanının ne kadar altı. Daha düşük değerler API maliyetlerinden tasarruf sağlar ancak kaydırma sırasında gecikmelere neden olabilir."
+  },
+  "options_translation_preloadConfig_threshold_title": {
+    "message": "Görünürlük Eşiği"
+  },
+  "options_translation_preloadConfig_threshold_description": {
+    "message": "Çeviriyi tetiklemek için gereken öğe görünürlük yüzdesi (0-1). Daha yüksek değerler, öğenin daha fazlası görünür olana kadar çeviriyi geciktirir."
+  },
+  "options_translation_smallParagraphFilter_title": {
+    "message": "Kısa Metin Filtresi"
+  },
+  "options_translation_smallParagraphFilter_description": {
+    "message": "Eşik değerinden az karakterli veya kelimeli metin düğümlerinin çevirisini atla (0 = devre dışı)"
+  },
+  "options_translation_smallParagraphFilter_minCharacters_title": {
+    "message": "Minimum Karakter"
+  },
+  "options_translation_smallParagraphFilter_minCharacters_description": {
+    "message": "Bu değerden az karakterli metin düğümleri çevrilmeyecektir. Karakter sayısı boşlukları içerir."
+  },
+  "options_translation_smallParagraphFilter_minWords_title": {
+    "message": "Minimum Kelime"
+  },
+  "options_translation_smallParagraphFilter_minWords_description": {
+    "message": "Bu değerden az kelimeli metin düğümleri çevrilmeyecektir. Tüm dillerde doğru kelime sayımı için Intl.Segmenter kullanılır."
+  },
+  "options_translation_smallParagraphFilter_error": {
+    "message": "Değer $1 ile $2 arasında olmalıdır"
+  },
+  "options_translation_nodeTranslationHotkey_title": {
+    "message": "Üzerine Gelme veya Uzun Basma Çeviri Kısayolu"
+  },
+  "options_translation_nodeTranslationHotkey_description": {
+    "message": "Üzerine gelme için değiştirici tuşu özelleştirin veya paragrafları çevirmek için uzun basın"
+  },
+  "options_translation_nodeTranslationHotkey_enable": {
+    "message": "Etkinleştir"
+  },
+  "options_translation_llmProviderConfigured": {
+    "message": "$1 için LLM sağlayıcısı seçildi"
+  },
+  "options_translation_llmProviderNotConfigured": {
+    "message": "$1 için LLM sağlayıcısı seçilmedi"
+  },
+  "options_translation_autoTranslateLanguages_title": {
+    "message": "Dile Göre Otomatik Çevir"
+  },
+  "options_translation_autoTranslateLanguages_description": {
+    "message": "Belirli diller algılandığında sayfa içeriğini otomatik olarak çevir"
+  },
+  "options_translation_autoTranslateLanguages_selectLanguages": {
+    "message": "Dilleri seçin"
+  },
+  "options_translation_autoTranslateLanguages_detection_label": {
+    "message": "Dil Algılama"
+  },
+  "options_translation_autoTranslateLanguages_detection_basic": {
+    "message": "Temel"
+  },
+  "options_translation_autoTranslateLanguages_detection_llm": {
+    "message": "LLM"
+  },
+  "options_translation_autoTranslateLanguages_detection_description": {
+    "message": "Temel algılama hızlı ve ücretsizdir. LLM algılama daha doğrudur ancak gecikme ve API maliyetleri ekler. Yapılandırılmış otomatik çeviri dilleri gerektirir."
+  },
+  "options_translation_skipLanguages_title": {
+    "message": "Dile Göre Otomatik Atla"
+  },
+  "options_translation_skipLanguages_description": {
+    "message": "Belirli diller algılandığında paragraf çevirisini otomatik olarak atla"
+  },
+  "options_translation_skipLanguages_targetLanguageSkip": {
+    "message": "Hedef dili atla"
+  },
+  "options_translation_skipLanguages_targetLanguageSkipDescription": {
+    "message": "Çeviriden önce paragrafın zaten hedef dilde olup olmadığını algılar. Eşleşen metin istek göndermeden atlanır. Bunu kapatmak, değişmeyen çeviri çıktısını gizleyen sonraki korumayı değiştirmez."
+  },
+  "options_translation_skipLanguages_selectLanguages": {
+    "message": "Dilleri seçin"
+  },
+  "options_translation_skipLanguages_detection_label": {
+    "message": "Dil Algılama"
+  },
+  "options_translation_skipLanguages_detection_basic": {
+    "message": "Temel"
+  },
+  "options_translation_skipLanguages_detection_llm": {
+    "message": "LLM"
+  },
+  "options_translation_skipLanguages_detection_description": {
+    "message": "Temel algılama hızlı ve ücretsizdir. LLM algılama daha doğrudur ancak gecikme ve API maliyetleri ekler."
+  },
+  "options_translation_aiContentAware_title": {
+    "message": "AI Akıllı Bağlam Çevirisi"
+  },
+  "options_translation_aiContentAware_description": {
+    "message": "AI'ya web sayfası bağlamı sağlayarak çeviri kalitesini artırın"
+  },
+  "options_translation_aiContentAware_enable": {
+    "message": "AI Akıllı Bağlam Çevirisini Etkinleştir"
+  },
+  "options_translation_aiContentAware_enableDescription": {
+    "message": "AI, çeviri doğruluğunu artırmak için web sayfası özetini kullanır. LLM sağlayıcısı gerektirir. Bir sayfayı çevirmeye başlarken gecikme ekler ve API maliyetlerini artırır."
+  },
+  "options_tts_title": {
+    "message": "Metinden Konuşmaya"
+  },
+  "options_tts_description": {
+    "message": "Konuş butonunu Edge TTS ses ayarlarıyla özelleştirin."
+  },
+  "options_tts_voice_label": {
+    "message": "Ses"
+  },
+  "options_tts_voice_fallback": {
+    "message": "Yedek"
+  },
+  "options_tts_voice_selectPlaceholder": {
+    "message": "Bir ses seçin"
+  },
+  "options_tts_voice_preview": {
+    "message": "Önizleme"
+  },
+  "options_tts_voice_previewSample": {
+    "message": "Skim AI'dan merhaba! Yüksek sesle okurken böyle ses çıkaracağım."
+  },
+  "options_tts_languageVoice_label": {
+    "message": "Dil Sesi"
+  },
+  "options_tts_languageVoice_reset": {
+    "message": "Varsayılana Sıfırla"
+  },
+  "options_tts_languageVoice_description": {
+    "message": "Bir dil seçin ve TTS bu dili algıladığında kullanılacak sesi atayın."
+  },
+  "options_tts_rate_label": {
+    "message": "Hız (%)"
+  },
+  "options_tts_rate_hint": {
+    "message": "-100 ile 100 arasında tam sayı değerleri kabul eder"
+  },
+  "options_tts_pitch_label": {
+    "message": "Perde (Hz)"
+  },
+  "options_tts_pitch_hint": {
+    "message": "-100 ile 100 arasında tam sayı değerleri kabul eder"
+  },
+  "options_tts_volume_label": {
+    "message": "Ses Düzeyi (%)"
+  },
+  "options_tts_volume_hint": {
+    "message": "-100 ile 100 arasında tam sayı değerleri kabul eder"
+  },
+  "options_tts_betaDisabled": {
+    "message": "Metinden konuşmaya ayarlarını özelleştirmek için Beta Deneyimini etkinleştirin."
+  },
+  "options_statistics_title": {
+    "message": "İstatistikler"
+  },
+  "options_statistics_batchRequest_title": {
+    "message": "Kaydedilen Toplu Çeviri İstekleri"
+  },
+  "options_statistics_batchRequest_description": {
+    "message": "Dönem içinde toplu çeviri ile kaydedilen istek yüzdesi"
+  },
+  "options_statistics_batchRequest_originalRequestCount": {
+    "message": "Orijinal İstek Sayısı"
+  },
+  "options_statistics_batchRequest_batchRequestCount": {
+    "message": "Toplu İstek Sayısı"
+  },
+  "options_config_title": {
+    "message": "Yapılandırma"
+  },
+  "options_config_about_title": {
+    "message": "Hakkında"
+  },
+  "options_config_about_description": {
+    "message": "Skim AI Nisan 2025'te doğdu"
+  },
+  "options_config_about_mission": {
+    "message": "Skim AI, yapay zeka çağında yüksek kaliteli eğitime daha eşit erişimi genişletmek için, dil öğrenimi, tıp ve bilgi yoğun diğer alanlarda gerçek bir öğretmene daha yakın hissettiren öğrenme deneyimlerini daha ulaşılabilir maliyetlerle sunmayı hedefler."
+  },
+  "options_config_about_analytics_title": {
+    "message": "Kullanıcı deneyimini geliştirmemize yardımcı ol"
+  },
+  "options_config_about_analytics_tooltip": {
+    "message": "Açık olduğunda Skim AI, özelliklerin güvenilir çalıştığını doğrulamak, performansı ve UX ayrıntılarını iyileştirmek ve sıradaki önceliklerimizi belirlemek için anonim kullanım sinyalleri gönderir."
+  },
+  "options_config_sync_title": {
+    "message": "Manuel Yapılandırma Senkronizasyonu"
+  },
+  "options_config_sync_description": {
+    "message": "Yapılandırma ayarlarınızı manuel olarak içe ve dışa aktarın"
+  },
+  "options_config_sync_import": {
+    "message": "Yapılandırmayı İçe Aktar"
+  },
+  "options_config_sync_export": {
+    "message": "Yapılandırmayı Dışa Aktar"
+  },
+  "options_config_sync_importSuccess": {
+    "message": "Yapılandırma başarıyla içe aktarıldı"
+  },
+  "options_config_sync_exportSuccess": {
+    "message": "Yapılandırma başarıyla dışa aktarıldı"
+  },
+  "options_config_sync_importError": {
+    "message": "İçe aktarma başarısız"
+  },
+  "options_config_sync_versionTooNew": {
+    "message": "İçe aktarılan yapılandırma sürümü daha yeni, lütfen Skim AI'u en son sürüme yükseltin"
+  },
+  "options_config_sync_migrationError": {
+    "message": "Geçiş başarısız"
+  },
+  "options_config_sync_validationError": {
+    "message": "Yapılandırma doğrulaması başarısız"
+  },
+  "options_config_sync_exportOptions_title": {
+    "message": "Dışa Aktarma Seçeneklerini Seçin"
+  },
+  "options_config_sync_exportOptions_description": {
+    "message": "Lütfen dışa aktarılan yapılandırmaya API Anahtarlarını dahil edip etmemeyi seçin. API Anahtarlarını dahil etmek hassas bilgileri sızdırabilir, bu nedenle yalnızca güvenli ortamlarda kullanılması önerilir."
+  },
+  "options_config_sync_exportOptions_includeAPIKeys": {
+    "message": "API Anahtarlarını Dahil Et"
+  },
+  "options_config_sync_exportOptions_excludeAPIKeys": {
+    "message": "API Anahtarlarını Hariç Tut"
+  },
+  "options_config_sync_exportOptions_cancel": {
+    "message": "İptal"
+  },
+  "options_config_sync_viewConfig_expand": {
+    "message": "Yapılandırmayı Genişlet"
+  },
+  "options_config_sync_viewConfig_collapse": {
+    "message": "Yapılandırmayı Daralt"
+  },
+  "options_config_sync_googleDrive_title": {
+    "message": "Google Drive Bulut Senkronizasyonu"
+  },
+  "options_config_sync_googleDrive_description": {
+    "message": "Uzak daha yeniyse indirir, yerel daha yeniyse yükler"
+  },
+  "options_config_sync_googleDrive_sync": {
+    "message": "Google Drive'a Senkronize Et"
+  },
+  "options_config_sync_googleDrive_syncing": {
+    "message": "Senkronize ediliyor..."
+  },
+  "options_config_sync_googleDrive_syncSuccess_uploaded": {
+    "message": "Yerel ayarlar buluta yüklendi"
+  },
+  "options_config_sync_googleDrive_syncSuccess_downloaded": {
+    "message": "Uzak ayarlar uygulandı"
+  },
+  "options_config_sync_googleDrive_syncSuccess_sameChanges": {
+    "message": "Yerel ve uzak değişiklikler aynı, senkronize edildi"
+  },
+  "options_config_sync_googleDrive_syncSuccess_noChange": {
+    "message": "Zaten güncel"
+  },
+  "options_config_sync_googleDrive_syncSuccess_unresolved": {
+    "message": "Çakışmalar çözüldü ve senkronize edildi"
+  },
+  "options_config_sync_googleDrive_syncError": {
+    "message": "Senkronizasyon başarısız, lütfen tekrar deneyin"
+  },
+  "options_config_sync_googleDrive_metadataCorrupted": {
+    "message": "Senkronizasyon meta verileri bozuk, uzak yapılandırma uygulandı"
+  },
+  "options_config_sync_googleDrive_lastSyncTime": {
+    "message": "Son senkronizasyon"
+  },
+  "options_config_sync_googleDrive_logout": {
+    "message": "Çıkış yap"
+  },
+  "options_config_sync_googleDrive_logoutSuccess": {
+    "message": "Google hesabından çıkış yapıldı"
+  },
+  "options_config_sync_googleDrive_unresolved_title": {
+    "message": "Yapılandırma Senkronizasyon Çözümü"
+  },
+  "options_config_sync_googleDrive_unresolved_description": {
+    "message": "Yerel ve uzak yapılandırmalar farklı. Lütfen her alan için hangi sürümün tutulacağını seçin."
+  },
+  "options_config_sync_googleDrive_unresolved_resolved": {
+    "message": "Çözüldü"
+  },
+  "options_config_sync_googleDrive_unresolved_unresolved": {
+    "message": "Çözülmedi"
+  },
+  "options_config_sync_googleDrive_unresolved_localValue": {
+    "message": "Yerel Değer"
+  },
+  "options_config_sync_googleDrive_unresolved_remoteValue": {
+    "message": "Uzak Değer"
+  },
+  "options_config_sync_googleDrive_unresolved_useLocal": {
+    "message": "Yereli Kullan"
+  },
+  "options_config_sync_googleDrive_unresolved_useRemote": {
+    "message": "Uzakı Kullan"
+  },
+  "options_config_sync_googleDrive_unresolved_useAllLocal": {
+    "message": "Tüm Yereli Kullan"
+  },
+  "options_config_sync_googleDrive_unresolved_useAllRemote": {
+    "message": "Tüm Uzakı Kullan"
+  },
+  "options_config_sync_googleDrive_unresolved_reset": {
+    "message": "Seçimi Sıfırla"
+  },
+  "options_config_sync_googleDrive_unresolved_progress": {
+    "message": "$1/$2 değişiklik çözüldü"
+  },
+  "options_config_sync_googleDrive_unresolved_confirm": {
+    "message": "Senkronizasyonu Onayla"
+  },
+  "options_config_sync_googleDrive_unresolved_cancel": {
+    "message": "İptal"
+  },
+  "options_config_sync_googleDrive_unresolved_hasUnresolvedInChildren": {
+    "message": "⚠ Çözülmemiş değişiklikler içeriyor"
+  },
+  "options_config_sync_googleDrive_unresolved_item": {
+    "message": "öğe"
+  },
+  "options_config_sync_googleDrive_unresolved_items": {
+    "message": "öğe"
+  },
+  "options_config_sync_googleDrive_unresolved_unresolvedPrompt": {
+    "message": "[Çözülmedi - Lütfen seçin]"
+  },
+  "options_config_sync_googleDrive_unresolved_localLatest": {
+    "message": "En Son Yerel"
+  },
+  "options_config_sync_googleDrive_unresolved_remoteLatest": {
+    "message": "En Son Uzak"
+  },
+  "options_config_sync_googleDrive_unresolved_bothChanged": {
+    "message": "Her ikisi de değişti"
+  },
+  "options_config_sync_googleDrive_unresolved_localChanged": {
+    "message": "Yerel değişti"
+  },
+  "options_config_sync_googleDrive_unresolved_remoteChanged": {
+    "message": "Uzak değişti"
+  },
+  "options_config_sync_googleDrive_unresolved_configValid": {
+    "message": "Yapılandırma geçerli"
+  },
+  "options_config_sync_googleDrive_unresolved_configInvalid": {
+    "message": "Yapılandırma geçersiz"
+  },
+  "options_config_sync_googleDrive_unresolved_resolveToContinue": {
+    "message": "Devam etmek için çakışmaları çözün"
+  },
+  "options_config_sync_googleDrive_unresolved_validationAlert_title": {
+    "message": "Birleştirilmiş yapılandırmada doğrulama hataları var"
+  },
+  "options_config_sync_googleDrive_unresolved_validationAlert_description": {
+    "message": "Düzeltmek için aşağıdaki farklılıkları ayarlayın:"
+  },
+  "options_config_sync_googleDrive_unresolved_moreErrors": {
+    "message": "...ve $1 hata daha"
+  },
+  "options_config_backup_title": {
+    "message": "Yapılandırma Yedekleme"
+  },
+  "options_config_backup_description": {
+    "message": "Yapılandırma değiştirilirse otomatik yedeklemeler her saat oluşturulur. Önceki yapılandırmaları buradan geri yükleyebilirsiniz. (Maksimum $1 yedekleme)"
+  },
+  "options_config_backup_loading": {
+    "message": "Yedeklemeler yükleniyor..."
+  },
+  "options_config_backup_backupNow": {
+    "message": "Şimdi yedekle"
+  },
+  "options_config_backup_backupSuccess": {
+    "message": "Yedekleme başarıyla oluşturuldu"
+  },
+  "options_config_backup_restoreSuccess": {
+    "message": "Yapılandırma başarıyla geri yüklendi"
+  },
+  "options_config_backup_empty_title": {
+    "message": "Henüz yedekleme mevcut değil"
+  },
+  "options_config_backup_empty_description": {
+    "message": "Yapılandırma değiştirilirse yedeklemeler her saat otomatik olarak oluşturulur."
+  },
+  "options_config_backup_item_extensionVersion": {
+    "message": "Uzantı sürümü:"
+  },
+  "options_config_backup_item_schemaVersion": {
+    "message": "Şema sürümü:"
+  },
+  "options_config_backup_item_restore": {
+    "message": "Geri Yükle"
+  },
+  "options_config_backup_item_export": {
+    "message": "Dışa Aktar"
+  },
+  "options_config_backup_item_delete": {
+    "message": "Sil"
+  },
+  "options_config_backup_restore_title": {
+    "message": "Yapılandırma yedeğini geri yükle?"
+  },
+  "options_config_backup_restore_description": {
+    "message": "Mevcut yapılandırmanız en son yedeklemeden farklıysa otomatik olarak yedeklenecektir. Yedekleme sayısı limiti aşarsa en eski yedekleme kaldırılabilir."
+  },
+  "options_config_backup_restore_cancel": {
+    "message": "İptal"
+  },
+  "options_config_backup_restore_confirm": {
+    "message": "Geri Yükle"
+  },
+  "options_config_backup_delete_title": {
+    "message": "Yedekleme silinsin mi?"
+  },
+  "options_config_backup_delete_description": {
+    "message": "Bu yedeklemeyi silmek istediğinizden emin misiniz? Bu işlem geri alınamaz."
+  },
+  "options_config_backup_delete_cancel": {
+    "message": "İptal"
+  },
+  "options_config_backup_delete_confirm": {
+    "message": "Sil"
+  },
+  "options_config_resetConfig_title": {
+    "message": "Yapılandırmayı Sıfırla"
+  },
+  "options_config_resetConfig_description": {
+    "message": "Tüm yapılandırmayı varsayılan değere sıfırla"
+  },
+  "options_config_resetConfig_dialog_title": {
+    "message": "Yapılandırmayı Sıfırla"
+  },
+  "options_config_resetConfig_dialog_trigger": {
+    "message": "Yapılandırmayı Sıfırla"
+  },
+  "options_config_resetConfig_dialog_confirm": {
+    "message": "Onayla"
+  },
+  "options_config_resetConfig_dialog_cancel": {
+    "message": "İptal"
+  },
+  "options_config_resetConfig_dialog_description": {
+    "message": "Bu işlem tüm özel yapılandırmalarınızı temizleyecek ve varsayılan değerlere sıfırlayacaktır. Lütfen onaylayın."
+  },
+  "options_videoSubtitles_title": {
+    "message": "Video Altyazıları"
+  },
+  "options_videoSubtitles_description": {
+    "message": "Şu anda yalnızca YouTube video altyazılarını desteklemektedir"
+  },
+  "options_videoSubtitles_provider_title": {
+    "message": "Çeviri Sağlayıcısı"
+  },
+  "options_videoSubtitles_provider_description": {
+    "message": "Video altyazı çevirisi için kullanılacak çeviri sağlayıcısını seçin"
+  },
+  "options_videoSubtitles_provider_label": {
+    "message": "Sağlayıcı"
+  },
+  "options_videoSubtitles_enable": {
+    "message": "Video Altyazılarını Etkinleştir"
+  },
+  "options_videoSubtitles_enableDescription": {
+    "message": "Etkinleştirildiğinde, YouTube oynatıcı kontrollerinde bir çeviri düğmesi görünecektir. Altyazıları çevirmeye başlamak için tıklayın."
+  },
+  "options_videoSubtitles_autoStart": {
+    "message": "Altyazıyı Otomatik Etkinleştir"
+  },
+  "options_videoSubtitles_autoStartDescription": {
+    "message": "Video yüklendiğinde altyazı çevirisini otomatik olarak etkinleştirir."
+  },
+  "options_videoSubtitles_style_title": {
+    "message": "Altyazı Stili"
+  },
+  "options_videoSubtitles_style_description": {
+    "message": "Altyazı görünümünü özelleştirin"
+  },
+  "options_videoSubtitles_style_preview": {
+    "message": "Önizleme"
+  },
+  "options_videoSubtitles_style_displayMode_title": {
+    "message": "Görüntüleme Modu"
+  },
+  "options_videoSubtitles_style_displayMode_bilingual": {
+    "message": "İki Dilli"
+  },
+  "options_videoSubtitles_style_displayMode_originalOnly": {
+    "message": "Sadece Orijinal"
+  },
+  "options_videoSubtitles_style_displayMode_translationOnly": {
+    "message": "Sadece Çeviri"
+  },
+  "options_videoSubtitles_style_translationPosition_title": {
+    "message": "Çeviri Konumu"
+  },
+  "options_videoSubtitles_style_translationPosition_above": {
+    "message": "Üstte"
+  },
+  "options_videoSubtitles_style_translationPosition_below": {
+    "message": "Altta"
+  },
+  "options_videoSubtitles_style_generalSettings": {
+    "message": "Genel Ayarlar"
+  },
+  "options_videoSubtitles_style_mainSubtitle": {
+    "message": "Ana Altyazı"
+  },
+  "options_videoSubtitles_style_translationSubtitle": {
+    "message": "Çeviri Altyazısı"
+  },
+  "options_videoSubtitles_style_containerStyle": {
+    "message": "Arka Plan"
+  },
+  "options_videoSubtitles_style_fontFamily": {
+    "message": "Yazı Tipi"
+  },
+  "options_videoSubtitles_style_fontScale": {
+    "message": "Yazı Boyutu"
+  },
+  "options_videoSubtitles_style_color": {
+    "message": "Renk"
+  },
+  "options_videoSubtitles_style_fontWeight": {
+    "message": "Yazı Kalınlığı"
+  },
+  "options_videoSubtitles_style_backgroundOpacity": {
+    "message": "Arka Plan Şeffaflığı"
+  },
+  "options_videoSubtitles_style_reset": {
+    "message": "Varsayılana Sıfırla"
+  },
+  "options_videoSubtitles_aiSegmentation_title": {
+    "message": "AI Akıllı Bölümlendirme"
+  },
+  "options_videoSubtitles_aiSegmentation_enable": {
+    "message": "AI Akıllı Bölümlendirmeyi Etkinleştir"
+  },
+  "options_videoSubtitles_aiSegmentation_enableDescription": {
+    "message": "Daha iyi okunabilirlik için altyazıları akıllıca bölümlemek üzere AI kullanın. Zaman çizelgesi AI tarafından belirlenir ve zaman zaman zamanlama kayması olabilir. LLM çeviri sağlayıcısı gerektirir."
+  },
+  "options_videoSubtitles_aiSegmentation_clearCache": {
+    "message": "Önbelleği Temizle"
+  },
+  "options_videoSubtitles_aiSegmentation_clearing": {
+    "message": "Temizleniyor..."
+  },
+  "options_videoSubtitles_aiSegmentation_clearCacheDialog_title": {
+    "message": "AI Bölümlendirme Önbelleğini Temizle"
+  },
+  "options_videoSubtitles_aiSegmentation_clearCacheDialog_description": {
+    "message": "Tüm önbelleğe alınmış AI bölümlendirme sonuçları silinecektir. AI bölümlendirme etkinleştirilmiş bir video oynatıldığında altyazılar yeniden işlenecektir."
+  },
+  "options_videoSubtitles_aiSegmentation_clearCacheDialog_cancel": {
+    "message": "İptal"
+  },
+  "options_videoSubtitles_aiSegmentation_clearCacheDialog_confirm": {
+    "message": "Onayla"
+  },
+  "options_videoSubtitles_requestQueueConfig_title": {
+    "message": "Altyazı Çeviri Hızı"
+  },
+  "options_videoSubtitles_requestQueueConfig_firstOnDescription": {
+    "message": "Altyazı çeviri isteklerinin işlem hızını ayarlamak için"
+  },
+  "options_videoSubtitles_requestQueueConfig_lastOnDescription": {
+    "message": "algoritmasını kullanın"
+  },
+  "options_videoSubtitles_requestQueueConfig_capacity_title": {
+    "message": "Maksimum Patlama İstek Sayısı"
+  },
+  "options_videoSubtitles_requestQueueConfig_capacity_description": {
+    "message": "Kısa sürede eşzamanlı olarak işlenebilecek maksimum altyazı çeviri isteği sayısı"
+  },
+  "options_videoSubtitles_requestQueueConfig_rate_title": {
+    "message": "Saniyede Ortalama İstek"
+  },
+  "options_videoSubtitles_requestQueueConfig_rate_description": {
+    "message": "Saniyede ortalama altyazı çeviri isteği sayısı. Geçici olarak fazla istek göndermek için maksimum patlama sayısı yapılandırılabilir"
+  },
+  "options_videoSubtitles_batchQueueConfig_title": {
+    "message": "Altyazı Toplu Çeviri"
+  },
+  "options_videoSubtitles_batchQueueConfig_description": {
+    "message": "Toplu çeviri için karakter limitleri ve maksimum paragraf sayısını yapılandırın (yalnızca LLM çevirisi için geçerlidir)"
+  },
+  "options_videoSubtitles_batchQueueConfig_maxCharactersPerBatch_title": {
+    "message": "Maksimum Karakter"
+  },
+  "options_videoSubtitles_batchQueueConfig_maxCharactersPerBatch_description": {
+    "message": "Her çevirinin içerik hacmini kontrol etmek için toplu istek başına izin verilen maksimum karakter sayısı"
+  },
+  "options_videoSubtitles_batchQueueConfig_maxItemsPerBatch_title": {
+    "message": "Maksimum Paragraf Sayısı"
+  },
+  "options_videoSubtitles_batchQueueConfig_maxItemsPerBatch_description": {
+    "message": "Her çevirinin içerik hacmini kontrol etmek için her toplu çeviri için maksimum paragraf sayısı"
+  },
+  "options_videoSubtitles_customPrompts_title": {
+    "message": "Özel Altyazı İstemleri"
+  },
+  "options_videoSubtitles_customPrompts_description": {
+    "message": "Altyazı çevirisi için istem şablonlarını özelleştirin (web sayfası çeviri istemlerinden ayrı)"
+  },
+  "options_videoSubtitles_customPrompts_editPrompt_promptCellInput_input": {
+    "message": "Çevrilecek altyazı metni"
+  },
+  "options_videoSubtitles_customPrompts_editPrompt_promptCellInput_targetLanguage": {
+    "message": "Hedef dil"
+  },
+  "options_videoSubtitles_customPrompts_editPrompt_promptCellInput_videoTitle": {
+    "message": "Video başlığı"
+  },
+  "options_videoSubtitles_customPrompts_editPrompt_promptCellInput_videoSummary": {
+    "message": "Video özeti (AI Akıllı Bağlam gerektirir)"
+  },
+  "options_whatsNew_title": {
+    "message": "Yenilikler"
+  },
+  "options_survey_title": {
+    "message": "Altyazıyı Geliştir 🎁"
+  },
+  "options_rateUs_title": {
+    "message": "Bizi Değerlendirin"
+  },
+  "side_sourceLang": {
+    "message": "Kaynak Dil"
+  },
+  "side_targetLang": {
+    "message": "Hedef Dil"
+  },
+  "side_fileExport": {
+    "message": "Dosya Dışa Aktarma"
+  },
+  "translateService_title": {
+    "message": "Çeviri Servisi"
+  },
+  "translateService_description": {
+    "message": "Yalnızca web sayfası çevirisi için"
+  },
+  "translateService_normalTranslator": {
+    "message": "Normal Çevirmen"
+  },
+  "translateService_aiTranslator": {
+    "message": "AI Çevirmen"
+  },
+  "translateService_selectServices": {
+    "message": "Hizmet seçin"
+  },
+  "translateService_translationProviders": {
+    "message": "Çeviri Hizmetleri"
+  },
+  "translateService_configureAPI": {
+    "message": "API Yapılandır"
+  },
+  "translatePrompt_title": {
+    "message": "AI Çeviri Stili"
+  },
+  "translatePrompt_description": {
+    "message": "Çeviri sırasında kullanılacak bir Prompt seçin. Seçenekler sayfasında özel Promptlar ekleyin veya değiştirin."
+  },
+  "languageLevel": {
+    "message": "Kaynak Dil Seviyeniz"
+  },
+  "languageLevels_beginner": {
+    "message": "Başlangıç"
+  },
+  "languageLevels_intermediate": {
+    "message": "Orta"
+  },
+  "languageLevels_advanced": {
+    "message": "İleri"
+  },
+  "noAPIKeyConfig_warning": {
+    "message": "AI modelleri kullanmak istiyorsanız, lütfen önce seçenekler sayfasında API anahtarını ayarlayın"
+  },
+  "noAPIKeyConfig_warningWithLink_youMust": {
+    "message": "Önce"
+  },
+  "noAPIKeyConfig_warningWithLink_setTheAPIKey": {
+    "message": "API anahtarını ayarlamalısınız"
+  },
+  "noAPIKeyConfig_warningWithLink_firstOnThe": {
+    "message": ""
+  },
+  "noAPIKeyConfig_warningWithLink_optionsPage": {
+    "message": "seçenekler"
+  },
+  "noAPIKeyConfig_warningWithLink_page": {
+    "message": "sayfasında"
+  },
+  "languageDetection_llmFailed": {
+    "message": "LLM dil algılama başarısız oldu, temel algılamaya geri dönüldü"
+  },
+  "translation_sameLanguage": {
+    "message": "Kaynak ve hedef diller farklı olmalıdır"
+  },
+  "translation_autoModeSameLanguage": {
+    "message": "Algılanan dil '$1' hedef dille aynı"
+  },
+  "speak_fetchingAudio": {
+    "message": "Ses oluşturuluyor..."
+  },
+  "speak_playingAudio": {
+    "message": "Ses çalınıyor..."
+  },
+  "speak_failedToGenerateSpeech": {
+    "message": "Konuşma oluşturulamadı"
+  },
+  "speak_noTextSelected": {
+    "message": "Metin seçilmedi"
+  },
+  "speak_openaiNotConfigured": {
+    "message": "OpenAI sağlayıcısı yapılandırılmadı veya etkinleştirilmedi"
+  },
+  "speak_openaiApiKeyNotConfigured": {
+    "message": "OpenAI API anahtarı yapılandırılmadı"
+  },
+  "action_copy": {
+    "message": "Kopyala"
+  },
+  "action_copied": {
+    "message": "Kopyalandı"
+  },
+  "action_regenerate": {
+    "message": "Yeniden oluştur"
+  },
+  "action_viewContextDetails": {
+    "message": "Bağlam"
+  },
+  "action_saveToNotebase": {
+    "message": "Notebase'e Kaydet"
+  },
+  "action_saveToNotebaseSaving": {
+    "message": "Kaydediliyor..."
+  },
+  "action_saveToNotebaseSuccess": {
+    "message": "Notebase'e kaydedildi"
+  },
+  "action_saveToNotebaseFailed": {
+    "message": "Notebase'e kaydetme başarısız oldu"
+  },
+  "action_saveToNotebaseLoginRequired": {
+    "message": "Notebase'e kaydetmek için readfrog.app'te oturum açın"
+  },
+  "action_saveToNotebaseBetaRequired": {
+    "message": "Bu hesap henüz Notebase beta erişimine sahip değil"
+  },
+  "action_saveToNotebaseTableUnavailable": {
+    "message": "Seçilen Notebase artık kullanılamıyor"
+  },
+  "action_saveToNotebaseConnectionInvalid": {
+    "message": "Bu Notebase bağlantısı güncel değil. Custom AI Actions içinde yenileyin ve eşlemeleri düzeltin."
+  },
+  "action_saveToNotebaseNoMappings": {
+    "message": "Kaydetmeden önce en az bir geçerli eşleme ekleyin"
+  },
+  "action_contextDetailsTitleLabel": {
+    "message": "Başlık"
+  },
+  "action_contextDetailsParagraphsLabel": {
+    "message": "Paragraflar"
+  },
+  "action_translation": {
+    "message": "Çeviri"
+  },
+  "action_speak": {
+    "message": "Oku"
+  },
+  "action_playing": {
+    "message": "Çalınıyor"
+  },
+  "thinking_label": {
+    "message": "Düşünüyor"
+  },
+  "thinking_complete": {
+    "message": "Düşünme tamamlandı"
+  },
+  "thinking_expand": {
+    "message": "Düşünmeyi genişlet"
+  },
+  "thinking_collapse": {
+    "message": "Düşünmeyi daralt"
+  },
+  "shortcutKeySelector_placeholder": {
+    "message": "Lütfen kısayolu girin"
+  },
+  "subtitles_actions_downloadSource": {
+    "message": "Kaynak altyazıları indir"
+  },
+  "subtitles_state_loading": {
+    "message": "Skim AI altyazılar yükleniyor"
+  },
+  "subtitles_state_error": {
+    "message": "Bir hata oluştu"
+  },
+  "subtitles_errors_http429": {
+    "message": "429 YouTube altyazı API'sine çok fazla istek gönderildi. Lütfen biraz bekleyip tekrar deneyin."
+  },
+  "subtitles_errors_http404": {
+    "message": "404 YouTube altyazı bulunamadı."
+  },
+  "subtitles_errors_http403": {
+    "message": "403 YouTube altyazı erişimi reddedildi."
+  },
+  "subtitles_errors_http500": {
+    "message": "500 YouTube sunucu hatası oluştu."
+  },
+  "subtitles_errors_httpUnknown": {
+    "message": "HTTP hatası $1"
+  },
+  "subtitles_errors_invalidResponse": {
+    "message": "YouTube altyazı yanıt biçimi geçersiz"
+  },
+  "subtitles_errors_networkError": {
+    "message": "YouTube altyazılar alınırken ağ hatası oluştu."
+  },
+  "subtitles_errors_fetchSubTimeout": {
+    "message": "YouTube altyazılar alınırken zaman aşımı oluştu."
+  },
+  "subtitles_errors_buttonNotFound": {
+    "message": "Altyazı butonu bulunamadı"
+  },
+  "subtitles_errors_noSubtitlesFound": {
+    "message": "Bu video için altyazı bulunmuyor"
+  },
+  "subtitles_errors_videoNotFound": {
+    "message": "Video öğesi bulunamadı"
+  },
+  "subtitles_errors_controlsBarNotFound": {
+    "message": "Kontrol çubuğu bulunamadı"
+  },
+  "subtitles_errors_aiRateLimited": {
+    "message": "Çok fazla istek, lütfen daha sonra tekrar deneyin"
+  },
+  "subtitles_errors_aiAuthFailed": {
+    "message": "API kimlik doğrulaması başarısız, lütfen API anahtarınızı kontrol edin"
+  },
+  "subtitles_errors_aiServiceUnavailable": {
+    "message": "Çeviri hizmeti geçici olarak kullanılamıyor"
+  },
+  "subtitles_errors_aiNoResponse": {
+    "message": "AI hizmeti yanıt vermedi, orijinal metin gösteriliyor"
+  },
+  "hotkey_control": {
+    "message": "Ctrl"
+  },
+  "hotkey_alt": {
+    "message": "Option"
+  },
+  "hotkey_shift": {
+    "message": "Shift"
+  },
+  "hotkey_backtick": {
+    "message": "Ters tırnak"
+  },
+  "hotkey_clickAndHold": {
+    "message": "Tıkla ve basılı tut"
+  },
+  "translationHub_searchLanguages": {
+    "message": "Dil ara..."
+  },
+  "translationHub_noLanguagesFound": {
+    "message": "Dil bulunamadı"
+  },
+  "translationHub_exchangeLanguages": {
+    "message": "Dilleri değiştir"
+  },
+  "translationHub_title": {
+    "message": "Çoklu API Metin Çevirisi"
+  },
+  "translationHub_noServicesSelected": {
+    "message": "Çeviri Hizmeti Seçilmedi"
+  },
+  "translationHub_noServicesDescription": {
+    "message": "Çeviri kartlarını görmek için yukarıdan çeviri hizmetlerini seçin."
+  },
+  "translationHub_inputPlaceholder": {
+    "message": "Çevrilecek metni girin..."
+  },
+  "translationHub_translate": {
+    "message": "Çevir"
+  },
+  "translationHub_copiedToClipboard": {
+    "message": "Çeviri panoya kopyalandı!"
+  },
+  "translationHub_copyTranslation": {
+    "message": "Çeviriyi kopyala"
+  },
+  "translationHub_expandCard": {
+    "message": "Kartı genişlet"
+  },
+  "translationHub_collapseCard": {
+    "message": "Kartı daralt"
+  },
+  "translationHub_expandAllCards": {
+    "message": "Tümünü genişlet"
+  },
+  "translationHub_collapseAllCards": {
+    "message": "Tümünü daralt"
+  },
+  "translationHub_deleteCard": {
+    "message": "Kartı sil"
+  },
+  "translationHub_translationFailed": {
+    "message": "Çeviri Başarısız"
+  },
+  "translationHub_translationFailedFallback": {
+    "message": "Çeviri başarısız"
+  },
+  "translationHub_retryTranslation": {
+    "message": "Çeviriyi yeniden dene"
+  },
+  "languages_eng": {
+    "message": "İngilizce"
+  },
+  "languages_cmn": {
+    "message": "Basitleştirilmiş Çince"
+  },
+  "languages_cmnHant": {
+    "message": "Geleneksel Çince"
+  },
+  "languages_yue": {
+    "message": "Kantonca"
+  },
+  "languages_spa": {
+    "message": "İspanyolca"
+  },
+  "languages_rus": {
+    "message": "Rusça"
+  },
+  "languages_arb": {
+    "message": "Arapça"
+  },
+  "languages_ben": {
+    "message": "Bengalce"
+  },
+  "languages_hin": {
+    "message": "Hintçe"
+  },
+  "languages_por": {
+    "message": "Portekizce"
+  },
+  "languages_ind": {
+    "message": "Endonezce"
+  },
+  "languages_jpn": {
+    "message": "Japonca"
+  },
+  "languages_fra": {
+    "message": "Fransızca"
+  },
+  "languages_deu": {
+    "message": "Almanca"
+  },
+  "languages_jav": {
+    "message": "Cava Dili"
+  },
+  "languages_kor": {
+    "message": "Korece"
+  },
+  "languages_tel": {
+    "message": "Telugu"
+  },
+  "languages_vie": {
+    "message": "Vietnamca"
+  },
+  "languages_mar": {
+    "message": "Marathi"
+  },
+  "languages_ita": {
+    "message": "İtalyanca"
+  },
+  "languages_tam": {
+    "message": "Tamilce"
+  },
+  "languages_tur": {
+    "message": "Türkçe"
+  },
+  "languages_urd": {
+    "message": "Urduca"
+  },
+  "languages_guj": {
+    "message": "Gujarati"
+  },
+  "languages_pol": {
+    "message": "Lehçe"
+  },
+  "languages_ukr": {
+    "message": "Ukraynaca"
+  },
+  "languages_kan": {
+    "message": "Kannada"
+  },
+  "languages_mai": {
+    "message": "Maithili"
+  },
+  "languages_mal": {
+    "message": "Malayalam"
+  },
+  "languages_pes": {
+    "message": "Farsça"
+  },
+  "languages_mya": {
+    "message": "Birmanca"
+  },
+  "languages_swh": {
+    "message": "Svahili"
+  },
+  "languages_sun": {
+    "message": "Sundaca"
+  },
+  "languages_ron": {
+    "message": "Romence"
+  },
+  "languages_pan": {
+    "message": "Pencapça"
+  },
+  "languages_bho": {
+    "message": "Bhojpuri"
+  },
+  "languages_amh": {
+    "message": "Amharca"
+  },
+  "languages_hau": {
+    "message": "Hausaca"
+  },
+  "languages_fuv": {
+    "message": "Fulani"
+  },
+  "languages_bos": {
+    "message": "Boşnakça"
+  },
+  "languages_hrv": {
+    "message": "Hırvatça"
+  },
+  "languages_nld": {
+    "message": "Felemenkçe"
+  },
+  "languages_srp": {
+    "message": "Sırpça"
+  },
+  "languages_tha": {
+    "message": "Tayca"
+  },
+  "languages_ckb": {
+    "message": "Orta Kürtçe"
+  },
+  "languages_yor": {
+    "message": "Yoruba"
+  },
+  "languages_uzn": {
+    "message": "Özbekçe"
+  },
+  "languages_zlm": {
+    "message": "Malayca"
+  },
+  "languages_ibo": {
+    "message": "İbo Dili"
+  },
+  "languages_npi": {
+    "message": "Nepalce"
+  },
+  "languages_ceb": {
+    "message": "Sebuano"
+  },
+  "languages_skr": {
+    "message": "Saraiki"
+  },
+  "languages_tgl": {
+    "message": "Tagalogca"
+  },
+  "languages_hun": {
+    "message": "Macarca"
+  },
+  "languages_azj": {
+    "message": "Azerice"
+  },
+  "languages_sin": {
+    "message": "Sinhalaca"
+  },
+  "languages_koi": {
+    "message": "Komi-Permyak"
+  },
+  "languages_ell": {
+    "message": "Yunanca"
+  },
+  "languages_ces": {
+    "message": "Çekçe"
+  },
+  "languages_mag": {
+    "message": "Magahi"
+  },
+  "languages_run": {
+    "message": "Kirundi"
+  },
+  "languages_bel": {
+    "message": "Belarusça"
+  },
+  "languages_plt": {
+    "message": "Malgaşça"
+  },
+  "languages_qug": {
+    "message": "Chimborazo Dağlık Quechua"
+  },
+  "languages_mad": {
+    "message": "Maduraca"
+  },
+  "languages_nya": {
+    "message": "Çeva"
+  },
+  "languages_zyb": {
+    "message": "Zhuangca"
+  },
+  "languages_pbu": {
+    "message": "Peştuca"
+  },
+  "languages_kin": {
+    "message": "Kinyarwanda"
+  },
+  "languages_zul": {
+    "message": "Zuluca"
+  },
+  "languages_bul": {
+    "message": "Bulgarca"
+  },
+  "languages_swe": {
+    "message": "İsveççe"
+  },
+  "languages_lin": {
+    "message": "Lingala"
+  },
+  "languages_som": {
+    "message": "Somalice"
+  },
+  "languages_hms": {
+    "message": "Qiandong Miao"
+  },
+  "languages_hnj": {
+    "message": "Hmong Njua"
+  },
+  "languages_ilo": {
+    "message": "İlokanoca"
+  },
+  "languages_kaz": {
+    "message": "Kazakça"
+  },
+  "languages_heb": {
+    "message": "İbranice"
+  },
+  "languages_nob": {
+    "message": "Norveççe (Bokmål)"
+  },
+  "languages_nno": {
+    "message": "Norveççe (Nynorsk)"
+  },
+  "languages_afr": {
+    "message": "Afrikaanca"
+  },
+  "languages_sqi": {
+    "message": "Arnavutça"
+  },
+  "languages_asm": {
+    "message": "Asamca"
+  },
+  "languages_eus": {
+    "message": "Baskça"
+  },
+  "languages_bre": {
+    "message": "Bretonca"
+  },
+  "languages_cat": {
+    "message": "Katalanca"
+  },
+  "languages_cos": {
+    "message": "Korsikaca"
+  },
+  "languages_cym": {
+    "message": "Galce"
+  },
+  "languages_dan": {
+    "message": "Danca"
+  },
+  "languages_div": {
+    "message": "Divehi"
+  },
+  "languages_epo": {
+    "message": "Esperanto"
+  },
+  "languages_ekk": {
+    "message": "Estonca"
+  },
+  "languages_fao": {
+    "message": "Faroece"
+  },
+  "languages_fij": {
+    "message": "Fiji Dili"
+  },
+  "languages_fin": {
+    "message": "Fince"
+  },
+  "languages_fry": {
+    "message": "Batı Frizce"
+  },
+  "languages_gla": {
+    "message": "İskoç Galcesi"
+  },
+  "languages_gle": {
+    "message": "İrlandaca"
+  },
+  "languages_glg": {
+    "message": "Galiçyaca"
+  },
+  "languages_grn": {
+    "message": "Guarani"
+  },
+  "languages_hat": {
+    "message": "Haiti Kreolcesi"
+  },
+  "languages_haw": {
+    "message": "Hawaiice"
+  },
+  "languages_hye": {
+    "message": "Ermenice"
+  },
+  "languages_ido": {
+    "message": "İdo"
+  },
+  "languages_ina": {
+    "message": "Interlingua"
+  },
+  "languages_isl": {
+    "message": "İzlandaca"
+  },
+  "languages_kat": {
+    "message": "Gürcüce"
+  },
+  "languages_khm": {
+    "message": "Kmerce"
+  },
+  "languages_kir": {
+    "message": "Kırgızca"
+  },
+  "languages_lao": {
+    "message": "Laoca"
+  },
+  "languages_lat": {
+    "message": "Latince"
+  },
+  "languages_lvs": {
+    "message": "Letonca"
+  },
+  "languages_lit": {
+    "message": "Litvanca"
+  },
+  "languages_ltz": {
+    "message": "Lüksemburgca"
+  },
+  "languages_mkd": {
+    "message": "Makedonca"
+  },
+  "languages_mlt": {
+    "message": "Maltaca"
+  },
+  "languages_mon": {
+    "message": "Moğolca"
+  },
+  "languages_mri": {
+    "message": "Maori"
+  },
+  "languages_nso": {
+    "message": "Kuzey Sotho"
+  },
+  "languages_oci": {
+    "message": "Oksitanca"
+  },
+  "languages_ori": {
+    "message": "Oriya"
+  },
+  "languages_orm": {
+    "message": "Oromo"
+  },
+  "languages_prs": {
+    "message": "Dari"
+  },
+  "languages_san": {
+    "message": "Sanskritçe"
+  },
+  "languages_slk": {
+    "message": "Slovakça"
+  },
+  "languages_slv": {
+    "message": "Slovence"
+  },
+  "languages_smo": {
+    "message": "Samoaca"
+  },
+  "languages_sna": {
+    "message": "Şona"
+  },
+  "languages_snd": {
+    "message": "Sindhi"
+  },
+  "languages_sot": {
+    "message": "Güney Sotho"
+  },
+  "languages_tah": {
+    "message": "Tahitice"
+  },
+  "languages_tat": {
+    "message": "Tatarca"
+  },
+  "languages_tgk": {
+    "message": "Tacikçe"
+  },
+  "languages_tir": {
+    "message": "Tigrinya"
+  },
+  "languages_ton": {
+    "message": "Tongaca"
+  },
+  "languages_tsn": {
+    "message": "Tsvana"
+  },
+  "languages_tuk": {
+    "message": "Türkmence"
+  },
+  "languages_uig": {
+    "message": "Uygurca"
+  },
+  "languages_vol": {
+    "message": "Volapük"
+  },
+  "languages_wol": {
+    "message": "Volofça"
+  },
+  "languages_xho": {
+    "message": "Zosa"
+  },
+  "languages_ydd": {
+    "message": "Yidişçe"
+  },
+  "languages_aka": {
+    "message": "Akan"
+  },
+  "languages_bam": {
+    "message": "Bambara"
+  },
+  "languages_bis": {
+    "message": "Bislama"
+  },
+  "languages_bod": {
+    "message": "Tibetçe"
+  },
+  "languages_che": {
+    "message": "Çeçence"
+  },
+  "languages_chv": {
+    "message": "Çuvaşça"
+  },
+  "languages_dzo": {
+    "message": "Dzongkha"
+  },
+  "languages_ewe": {
+    "message": "Ewe"
+  },
+  "languages_kab": {
+    "message": "Kabilce"
+  },
+  "languages_lug": {
+    "message": "Luganda"
+  },
+  "languages_oss": {
+    "message": "Osetçe"
+  },
+  "languages_ssw": {
+    "message": "Svati"
+  },
+  "languages_ven": {
+    "message": "Venda"
+  },
+  "languages_war": {
+    "message": "Waray"
+  },
+  "languages_nde": {
+    "message": "Kuzey Ndebele"
+  },
+  "languages_nbl": {
+    "message": "Güney Ndebele"
+  },
+  "languages_pam": {
+    "message": "Pampanga"
+  },
+  "languages_hil": {
+    "message": "Hiligaynon"
+  },
+  "languages_bcl": {
+    "message": "Merkez Bikolano"
+  },
+  "languages_min": {
+    "message": "Minangkabau"
+  },
+  "languages_ace": {
+    "message": "Açece"
+  },
+  "languages_bug": {
+    "message": "Bugisce"
+  },
+  "languages_ban": {
+    "message": "Balice"
+  },
+  "languages_bjn": {
+    "message": "Banjar"
+  },
+  "languages_mak": {
+    "message": "Makasarca"
+  },
+  "languages_sas": {
+    "message": "Sasak"
+  },
+  "languages_tet": {
+    "message": "Tetum"
+  },
+  "languages_cha": {
+    "message": "Chamorro"
+  },
+  "languages_niu": {
+    "message": "Niue Dili"
+  },
+  "languages_tvl": {
+    "message": "Tuvaluca"
+  },
+  "languages_gil": {
+    "message": "Kiribatice"
+  },
+  "languages_mah": {
+    "message": "Marshall Dili"
+  },
+  "languages_pau": {
+    "message": "Palau Dili"
+  },
+  "languages_wls": {
+    "message": "Wallis Dili"
+  },
+  "languages_rar": {
+    "message": "Rarotongan"
+  },
+  "languages_hif": {
+    "message": "Fiji Hintçesi"
+  }
+}

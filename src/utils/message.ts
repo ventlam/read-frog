@@ -1,6 +1,10 @@
 import type { LangCodeISO6393 } from "@read-frog/definitions"
 import type { FeatureUsageContext, FeatureUsedEventProperties } from "@/types/analytics"
 import type {
+  BackgroundGenerateObjectPayload,
+  BackgroundGenerateObjectResponse,
+} from "@/types/background-generate-object"
+import type {
   BackgroundGenerateTextPayload,
   BackgroundGenerateTextResponse,
 } from "@/types/background-generate-text"
@@ -58,6 +62,7 @@ interface ProtocolMap {
   enqueueSubtitlesTranslateRequest: (data: { text: string, langConfig: Config["language"], providerConfig: ProviderConfig, scheduleAt: number, hash: string, videoTitle?: string | null, summary?: string | null }) => Promise<string>
   getSubtitlesSummary: (data: { videoTitle: string, subtitlesContext: string, providerConfig: ProviderConfig }) => Promise<string | null>
   backgroundGenerateText: (data: BackgroundGenerateTextPayload) => Promise<BackgroundGenerateTextResponse>
+  backgroundGenerateObject: (data: BackgroundGenerateObjectPayload) => Promise<BackgroundGenerateObjectResponse>
   // AI subtitle segmentation
   aiSegmentSubtitles: (data: { jsonContent: string, providerId: string }) => Promise<string>
   setTranslateRequestQueueConfig: (data: Partial<RequestQueueConfig>) => void

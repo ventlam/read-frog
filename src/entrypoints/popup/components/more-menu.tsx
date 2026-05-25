@@ -32,7 +32,7 @@ export function MoreMenu() {
         </DropdownMenuItem>
 
         <DropdownMenuItem
-          onClick={() => window.open("https://github.com/mengxi-ream/read-frog/blob/main/assets/wechat-account.jpg", "_blank", "noopener,noreferrer")}
+          onClick={() => window.open("https://github.com/ventlam/read-frog/blob/main/assets/wechat-account.jpg", "_blank", "noopener,noreferrer")}
           className="cursor-pointer"
         >
           <Icon icon="streamline-logos:wechat-logo-solid" className="size-4" strokeWidth={1.6} />
@@ -40,7 +40,7 @@ export function MoreMenu() {
         </DropdownMenuItem>
 
         <DropdownMenuItem
-          onClick={() => window.open("https://github.com/mengxi-ream/read-frog", "_blank", "noopener,noreferrer")}
+          onClick={() => window.open("https://github.com/ventlam/read-frog", "_blank", "noopener,noreferrer")}
           className="cursor-pointer"
         >
           <Icon icon="fa7-brands:github" className="size-4" strokeWidth={1.6} />

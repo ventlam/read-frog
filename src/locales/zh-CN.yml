@@ -1,6 +1,6 @@
-name: 陪读蛙
-extName: 陪读蛙 - 翻译与学习
-extDescription: 陪读蛙是一款开放源代码的浏览器插件，旨在帮助您从任何网站深入学习语言。
+name: Skim AI
+extName: Skim AI - 搜索摘要与视频洞察
+extDescription: Skim AI 是一款开源浏览器扩展，通过 AI 驱动的搜索摘要、YouTube 视频洞察和翻译增强你的浏览体验。
 uninstallSurveyUrl: https://tally.so/r/3E9XDL
 dataTypes:
   string: 文本
@@ -10,7 +10,7 @@ contextMenu:
   translateSelection: 翻译“%s”
   showOriginal: 显示原文
 sidePanel:
-  firefoxUserActionHint: 在 Firefox 中，请从浏览器侧边栏打开陪读蛙。
+  firefoxUserActionHint: 在 Firefox 中，请从浏览器侧边栏打开 Skim AI。
   firefoxUserActionHelpText: 查看 Firefox 侧边栏说明
   firefoxUserActionHelpUrl: https://support.mozilla.org/zh-CN/kb/use-sidebar-access-tools-and-vertical-tabs
 popup:
@@ -33,7 +33,7 @@ popup:
   discord:
     tooltip: 加入 Discord 与开发者交流，抢先体验新功能
   blog:
-    notification: 陪读蛙更新动态
+    notification: Skim AI 更新动态
   aiSmartContext: AI 智能上下文
   aiSmartContextDescription: 结合网页上下文提升翻译效果。需要配置 LLM 翻译服务商。
   more:
@@ -280,7 +280,7 @@ options:
     floatingButton:
       globalToggle:
         title: 启用悬浮按钮
-        description: 在网页上显示悬浮按钮，快速访问陪读蛙功能
+        description: 在网页上显示悬浮按钮，快速访问 Skim AI 功能
       closeMenu:
         disableForSite: 当前网站禁用
         disableGlobally: 全局禁用
@@ -735,7 +735,7 @@ options:
       fallback: 兜底
       selectPlaceholder: 请选择一个声音
       preview: 试听
-      previewSample: 来自 Read Frog 的问候！这是我朗读时的声音。
+      previewSample: 来自 Skim AI 的问候！这是我朗读时的声音。
     languageVoice:
       label: 语言语音
       reset: 重置为默认
@@ -761,11 +761,11 @@ options:
     title: 配置
     about:
       title: 关于
-      description: Read Frog 出生于 2025 年 4 月
-      mission: Read Frog 致力于在 AI 时代扩大高质量教育机会的平等可及性，通过更低成本地提供尽可能接近真人教师的学习体验，覆盖语言学习、医学以及其他知识密集型领域。
+      description: Skim AI 出生于 2025 年 4 月
+      mission: Skim AI 致力于在 AI 时代扩大高质量教育机会的平等可及性，通过更低成本地提供尽可能接近真人教师的学习体验，覆盖语言学习、医学以及其他知识密集型领域。
       analytics:
         title: 帮助改进用户体验
-        tooltip: 开启后，Read Frog 会发送匿名的产品使用信号，用于验证功能是否稳定、优化性能与交互细节，并帮助我们决定接下来优先投入的方向。
+        tooltip: 开启后，Skim AI 会发送匿名的产品使用信号，用于验证功能是否稳定、优化性能与交互细节，并帮助我们决定接下来优先投入的方向。
     sync:
       title: 手动配置同步
       description: 手动导入和导出您的配置设置
@@ -774,7 +774,7 @@ options:
       importSuccess: 配置导入成功
       exportSuccess: 配置导出成功
       importError: 导入失败
-      versionTooNew: 导入的配置版本较新，请升级 Read Frog 到最新版本
+      versionTooNew: 导入的配置版本较新，请升级 Skim AI 到最新版本
       migrationError: 迁移失败
       validationError: 配置验证失败
       exportOptions:
@@ -1017,7 +1017,7 @@ subtitles:
   actions:
     downloadSource: 下载原字幕
   state:
-    loading: Read Frog 字幕加载中
+    loading: Skim AI 字幕加载中
     error: 发生错误
   errors:
     http429: 429 youtube 字幕接口请求次数过多，请稍后再试

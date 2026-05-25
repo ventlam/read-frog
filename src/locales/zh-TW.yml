@@ -1,6 +1,6 @@
-name: 陪讀蛙
-extName: 陪讀蛙 - 翻譯與學習
-extDescription: 陪讀蛙是一款開放源代碼的瀏覽器插件，旨在幫助您從任何網站深入學習語言。
+name: Skim AI
+extName: Skim AI - 翻譯與學習
+extDescription: Skim AI 是一款開放源代碼的瀏覽器插件，旨在幫助您從任何網站深入學習語言。
 uninstallSurveyUrl: https://tally.so/r/3E9XDL
 dataTypes:
   string: 文字
@@ -10,7 +10,7 @@ contextMenu:
   translateSelection: 翻譯「%s」
   showOriginal: 顯示原文
 sidePanel:
-  firefoxUserActionHint: 在 Firefox 中，請從瀏覽器側邊欄開啟陪讀蛙。
+  firefoxUserActionHint: 在 Firefox 中，請從瀏覽器側邊欄開啟 Skim AI。
   firefoxUserActionHelpText: 查看 Firefox 側邊欄說明
   firefoxUserActionHelpUrl: https://support.mozilla.org/zh-TW/kb/use-sidebar-access-tools-and-vertical-tabs
 popup:
@@ -33,7 +33,7 @@ popup:
   discord:
     tooltip: 加入 Discord 與開發者交流，搶先體驗新功能
   blog:
-    notification: 陪讀蛙更新動態
+    notification: Skim AI 更新動態
   aiSmartContext: AI 智慧上下文
   aiSmartContextDescription: 結合網頁上下文提升翻譯效果。需要配置 LLM 翻譯服務商。
   more:
@@ -279,7 +279,7 @@ options:
     floatingButton:
       globalToggle:
         title: 啟用懸浮按鈕
-        description: 在網頁上顯示懸浮按鈕，快速存取陪讀蛙功能
+        description: 在網頁上顯示懸浮按鈕，快速存取 Skim AI 功能
       closeMenu:
         disableForSite: 停用此網站
         disableGlobally: 全域停用
@@ -620,7 +620,7 @@ options:
       fallback: 後備
       selectPlaceholder: 請選擇一個語音
       preview: 試聽
-      previewSample: Read Frog 的問候！這是我朗讀時的語音。
+      previewSample: Skim AI 的問候！這是我朗讀時的語音。
     languageVoice:
       label: 語言語音
       reset: 重設為預設
@@ -646,11 +646,11 @@ options:
     title: 設定
     about:
       title: 關於
-      description: Read Frog 誕生於 2025 年 4 月
-      mission: Read Frog 致力於在 AI 時代擴大高品質教育機會的平等可及性，透過更低成本地提供盡可能接近真人教師的學習體驗，涵蓋語言學習、醫學以及其他知識密集型領域。
+      description: Skim AI 誕生於 2025 年 4 月
+      mission: Skim AI 致力於在 AI 時代擴大高品質教育機會的平等可及性，透過更低成本地提供盡可能接近真人教師的學習體驗，涵蓋語言學習、醫學以及其他知識密集型領域。
       analytics:
         title: 幫助改進使用者體驗
-        tooltip: 開啟後，Read Frog 會傳送匿名的產品使用訊號，用於驗證功能是否穩定、優化效能與互動細節，並幫助我們決定接下來優先投入的方向。
+        tooltip: 開啟後，Skim AI 會傳送匿名的產品使用訊號，用於驗證功能是否穩定、優化效能與互動細節，並幫助我們決定接下來優先投入的方向。
     sync:
       title: 手動設定同步
       description: 手動匯入和匯出您的設定
@@ -659,7 +659,7 @@ options:
       importSuccess: 設定匯入成功
       exportSuccess: 設定匯出成功
       importError: 匯入失敗
-      versionTooNew: 匯入的設定版本較新，請升級 Read Frog 到最新版本
+      versionTooNew: 匯入的設定版本較新，請升級 Skim AI 到最新版本
       migrationError: 遷移失敗
       validationError: 設定驗證失敗
       exportOptions:
@@ -902,7 +902,7 @@ subtitles:
   actions:
     downloadSource: 下載原始字幕
   state:
-    loading: Read Frog 字幕載入中
+    loading: Skim AI 字幕載入中
     error: 發生錯誤
   errors:
     http429: 429 youtube 字幕介面請求次數過多，請稍後再試

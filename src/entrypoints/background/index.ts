@@ -15,6 +15,7 @@ import { cleanupAllAiSegmentationCache, cleanupAllSummaryCache, cleanupAllTransl
 import { setupEdgeTTSMessageHandlers } from "./edge-tts"
 import { setupIframeInjection } from "./iframe-injection"
 import { setupLLMGenerateTextMessageHandlers } from "./llm-generate-text"
+import { setupLLMGenerateObjectMessageHandlers } from "./llm-generate-object"
 import { initMockData } from "./mock-data"
 import { newUserGuide } from "./new-user-guide"
 import { proxyFetch } from "./proxy-fetch"
@@ -106,6 +107,7 @@ export default defineBackground({
     proxyFetch()
     setupEdgeTTSMessageHandlers()
     setupLLMGenerateTextMessageHandlers()
+    setupLLMGenerateObjectMessageHandlers()
     setupTTSPlaybackMessageHandlers()
     void initMockData()
 

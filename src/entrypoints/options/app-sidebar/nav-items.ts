@@ -4,6 +4,7 @@ export const ROUTE_DEFS = [
   { path: "/custom-actions" },
   { path: "/translation" },
   { path: "/video-subtitles" },
+  { path: "/youtube-summary" },
   { path: "/floating-button" },
   { path: "/selection-toolbar" },
   { path: "/context-menu" },

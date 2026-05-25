@@ -1,0 +1,2801 @@
+{
+  "name": {
+    "message": "Skim AI"
+  },
+  "extName": {
+    "message": "Skim AI - Dịch và học"
+  },
+  "extDescription": {
+    "message": "Skim AI là tiện ích mở rộng trình duyệt mã nguồn mở được thiết kế để giúp bạn học ngôn ngữ sâu từ bất kỳ trang web nào."
+  },
+  "uninstallSurveyUrl": {
+    "message": "https://tally.so/r/nPK6Ob"
+  },
+  "dataTypes_string": {
+    "message": "Văn bản"
+  },
+  "dataTypes_number": {
+    "message": "Số"
+  },
+  "contextMenu_translate": {
+    "message": "Dịch"
+  },
+  "contextMenu_translateSelection": {
+    "message": "Dịch \"%s\""
+  },
+  "contextMenu_showOriginal": {
+    "message": "Hiển thị bản gốc"
+  },
+  "sidePanel_firefoxUserActionHint": {
+    "message": "Trong Firefox, hãy mở Skim AI từ thanh bên của trình duyệt."
+  },
+  "sidePanel_firefoxUserActionHelpText": {
+    "message": "Xem cách mở thanh bên Firefox"
+  },
+  "sidePanel_firefoxUserActionHelpUrl": {
+    "message": "https://support.mozilla.org/vi/kb/use-sidebar-access-tools-and-vertical-tabs"
+  },
+  "popup_theme": {
+    "message": "Chủ đề"
+  },
+  "popup_autoLang": {
+    "message": "Tự động"
+  },
+  "popup_sourceLang": {
+    "message": "Nguồn"
+  },
+  "popup_targetLang": {
+    "message": "Đích"
+  },
+  "popup_translate": {
+    "message": "Dịch"
+  },
+  "popup_showOriginal": {
+    "message": "Hiển thị bản gốc"
+  },
+  "popup_enabledFloatingButton": {
+    "message": "Bật nút nổi"
+  },
+  "popup_enabledSelectionToolbar": {
+    "message": "Bật thanh công cụ chọn văn bản"
+  },
+  "popup_alwaysTranslate": {
+    "message": "Luôn dịch trang web này"
+  },
+  "popup_addToWhitelist": {
+    "message": "Bật tiện ích trên trang web này"
+  },
+  "popup_addToBlacklist": {
+    "message": "Tắt tiện ích trên trang web này"
+  },
+  "popup_options": {
+    "message": "Tùy chọn"
+  },
+  "popup_hover": {
+    "message": "Di chuột"
+  },
+  "popup_translateParagraph": {
+    "message": "để dịch đoạn văn"
+  },
+  "popup_hub_tooltip": {
+    "message": "Dịch văn bản với nhiều mô hình đồng thời"
+  },
+  "popup_discord_tooltip": {
+    "message": "Tham gia Discord để kết nối với các nhà phát triển và truy cập sớm các tính năng mới"
+  },
+  "popup_blog_notification": {
+    "message": "Có gì mới trong Skim AI"
+  },
+  "popup_aiSmartContext": {
+    "message": "Ngữ cảnh thông minh AI"
+  },
+  "popup_aiSmartContextDescription": {
+    "message": "Sử dụng ngữ cảnh trang web để cải thiện chất lượng dịch. Yêu cầu nhà cung cấp dịch LLM."
+  },
+  "popup_more_title": {
+    "message": "Thêm"
+  },
+  "popup_more_translationHub": {
+    "message": "Trung tâm Dịch thuật"
+  },
+  "popup_more_joinDiscord": {
+    "message": "Tham gia Discord"
+  },
+  "popup_more_joinWechat": {
+    "message": "Tham gia nhóm WeChat"
+  },
+  "popup_more_starGithub": {
+    "message": "Đánh dấu sao trên Github"
+  },
+  "popup_more_rateUs": {
+    "message": "Đánh giá chúng tôi"
+  },
+  "popup_more_ebook": {
+    "message": "Trình đọc sách điện tử bên thứ ba"
+  },
+  "popup_more_tutorial": {
+    "message": "Hướng dẫn"
+  },
+  "errorRecovery_title": {
+    "message": "Đã xảy ra sự cố"
+  },
+  "errorRecovery_description": {
+    "message": "Chế độ khôi phục đang hoạt động. Bạn có thể xuất cài đặt hiện tại để sao lưu, sau đó đặt lại cài đặt và thử lại."
+  },
+  "errorRecovery_backupTitle": {
+    "message": "Sao lưu cài đặt hiện tại trước (khuyến nghị)"
+  },
+  "errorRecovery_exportWithApiKeys": {
+    "message": "Xuất kèm API Key"
+  },
+  "errorRecovery_exportWithoutApiKeys": {
+    "message": "Xuất không kèm API Key"
+  },
+  "errorRecovery_recoveryTitle": {
+    "message": "Tùy chọn khôi phục"
+  },
+  "errorRecovery_refreshPage": {
+    "message": "Tải lại trang"
+  },
+  "errorRecovery_resetAction": {
+    "message": "Đặt lại về cài đặt mặc định"
+  },
+  "errorRecovery_resetSuccess": {
+    "message": "Khôi phục hoàn tất. Cài đặt đã được đặt lại"
+  },
+  "errorRecovery_resetFailed": {
+    "message": "Khôi phục thất bại. Không thể đặt lại cài đặt"
+  },
+  "errorRecovery_errorDetails": {
+    "message": "Chi tiết lỗi"
+  },
+  "errorRecovery_resetDialog_title": {
+    "message": "Đặt lại cài đặt?"
+  },
+  "errorRecovery_resetDialog_description": {
+    "message": "Cài đặt hiện tại sẽ bị thay thế bằng giá trị mặc định."
+  },
+  "errorRecovery_resetDialog_confirm": {
+    "message": "Đặt lại"
+  },
+  "errorRecovery_resetDialog_cancel": {
+    "message": "Hủy"
+  },
+  "options_commandPalette_placeholder": {
+    "message": "Tìm kiếm cài đặt..."
+  },
+  "options_commandPalette_noResults": {
+    "message": "Không tìm thấy cài đặt"
+  },
+  "options_sidebar_settings": {
+    "message": "Cài đặt"
+  },
+  "options_sidebar_tools": {
+    "message": "Công cụ"
+  },
+  "options_sidebar_product": {
+    "message": "Sản phẩm"
+  },
+  "options_tools_translationHub": {
+    "message": "Trung tâm Dịch thuật"
+  },
+  "options_setAPIKeyWarning_please": {
+    "message": "Vui lòng đặt API Key trên trang"
+  },
+  "options_setAPIKeyWarning_page": {
+    "message": "cài đặt"
+  },
+  "options_betaExperience_title": {
+    "message": "Trải nghiệm Beta"
+  },
+  "options_betaExperience_description": {
+    "message": "Bật các tính năng thử nghiệm và truy cập sớm các chức năng mới. Các tính năng này có thể không ổn định hoặc chưa hoàn chỉnh."
+  },
+  "options_betaExperience_enabled": {
+    "message": "Bật trải nghiệm Beta"
+  },
+  "options_apiProviders_title": {
+    "message": "Nhà cung cấp API"
+  },
+  "options_apiProviders_description": {
+    "message": "Cấu hình các nhà cung cấp API cho chức năng dịch và phân tích từ vựng tại đây. Chúng tôi có hơn 20 nhà cung cấp tích hợp sẵn và hỗ trợ mọi API tương thích OpenAI."
+  },
+  "options_apiProviders_promotion_ai302_description": {
+    "message": "Nhấp vào liên kết bên phải để đăng ký 302.AI và nhận 1 USD tín dụng API"
+  },
+  "options_apiProviders_promotion_ai302_action": {
+    "message": "Đăng ký để nhận API Key miễn phí"
+  },
+  "options_apiProviders_promotion_ai302_addProvider": {
+    "message": "Thêm cấu hình 302.AI"
+  },
+  "options_apiProviders_addProvider": {
+    "message": "Thêm nhà cung cấp"
+  },
+  "options_apiProviders_badges_featureCount": {
+    "message": "$1 tính năng"
+  },
+  "options_apiProviders_dialog_title": {
+    "message": "Thêm nhà cung cấp mới"
+  },
+  "options_apiProviders_dialog_groups_builtInProviders_title": {
+    "message": "Nhà cung cấp LLM tích hợp sẵn"
+  },
+  "options_apiProviders_dialog_groups_builtInProviders_description": {
+    "message": "Các nhà cung cấp mô hình ngôn ngữ lớn tích hợp sẵn, không cần điền hầu hết các cấu hình như Base URL"
+  },
+  "options_apiProviders_dialog_groups_openaiCompatibleProviders_title": {
+    "message": "Nhà cung cấp tùy chỉnh tương thích OpenAI"
+  },
+  "options_apiProviders_dialog_groups_openaiCompatibleProviders_description": {
+    "message": "Nếu bạn không tìm thấy nhà cung cấp AI mong muốn, chọn Nhà cung cấp tùy chỉnh để cấu hình bất kỳ nhà cung cấp tương thích OpenAI nào, như Zhipu AI"
+  },
+  "options_apiProviders_dialog_groups_pureTranslationProviders_title": {
+    "message": "Nhà cung cấp dịch thuật thuần túy"
+  },
+  "options_apiProviders_dialog_groups_pureTranslationProviders_description": {
+    "message": "Các nhà cung cấp tập trung vào tính năng dịch thuật mà không có khả năng mô hình ngôn ngữ lớn"
+  },
+  "options_apiProviders_form_fields_name": {
+    "message": "Tên"
+  },
+  "options_apiProviders_form_fields_description": {
+    "message": "Mô tả"
+  },
+  "options_apiProviders_form_fields_apiKey": {
+    "message": "API Key"
+  },
+  "options_apiProviders_form_fields_baseURL": {
+    "message": "Base URL"
+  },
+  "options_apiProviders_form_fields_optional": {
+    "message": "Tùy chọn"
+  },
+  "options_apiProviders_form_duplicate": {
+    "message": "Sao chép"
+  },
+  "options_apiProviders_form_delete": {
+    "message": "Xóa"
+  },
+  "options_apiProviders_form_deleteDialog_title": {
+    "message": "Xóa nhà cung cấp?"
+  },
+  "options_apiProviders_form_deleteDialog_description": {
+    "message": "Hành động này không thể hoàn tác. Các tính năng sử dụng nhà cung cấp này sẽ được tự động chuyển sang nhà cung cấp khả dụng khác."
+  },
+  "options_apiProviders_form_deleteDialog_confirm": {
+    "message": "Xóa"
+  },
+  "options_apiProviders_form_deleteDialog_cancel": {
+    "message": "Hủy"
+  },
+  "options_apiProviders_form_atLeastOneLLMProvider": {
+    "message": "Cần ít nhất một nhà cung cấp dịch LLM."
+  },
+  "options_apiProviders_form_duplicateProviderName": {
+    "message": "Tên nhà cung cấp trùng lặp \"$1\""
+  },
+  "options_apiProviders_form_defaultProvider_translate": {
+    "message": "Đặt làm nhà cung cấp dịch mặc định"
+  },
+  "options_apiProviders_form_models_translate_title": {
+    "message": "Mô hình dịch"
+  },
+  "options_apiProviders_form_models_translate_customTitle": {
+    "message": "Mô hình dịch tùy chỉnh"
+  },
+  "options_apiProviders_form_models_translate_placeholder": {
+    "message": "Chọn mô hình"
+  },
+  "options_apiProviders_form_models_fetchModels": {
+    "message": "Lấy các mô hình có sẵn"
+  },
+  "options_apiProviders_form_models_fetchError": {
+    "message": "Không thể lấy mô hình"
+  },
+  "options_apiProviders_form_models_clickToRetry": {
+    "message": "Nhấp để thử lại"
+  },
+  "options_apiProviders_form_models_noModels": {
+    "message": "Không có mô hình nào"
+  },
+  "options_apiProviders_form_models_selectModel": {
+    "message": "Chọn mô hình"
+  },
+  "options_apiProviders_form_models_apiKeyRequired": {
+    "message": "Vui lòng thêm khóa API trước"
+  },
+  "options_apiProviders_form_models_searchModels": {
+    "message": "Tìm kiếm mô hình..."
+  },
+  "options_apiProviders_form_models_noModelsFound": {
+    "message": "Không tìm thấy mô hình"
+  },
+  "options_apiProviders_form_featureProviders": {
+    "message": "Nhà cung cấp tính năng"
+  },
+  "options_apiProviders_form_advancedOptions": {
+    "message": "Tùy chọn nâng cao"
+  },
+  "options_apiProviders_form_providerSettingLabels_region": {
+    "message": "Khu vực"
+  },
+  "options_apiProviders_form_temperature": {
+    "message": "Nhiệt độ"
+  },
+  "options_apiProviders_form_temperatureHint": {
+    "message": "Kiểm soát tính ngẫu nhiên trong phản hồi. Giá trị thấp (0) mang tính xác định hơn, giá trị cao mang tính sáng tạo hơn. Phạm vi thay đổi theo nhà cung cấp. Để trống để sử dụng giá trị mặc định của nhà cung cấp."
+  },
+  "options_apiProviders_form_headers": {
+    "message": "Header"
+  },
+  "options_apiProviders_form_headersHint": {
+    "message": "Header HTTP tùy chỉnh được gửi khi tạo client nhà cung cấp AI. Để trống để dùng mặc định của nhà cung cấp; dùng {} để tắt mặc định."
+  },
+  "options_apiProviders_form_providerOptions": {
+    "message": "Tùy chọn nhà cung cấp"
+  },
+  "options_apiProviders_form_providerOptionsHint": {
+    "message": "Các tùy chọn dành riêng cho nhà cung cấp cho các tính năng API không chuẩn như chế độ suy nghĩ/lập luận. Xem tài liệu Vercel AI SDK hoặc tài liệu chính thức của nhà cung cấp để biết chi tiết cấu hình."
+  },
+  "options_apiProviders_form_providerOptionsDocsLink": {
+    "message": "Xem Tài liệu Nhà cung cấp"
+  },
+  "options_apiProviders_form_providerOptionsRecommendationTrigger": {
+    "message": "Xem tùy chọn nhà cung cấp được đề xuất"
+  },
+  "options_apiProviders_form_providerOptionsRecommendationTitle": {
+    "message": "Đã phát hiện tùy chọn nhà cung cấp được đề xuất"
+  },
+  "options_apiProviders_form_providerOptionsRecommendationDescription": {
+    "message": "Hãy xem lại và tự áp dụng cấu hình được đề xuất."
+  },
+  "options_apiProviders_form_providerOptionsRecommendationApply": {
+    "message": "Áp dụng"
+  },
+  "options_apiProviders_form_providerOptionsRecommendationApplied": {
+    "message": "Đã áp dụng"
+  },
+  "options_apiProviders_form_invalidJson": {
+    "message": "Định dạng JSON không hợp lệ"
+  },
+  "options_apiProviders_providers_description_openai": {
+    "message": "Cung cấp các mô hình như GPT-4o"
+  },
+  "options_apiProviders_providers_description_deepseek": {
+    "message": "Khuyến nghị sử dụng ở Trung Quốc"
+  },
+  "options_apiProviders_providers_description_openrouter": {
+    "message": "Giao diện thống nhất cho nhiều nhà cung cấp LLM với giá trả theo lần sử dụng"
+  },
+  "options_apiProviders_providers_description_ollama": {
+    "message": "Chạy các mô hình ngôn ngữ lớn cục bộ trên máy của bạn để bảo mật hoàn toàn"
+  },
+  "options_apiProviders_providers_description_google": {
+    "message": "Các mô hình AI hàng đầu của Google với khả năng suy luận tiên tiến"
+  },
+  "options_apiProviders_providers_description_anthropic": {
+    "message": "Các mô hình Claude nổi tiếng về độ an toàn và khả năng suy luận xuất sắc"
+  },
+  "options_apiProviders_providers_description_xai": {
+    "message": "Công ty AI của Elon Musk cung cấp các mô hình Grok với truy cập dữ liệu thời gian thực"
+  },
+  "options_apiProviders_providers_description_siliconflow": {
+    "message": "Nền tảng suy luận hiệu suất cao cho các mô hình Trung Quốc và quốc tế"
+  },
+  "options_apiProviders_providers_description_tensdaq": {
+    "message": "Nền tảng MaaS đấu giá AI cách mạng với giá thị trường, loại bỏ giá cố định cao"
+  },
+  "options_apiProviders_providers_description_ai302": {
+    "message": "Cung cấp các mô hình mới nhất và toàn diện nhất với API trả theo lần sử dụng"
+  },
+  "options_apiProviders_providers_description_openaiCompatible": {
+    "message": "Bên thứ ba và tương thích API OpenAI"
+  },
+  "options_apiProviders_providers_description_deeplx": {
+    "message": "API DeepL không chính thức"
+  },
+  "options_apiProviders_providers_description_deepl": {
+    "message": "API DeepL chính thức"
+  },
+  "options_apiProviders_providers_description_bedrock": {
+    "message": "Dịch vụ được quản lý bởi AWS cho các mô hình nền tảng cấp doanh nghiệp"
+  },
+  "options_apiProviders_providers_description_groq": {
+    "message": "Phần cứng chuyên dụng cho tốc độ suy luận LLM siêu nhanh"
+  },
+  "options_apiProviders_providers_description_deepinfra": {
+    "message": "Suy luận đám mây hiệu quả chi phí cho các mô hình mã nguồn mở phổ biến"
+  },
+  "options_apiProviders_providers_description_mistral": {
+    "message": "Công ty AI châu Âu chuyên về các mô hình đa ngôn ngữ hiệu quả"
+  },
+  "options_apiProviders_providers_description_togetherai": {
+    "message": "Nền tảng hợp tác để chạy và tinh chỉnh các mô hình mã nguồn mở"
+  },
+  "options_apiProviders_providers_description_cohere": {
+    "message": "AI tập trung vào doanh nghiệp với khả năng đa ngôn ngữ và RAG mạnh mẽ"
+  },
+  "options_apiProviders_providers_description_fireworks": {
+    "message": "Nền tảng suy luận sẵn sàng cho sản xuất cho các mô hình mã nguồn mở"
+  },
+  "options_apiProviders_providers_description_cerebras": {
+    "message": "Suy luận AI siêu nhanh cho dịch thuật và phân tích văn bản nhanh"
+  },
+  "options_apiProviders_providers_description_replicate": {
+    "message": "Truy cập các mô hình mã nguồn mở đa dạng cho các tác vụ dịch thuật chuyên biệt"
+  },
+  "options_apiProviders_providers_description_perplexity": {
+    "message": "AI nâng cao kiến thức thời gian thực cho bản dịch ngữ cảnh và hỗ trợ đọc"
+  },
+  "options_apiProviders_providers_description_vercel": {
+    "message": "Các mô hình AI tối ưu hóa cho dịch và phân tích nội dung web"
+  },
+  "options_apiProviders_providers_description_volcengine": {
+    "message": "Nền tảng AI đám mây của ByteDance cung cấp các mô hình Doubao cho dịch và đọc"
+  },
+  "options_apiProviders_providers_description_minimax": {
+    "message": "Nền tảng AI MiniMax cung cấp các mô hình MiniMax-M2 tiên tiến"
+  },
+  "options_apiProviders_providers_description_alibaba": {
+    "message": "Dòng mô hình Qwen của Alibaba Cloud với khả năng suy luận và đa ngôn ngữ tiên tiến"
+  },
+  "options_apiProviders_providers_description_moonshotai": {
+    "message": "Dòng mô hình Kimi của Moonshot AI với khả năng suy luận mạnh mẽ và ngữ cảnh dài"
+  },
+  "options_apiProviders_providers_description_huggingface": {
+    "message": "API suy luận Hugging Face cung cấp quyền truy cập hàng nghìn mô hình mã nguồn mở"
+  },
+  "options_apiProviders_apiKey_showAPIKey": {
+    "message": "Hiển thị API Key"
+  },
+  "options_apiProviders_howToConfigure": {
+    "message": "Cấu hình như thế nào?"
+  },
+  "options_apiProviders_testConnection_button": {
+    "message": "Kiểm tra kết nối"
+  },
+  "options_apiProviders_testConnection_testing": {
+    "message": "Đang kiểm tra..."
+  },
+  "options_general_title": {
+    "message": "Chung"
+  },
+  "options_general_appearance_title": {
+    "message": "Giao diện"
+  },
+  "options_general_appearance_theme": {
+    "message": "Chủ đề"
+  },
+  "options_general_appearance_system": {
+    "message": "Hệ thống"
+  },
+  "options_general_appearance_light": {
+    "message": "Sáng"
+  },
+  "options_general_appearance_dark": {
+    "message": "Tối"
+  },
+  "options_general_featureProviders_title": {
+    "message": "Nhà cung cấp tính năng"
+  },
+  "options_general_featureProviders_description": {
+    "message": "Chọn nhà cung cấp sử dụng cho mỗi tính năng"
+  },
+  "options_general_featureProviders_customActions": {
+    "message": "Hành động AI tùy chỉnh"
+  },
+  "options_general_featureProviders_features_translate": {
+    "message": "Dịch trang"
+  },
+  "options_general_featureProviders_features_selectionToolbar_translate": {
+    "message": "Dịch thanh công cụ chọn"
+  },
+  "options_general_featureProviders_features_tts": {
+    "message": "Chuyển văn bản thành giọng nói"
+  },
+  "options_general_featureProviders_features_inputTranslation": {
+    "message": "Dịch đầu vào"
+  },
+  "options_general_featureProviders_features_videoSubtitles": {
+    "message": "Phụ đề video"
+  },
+  "options_general_translationConfig_model_title": {
+    "message": "Mô hình"
+  },
+  "options_general_translationConfig_model_enterCustomModel": {
+    "message": "Nhập tên mô hình tùy chỉnh"
+  },
+  "options_general_clearCache_title": {
+    "message": "Xóa bộ nhớ đệm"
+  },
+  "options_general_clearCache_description": {
+    "message": "Xóa tất cả bộ nhớ đệm dịch trong trình duyệt của bạn"
+  },
+  "options_general_clearCache_clearing": {
+    "message": "Đang xóa..."
+  },
+  "options_general_clearCache_dialog_title": {
+    "message": "Xóa bộ nhớ đệm"
+  },
+  "options_general_clearCache_dialog_trigger": {
+    "message": "Xóa bộ nhớ đệm"
+  },
+  "options_general_clearCache_dialog_confirm": {
+    "message": "Xác nhận"
+  },
+  "options_general_clearCache_dialog_cancel": {
+    "message": "Hủy"
+  },
+  "options_general_clearCache_dialog_description": {
+    "message": "Thao tác này sẽ xóa tất cả bộ nhớ đệm dịch. Hành động này không thể hoàn tác."
+  },
+  "options_general_languageDetection_title": {
+    "message": "Phát hiện ngôn ngữ"
+  },
+  "options_general_languageDetection_description": {
+    "message": "Ảnh hưởng đến phát hiện ngôn ngữ tự động dịch, phát hiện ngôn ngữ bỏ qua và độ chính xác chọn giọng nói."
+  },
+  "options_general_languageDetection_mode_basic": {
+    "message": "Cơ bản"
+  },
+  "options_general_languageDetection_mode_llm": {
+    "message": "LLM"
+  },
+  "options_general_languageDetection_provider_label": {
+    "message": "Nhà cung cấp phát hiện"
+  },
+  "options_general_languageDetection_provider_placeholder": {
+    "message": "Chọn nhà cung cấp"
+  },
+  "options_general_languageDetection_status_noProviders": {
+    "message": "Hãy cấu hình nhà cung cấp LLM trước"
+  },
+  "options_general_languageDetection_status_basicRecommend": {
+    "message": "Khuyến nghị bật LLM"
+  },
+  "options_general_languageDetection_status_llmEnabled": {
+    "message": "Phát hiện LLM đã bật"
+  },
+  "options_siteControl_title": {
+    "message": "Kiểm soát trang web"
+  },
+  "options_siteControl_mode_title": {
+    "message": "Chế độ kích hoạt tiện ích mở rộng"
+  },
+  "options_siteControl_mode_description": {
+    "message": "Sử dụng chế độ danh sách đen để tắt tiện ích trên các trang web cụ thể, hoặc chế độ danh sách trắng để giới hạn chỉ các trang web cụ thể."
+  },
+  "options_siteControl_mode_blacklist": {
+    "message": "Chỉ tắt trên các trang web được liệt kê"
+  },
+  "options_siteControl_mode_whitelist": {
+    "message": "Chỉ chạy trên các trang web được liệt kê"
+  },
+  "options_siteControl_patterns_enterUrlPattern": {
+    "message": "Nhập mẫu URL (ví dụ example.com)"
+  },
+  "options_siteControl_patterns_urlPattern": {
+    "message": "Mẫu URL"
+  },
+  "options_overlayTools_title": {
+    "message": "Công cụ nổi"
+  },
+  "options_overlayTools_floatingButton_title": {
+    "message": "Nút nổi"
+  },
+  "options_overlayTools_selectionToolbar_title": {
+    "message": "Thanh công cụ chọn"
+  },
+  "options_overlayTools_contextMenu_title": {
+    "message": "Menu ngữ cảnh"
+  },
+  "options_overlayTools_inputTranslation_title": {
+    "message": "Dịch đầu vào"
+  },
+  "options_inputTranslation_provider_title": {
+    "message": "Nhà cung cấp dịch"
+  },
+  "options_inputTranslation_provider_description": {
+    "message": "Chọn nhà cung cấp dịch để sử dụng cho dịch đầu vào"
+  },
+  "options_inputTranslation_provider_label": {
+    "message": "Nhà cung cấp"
+  },
+  "options_inputTranslation_toggle_title": {
+    "message": "Bật dịch ba lần nhấn phím cách"
+  },
+  "options_inputTranslation_toggle_description": {
+    "message": "Nhấn phím cách nhanh 3 lần trong bất kỳ trường nhập nào để dịch nội dung"
+  },
+  "options_inputTranslation_languages_title": {
+    "message": "Ngôn ngữ dịch"
+  },
+  "options_inputTranslation_languages_description": {
+    "message": "Chọn ngôn ngữ nguồn và đích cho dịch đầu vào"
+  },
+  "options_inputTranslation_languages_sourceCode": {
+    "message": "Ngôn ngữ nguồn trang"
+  },
+  "options_inputTranslation_languages_targetCode": {
+    "message": "Ngôn ngữ đích trang"
+  },
+  "options_inputTranslation_languages_enableCycle": {
+    "message": "Đổi hướng mỗi lần"
+  },
+  "options_inputTranslation_threshold_title": {
+    "message": "Ngưỡng kích hoạt"
+  },
+  "options_inputTranslation_threshold_description": {
+    "message": "Khoảng thời gian giữa các lần nhấn phím cách"
+  },
+  "options_inputTranslation_threshold_label": {
+    "message": "Ngưỡng (ms)"
+  },
+  "options_inputTranslation_threshold_hint": {
+    "message": "Thời gian tính bằng mili giây giữa các lần nhấn phím cách liên tiếp (100-1000ms)"
+  },
+  "options_inputTranslation_threshold_error": {
+    "message": "Giá trị phải từ $1 đến $2"
+  },
+  "options_floatingButtonAndToolbar_title": {
+    "message": "Nút nổi & Thanh công cụ"
+  },
+  "options_floatingButtonAndToolbar_floatingButtonDemoImageAlt": {
+    "message": "Demo nút nổi"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbarDemoImageAlt": {
+    "message": "Demo thanh công cụ chọn văn bản"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_globalToggle_title": {
+    "message": "Bật nút nổi"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_globalToggle_description": {
+    "message": "Hiển thị nút nổi trên các trang web để truy cập nhanh các tính năng Skim AI"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_closeMenu_disableForSite": {
+    "message": "Tắt cho trang web này"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_closeMenu_disableGlobally": {
+    "message": "Tắt toàn cục"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_disabledSites_title": {
+    "message": "Các trang web đã tắt nút nổi"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_disabledSites_description": {
+    "message": "Cấu hình các trang web mà nút nổi nên bị tắt"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_disabledSites_enterUrlPattern": {
+    "message": "Nhập mẫu URL"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_disabledSites_urlPattern": {
+    "message": "Mẫu URL"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_clickAction_title": {
+    "message": "Hành động khi nhấn"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_clickAction_description": {
+    "message": "Chọn hành động khi nhấn vào nút nổi"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_clickAction_panel": {
+    "message": "Mở bảng điều khiển bên"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_clickAction_translate": {
+    "message": "Bật/tắt dịch trang"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_side_title": {
+    "message": "Vị trí nút"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_side_description": {
+    "message": "Chọn cạnh của trang để ghim nút nổi"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_side_left": {
+    "message": "Bên trái"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_side_right": {
+    "message": "Bên phải"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_globalToggle_title": {
+    "message": "Bật thanh công cụ chọn văn bản"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_globalToggle_description": {
+    "message": "Hiển thị thanh công cụ khi chọn văn bản trên trang web để dịch nhanh, đọc to và dùng các hành động AI"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_opacity_title": {
+    "message": "Độ mờ"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_opacity_description": {
+    "message": "Điều chỉnh độ mờ của thanh công cụ chọn văn bản và cửa sổ mở rộng mở từ đó"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_featureToggles_title": {
+    "message": "Bật/tắt tính năng"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_featureToggles_description": {
+    "message": "Chọn các tính năng tích hợp để hiển thị trên thanh công cụ chọn văn bản"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_featureToggles_translate": {
+    "message": "Dịch"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_featureToggles_speak": {
+    "message": "Đọc"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_closeMenu_disableForSite": {
+    "message": "Tắt cho trang web này"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_closeMenu_disableGlobally": {
+    "message": "Tắt toàn cục"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_disabledSites_title": {
+    "message": "Các trang web đã tắt thanh công cụ chọn văn bản"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_disabledSites_description": {
+    "message": "Cấu hình các trang web mà thanh công cụ chọn văn bản nên bị tắt"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_disabledSites_enterUrlPattern": {
+    "message": "Nhập mẫu URL"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_disabledSites_urlPattern": {
+    "message": "Mẫu URL"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_customActionFailed": {
+    "message": "Hành động tuỳ chỉnh thất bại"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_customActionFailedFallback": {
+    "message": "Yêu cầu hành động tuỳ chỉnh thất bại"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_actionUnavailable": {
+    "message": "Hành động đã chọn không khả dụng"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_missingSelection": {
+    "message": "Không có văn bản được chọn"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_providerDisabled": {
+    "message": "Nhà cung cấp đã chọn bị tắt"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_providerUnavailable": {
+    "message": "Nhà cung cấp đã chọn không khả dụng"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_provider": {
+    "message": "Nhà cung cấp"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_selectProvider": {
+    "message": "Chọn nhà cung cấp"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_noProviderAvailable": {
+    "message": "Không có nhà cung cấp khả dụng"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_useProviderDefaultModel": {
+    "message": "Dùng model mặc định của nhà cung cấp"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_useCustomModel": {
+    "message": "Dùng model tùy chỉnh"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_customModel": {
+    "message": "Model tùy chỉnh"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_model": {
+    "message": "Model"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_modelNotAvailableForNonLLM": {
+    "message": "Cài đặt model chỉ khả dụng với nhà cung cấp LLM"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_translate_title": {
+    "message": "Dịch văn bản chọn"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_translate_description": {
+    "message": "Cấu hình nhà cung cấp và model cho tính năng dịch của selection toolbar"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_title": {
+    "message": "Hành động AI tùy chỉnh"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_description": {
+    "message": "Thêm các hành động AI có cấu trúc của riêng bạn cho văn bản được chọn"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_add": {
+    "message": "Thêm hành động AI"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_edit": {
+    "message": "Chỉnh sửa hành động AI"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_empty": {
+    "message": "Chưa có hành động AI tùy chỉnh"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_noEnabledLlmProvider": {
+    "message": "Hãy bật ít nhất một nhà cung cấp LLM trước khi tạo hành động AI tùy chỉnh"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_table_name": {
+    "message": "Tên"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_table_provider": {
+    "message": "Nhà cung cấp"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_table_fields": {
+    "message": "Trường"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_table_actions": {
+    "message": "Thao tác"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_name": {
+    "message": "Tên"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_icon": {
+    "message": "Biểu tượng"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_chooseAriaLabel": {
+    "message": "Chọn biểu tượng"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_chooseTitle": {
+    "message": "Chọn một biểu tượng"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_inputPlaceholder": {
+    "message": "Nhập tên biểu tượng"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpAriaLabel": {
+    "message": "Trợ giúp thêm về biểu tượng"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpTitle": {
+    "message": "Không tìm thấy biểu tượng bạn muốn?"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpStepBrowsePrefix": {
+    "message": "Duyệt biểu tượng trên"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpStepBrowseSuffix": {
+    "message": ""
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpStepCopyPrefix": {
+    "message": "Sao chép tên biểu tượng, ví dụ "
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpStepCopySuffix": {
+    "message": ", rồi dán vào ô nhập liệu."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_provider": {
+    "message": "Nhà cung cấp (yêu cầu hỗ trợ đầu ra có cấu trúc)"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_selectProvider": {
+    "message": "Chọn nhà cung cấp"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_systemPrompt": {
+    "message": "System Prompt"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_prompt": {
+    "message": "Prompt"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_outputSchema": {
+    "message": "Schema đầu ra"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_addField": {
+    "message": "Thêm trường"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldName": {
+    "message": "Tên trường"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldType": {
+    "message": "Loại trường"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldDescription": {
+    "message": "Mô tả"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldDescriptionPlaceholder": {
+    "message": "Mô tả nội dung mà trường này nên chứa..."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldSpeaking": {
+    "message": "Bật đọc thành tiếng"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_actions": {
+    "message": "Thao tác"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_cancel": {
+    "message": "Hủy"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_save": {
+    "message": "Lưu"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_defaultFieldName": {
+    "message": "kết quả"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldNamePlaceholder": {
+    "message": "tên_trường"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_autoFieldPrefix": {
+    "message": "trường"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_addFieldDialog_title": {
+    "message": "Thêm trường đầu ra"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_editFieldDialog_title": {
+    "message": "Chỉnh sửa trường đầu ra"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_editFieldDialog_save": {
+    "message": "Lưu"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteFieldDialog_title": {
+    "message": "Xóa trường đầu ra?"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteFieldDialog_description": {
+    "message": "Trường đầu ra này sẽ bị xóa."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteFieldDialog_confirm": {
+    "message": "Xóa"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteFieldDialog_cancel": {
+    "message": "Hủy"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_title": {
+    "message": "Kết nối Notebase"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_description": {
+    "message": "Lưu kết quả có cấu trúc của hành động này vào Notebase từ xa."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_loginRequiredTitle": {
+    "message": "Đăng nhập để cấu hình Notebase"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_loginRequiredDescription": {
+    "message": "Hãy đăng nhập trên readfrog.app trước khi chọn notebase hoặc chỉnh sửa ánh xạ."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_loginAction": {
+    "message": "Đăng nhập"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tableLabel": {
+    "message": "Notebase"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tablePlaceholder": {
+    "message": "Chọn một notebase"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tableClearOption": {
+    "message": "Không kết nối notebase"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_refreshAction": {
+    "message": "Làm mới"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_emptyTitle": {
+    "message": "Chưa có Notebase nào"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_emptyDescription": {
+    "message": "Hãy tạo một notebase trên readfrog.app rồi quay lại đây để ánh xạ các trường."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_openNotebaseAction": {
+    "message": "Mở Notebase"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_betaLockedTitle": {
+    "message": "Tài khoản này chưa nằm trong beta Notebase"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_betaLockedDescription": {
+    "message": "Bạn vẫn có thể giữ cấu hình action hiện tại, nhưng việc chọn Notebase và đồng bộ kết quả hiện chỉ mở cho một số tài khoản beta."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tableUnavailableTitle": {
+    "message": "Notebase đã chọn không còn khả dụng"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tableUnavailableDescription": {
+    "message": "Hãy làm mới hoặc chọn một notebase khác trước khi lưu lại."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tableUnavailableOption": {
+    "message": "không khả dụng"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_schemaErrorTitle": {
+    "message": "Không tải được schema notebase"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_schemaErrorDescription": {
+    "message": "Hãy thử làm mới lại sau ít phút nữa."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_schemaLoading": {
+    "message": "Đang tải schema notebase..."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingsLabel": {
+    "message": "Ánh xạ trường"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingsEmpty": {
+    "message": "Chưa có ánh xạ nào. Hãy thêm một ánh xạ khi bạn sẵn sàng lưu các trường."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_addMappingAction": {
+    "message": "Thêm ánh xạ"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_removeMappingAction": {
+    "message": "Xóa ánh xạ"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_localFieldLabel": {
+    "message": "Trường của hành động"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_localFieldPlaceholder": {
+    "message": "Chọn một trường của hành động"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_remoteFieldLabel": {
+    "message": "Trường Notebase"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_remoteFieldPlaceholder": {
+    "message": "Chọn một trường notebase"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_columnUnavailableOption": {
+    "message": "đã xóa"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_invalidMappingsTitle": {
+    "message": "Một số ánh xạ cần được xử lý"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_invalidMappingsDescription": {
+    "message": "Các ánh xạ không hợp lệ vẫn được giữ lại, nhưng Save to Notebase sẽ bị vô hiệu hóa cho đến khi bạn sửa chúng."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingMissingLocal": {
+    "message": "Trường của hành động đã ánh xạ không còn tồn tại."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingMissingRemote": {
+    "message": "Trường notebase đã ánh xạ không còn tồn tại."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingMissingSchema": {
+    "message": "Hãy làm mới schema notebase để xác thực ánh xạ này."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingIncompatible": {
+    "message": "Kiểu trường không còn khớp nữa."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_tokens_selection": {
+    "message": "Nội dung văn bản đã chọn"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_tokens_paragraphs": {
+    "message": "Nội dung các đoạn giao với vùng chọn, được nối bằng dòng trống, sẽ bị cắt còn 2000 ký tự đầu khi gửi vào hành động AI tùy chỉnh"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_tokens_targetLanguage": {
+    "message": "Ngôn ngữ đích của người dùng"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_tokens_webTitle": {
+    "message": "Tiêu đề trang web"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_tokens_webContent": {
+    "message": "Nội dung trang web được trích xuất từ trang hiện tại (bị cắt còn 2000 ký tự đầu)"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_delete": {
+    "message": "Xóa"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteDialog_title": {
+    "message": "Xóa hành động tùy chỉnh?"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteDialog_description": {
+    "message": "Hành động này không thể hoàn tác."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteDialog_confirm": {
+    "message": "Xóa"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteDialog_cancel": {
+    "message": "Hủy"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_nameRequired": {
+    "message": "Tên là bắt buộc"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_duplicateName": {
+    "message": "Tên hành động trùng lặp \"$1\""
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_invalidIcon": {
+    "message": "Chuỗi biểu tượng Iconify không hợp lệ"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_providerRequired": {
+    "message": "Vui lòng chọn một nhà cung cấp LLM đã bật"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_outputSchemaRequired": {
+    "message": "Thêm ít nhất một trường đầu ra"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_fieldKeyRequired": {
+    "message": "Tên trường là bắt buộc"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_duplicateFieldKey": {
+    "message": "Tên trường phải là duy nhất"
+  },
+  "options_floatingButtonAndToolbar_contextMenu_title": {
+    "message": "Menu ngữ cảnh"
+  },
+  "options_floatingButtonAndToolbar_contextMenu_translate_title": {
+    "message": "Bật dịch menu ngữ cảnh"
+  },
+  "options_floatingButtonAndToolbar_contextMenu_translate_description": {
+    "message": "Thêm các tùy chọn dịch vào menu chuột phải của trình duyệt để dịch nhanh trang hoặc văn bản đã chọn"
+  },
+  "options_translation_title": {
+    "message": "Dịch thuật"
+  },
+  "options_translation_requestQueueConfig_title": {
+    "message": "Tốc độ dịch"
+  },
+  "options_translation_requestQueueConfig_firstOnDescription": {
+    "message": "Điều chỉnh tốc độ xử lý yêu cầu dịch bằng"
+  },
+  "options_translation_requestQueueConfig_lastOnDescription": {
+    "message": "thuật toán"
+  },
+  "options_translation_requestQueueConfig_capacity_title": {
+    "message": "Số lượng yêu cầu burst tối đa"
+  },
+  "options_translation_requestQueueConfig_capacity_description": {
+    "message": "Số lượng yêu cầu burst tạm thời được phép xác định số lượng yêu cầu tối đa có thể được xử lý đồng thời trong một khoảng thời gian ngắn"
+  },
+  "options_translation_requestQueueConfig_rate_title": {
+    "message": "Số yêu cầu trung bình mỗi giây"
+  },
+  "options_translation_requestQueueConfig_rate_description": {
+    "message": "Số yêu cầu trung bình mỗi giây, nhưng cho phép cấu hình số lượng burst tối đa để gửi tạm thời các yêu cầu vượt quá"
+  },
+  "options_translation_batchQueueConfig_title": {
+    "message": "Dịch theo lô"
+  },
+  "options_translation_batchQueueConfig_description": {
+    "message": "Cấu hình giới hạn ký tự và số đoạn văn tối đa cho dịch theo lô (chỉ có hiệu lực với dịch LLM)"
+  },
+  "options_translation_batchQueueConfig_maxCharactersPerBatch_title": {
+    "message": "Số ký tự tối đa"
+  },
+  "options_translation_batchQueueConfig_maxCharactersPerBatch_description": {
+    "message": "Số ký tự tối đa được phép cho mỗi yêu cầu lô để kiểm soát khối lượng nội dung của mỗi bản dịch"
+  },
+  "options_translation_batchQueueConfig_maxItemsPerBatch_title": {
+    "message": "Số đoạn văn tối đa"
+  },
+  "options_translation_batchQueueConfig_maxItemsPerBatch_description": {
+    "message": "Số đoạn văn tối đa cho mỗi bản dịch lô để kiểm soát khối lượng nội dung của mỗi bản dịch"
+  },
+  "options_translation_batchQueueConfig_statisticsLink": {
+    "message": "Đã tiết kiệm khoảng $1 chi phí trong 7 ngày qua"
+  },
+  "options_translation_autoTranslateWebsite_title": {
+    "message": "Tự động dịch theo trang web"
+  },
+  "options_translation_autoTranslateWebsite_description": {
+    "message": "Luôn dịch trang web này"
+  },
+  "options_translation_autoTranslateWebsite_urlPattern": {
+    "message": "Mẫu URL"
+  },
+  "options_translation_autoTranslateWebsite_enterUrlPattern": {
+    "message": "Nhập mẫu URL"
+  },
+  "options_translation_personalizedPrompts_title": {
+    "message": "Prompt cá nhân hóa"
+  },
+  "options_translation_personalizedPrompts_description": {
+    "message": "Tùy chỉnh các loại Prompt khác nhau cho phép bạn tự điều chỉnh loại Prompt trong quá trình dịch. Prompt là văn bản mà người dùng gửi cho LLM."
+  },
+  "options_translation_personalizedPrompts_communityPrompts": {
+    "message": "Nhận hoặc chia sẻ prompt từ cộng đồng"
+  },
+  "options_translation_personalizedPrompts_communityPromptsUrl": {
+    "message": "https://github.com/mengxi-ream/read-frog/discussions/821"
+  },
+  "options_translation_personalizedPrompts_addPrompt": {
+    "message": "Thêm Prompt"
+  },
+  "options_translation_personalizedPrompts_default": {
+    "message": "Mặc định"
+  },
+  "options_translation_personalizedPrompts_importSuccess": {
+    "message": "Nhập thành công"
+  },
+  "options_translation_personalizedPrompts_import": {
+    "message": "Nhập"
+  },
+  "options_translation_personalizedPrompts_export": {
+    "message": "Xuất"
+  },
+  "options_translation_personalizedPrompts_current": {
+    "message": "đang sử dụng"
+  },
+  "options_translation_personalizedPrompts_editPrompt_title": {
+    "message": "Chỉnh sửa Prompt"
+  },
+  "options_translation_personalizedPrompts_editPrompt_name": {
+    "message": "Tên"
+  },
+  "options_translation_personalizedPrompts_editPrompt_systemPrompt": {
+    "message": "System Prompt"
+  },
+  "options_translation_personalizedPrompts_editPrompt_prompt": {
+    "message": "Prompt"
+  },
+  "options_translation_personalizedPrompts_editPrompt_promptCellInput_input": {
+    "message": "Nội dung văn bản để dịch"
+  },
+  "options_translation_personalizedPrompts_editPrompt_promptCellInput_targetLanguage": {
+    "message": "Ngôn ngữ đích"
+  },
+  "options_translation_personalizedPrompts_editPrompt_promptCellInput_webTitle": {
+    "message": "Tiêu đề trang web"
+  },
+  "options_translation_personalizedPrompts_editPrompt_promptCellInput_webContent": {
+    "message": "Nội dung trang web (bị cắt còn 2000 ký tự đầu)"
+  },
+  "options_translation_personalizedPrompts_editPrompt_promptCellInput_webSummary": {
+    "message": "Tóm tắt trang web (yêu cầu Ngữ cảnh thông minh AI)"
+  },
+  "options_translation_personalizedPrompts_editPrompt_save": {
+    "message": "Lưu thay đổi"
+  },
+  "options_translation_personalizedPrompts_editPrompt_close": {
+    "message": "Hủy"
+  },
+  "options_translation_personalizedPrompts_deletePrompt_title": {
+    "message": "Xóa Prompt"
+  },
+  "options_translation_personalizedPrompts_deletePrompt_description": {
+    "message": "Xác nhận xóa prompt"
+  },
+  "options_translation_personalizedPrompts_deletePrompt_confirm": {
+    "message": "Xác nhận"
+  },
+  "options_translation_personalizedPrompts_deletePrompt_cancel": {
+    "message": "Hủy"
+  },
+  "options_translation_personalizedPrompts_exportPrompt_exportSelected": {
+    "message": "Xuất đã chọn"
+  },
+  "options_translation_personalizedPrompts_exportPrompt_cancel": {
+    "message": "Hủy"
+  },
+  "options_translation_translationStyle_title": {
+    "message": "Kiểu hiển thị bản dịch"
+  },
+  "options_translation_translationStyle_description": {
+    "message": "Đặt bất kỳ kiểu nào bạn muốn để phân biệt kết quả dịch với văn bản gốc"
+  },
+  "options_translation_translationStyle_useCustomStyle": {
+    "message": "Sử dụng kiểu CSS tùy chỉnh"
+  },
+  "options_translation_translationStyle_useCustomStyleDescription": {
+    "message": "Hỗ trợ bất kỳ CSS nào, bao gồm phông chữ, hoạt ảnh và kiểu dành riêng cho ngôn ngữ"
+  },
+  "options_translation_translationStyle_presetStyle": {
+    "message": "Kiểu có sẵn"
+  },
+  "options_translation_translationStyle_cssEditor": {
+    "message": "Trình chỉnh sửa CSS"
+  },
+  "options_translation_translationStyle_preview": {
+    "message": "Xem trước"
+  },
+  "options_translation_translationStyle_stylePreviewLanguage": {
+    "message": "Ngôn ngữ"
+  },
+  "options_translation_translationStyle_stylePreviewDirection": {
+    "message": "Hướng"
+  },
+  "options_translation_translationStyle_stylePreviewTranslatedText": {
+    "message": "Văn bản đã dịch"
+  },
+  "options_translation_translationStyle_style_default": {
+    "message": "Không"
+  },
+  "options_translation_translationStyle_style_blur": {
+    "message": "Hiệu ứng mờ"
+  },
+  "options_translation_translationStyle_style_blockquote": {
+    "message": "Trích dẫn"
+  },
+  "options_translation_translationStyle_style_weakened": {
+    "message": "Làm mờ"
+  },
+  "options_translation_translationStyle_style_dashedLine": {
+    "message": "Đường nét đứt"
+  },
+  "options_translation_translationStyle_style_border": {
+    "message": "Viền"
+  },
+  "options_translation_translationStyle_style_textColor": {
+    "message": "Màu chữ"
+  },
+  "options_translation_translationStyle_style_background": {
+    "message": "Nền"
+  },
+  "options_translation_translationStyle_customCSS_editor_placeholder": {
+    "message": "/* Ví dụ: Kiểu tùy chỉnh với màu sắc và nền */\n[data-read-frog-custom-translation-style='custom'] {\n  color: #414535;\n  background-color: light-dark(#F2E3BC, #C19875);\n  padding: 2px 4px;\n  border-radius: 4px;\n}\n"
+  },
+  "options_translation_translationStyle_customCSS_editor_saveButton": {
+    "message": "Lưu"
+  },
+  "options_translation_translationStyle_customCSS_editor_savedButton": {
+    "message": "Đã lưu"
+  },
+  "options_translation_translationStyle_customCSS_editor_validation_validating": {
+    "message": "Đang xác thực..."
+  },
+  "options_translation_translationStyle_customCSS_editor_validation_valid": {
+    "message": "CSS hợp lệ"
+  },
+  "options_translation_translationStyle_customCSS_editor_validation_syntaxError": {
+    "message": "CSS có lỗi cú pháp"
+  },
+  "options_translation_translationStyle_customCSS_editor_validation_tooLong": {
+    "message": "CSS quá dài"
+  },
+  "options_translation_translationStyle_customCSS_editor_validation_saved": {
+    "message": "Tất cả thay đổi đã được lưu"
+  },
+  "options_translation_translationMode_title": {
+    "message": "Chế độ dịch"
+  },
+  "options_translation_translationMode_description": {
+    "message": "Chọn cách hiển thị văn bản đã dịch: song ngữ hoặc chỉ bản dịch."
+  },
+  "options_translation_translationMode_mode_bilingual": {
+    "message": "Song ngữ"
+  },
+  "options_translation_translationMode_mode_translationOnly": {
+    "message": "Chỉ bản dịch"
+  },
+  "options_translation_translateRange_title": {
+    "message": "Phạm vi dịch"
+  },
+  "options_translation_translateRange_description": {
+    "message": "Chọn chỉ dịch nội dung chính hay tất cả nội dung trên trang."
+  },
+  "options_translation_translateRange_range_main": {
+    "message": "Nội dung chính"
+  },
+  "options_translation_translateRange_range_all": {
+    "message": "Tất cả nội dung"
+  },
+  "options_translation_pageTranslationShortcut_title": {
+    "message": "Phím tắt dịch trang"
+  },
+  "options_translation_pageTranslationShortcut_description": {
+    "message": "Tùy chỉnh phím tắt để dịch toàn bộ trang web"
+  },
+  "options_translation_preloadConfig_title": {
+    "message": "Phạm vi dịch trước"
+  },
+  "options_translation_preloadConfig_description": {
+    "message": "Kiểm soát lượng nội dung bên dưới vùng nhìn được dịch trước để tiết kiệm chi phí API"
+  },
+  "options_translation_preloadConfig_margin_title": {
+    "message": "Khoảng cách tải trước (pixel)"
+  },
+  "options_translation_preloadConfig_margin_description": {
+    "message": "Khoảng cách bên dưới vùng nhìn để bắt đầu dịch nội dung. Giá trị thấp hơn tiết kiệm chi phí API nhưng có thể gây chậm trễ khi cuộn."
+  },
+  "options_translation_preloadConfig_threshold_title": {
+    "message": "Ngưỡng hiển thị"
+  },
+  "options_translation_preloadConfig_threshold_description": {
+    "message": "Tỷ lệ phần trăm hiển thị của phần tử cần thiết để kích hoạt dịch (0-1). Giá trị cao hơn sẽ trì hoãn dịch cho đến khi nhiều phần tử hơn được hiển thị."
+  },
+  "options_translation_smallParagraphFilter_title": {
+    "message": "Bộ lọc văn bản ngắn"
+  },
+  "options_translation_smallParagraphFilter_description": {
+    "message": "Bỏ qua dịch các nút văn bản có ít ký tự hoặc từ hơn ngưỡng (0 = tắt)"
+  },
+  "options_translation_smallParagraphFilter_minCharacters_title": {
+    "message": "Số ký tự tối thiểu"
+  },
+  "options_translation_smallParagraphFilter_minCharacters_description": {
+    "message": "Các nút văn bản có ít ký tự hơn giá trị này sẽ không được dịch. Số ký tự bao gồm khoảng trắng."
+  },
+  "options_translation_smallParagraphFilter_minWords_title": {
+    "message": "Số từ tối thiểu"
+  },
+  "options_translation_smallParagraphFilter_minWords_description": {
+    "message": "Các nút văn bản có ít từ hơn giá trị này sẽ không được dịch. Sử dụng Intl.Segmenter để đếm từ chính xác trên tất cả các ngôn ngữ."
+  },
+  "options_translation_smallParagraphFilter_error": {
+    "message": "Giá trị phải từ $1 đến $2"
+  },
+  "options_translation_nodeTranslationHotkey_title": {
+    "message": "Phím tắt dịch khi di chuột hoặc nhấn giữ"
+  },
+  "options_translation_nodeTranslationHotkey_description": {
+    "message": "Tùy chỉnh phím bổ trợ khi di chuột hoặc dùng nhấn giữ để dịch đoạn văn"
+  },
+  "options_translation_nodeTranslationHotkey_enable": {
+    "message": "Bật"
+  },
+  "options_translation_llmProviderConfigured": {
+    "message": "Đã chọn nhà cung cấp LLM cho $1"
+  },
+  "options_translation_llmProviderNotConfigured": {
+    "message": "Chưa chọn nhà cung cấp LLM cho $1"
+  },
+  "options_translation_autoTranslateLanguages_title": {
+    "message": "Tự động dịch theo ngôn ngữ"
+  },
+  "options_translation_autoTranslateLanguages_description": {
+    "message": "Tự động dịch nội dung trang khi phát hiện các ngôn ngữ cụ thể"
+  },
+  "options_translation_autoTranslateLanguages_selectLanguages": {
+    "message": "Chọn ngôn ngữ"
+  },
+  "options_translation_autoTranslateLanguages_detection_label": {
+    "message": "Phát hiện ngôn ngữ"
+  },
+  "options_translation_autoTranslateLanguages_detection_basic": {
+    "message": "Cơ bản"
+  },
+  "options_translation_autoTranslateLanguages_detection_llm": {
+    "message": "LLM"
+  },
+  "options_translation_autoTranslateLanguages_detection_description": {
+    "message": "Phát hiện cơ bản nhanh và miễn phí. Phát hiện LLM chính xác hơn nhưng thêm độ trễ và chi phí API. Yêu cầu các ngôn ngữ tự động dịch đã cấu hình."
+  },
+  "options_translation_skipLanguages_title": {
+    "message": "Tự động bỏ qua theo ngôn ngữ"
+  },
+  "options_translation_skipLanguages_description": {
+    "message": "Tự động bỏ qua dịch đoạn văn khi phát hiện các ngôn ngữ cụ thể"
+  },
+  "options_translation_skipLanguages_targetLanguageSkip": {
+    "message": "Bỏ qua ngôn ngữ đích"
+  },
+  "options_translation_skipLanguages_targetLanguageSkipDescription": {
+    "message": "Trước khi dịch, phát hiện đoạn văn đã ở ngôn ngữ đích hay chưa. Văn bản khớp sẽ bị bỏ qua mà không gửi yêu cầu. Tắt tùy chọn này không thay đổi lớp bảo vệ sau đó, nơi kết quả dịch không thay đổi vẫn bị ẩn."
+  },
+  "options_translation_skipLanguages_selectLanguages": {
+    "message": "Chọn ngôn ngữ"
+  },
+  "options_translation_skipLanguages_detection_label": {
+    "message": "Phát hiện ngôn ngữ"
+  },
+  "options_translation_skipLanguages_detection_basic": {
+    "message": "Cơ bản"
+  },
+  "options_translation_skipLanguages_detection_llm": {
+    "message": "LLM"
+  },
+  "options_translation_skipLanguages_detection_description": {
+    "message": "Phát hiện cơ bản nhanh và miễn phí. Phát hiện LLM chính xác hơn nhưng thêm độ trễ và chi phí API."
+  },
+  "options_translation_aiContentAware_title": {
+    "message": "Dịch ngữ cảnh thông minh AI"
+  },
+  "options_translation_aiContentAware_description": {
+    "message": "Nâng cao chất lượng dịch bằng cách cung cấp ngữ cảnh trang web cho AI"
+  },
+  "options_translation_aiContentAware_enable": {
+    "message": "Bật dịch ngữ cảnh thông minh AI"
+  },
+  "options_translation_aiContentAware_enableDescription": {
+    "message": "AI sử dụng tóm tắt trang web để cải thiện độ chính xác dịch. Yêu cầu nhà cung cấp LLM. Thêm độ trễ khi bắt đầu dịch trang và tăng chi phí API."
+  },
+  "options_tts_title": {
+    "message": "Chuyển văn bản thành giọng nói"
+  },
+  "options_tts_description": {
+    "message": "Tùy chỉnh nút Đọc với cài đặt giọng nói Edge TTS."
+  },
+  "options_tts_voice_label": {
+    "message": "Giọng nói"
+  },
+  "options_tts_voice_fallback": {
+    "message": "Dự phòng"
+  },
+  "options_tts_voice_selectPlaceholder": {
+    "message": "Chọn giọng nói"
+  },
+  "options_tts_voice_preview": {
+    "message": "Xem trước"
+  },
+  "options_tts_voice_previewSample": {
+    "message": "Xin chào từ Skim AI! Đây là cách tôi sẽ phát âm khi đọc to."
+  },
+  "options_tts_languageVoice_label": {
+    "message": "Giọng nói theo ngôn ngữ"
+  },
+  "options_tts_languageVoice_reset": {
+    "message": "Đặt lại mặc định"
+  },
+  "options_tts_languageVoice_description": {
+    "message": "Chọn một ngôn ngữ và gán giọng nói sẽ được dùng khi TTS phát hiện ngôn ngữ đó."
+  },
+  "options_tts_rate_label": {
+    "message": "Tốc độ (%)"
+  },
+  "options_tts_rate_hint": {
+    "message": "Chấp nhận giá trị số nguyên từ -100 đến 100"
+  },
+  "options_tts_pitch_label": {
+    "message": "Cao độ (Hz)"
+  },
+  "options_tts_pitch_hint": {
+    "message": "Chấp nhận giá trị số nguyên từ -100 đến 100"
+  },
+  "options_tts_volume_label": {
+    "message": "Âm lượng (%)"
+  },
+  "options_tts_volume_hint": {
+    "message": "Chấp nhận giá trị số nguyên từ -100 đến 100"
+  },
+  "options_tts_betaDisabled": {
+    "message": "Bật Trải nghiệm Beta để tùy chỉnh cài đặt chuyển văn bản thành giọng nói."
+  },
+  "options_statistics_title": {
+    "message": "Thống kê"
+  },
+  "options_statistics_batchRequest_title": {
+    "message": "Đã tiết kiệm yêu cầu dịch theo lô"
+  },
+  "options_statistics_batchRequest_description": {
+    "message": "Tỷ lệ phần trăm yêu cầu đã tiết kiệm bằng dịch theo lô trong khoảng thời gian"
+  },
+  "options_statistics_batchRequest_originalRequestCount": {
+    "message": "Số yêu cầu ban đầu"
+  },
+  "options_statistics_batchRequest_batchRequestCount": {
+    "message": "Số yêu cầu theo lô"
+  },
+  "options_config_title": {
+    "message": "Cấu hình"
+  },
+  "options_config_about_title": {
+    "message": "Giới thiệu"
+  },
+  "options_config_about_description": {
+    "message": "Skim AI ra đời vào tháng 4 năm 2025"
+  },
+  "options_config_about_mission": {
+    "message": "Skim AI hướng tới việc mở rộng cơ hội tiếp cận bình đẳng với giáo dục chất lượng cao trong thời đại AI bằng cách mang lại trải nghiệm học tập gần với cảm giác được giáo viên thật hướng dẫn, nhưng với chi phí hợp lý hơn trong học ngôn ngữ, y học và các lĩnh vực giàu tri thức khác."
+  },
+  "options_config_about_analytics_title": {
+    "message": "Giúp cải thiện trải nghiệm người dùng"
+  },
+  "options_config_about_analytics_tooltip": {
+    "message": "Khi bật, Skim AI sẽ gửi các tín hiệu sử dụng ẩn danh để xác minh tính ổn định của tính năng, tối ưu hiệu năng và độ tinh chỉnh UX, đồng thời giúp chúng tôi ưu tiên những gì cần xây tiếp theo."
+  },
+  "options_config_sync_title": {
+    "message": "Đồng bộ cấu hình thủ công"
+  },
+  "options_config_sync_description": {
+    "message": "Nhập và xuất cài đặt cấu hình thủ công"
+  },
+  "options_config_sync_import": {
+    "message": "Nhập cấu hình"
+  },
+  "options_config_sync_export": {
+    "message": "Xuất cấu hình"
+  },
+  "options_config_sync_importSuccess": {
+    "message": "Nhập cấu hình thành công"
+  },
+  "options_config_sync_exportSuccess": {
+    "message": "Xuất cấu hình thành công"
+  },
+  "options_config_sync_importError": {
+    "message": "Nhập thất bại"
+  },
+  "options_config_sync_versionTooNew": {
+    "message": "Phiên bản cấu hình đã nhập mới hơn, vui lòng nâng cấp Skim AI lên phiên bản mới nhất"
+  },
+  "options_config_sync_migrationError": {
+    "message": "Di chuyển thất bại"
+  },
+  "options_config_sync_validationError": {
+    "message": "Xác thực cấu hình thất bại"
+  },
+  "options_config_sync_exportOptions_title": {
+    "message": "Chọn tùy chọn xuất"
+  },
+  "options_config_sync_exportOptions_description": {
+    "message": "Vui lòng chọn có bao gồm API Keys trong cấu hình xuất hay không. Bao gồm API Keys có thể làm rò rỉ thông tin nhạy cảm, vì vậy khuyến nghị chỉ sử dụng trong môi trường an toàn."
+  },
+  "options_config_sync_exportOptions_includeAPIKeys": {
+    "message": "Bao gồm API Keys"
+  },
+  "options_config_sync_exportOptions_excludeAPIKeys": {
+    "message": "Loại trừ API Keys"
+  },
+  "options_config_sync_exportOptions_cancel": {
+    "message": "Hủy"
+  },
+  "options_config_sync_viewConfig_expand": {
+    "message": "Mở rộng cấu hình"
+  },
+  "options_config_sync_viewConfig_collapse": {
+    "message": "Thu gọn cấu hình"
+  },
+  "options_config_sync_googleDrive_title": {
+    "message": "Đồng bộ đám mây Google Drive"
+  },
+  "options_config_sync_googleDrive_description": {
+    "message": "Tải xuống khi bản từ xa mới hơn, tải lên khi bản cục bộ mới hơn"
+  },
+  "options_config_sync_googleDrive_sync": {
+    "message": "Đồng bộ với Google Drive"
+  },
+  "options_config_sync_googleDrive_syncing": {
+    "message": "Đang đồng bộ..."
+  },
+  "options_config_sync_googleDrive_syncSuccess_uploaded": {
+    "message": "Đã tải cấu hình lên đám mây"
+  },
+  "options_config_sync_googleDrive_syncSuccess_downloaded": {
+    "message": "Đã áp dụng cấu hình từ xa"
+  },
+  "options_config_sync_googleDrive_syncSuccess_sameChanges": {
+    "message": "Thay đổi cục bộ và từ xa giống nhau, đã đồng bộ"
+  },
+  "options_config_sync_googleDrive_syncSuccess_noChange": {
+    "message": "Đã đồng bộ"
+  },
+  "options_config_sync_googleDrive_syncSuccess_unresolved": {
+    "message": "Đã giải quyết xung đột và đồng bộ"
+  },
+  "options_config_sync_googleDrive_syncError": {
+    "message": "Đồng bộ thất bại, vui lòng thử lại"
+  },
+  "options_config_sync_googleDrive_metadataCorrupted": {
+    "message": "Siêu dữ liệu đồng bộ bị hỏng, đã áp dụng cấu hình từ xa"
+  },
+  "options_config_sync_googleDrive_lastSyncTime": {
+    "message": "Đồng bộ lần cuối lúc"
+  },
+  "options_config_sync_googleDrive_logout": {
+    "message": "Đăng xuất"
+  },
+  "options_config_sync_googleDrive_logoutSuccess": {
+    "message": "Đã đăng xuất khỏi tài khoản Google"
+  },
+  "options_config_sync_googleDrive_unresolved_title": {
+    "message": "Giải quyết đồng bộ cấu hình"
+  },
+  "options_config_sync_googleDrive_unresolved_description": {
+    "message": "Cấu hình cục bộ và từ xa khác nhau. Vui lòng chọn phiên bản nào để giữ cho mỗi trường."
+  },
+  "options_config_sync_googleDrive_unresolved_resolved": {
+    "message": "Đã giải quyết"
+  },
+  "options_config_sync_googleDrive_unresolved_unresolved": {
+    "message": "Chưa giải quyết"
+  },
+  "options_config_sync_googleDrive_unresolved_localValue": {
+    "message": "Giá trị cục bộ"
+  },
+  "options_config_sync_googleDrive_unresolved_remoteValue": {
+    "message": "Giá trị từ xa"
+  },
+  "options_config_sync_googleDrive_unresolved_useLocal": {
+    "message": "Dùng cục bộ"
+  },
+  "options_config_sync_googleDrive_unresolved_useRemote": {
+    "message": "Dùng từ xa"
+  },
+  "options_config_sync_googleDrive_unresolved_useAllLocal": {
+    "message": "Dùng tất cả cục bộ"
+  },
+  "options_config_sync_googleDrive_unresolved_useAllRemote": {
+    "message": "Dùng tất cả từ xa"
+  },
+  "options_config_sync_googleDrive_unresolved_reset": {
+    "message": "Đặt lại lựa chọn"
+  },
+  "options_config_sync_googleDrive_unresolved_progress": {
+    "message": "Đã giải quyết $1/$2 thay đổi"
+  },
+  "options_config_sync_googleDrive_unresolved_confirm": {
+    "message": "Xác nhận đồng bộ"
+  },
+  "options_config_sync_googleDrive_unresolved_cancel": {
+    "message": "Hủy"
+  },
+  "options_config_sync_googleDrive_unresolved_hasUnresolvedInChildren": {
+    "message": "⚠ Chứa thay đổi chưa giải quyết"
+  },
+  "options_config_sync_googleDrive_unresolved_item": {
+    "message": "mục"
+  },
+  "options_config_sync_googleDrive_unresolved_items": {
+    "message": "mục"
+  },
+  "options_config_sync_googleDrive_unresolved_unresolvedPrompt": {
+    "message": "[Chưa giải quyết - Vui lòng chọn]"
+  },
+  "options_config_sync_googleDrive_unresolved_localLatest": {
+    "message": "Cục bộ mới nhất"
+  },
+  "options_config_sync_googleDrive_unresolved_remoteLatest": {
+    "message": "Từ xa mới nhất"
+  },
+  "options_config_sync_googleDrive_unresolved_bothChanged": {
+    "message": "Cả hai đã thay đổi"
+  },
+  "options_config_sync_googleDrive_unresolved_localChanged": {
+    "message": "Cục bộ đã thay đổi"
+  },
+  "options_config_sync_googleDrive_unresolved_remoteChanged": {
+    "message": "Từ xa đã thay đổi"
+  },
+  "options_config_sync_googleDrive_unresolved_configValid": {
+    "message": "Cấu hình hợp lệ"
+  },
+  "options_config_sync_googleDrive_unresolved_configInvalid": {
+    "message": "Cấu hình không hợp lệ"
+  },
+  "options_config_sync_googleDrive_unresolved_resolveToContinue": {
+    "message": "Giải quyết xung đột để tiếp tục"
+  },
+  "options_config_sync_googleDrive_unresolved_validationAlert_title": {
+    "message": "Cấu hình đã hợp nhất có lỗi xác thực"
+  },
+  "options_config_sync_googleDrive_unresolved_validationAlert_description": {
+    "message": "Điều chỉnh các khác biệt bên dưới để sửa:"
+  },
+  "options_config_sync_googleDrive_unresolved_moreErrors": {
+    "message": "...và $1 lỗi nữa"
+  },
+  "options_config_backup_title": {
+    "message": "Sao lưu cấu hình"
+  },
+  "options_config_backup_description": {
+    "message": "Các bản sao lưu tự động được tạo mỗi giờ nếu cấu hình thay đổi. Bạn có thể khôi phục các cấu hình trước đó tại đây. (Tối đa $1 bản sao lưu)"
+  },
+  "options_config_backup_loading": {
+    "message": "Đang tải bản sao lưu..."
+  },
+  "options_config_backup_backupNow": {
+    "message": "Sao lưu ngay"
+  },
+  "options_config_backup_backupSuccess": {
+    "message": "Tạo bản sao lưu thành công"
+  },
+  "options_config_backup_restoreSuccess": {
+    "message": "Khôi phục cấu hình thành công"
+  },
+  "options_config_backup_empty_title": {
+    "message": "Chưa có bản sao lưu nào"
+  },
+  "options_config_backup_empty_description": {
+    "message": "Các bản sao lưu được tạo tự động mỗi giờ nếu cấu hình thay đổi."
+  },
+  "options_config_backup_item_extensionVersion": {
+    "message": "Phiên bản tiện ích:"
+  },
+  "options_config_backup_item_schemaVersion": {
+    "message": "Phiên bản schema:"
+  },
+  "options_config_backup_item_restore": {
+    "message": "Khôi phục"
+  },
+  "options_config_backup_item_export": {
+    "message": "Xuất"
+  },
+  "options_config_backup_item_delete": {
+    "message": "Xóa"
+  },
+  "options_config_backup_restore_title": {
+    "message": "Khôi phục bản sao lưu cấu hình?"
+  },
+  "options_config_backup_restore_description": {
+    "message": "Cấu hình hiện tại của bạn sẽ được tự động sao lưu nếu nó khác với bản sao lưu mới nhất. Bản sao lưu cũ nhất có thể bị xóa nếu số lượng bản sao lưu vượt quá giới hạn."
+  },
+  "options_config_backup_restore_cancel": {
+    "message": "Hủy"
+  },
+  "options_config_backup_restore_confirm": {
+    "message": "Khôi phục"
+  },
+  "options_config_backup_delete_title": {
+    "message": "Xóa bản sao lưu?"
+  },
+  "options_config_backup_delete_description": {
+    "message": "Bạn có chắc chắn muốn xóa bản sao lưu này? Hành động này không thể hoàn tác."
+  },
+  "options_config_backup_delete_cancel": {
+    "message": "Hủy"
+  },
+  "options_config_backup_delete_confirm": {
+    "message": "Xóa"
+  },
+  "options_config_resetConfig_title": {
+    "message": "Đặt lại cấu hình"
+  },
+  "options_config_resetConfig_description": {
+    "message": "Đặt lại tất cả cấu hình về giá trị mặc định"
+  },
+  "options_config_resetConfig_dialog_title": {
+    "message": "Đặt lại cấu hình"
+  },
+  "options_config_resetConfig_dialog_trigger": {
+    "message": "Đặt lại cấu hình"
+  },
+  "options_config_resetConfig_dialog_confirm": {
+    "message": "Xác nhận"
+  },
+  "options_config_resetConfig_dialog_cancel": {
+    "message": "Hủy"
+  },
+  "options_config_resetConfig_dialog_description": {
+    "message": "Thao tác này sẽ xóa tất cả cấu hình tùy chỉnh của bạn và đặt lại về giá trị mặc định. Vui lòng xác nhận."
+  },
+  "options_videoSubtitles_title": {
+    "message": "Phụ đề video"
+  },
+  "options_videoSubtitles_description": {
+    "message": "Hiện chỉ hỗ trợ phụ đề video YouTube"
+  },
+  "options_videoSubtitles_provider_title": {
+    "message": "Nhà cung cấp dịch thuật"
+  },
+  "options_videoSubtitles_provider_description": {
+    "message": "Chọn nhà cung cấp dịch thuật để sử dụng cho phụ đề video"
+  },
+  "options_videoSubtitles_provider_label": {
+    "message": "Nhà cung cấp"
+  },
+  "options_videoSubtitles_enable": {
+    "message": "Bật phụ đề video"
+  },
+  "options_videoSubtitles_enableDescription": {
+    "message": "Khi bật, nút dịch sẽ xuất hiện trong thanh điều khiển YouTube. Nhấp để bắt đầu dịch phụ đề."
+  },
+  "options_videoSubtitles_autoStart": {
+    "message": "Tự động bật phụ đề"
+  },
+  "options_videoSubtitles_autoStartDescription": {
+    "message": "Tự động bật dịch phụ đề khi video được tải xong."
+  },
+  "options_videoSubtitles_style_title": {
+    "message": "Kiểu phụ đề"
+  },
+  "options_videoSubtitles_style_description": {
+    "message": "Tùy chỉnh giao diện phụ đề"
+  },
+  "options_videoSubtitles_style_preview": {
+    "message": "Xem trước"
+  },
+  "options_videoSubtitles_style_displayMode_title": {
+    "message": "Chế độ hiển thị"
+  },
+  "options_videoSubtitles_style_displayMode_bilingual": {
+    "message": "Song ngữ"
+  },
+  "options_videoSubtitles_style_displayMode_originalOnly": {
+    "message": "Chỉ bản gốc"
+  },
+  "options_videoSubtitles_style_displayMode_translationOnly": {
+    "message": "Chỉ bản dịch"
+  },
+  "options_videoSubtitles_style_translationPosition_title": {
+    "message": "Vị trí bản dịch"
+  },
+  "options_videoSubtitles_style_translationPosition_above": {
+    "message": "Phía trên"
+  },
+  "options_videoSubtitles_style_translationPosition_below": {
+    "message": "Phía dưới"
+  },
+  "options_videoSubtitles_style_generalSettings": {
+    "message": "Cài đặt chung"
+  },
+  "options_videoSubtitles_style_mainSubtitle": {
+    "message": "Phụ đề chính"
+  },
+  "options_videoSubtitles_style_translationSubtitle": {
+    "message": "Phụ đề dịch"
+  },
+  "options_videoSubtitles_style_containerStyle": {
+    "message": "Nền"
+  },
+  "options_videoSubtitles_style_fontFamily": {
+    "message": "Phông chữ"
+  },
+  "options_videoSubtitles_style_fontScale": {
+    "message": "Cỡ chữ"
+  },
+  "options_videoSubtitles_style_color": {
+    "message": "Màu sắc"
+  },
+  "options_videoSubtitles_style_fontWeight": {
+    "message": "Độ đậm chữ"
+  },
+  "options_videoSubtitles_style_backgroundOpacity": {
+    "message": "Độ trong suốt nền"
+  },
+  "options_videoSubtitles_style_reset": {
+    "message": "Đặt lại về mặc định"
+  },
+  "options_videoSubtitles_aiSegmentation_title": {
+    "message": "AI Phân đoạn thông minh"
+  },
+  "options_videoSubtitles_aiSegmentation_enable": {
+    "message": "Bật AI Phân đoạn thông minh"
+  },
+  "options_videoSubtitles_aiSegmentation_enableDescription": {
+    "message": "Sử dụng AI để phân đoạn phụ đề thông minh nhằm cải thiện khả năng đọc. Dòng thời gian do AI xác định, có thể đôi khi gây lệch thời gian. Yêu cầu nhà cung cấp dịch LLM."
+  },
+  "options_videoSubtitles_aiSegmentation_clearCache": {
+    "message": "Xóa bộ nhớ đệm"
+  },
+  "options_videoSubtitles_aiSegmentation_clearing": {
+    "message": "Đang xóa..."
+  },
+  "options_videoSubtitles_aiSegmentation_clearCacheDialog_title": {
+    "message": "Xóa bộ nhớ đệm AI phân đoạn"
+  },
+  "options_videoSubtitles_aiSegmentation_clearCacheDialog_description": {
+    "message": "Tất cả kết quả AI phân đoạn đã lưu trong bộ nhớ đệm sẽ bị xóa. Lần tới khi phát video có bật AI phân đoạn, phụ đề sẽ được xử lý lại."
+  },
+  "options_videoSubtitles_aiSegmentation_clearCacheDialog_cancel": {
+    "message": "Hủy"
+  },
+  "options_videoSubtitles_aiSegmentation_clearCacheDialog_confirm": {
+    "message": "Xác nhận"
+  },
+  "options_videoSubtitles_requestQueueConfig_title": {
+    "message": "Tốc độ dịch phụ đề"
+  },
+  "options_videoSubtitles_requestQueueConfig_firstOnDescription": {
+    "message": "Điều chỉnh tốc độ xử lý yêu cầu dịch phụ đề bằng thuật toán"
+  },
+  "options_videoSubtitles_requestQueueConfig_lastOnDescription": {
+    "message": ""
+  },
+  "options_videoSubtitles_requestQueueConfig_capacity_title": {
+    "message": "Số yêu cầu tối đa đồng thời"
+  },
+  "options_videoSubtitles_requestQueueConfig_capacity_description": {
+    "message": "Số lượng yêu cầu dịch phụ đề tối đa có thể xử lý đồng thời trong khoảng thời gian ngắn"
+  },
+  "options_videoSubtitles_requestQueueConfig_rate_title": {
+    "message": "Số yêu cầu trung bình/giây"
+  },
+  "options_videoSubtitles_requestQueueConfig_rate_description": {
+    "message": "Số yêu cầu dịch phụ đề trung bình mỗi giây, có thể cấu hình số yêu cầu tối đa để tạm thời gửi yêu cầu vượt quá"
+  },
+  "options_videoSubtitles_batchQueueConfig_title": {
+    "message": "Dịch phụ đề theo lô"
+  },
+  "options_videoSubtitles_batchQueueConfig_description": {
+    "message": "Cấu hình giới hạn ký tự và số đoạn văn tối đa cho dịch theo lô (chỉ có hiệu lực với dịch LLM)"
+  },
+  "options_videoSubtitles_batchQueueConfig_maxCharactersPerBatch_title": {
+    "message": "Số ký tự tối đa"
+  },
+  "options_videoSubtitles_batchQueueConfig_maxCharactersPerBatch_description": {
+    "message": "Số ký tự tối đa được phép cho mỗi yêu cầu lô để kiểm soát khối lượng nội dung của mỗi bản dịch"
+  },
+  "options_videoSubtitles_batchQueueConfig_maxItemsPerBatch_title": {
+    "message": "Số đoạn văn tối đa"
+  },
+  "options_videoSubtitles_batchQueueConfig_maxItemsPerBatch_description": {
+    "message": "Số đoạn văn tối đa cho mỗi bản dịch lô để kiểm soát khối lượng nội dung của mỗi bản dịch"
+  },
+  "options_videoSubtitles_customPrompts_title": {
+    "message": "Lời nhắc phụ đề tùy chỉnh"
+  },
+  "options_videoSubtitles_customPrompts_description": {
+    "message": "Tùy chỉnh mẫu lời nhắc cho dịch phụ đề (tách biệt với lời nhắc dịch trang web)"
+  },
+  "options_videoSubtitles_customPrompts_editPrompt_promptCellInput_input": {
+    "message": "Văn bản phụ đề cần dịch"
+  },
+  "options_videoSubtitles_customPrompts_editPrompt_promptCellInput_targetLanguage": {
+    "message": "Ngôn ngữ đích"
+  },
+  "options_videoSubtitles_customPrompts_editPrompt_promptCellInput_videoTitle": {
+    "message": "Tiêu đề video"
+  },
+  "options_videoSubtitles_customPrompts_editPrompt_promptCellInput_videoSummary": {
+    "message": "Tóm tắt video (yêu cầu Ngữ cảnh thông minh AI)"
+  },
+  "options_whatsNew_title": {
+    "message": "Có gì mới"
+  },
+  "options_survey_title": {
+    "message": "Cải thiện phụ đề 🎁"
+  },
+  "options_rateUs_title": {
+    "message": "Đánh giá chúng tôi"
+  },
+  "side_sourceLang": {
+    "message": "Ngôn ngữ nguồn"
+  },
+  "side_targetLang": {
+    "message": "Ngôn ngữ đích"
+  },
+  "side_fileExport": {
+    "message": "Xuất tệp"
+  },
+  "translateService_title": {
+    "message": "Dịch vụ dịch thuật"
+  },
+  "translateService_description": {
+    "message": "Chỉ để dịch trang web"
+  },
+  "translateService_normalTranslator": {
+    "message": "Trình dịch thông thường"
+  },
+  "translateService_aiTranslator": {
+    "message": "Trình dịch AI"
+  },
+  "translateService_selectServices": {
+    "message": "Chọn dịch vụ"
+  },
+  "translateService_translationProviders": {
+    "message": "Dịch vụ dịch thuật"
+  },
+  "translateService_configureAPI": {
+    "message": "Cấu hình API"
+  },
+  "translatePrompt_title": {
+    "message": "Kiểu dịch AI"
+  },
+  "translatePrompt_description": {
+    "message": "Chọn một Prompt để sử dụng trong quá trình dịch. Thêm hoặc sửa đổi Prompt tùy chỉnh trên trang tùy chọn."
+  },
+  "languageLevel": {
+    "message": "Trình độ ngôn ngữ nguồn của bạn"
+  },
+  "languageLevels_beginner": {
+    "message": "Người mới bắt đầu"
+  },
+  "languageLevels_intermediate": {
+    "message": "Trung cấp"
+  },
+  "languageLevels_advanced": {
+    "message": "Nâng cao"
+  },
+  "noAPIKeyConfig_warning": {
+    "message": "Nếu bạn muốn sử dụng mô hình AI, vui lòng đặt API key trên trang tùy chọn trước"
+  },
+  "noAPIKeyConfig_warningWithLink_youMust": {
+    "message": "Bạn phải"
+  },
+  "noAPIKeyConfig_warningWithLink_setTheAPIKey": {
+    "message": "đặt API key"
+  },
+  "noAPIKeyConfig_warningWithLink_firstOnThe": {
+    "message": "trước trên trang"
+  },
+  "noAPIKeyConfig_warningWithLink_optionsPage": {
+    "message": "tùy chọn"
+  },
+  "noAPIKeyConfig_warningWithLink_page": {
+    "message": ""
+  },
+  "languageDetection_llmFailed": {
+    "message": "Phát hiện ngôn ngữ LLM thất bại, đã chuyển về phát hiện cơ bản"
+  },
+  "translation_sameLanguage": {
+    "message": "Ngôn ngữ nguồn và đích phải khác nhau"
+  },
+  "translation_autoModeSameLanguage": {
+    "message": "Ngôn ngữ phát hiện '$1' giống với ngôn ngữ đích"
+  },
+  "speak_fetchingAudio": {
+    "message": "Đang tạo âm thanh..."
+  },
+  "speak_playingAudio": {
+    "message": "Đang phát âm thanh..."
+  },
+  "speak_failedToGenerateSpeech": {
+    "message": "Không thể tạo giọng nói"
+  },
+  "speak_noTextSelected": {
+    "message": "Không có văn bản nào được chọn"
+  },
+  "speak_openaiNotConfigured": {
+    "message": "Nhà cung cấp OpenAI chưa được cấu hình hoặc chưa được bật"
+  },
+  "speak_openaiApiKeyNotConfigured": {
+    "message": "API key OpenAI chưa được cấu hình"
+  },
+  "action_copy": {
+    "message": "Sao chép"
+  },
+  "action_copied": {
+    "message": "Đã sao chép"
+  },
+  "action_regenerate": {
+    "message": "Tạo lại"
+  },
+  "action_viewContextDetails": {
+    "message": "Ngữ cảnh"
+  },
+  "action_saveToNotebase": {
+    "message": "Lưu vào Notebase"
+  },
+  "action_saveToNotebaseSaving": {
+    "message": "Đang lưu..."
+  },
+  "action_saveToNotebaseSuccess": {
+    "message": "Đã lưu vào Notebase"
+  },
+  "action_saveToNotebaseFailed": {
+    "message": "Không thể lưu vào Notebase"
+  },
+  "action_saveToNotebaseLoginRequired": {
+    "message": "Hãy đăng nhập trên readfrog.app để lưu vào Notebase"
+  },
+  "action_saveToNotebaseBetaRequired": {
+    "message": "Tài khoản này chưa được mở quyền beta Notebase"
+  },
+  "action_saveToNotebaseTableUnavailable": {
+    "message": "Notebase đã chọn không còn khả dụng"
+  },
+  "action_saveToNotebaseConnectionInvalid": {
+    "message": "Kết nối Notebase này đã lỗi thời. Hãy làm mới trong Custom AI Actions và sửa các ánh xạ."
+  },
+  "action_saveToNotebaseNoMappings": {
+    "message": "Hãy thêm ít nhất một ánh xạ hợp lệ trước khi lưu"
+  },
+  "action_contextDetailsTitleLabel": {
+    "message": "Tiêu đề"
+  },
+  "action_contextDetailsParagraphsLabel": {
+    "message": "Các đoạn văn"
+  },
+  "action_translation": {
+    "message": "Dịch"
+  },
+  "action_speak": {
+    "message": "Đọc"
+  },
+  "action_playing": {
+    "message": "Đang phát"
+  },
+  "thinking_label": {
+    "message": "Đang suy luận"
+  },
+  "thinking_complete": {
+    "message": "Suy luận hoàn tất"
+  },
+  "thinking_expand": {
+    "message": "Mở rộng suy luận"
+  },
+  "thinking_collapse": {
+    "message": "Thu gọn suy luận"
+  },
+  "shortcutKeySelector_placeholder": {
+    "message": "Vui lòng nhập phím tắt"
+  },
+  "subtitles_actions_downloadSource": {
+    "message": "Tải phụ đề gốc"
+  },
+  "subtitles_state_loading": {
+    "message": "Skim AI đang tải phụ đề"
+  },
+  "subtitles_state_error": {
+    "message": "Đã xảy ra lỗi"
+  },
+  "subtitles_errors_http429": {
+    "message": "429 Đã gửi quá nhiều yêu cầu đến API phụ đề Youtube, vui lòng thử lại sau"
+  },
+  "subtitles_errors_http404": {
+    "message": "404 Không tìm thấy phụ đề Youtube"
+  },
+  "subtitles_errors_http403": {
+    "message": "403 Không được phép truy cập phụ đề Youtube"
+  },
+  "subtitles_errors_http500": {
+    "message": "500 Lỗi máy chủ Youtube"
+  },
+  "subtitles_errors_httpUnknown": {
+    "message": "Lỗi HTTP $1"
+  },
+  "subtitles_errors_invalidResponse": {
+    "message": "Định dạng phản hồi phụ đề Youtube không hợp lệ"
+  },
+  "subtitles_errors_networkError": {
+    "message": "Xảy ra lỗi mạng khi lấy phụ đề"
+  },
+  "subtitles_errors_fetchSubTimeout": {
+    "message": "Quá thời gian lấy phụ đề Youtube"
+  },
+  "subtitles_errors_buttonNotFound": {
+    "message": "Không tìm thấy nút phụ đề"
+  },
+  "subtitles_errors_noSubtitlesFound": {
+    "message": "Video hiện tại không có phụ đề"
+  },
+  "subtitles_errors_videoNotFound": {
+    "message": "Không tìm thấy phần tử video"
+  },
+  "subtitles_errors_controlsBarNotFound": {
+    "message": "Không tìm thấy thanh điều khiển"
+  },
+  "subtitles_errors_aiRateLimited": {
+    "message": "Quá nhiều yêu cầu, vui lòng thử lại sau"
+  },
+  "subtitles_errors_aiAuthFailed": {
+    "message": "Xác thực API thất bại, vui lòng kiểm tra API key của bạn"
+  },
+  "subtitles_errors_aiServiceUnavailable": {
+    "message": "Dịch vụ dịch thuật tạm thời không khả dụng"
+  },
+  "subtitles_errors_aiNoResponse": {
+    "message": "Dịch vụ AI không phản hồi, hiển thị văn bản gốc"
+  },
+  "hotkey_control": {
+    "message": "Ctrl"
+  },
+  "hotkey_alt": {
+    "message": "Option"
+  },
+  "hotkey_shift": {
+    "message": "Shift"
+  },
+  "hotkey_backtick": {
+    "message": "Dấu huyền"
+  },
+  "hotkey_clickAndHold": {
+    "message": "Nhấn và giữ"
+  },
+  "translationHub_searchLanguages": {
+    "message": "Tìm kiếm ngôn ngữ..."
+  },
+  "translationHub_noLanguagesFound": {
+    "message": "Không tìm thấy ngôn ngữ"
+  },
+  "translationHub_exchangeLanguages": {
+    "message": "Đổi ngôn ngữ"
+  },
+  "translationHub_title": {
+    "message": "Dịch Văn Bản Đa API"
+  },
+  "translationHub_noServicesSelected": {
+    "message": "Chưa Chọn Dịch Vụ Dịch Thuật"
+  },
+  "translationHub_noServicesDescription": {
+    "message": "Chọn dịch vụ dịch thuật ở trên để xem thẻ dịch thuật tại đây."
+  },
+  "translationHub_inputPlaceholder": {
+    "message": "Nhập văn bản cần dịch..."
+  },
+  "translationHub_translate": {
+    "message": "Dịch"
+  },
+  "translationHub_copiedToClipboard": {
+    "message": "Đã sao chép bản dịch vào bộ nhớ tạm!"
+  },
+  "translationHub_copyTranslation": {
+    "message": "Sao chép bản dịch"
+  },
+  "translationHub_expandCard": {
+    "message": "Mở rộng thẻ"
+  },
+  "translationHub_collapseCard": {
+    "message": "Thu gọn thẻ"
+  },
+  "translationHub_expandAllCards": {
+    "message": "Mở rộng tất cả"
+  },
+  "translationHub_collapseAllCards": {
+    "message": "Thu gọn tất cả"
+  },
+  "translationHub_deleteCard": {
+    "message": "Xóa thẻ"
+  },
+  "translationHub_translationFailed": {
+    "message": "Dịch Thất Bại"
+  },
+  "translationHub_translationFailedFallback": {
+    "message": "Dịch thất bại"
+  },
+  "translationHub_retryTranslation": {
+    "message": "Thử lại dịch"
+  },
+  "languages_eng": {
+    "message": "Tiếng Anh"
+  },
+  "languages_cmn": {
+    "message": "Tiếng Trung giản thể"
+  },
+  "languages_cmnHant": {
+    "message": "Tiếng Trung phồn thể"
+  },
+  "languages_yue": {
+    "message": "Tiếng Quảng Đông"
+  },
+  "languages_spa": {
+    "message": "Tiếng Tây Ban Nha"
+  },
+  "languages_rus": {
+    "message": "Tiếng Nga"
+  },
+  "languages_arb": {
+    "message": "Tiếng Ả Rập"
+  },
+  "languages_ben": {
+    "message": "Tiếng Bengal"
+  },
+  "languages_hin": {
+    "message": "Tiếng Hindi"
+  },
+  "languages_por": {
+    "message": "Tiếng Bồ Đào Nha"
+  },
+  "languages_ind": {
+    "message": "Tiếng Indonesia"
+  },
+  "languages_jpn": {
+    "message": "Tiếng Nhật"
+  },
+  "languages_fra": {
+    "message": "Tiếng Pháp"
+  },
+  "languages_deu": {
+    "message": "Tiếng Đức"
+  },
+  "languages_jav": {
+    "message": "Tiếng Java"
+  },
+  "languages_kor": {
+    "message": "Tiếng Hàn"
+  },
+  "languages_tel": {
+    "message": "Tiếng Telugu"
+  },
+  "languages_vie": {
+    "message": "Tiếng Việt"
+  },
+  "languages_mar": {
+    "message": "Tiếng Marathi"
+  },
+  "languages_ita": {
+    "message": "Tiếng Ý"
+  },
+  "languages_tam": {
+    "message": "Tiếng Tamil"
+  },
+  "languages_tur": {
+    "message": "Tiếng Thổ Nhĩ Kỳ"
+  },
+  "languages_urd": {
+    "message": "Tiếng Urdu"
+  },
+  "languages_guj": {
+    "message": "Tiếng Gujarati"
+  },
+  "languages_pol": {
+    "message": "Tiếng Ba Lan"
+  },
+  "languages_ukr": {
+    "message": "Tiếng Ukraine"
+  },
+  "languages_kan": {
+    "message": "Tiếng Kannada"
+  },
+  "languages_mai": {
+    "message": "Tiếng Maithili"
+  },
+  "languages_mal": {
+    "message": "Tiếng Malayalam"
+  },
+  "languages_pes": {
+    "message": "Tiếng Ba Tư"
+  },
+  "languages_mya": {
+    "message": "Tiếng Miến Điện"
+  },
+  "languages_swh": {
+    "message": "Tiếng Swahili"
+  },
+  "languages_sun": {
+    "message": "Tiếng Sunda"
+  },
+  "languages_ron": {
+    "message": "Tiếng Romania"
+  },
+  "languages_pan": {
+    "message": "Tiếng Punjab"
+  },
+  "languages_bho": {
+    "message": "Tiếng Bhojpuri"
+  },
+  "languages_amh": {
+    "message": "Tiếng Amhara"
+  },
+  "languages_hau": {
+    "message": "Tiếng Hausa"
+  },
+  "languages_fuv": {
+    "message": "Tiếng Fulani"
+  },
+  "languages_bos": {
+    "message": "Tiếng Bosnia"
+  },
+  "languages_hrv": {
+    "message": "Tiếng Croatia"
+  },
+  "languages_nld": {
+    "message": "Tiếng Hà Lan"
+  },
+  "languages_srp": {
+    "message": "Tiếng Serbia"
+  },
+  "languages_tha": {
+    "message": "Tiếng Thái"
+  },
+  "languages_ckb": {
+    "message": "Tiếng Kurd Trung"
+  },
+  "languages_yor": {
+    "message": "Tiếng Yoruba"
+  },
+  "languages_uzn": {
+    "message": "Tiếng Uzbek"
+  },
+  "languages_zlm": {
+    "message": "Tiếng Mã Lai"
+  },
+  "languages_ibo": {
+    "message": "Tiếng Igbo"
+  },
+  "languages_npi": {
+    "message": "Tiếng Nepal"
+  },
+  "languages_ceb": {
+    "message": "Tiếng Cebuano"
+  },
+  "languages_skr": {
+    "message": "Tiếng Saraiki"
+  },
+  "languages_tgl": {
+    "message": "Tiếng Tagalog"
+  },
+  "languages_hun": {
+    "message": "Tiếng Hungary"
+  },
+  "languages_azj": {
+    "message": "Tiếng Azerbaijan"
+  },
+  "languages_sin": {
+    "message": "Tiếng Sinhala"
+  },
+  "languages_koi": {
+    "message": "Tiếng Komi-Permyak"
+  },
+  "languages_ell": {
+    "message": "Tiếng Hy Lạp"
+  },
+  "languages_ces": {
+    "message": "Tiếng Séc"
+  },
+  "languages_mag": {
+    "message": "Tiếng Magahi"
+  },
+  "languages_run": {
+    "message": "Tiếng Rundi"
+  },
+  "languages_bel": {
+    "message": "Tiếng Belarus"
+  },
+  "languages_plt": {
+    "message": "Tiếng Malagasy"
+  },
+  "languages_qug": {
+    "message": "Tiếng Quechua Chimborazo"
+  },
+  "languages_mad": {
+    "message": "Tiếng Madura"
+  },
+  "languages_nya": {
+    "message": "Tiếng Chewa"
+  },
+  "languages_zyb": {
+    "message": "Tiếng Choang"
+  },
+  "languages_pbu": {
+    "message": "Tiếng Pashto"
+  },
+  "languages_kin": {
+    "message": "Tiếng Kinyarwanda"
+  },
+  "languages_zul": {
+    "message": "Tiếng Zulu"
+  },
+  "languages_bul": {
+    "message": "Tiếng Bulgaria"
+  },
+  "languages_swe": {
+    "message": "Tiếng Thụy Điển"
+  },
+  "languages_lin": {
+    "message": "Tiếng Lingala"
+  },
+  "languages_som": {
+    "message": "Tiếng Somali"
+  },
+  "languages_hms": {
+    "message": "Tiếng Miêu Qiandong"
+  },
+  "languages_hnj": {
+    "message": "Tiếng Hmong Njua"
+  },
+  "languages_ilo": {
+    "message": "Tiếng Ilocano"
+  },
+  "languages_kaz": {
+    "message": "Tiếng Kazakh"
+  },
+  "languages_heb": {
+    "message": "Tiếng Hebrew"
+  },
+  "languages_nob": {
+    "message": "Tiếng Na Uy (Bokmål)"
+  },
+  "languages_nno": {
+    "message": "Tiếng Na Uy (Nynorsk)"
+  },
+  "languages_afr": {
+    "message": "Tiếng Afrikaans"
+  },
+  "languages_sqi": {
+    "message": "Tiếng Albania"
+  },
+  "languages_asm": {
+    "message": "Tiếng Assam"
+  },
+  "languages_eus": {
+    "message": "Tiếng Basque"
+  },
+  "languages_bre": {
+    "message": "Tiếng Breton"
+  },
+  "languages_cat": {
+    "message": "Tiếng Catalan"
+  },
+  "languages_cos": {
+    "message": "Tiếng Corsica"
+  },
+  "languages_cym": {
+    "message": "Tiếng Wales"
+  },
+  "languages_dan": {
+    "message": "Tiếng Đan Mạch"
+  },
+  "languages_div": {
+    "message": "Tiếng Divehi"
+  },
+  "languages_epo": {
+    "message": "Tiếng Esperanto"
+  },
+  "languages_ekk": {
+    "message": "Tiếng Estonia"
+  },
+  "languages_fao": {
+    "message": "Tiếng Faroe"
+  },
+  "languages_fij": {
+    "message": "Tiếng Fiji"
+  },
+  "languages_fin": {
+    "message": "Tiếng Phần Lan"
+  },
+  "languages_fry": {
+    "message": "Tiếng Frisia"
+  },
+  "languages_gla": {
+    "message": "Tiếng Gael Scotland"
+  },
+  "languages_gle": {
+    "message": "Tiếng Ireland"
+  },
+  "languages_glg": {
+    "message": "Tiếng Galicia"
+  },
+  "languages_grn": {
+    "message": "Tiếng Guarani"
+  },
+  "languages_hat": {
+    "message": "Tiếng Creole Haiti"
+  },
+  "languages_haw": {
+    "message": "Tiếng Hawaii"
+  },
+  "languages_hye": {
+    "message": "Tiếng Armenia"
+  },
+  "languages_ido": {
+    "message": "Tiếng Ido"
+  },
+  "languages_ina": {
+    "message": "Tiếng Interlingua"
+  },
+  "languages_isl": {
+    "message": "Tiếng Iceland"
+  },
+  "languages_kat": {
+    "message": "Tiếng Georgia"
+  },
+  "languages_khm": {
+    "message": "Tiếng Khmer"
+  },
+  "languages_kir": {
+    "message": "Tiếng Kyrgyz"
+  },
+  "languages_lao": {
+    "message": "Tiếng Lào"
+  },
+  "languages_lat": {
+    "message": "Tiếng Latin"
+  },
+  "languages_lvs": {
+    "message": "Tiếng Latvia"
+  },
+  "languages_lit": {
+    "message": "Tiếng Lithuania"
+  },
+  "languages_ltz": {
+    "message": "Tiếng Luxembourg"
+  },
+  "languages_mkd": {
+    "message": "Tiếng Macedonia"
+  },
+  "languages_mlt": {
+    "message": "Tiếng Malta"
+  },
+  "languages_mon": {
+    "message": "Tiếng Mông Cổ"
+  },
+  "languages_mri": {
+    "message": "Tiếng Maori"
+  },
+  "languages_nso": {
+    "message": "Tiếng Bắc Sotho"
+  },
+  "languages_oci": {
+    "message": "Tiếng Occitan"
+  },
+  "languages_ori": {
+    "message": "Tiếng Odia"
+  },
+  "languages_orm": {
+    "message": "Tiếng Oromo"
+  },
+  "languages_prs": {
+    "message": "Tiếng Dari"
+  },
+  "languages_san": {
+    "message": "Tiếng Phạn"
+  },
+  "languages_slk": {
+    "message": "Tiếng Slovak"
+  },
+  "languages_slv": {
+    "message": "Tiếng Slovenia"
+  },
+  "languages_smo": {
+    "message": "Tiếng Samoa"
+  },
+  "languages_sna": {
+    "message": "Tiếng Shona"
+  },
+  "languages_snd": {
+    "message": "Tiếng Sindhi"
+  },
+  "languages_sot": {
+    "message": "Tiếng Nam Sotho"
+  },
+  "languages_tah": {
+    "message": "Tiếng Tahiti"
+  },
+  "languages_tat": {
+    "message": "Tiếng Tatar"
+  },
+  "languages_tgk": {
+    "message": "Tiếng Tajik"
+  },
+  "languages_tir": {
+    "message": "Tiếng Tigrinya"
+  },
+  "languages_ton": {
+    "message": "Tiếng Tonga"
+  },
+  "languages_tsn": {
+    "message": "Tiếng Tswana"
+  },
+  "languages_tuk": {
+    "message": "Tiếng Turkmen"
+  },
+  "languages_uig": {
+    "message": "Tiếng Uyghur"
+  },
+  "languages_vol": {
+    "message": "Tiếng Volapük"
+  },
+  "languages_wol": {
+    "message": "Tiếng Wolof"
+  },
+  "languages_xho": {
+    "message": "Tiếng Xhosa"
+  },
+  "languages_ydd": {
+    "message": "Tiếng Yiddish"
+  },
+  "languages_aka": {
+    "message": "Tiếng Akan"
+  },
+  "languages_bam": {
+    "message": "Tiếng Bambara"
+  },
+  "languages_bis": {
+    "message": "Tiếng Bislama"
+  },
+  "languages_bod": {
+    "message": "Tiếng Tây Tạng"
+  },
+  "languages_che": {
+    "message": "Tiếng Chechen"
+  },
+  "languages_chv": {
+    "message": "Tiếng Chuvash"
+  },
+  "languages_dzo": {
+    "message": "Tiếng Dzongkha"
+  },
+  "languages_ewe": {
+    "message": "Tiếng Ewe"
+  },
+  "languages_kab": {
+    "message": "Tiếng Kabyle"
+  },
+  "languages_lug": {
+    "message": "Tiếng Luganda"
+  },
+  "languages_oss": {
+    "message": "Tiếng Ossetia"
+  },
+  "languages_ssw": {
+    "message": "Tiếng Swati"
+  },
+  "languages_ven": {
+    "message": "Tiếng Venda"
+  },
+  "languages_war": {
+    "message": "Tiếng Waray"
+  },
+  "languages_nde": {
+    "message": "Tiếng Bắc Ndebele"
+  },
+  "languages_nbl": {
+    "message": "Tiếng Nam Ndebele"
+  },
+  "languages_pam": {
+    "message": "Tiếng Pampanga"
+  },
+  "languages_hil": {
+    "message": "Tiếng Hiligaynon"
+  },
+  "languages_bcl": {
+    "message": "Tiếng Bicolano Trung"
+  },
+  "languages_min": {
+    "message": "Tiếng Minangkabau"
+  },
+  "languages_ace": {
+    "message": "Tiếng Aceh"
+  },
+  "languages_bug": {
+    "message": "Tiếng Bugis"
+  },
+  "languages_ban": {
+    "message": "Tiếng Bali"
+  },
+  "languages_bjn": {
+    "message": "Tiếng Banjar"
+  },
+  "languages_mak": {
+    "message": "Tiếng Makassar"
+  },
+  "languages_sas": {
+    "message": "Tiếng Sasak"
+  },
+  "languages_tet": {
+    "message": "Tiếng Tetum"
+  },
+  "languages_cha": {
+    "message": "Tiếng Chamorro"
+  },
+  "languages_niu": {
+    "message": "Tiếng Niue"
+  },
+  "languages_tvl": {
+    "message": "Tiếng Tuvalu"
+  },
+  "languages_gil": {
+    "message": "Tiếng Kiribati"
+  },
+  "languages_mah": {
+    "message": "Tiếng Marshall"
+  },
+  "languages_pau": {
+    "message": "Tiếng Palau"
+  },
+  "languages_wls": {
+    "message": "Tiếng Wallis"
+  },
+  "languages_rar": {
+    "message": "Tiếng Rarotongan"
+  },
+  "languages_hif": {
+    "message": "Tiếng Hindi Fiji"
+  }
+}

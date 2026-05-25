@@ -1,0 +1,2801 @@
+{
+  "name": {
+    "message": "Skim AI"
+  },
+  "extName": {
+    "message": "Skim AI - Переводи и учись"
+  },
+  "extDescription": {
+    "message": "Skim AI — расширение браузера с открытым исходным кодом, которое поможет вам глубоко изучать языки на любом веб-сайте."
+  },
+  "uninstallSurveyUrl": {
+    "message": "https://tally.so/r/nPK6Ob"
+  },
+  "dataTypes_string": {
+    "message": "Текст"
+  },
+  "dataTypes_number": {
+    "message": "Число"
+  },
+  "contextMenu_translate": {
+    "message": "Перевести"
+  },
+  "contextMenu_translateSelection": {
+    "message": "Перевести \"%s\""
+  },
+  "contextMenu_showOriginal": {
+    "message": "Показать оригинал"
+  },
+  "sidePanel_firefoxUserActionHint": {
+    "message": "В Firefox откройте Skim AI из боковой панели браузера."
+  },
+  "sidePanel_firefoxUserActionHelpText": {
+    "message": "Как открыть боковую панель Firefox"
+  },
+  "sidePanel_firefoxUserActionHelpUrl": {
+    "message": "https://support.mozilla.org/ru/kb/ispolzovanije-bokovoi-paneli-dostup-instrumenty-i-vertikalnyje-vkladki"
+  },
+  "popup_theme": {
+    "message": "Тема"
+  },
+  "popup_autoLang": {
+    "message": "Авто"
+  },
+  "popup_sourceLang": {
+    "message": "Исходный"
+  },
+  "popup_targetLang": {
+    "message": "Целевой"
+  },
+  "popup_translate": {
+    "message": "Перевести"
+  },
+  "popup_showOriginal": {
+    "message": "Показать оригинал"
+  },
+  "popup_enabledFloatingButton": {
+    "message": "Включить плавающую кнопку"
+  },
+  "popup_enabledSelectionToolbar": {
+    "message": "Включить панель выделения"
+  },
+  "popup_alwaysTranslate": {
+    "message": "Всегда переводить этот сайт"
+  },
+  "popup_addToWhitelist": {
+    "message": "Включить расширение на этом сайте"
+  },
+  "popup_addToBlacklist": {
+    "message": "Отключить расширение на этом сайте"
+  },
+  "popup_options": {
+    "message": "Настройки"
+  },
+  "popup_hover": {
+    "message": "Наведение"
+  },
+  "popup_translateParagraph": {
+    "message": "для перевода абзаца"
+  },
+  "popup_hub_tooltip": {
+    "message": "Переводите текст несколькими моделями одновременно"
+  },
+  "popup_discord_tooltip": {
+    "message": "Присоединяйтесь к Discord, чтобы связаться с разработчиками и получить ранний доступ к новым функциям"
+  },
+  "popup_blog_notification": {
+    "message": "Что нового в Skim AI"
+  },
+  "popup_aiSmartContext": {
+    "message": "Умный контекст ИИ"
+  },
+  "popup_aiSmartContextDescription": {
+    "message": "Использует контекст веб-страницы для улучшения качества перевода. Требуется LLM-провайдер перевода."
+  },
+  "popup_more_title": {
+    "message": "Ещё"
+  },
+  "popup_more_translationHub": {
+    "message": "Центр переводов"
+  },
+  "popup_more_joinDiscord": {
+    "message": "Присоединиться к Discord"
+  },
+  "popup_more_joinWechat": {
+    "message": "Присоединиться к группе WeChat"
+  },
+  "popup_more_starGithub": {
+    "message": "Поставить звезду на Github"
+  },
+  "popup_more_rateUs": {
+    "message": "Оценить нас"
+  },
+  "popup_more_ebook": {
+    "message": "Сторонняя читалка электронных книг"
+  },
+  "popup_more_tutorial": {
+    "message": "Руководство"
+  },
+  "errorRecovery_title": {
+    "message": "Что-то пошло не так"
+  },
+  "errorRecovery_description": {
+    "message": "Активирован режим восстановления. Вы можете экспортировать текущие настройки как резервную копию, затем сбросить настройки и попробовать снова."
+  },
+  "errorRecovery_backupTitle": {
+    "message": "Сначала сделайте резервную копию текущих настроек (рекомендуется)"
+  },
+  "errorRecovery_exportWithApiKeys": {
+    "message": "Экспортировать с API-ключами"
+  },
+  "errorRecovery_exportWithoutApiKeys": {
+    "message": "Экспортировать без API-ключей"
+  },
+  "errorRecovery_recoveryTitle": {
+    "message": "Варианты восстановления"
+  },
+  "errorRecovery_refreshPage": {
+    "message": "Обновить страницу"
+  },
+  "errorRecovery_resetAction": {
+    "message": "Сбросить к настройкам по умолчанию"
+  },
+  "errorRecovery_resetSuccess": {
+    "message": "Восстановление завершено. Настройки были сброшены"
+  },
+  "errorRecovery_resetFailed": {
+    "message": "Восстановление не удалось. Не удалось сбросить настройки"
+  },
+  "errorRecovery_errorDetails": {
+    "message": "Подробности ошибки"
+  },
+  "errorRecovery_resetDialog_title": {
+    "message": "Сбросить настройки?"
+  },
+  "errorRecovery_resetDialog_description": {
+    "message": "Текущие настройки будут заменены значениями по умолчанию."
+  },
+  "errorRecovery_resetDialog_confirm": {
+    "message": "Сбросить"
+  },
+  "errorRecovery_resetDialog_cancel": {
+    "message": "Отмена"
+  },
+  "options_commandPalette_placeholder": {
+    "message": "Поиск настроек..."
+  },
+  "options_commandPalette_noResults": {
+    "message": "Настройки не найдены"
+  },
+  "options_sidebar_settings": {
+    "message": "Настройки"
+  },
+  "options_sidebar_tools": {
+    "message": "Инструменты"
+  },
+  "options_sidebar_product": {
+    "message": "Продукт"
+  },
+  "options_tools_translationHub": {
+    "message": "Центр переводов"
+  },
+  "options_setAPIKeyWarning_please": {
+    "message": "Пожалуйста, установите API-ключ на странице"
+  },
+  "options_setAPIKeyWarning_page": {
+    "message": "настроек"
+  },
+  "options_betaExperience_title": {
+    "message": "Бета-функции"
+  },
+  "options_betaExperience_description": {
+    "message": "Включите экспериментальные функции и ранний доступ к новым возможностям. Эти функции могут быть нестабильными или неполными."
+  },
+  "options_betaExperience_enabled": {
+    "message": "Включить бета-функции"
+  },
+  "options_apiProviders_title": {
+    "message": "API-провайдеры"
+  },
+  "options_apiProviders_description": {
+    "message": "Настройте API-провайдеров для функций перевода и анализа слов. У нас более 20 встроенных провайдеров и поддержка любых OpenAI-совместимых API."
+  },
+  "options_apiProviders_promotion_ai302_description": {
+    "message": "Нажмите на ссылку справа, чтобы зарегистрироваться на 302.AI и получить 1 USD API-кредита"
+  },
+  "options_apiProviders_promotion_ai302_action": {
+    "message": "Зарегистрироваться для получения бесплатного API-ключа"
+  },
+  "options_apiProviders_promotion_ai302_addProvider": {
+    "message": "Добавить конфигурацию 302.AI"
+  },
+  "options_apiProviders_addProvider": {
+    "message": "Добавить провайдера"
+  },
+  "options_apiProviders_badges_featureCount": {
+    "message": "$1 функций"
+  },
+  "options_apiProviders_dialog_title": {
+    "message": "Добавить нового провайдера"
+  },
+  "options_apiProviders_dialog_groups_builtInProviders_title": {
+    "message": "Встроенные LLM-провайдеры"
+  },
+  "options_apiProviders_dialog_groups_builtInProviders_description": {
+    "message": "Встроенные провайдеры больших языковых моделей, не требуют заполнения большинства настроек, таких как Base URL"
+  },
+  "options_apiProviders_dialog_groups_openaiCompatibleProviders_title": {
+    "message": "OpenAI-совместимые провайдеры"
+  },
+  "options_apiProviders_dialog_groups_openaiCompatibleProviders_description": {
+    "message": "Если вы не нашли нужного ИИ-провайдера, выберите Custom Provider для настройки любого OpenAI-совместимого провайдера, например Zhipu AI"
+  },
+  "options_apiProviders_dialog_groups_pureTranslationProviders_title": {
+    "message": "Чистые провайдеры перевода"
+  },
+  "options_apiProviders_dialog_groups_pureTranslationProviders_description": {
+    "message": "Провайдеры, ориентированные на функции перевода без возможностей больших языковых моделей"
+  },
+  "options_apiProviders_form_fields_name": {
+    "message": "Название"
+  },
+  "options_apiProviders_form_fields_description": {
+    "message": "Описание"
+  },
+  "options_apiProviders_form_fields_apiKey": {
+    "message": "API-ключ"
+  },
+  "options_apiProviders_form_fields_baseURL": {
+    "message": "Base URL"
+  },
+  "options_apiProviders_form_fields_optional": {
+    "message": "Необязательно"
+  },
+  "options_apiProviders_form_duplicate": {
+    "message": "Дублировать"
+  },
+  "options_apiProviders_form_delete": {
+    "message": "Удалить"
+  },
+  "options_apiProviders_form_deleteDialog_title": {
+    "message": "Удалить провайдера?"
+  },
+  "options_apiProviders_form_deleteDialog_description": {
+    "message": "Это действие нельзя отменить. Функции, использующие этого провайдера, будут автоматически переназначены другому доступному провайдеру."
+  },
+  "options_apiProviders_form_deleteDialog_confirm": {
+    "message": "Удалить"
+  },
+  "options_apiProviders_form_deleteDialog_cancel": {
+    "message": "Отмена"
+  },
+  "options_apiProviders_form_atLeastOneLLMProvider": {
+    "message": "Требуется как минимум один LLM-провайдер перевода."
+  },
+  "options_apiProviders_form_duplicateProviderName": {
+    "message": "Дублирующееся имя провайдера \"$1\""
+  },
+  "options_apiProviders_form_defaultProvider_translate": {
+    "message": "Установить как провайдер перевода по умолчанию"
+  },
+  "options_apiProviders_form_models_translate_title": {
+    "message": "Модель перевода"
+  },
+  "options_apiProviders_form_models_translate_customTitle": {
+    "message": "Пользовательская модель перевода"
+  },
+  "options_apiProviders_form_models_translate_placeholder": {
+    "message": "Выберите модель"
+  },
+  "options_apiProviders_form_models_fetchModels": {
+    "message": "Получить доступные модели"
+  },
+  "options_apiProviders_form_models_fetchError": {
+    "message": "Не удалось получить модели"
+  },
+  "options_apiProviders_form_models_clickToRetry": {
+    "message": "Нажмите для повтора"
+  },
+  "options_apiProviders_form_models_noModels": {
+    "message": "Нет доступных моделей"
+  },
+  "options_apiProviders_form_models_selectModel": {
+    "message": "Выбрать модель"
+  },
+  "options_apiProviders_form_models_apiKeyRequired": {
+    "message": "Сначала добавьте API ключ"
+  },
+  "options_apiProviders_form_models_searchModels": {
+    "message": "Поиск моделей..."
+  },
+  "options_apiProviders_form_models_noModelsFound": {
+    "message": "Модели не найдены"
+  },
+  "options_apiProviders_form_featureProviders": {
+    "message": "Поставщики функций"
+  },
+  "options_apiProviders_form_advancedOptions": {
+    "message": "Расширенные настройки"
+  },
+  "options_apiProviders_form_providerSettingLabels_region": {
+    "message": "Регион"
+  },
+  "options_apiProviders_form_temperature": {
+    "message": "Температура"
+  },
+  "options_apiProviders_form_temperatureHint": {
+    "message": "Контролирует случайность ответов. Низкие значения (0) более детерминированы, высокие — более креативны. Диапазон зависит от провайдера. Оставьте пустым для использования значения по умолчанию."
+  },
+  "options_apiProviders_form_headers": {
+    "message": "Заголовки"
+  },
+  "options_apiProviders_form_headersHint": {
+    "message": "Пользовательские HTTP-заголовки для создания клиента AI-провайдера. Оставьте пустым для значений провайдера по умолчанию; используйте {}, чтобы отключить их."
+  },
+  "options_apiProviders_form_providerOptions": {
+    "message": "Параметры провайдера"
+  },
+  "options_apiProviders_form_providerOptionsHint": {
+    "message": "Специфические параметры провайдера для нестандартных функций API, таких как режим размышления/рассуждения. Подробнее см. документацию Vercel AI SDK или официальную документацию вашего провайдера."
+  },
+  "options_apiProviders_form_providerOptionsDocsLink": {
+    "message": "Документация провайдера"
+  },
+  "options_apiProviders_form_providerOptionsRecommendationTrigger": {
+    "message": "Показать рекомендуемые параметры провайдера"
+  },
+  "options_apiProviders_form_providerOptionsRecommendationTitle": {
+    "message": "Обнаружены рекомендуемые параметры провайдера"
+  },
+  "options_apiProviders_form_providerOptionsRecommendationDescription": {
+    "message": "Проверьте рекомендованную конфигурацию и примените её вручную."
+  },
+  "options_apiProviders_form_providerOptionsRecommendationApply": {
+    "message": "Применить"
+  },
+  "options_apiProviders_form_providerOptionsRecommendationApplied": {
+    "message": "Применено"
+  },
+  "options_apiProviders_form_invalidJson": {
+    "message": "Неверный формат JSON"
+  },
+  "options_apiProviders_providers_description_openai": {
+    "message": "Предоставляет модели, такие как GPT-4o"
+  },
+  "options_apiProviders_providers_description_deepseek": {
+    "message": "Рекомендуется для использования в Китае"
+  },
+  "options_apiProviders_providers_description_openrouter": {
+    "message": "Единый интерфейс для нескольких LLM-провайдеров с оплатой за использование"
+  },
+  "options_apiProviders_providers_description_ollama": {
+    "message": "Запускайте большие языковые модели локально на вашем компьютере для полной конфиденциальности"
+  },
+  "options_apiProviders_providers_description_google": {
+    "message": "Флагманские ИИ-модели Google с продвинутыми возможностями рассуждения"
+  },
+  "options_apiProviders_providers_description_anthropic": {
+    "message": "Модели Claude, известные своей безопасностью и превосходными рассуждениями"
+  },
+  "options_apiProviders_providers_description_xai": {
+    "message": "ИИ-компания Илона Маска, предлагающая модели Grok с доступом к данным в реальном времени"
+  },
+  "options_apiProviders_providers_description_siliconflow": {
+    "message": "Высокопроизводительная платформа вывода для китайских и международных моделей"
+  },
+  "options_apiProviders_providers_description_tensdaq": {
+    "message": "Революционная MaaS-платформа с рыночным ценообразованием, устраняющая высокие фиксированные цены"
+  },
+  "options_apiProviders_providers_description_ai302": {
+    "message": "Предоставляет новейшие и наиболее полные модели с оплатой по мере использования API"
+  },
+  "options_apiProviders_providers_description_openaiCompatible": {
+    "message": "Сторонние и OpenAI API-совместимые"
+  },
+  "options_apiProviders_providers_description_deeplx": {
+    "message": "Неофициальный DeepL API"
+  },
+  "options_apiProviders_providers_description_deepl": {
+    "message": "Официальный DeepL API"
+  },
+  "options_apiProviders_providers_description_bedrock": {
+    "message": "Управляемый AWS сервис для корпоративных базовых моделей"
+  },
+  "options_apiProviders_providers_description_groq": {
+    "message": "Специализированное оборудование для сверхбыстрого вывода LLM"
+  },
+  "options_apiProviders_providers_description_deepinfra": {
+    "message": "Экономичный облачный вывод для популярных моделей с открытым исходным кодом"
+  },
+  "options_apiProviders_providers_description_mistral": {
+    "message": "Европейская ИИ-компания, специализирующаяся на эффективных многоязычных моделях"
+  },
+  "options_apiProviders_providers_description_togetherai": {
+    "message": "Коллаборативная платформа для запуска и дообучения моделей с открытым исходным кодом"
+  },
+  "options_apiProviders_providers_description_cohere": {
+    "message": "Корпоративный ИИ с сильными многоязычными и RAG-возможностями"
+  },
+  "options_apiProviders_providers_description_fireworks": {
+    "message": "Готовая к производству платформа вывода для моделей с открытым исходным кодом"
+  },
+  "options_apiProviders_providers_description_cerebras": {
+    "message": "Сверхбыстрый ИИ-вывод для быстрого перевода и анализа текста"
+  },
+  "options_apiProviders_providers_description_replicate": {
+    "message": "Доступ к разнообразным моделям с открытым исходным кодом для специализированных задач перевода"
+  },
+  "options_apiProviders_providers_description_perplexity": {
+    "message": "ИИ с улучшенными знаниями в реальном времени для контекстных переводов и помощи в чтении"
+  },
+  "options_apiProviders_providers_description_vercel": {
+    "message": "Оптимизированные ИИ-модели для перевода и анализа веб-контента"
+  },
+  "options_apiProviders_providers_description_volcengine": {
+    "message": "Облачная ИИ-платформа ByteDance, предлагающая модели Doubao для перевода и чтения"
+  },
+  "options_apiProviders_providers_description_minimax": {
+    "message": "ИИ-платформа MiniMax, предлагающая передовые модели MiniMax-M2"
+  },
+  "options_apiProviders_providers_description_alibaba": {
+    "message": "Серия моделей Qwen от Alibaba Cloud с продвинутыми возможностями рассуждения и многоязычности"
+  },
+  "options_apiProviders_providers_description_moonshotai": {
+    "message": "Серия моделей Kimi от Moonshot AI с мощными возможностями рассуждения и длинного контекста"
+  },
+  "options_apiProviders_providers_description_huggingface": {
+    "message": "API вывода Hugging Face с доступом к тысячам моделей с открытым кодом"
+  },
+  "options_apiProviders_apiKey_showAPIKey": {
+    "message": "Показать API-ключ"
+  },
+  "options_apiProviders_howToConfigure": {
+    "message": "Как настроить?"
+  },
+  "options_apiProviders_testConnection_button": {
+    "message": "Проверить соединение"
+  },
+  "options_apiProviders_testConnection_testing": {
+    "message": "Тестирование..."
+  },
+  "options_general_title": {
+    "message": "Общие"
+  },
+  "options_general_appearance_title": {
+    "message": "Внешний вид"
+  },
+  "options_general_appearance_theme": {
+    "message": "Тема"
+  },
+  "options_general_appearance_system": {
+    "message": "Системная"
+  },
+  "options_general_appearance_light": {
+    "message": "Светлая"
+  },
+  "options_general_appearance_dark": {
+    "message": "Тёмная"
+  },
+  "options_general_featureProviders_title": {
+    "message": "Провайдеры функций"
+  },
+  "options_general_featureProviders_description": {
+    "message": "Выберите провайдера для каждой функции"
+  },
+  "options_general_featureProviders_customActions": {
+    "message": "Пользовательские AI-действия"
+  },
+  "options_general_featureProviders_features_translate": {
+    "message": "Перевод страницы"
+  },
+  "options_general_featureProviders_features_selectionToolbar_translate": {
+    "message": "Перевод выделения"
+  },
+  "options_general_featureProviders_features_tts": {
+    "message": "Озвучивание текста"
+  },
+  "options_general_featureProviders_features_inputTranslation": {
+    "message": "Перевод ввода"
+  },
+  "options_general_featureProviders_features_videoSubtitles": {
+    "message": "Субтитры видео"
+  },
+  "options_general_translationConfig_model_title": {
+    "message": "Модель"
+  },
+  "options_general_translationConfig_model_enterCustomModel": {
+    "message": "Введите название пользовательской модели"
+  },
+  "options_general_clearCache_title": {
+    "message": "Очистить кэш"
+  },
+  "options_general_clearCache_description": {
+    "message": "Очистить весь кэш перевода в вашем браузере"
+  },
+  "options_general_clearCache_clearing": {
+    "message": "Очистка..."
+  },
+  "options_general_clearCache_dialog_title": {
+    "message": "Очистить кэш"
+  },
+  "options_general_clearCache_dialog_trigger": {
+    "message": "Очистить кэш"
+  },
+  "options_general_clearCache_dialog_confirm": {
+    "message": "Подтвердить"
+  },
+  "options_general_clearCache_dialog_cancel": {
+    "message": "Отмена"
+  },
+  "options_general_clearCache_dialog_description": {
+    "message": "Эта операция очистит весь кэш перевода. Это действие нельзя отменить."
+  },
+  "options_general_languageDetection_title": {
+    "message": "Определение языка"
+  },
+  "options_general_languageDetection_description": {
+    "message": "Влияет на точность определения языка для автоперевода, пропуска языков и выбора голоса озвучивания."
+  },
+  "options_general_languageDetection_mode_basic": {
+    "message": "Базовый"
+  },
+  "options_general_languageDetection_mode_llm": {
+    "message": "LLM"
+  },
+  "options_general_languageDetection_provider_label": {
+    "message": "Провайдер определения"
+  },
+  "options_general_languageDetection_provider_placeholder": {
+    "message": "Выберите провайдера"
+  },
+  "options_general_languageDetection_status_noProviders": {
+    "message": "Сначала настройте LLM-провайдер"
+  },
+  "options_general_languageDetection_status_basicRecommend": {
+    "message": "Рекомендуется включить LLM"
+  },
+  "options_general_languageDetection_status_llmEnabled": {
+    "message": "LLM-определение включено"
+  },
+  "options_siteControl_title": {
+    "message": "Управление сайтами"
+  },
+  "options_siteControl_mode_title": {
+    "message": "Режим активации расширения"
+  },
+  "options_siteControl_mode_description": {
+    "message": "Используйте режим чёрного списка для отключения расширения на определённых сайтах или режим белого списка для ограничения работы только указанными сайтами."
+  },
+  "options_siteControl_mode_blacklist": {
+    "message": "Отключить только на указанных сайтах"
+  },
+  "options_siteControl_mode_whitelist": {
+    "message": "Работать только на указанных сайтах"
+  },
+  "options_siteControl_patterns_enterUrlPattern": {
+    "message": "Введите шаблон URL (например, example.com)"
+  },
+  "options_siteControl_patterns_urlPattern": {
+    "message": "Шаблон URL"
+  },
+  "options_overlayTools_title": {
+    "message": "Инструменты наложения"
+  },
+  "options_overlayTools_floatingButton_title": {
+    "message": "Плавающая кнопка"
+  },
+  "options_overlayTools_selectionToolbar_title": {
+    "message": "Панель выделения"
+  },
+  "options_overlayTools_contextMenu_title": {
+    "message": "Контекстное меню"
+  },
+  "options_overlayTools_inputTranslation_title": {
+    "message": "Перевод ввода"
+  },
+  "options_inputTranslation_provider_title": {
+    "message": "Поставщик перевода"
+  },
+  "options_inputTranslation_provider_description": {
+    "message": "Выберите поставщика перевода для перевода ввода"
+  },
+  "options_inputTranslation_provider_label": {
+    "message": "Поставщик"
+  },
+  "options_inputTranslation_toggle_title": {
+    "message": "Включить тройной пробел для перевода"
+  },
+  "options_inputTranslation_toggle_description": {
+    "message": "Быстро нажмите пробел 3 раза в любом поле ввода для перевода его содержимого"
+  },
+  "options_inputTranslation_languages_title": {
+    "message": "Языки перевода"
+  },
+  "options_inputTranslation_languages_description": {
+    "message": "Выберите исходный и целевой языки для перевода ввода"
+  },
+  "options_inputTranslation_languages_sourceCode": {
+    "message": "Исходный язык страницы"
+  },
+  "options_inputTranslation_languages_targetCode": {
+    "message": "Целевой язык страницы"
+  },
+  "options_inputTranslation_languages_enableCycle": {
+    "message": "Менять направление каждый раз"
+  },
+  "options_inputTranslation_threshold_title": {
+    "message": "Порог срабатывания"
+  },
+  "options_inputTranslation_threshold_description": {
+    "message": "Временной интервал между нажатиями пробела"
+  },
+  "options_inputTranslation_threshold_label": {
+    "message": "Порог (мс)"
+  },
+  "options_inputTranslation_threshold_hint": {
+    "message": "Время в миллисекундах между последовательными нажатиями пробела (100-1000мс)"
+  },
+  "options_inputTranslation_threshold_error": {
+    "message": "Значение должно быть от $1 до $2"
+  },
+  "options_floatingButtonAndToolbar_title": {
+    "message": "Плавающая кнопка и панель инструментов"
+  },
+  "options_floatingButtonAndToolbar_floatingButtonDemoImageAlt": {
+    "message": "Демо плавающей кнопки"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbarDemoImageAlt": {
+    "message": "Демо панели выделения"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_globalToggle_title": {
+    "message": "Включить плавающую кнопку"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_globalToggle_description": {
+    "message": "Отображать плавающую кнопку на веб-страницах для быстрого доступа к функциям Skim AI"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_closeMenu_disableForSite": {
+    "message": "Отключить для этого сайта"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_closeMenu_disableGlobally": {
+    "message": "Отключить глобально"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_disabledSites_title": {
+    "message": "Сайты с отключённой плавающей кнопкой"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_disabledSites_description": {
+    "message": "Настройте веб-сайты, где плавающая кнопка должна быть отключена"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_disabledSites_enterUrlPattern": {
+    "message": "Введите URL-шаблон"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_disabledSites_urlPattern": {
+    "message": "URL-шаблон"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_clickAction_title": {
+    "message": "Действие по клику"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_clickAction_description": {
+    "message": "Выберите действие при нажатии на плавающую кнопку"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_clickAction_panel": {
+    "message": "Открыть боковую панель"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_clickAction_translate": {
+    "message": "Переключить перевод страницы"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_side_title": {
+    "message": "Сторона кнопки"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_side_description": {
+    "message": "Выберите, с какой стороны страницы закреплять плавающую кнопку"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_side_left": {
+    "message": "Слева"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_side_right": {
+    "message": "Справа"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_globalToggle_title": {
+    "message": "Включить панель выделения"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_globalToggle_description": {
+    "message": "Показывать панель при выделении текста на веб-страницах для быстрого перевода, озвучивания и AI-действий"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_opacity_title": {
+    "message": "Прозрачность"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_opacity_description": {
+    "message": "Настройте прозрачность панели выделения и раскрытого окна, которое открывается из неё"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_featureToggles_title": {
+    "message": "Переключатели функций"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_featureToggles_description": {
+    "message": "Выберите, какие встроенные функции показывать в панели выделения"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_featureToggles_translate": {
+    "message": "Перевод"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_featureToggles_speak": {
+    "message": "Озвучивание"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_closeMenu_disableForSite": {
+    "message": "Отключить для этого сайта"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_closeMenu_disableGlobally": {
+    "message": "Отключить глобально"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_disabledSites_title": {
+    "message": "Сайты с отключённой панелью выделения"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_disabledSites_description": {
+    "message": "Настройте веб-сайты, где панель выделения должна быть отключена"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_disabledSites_enterUrlPattern": {
+    "message": "Введите URL-шаблон"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_disabledSites_urlPattern": {
+    "message": "URL-шаблон"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_customActionFailed": {
+    "message": "Не удалось выполнить пользовательское действие"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_customActionFailedFallback": {
+    "message": "Запрос пользовательского действия не удался"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_actionUnavailable": {
+    "message": "Выбранное действие недоступно"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_missingSelection": {
+    "message": "Нет выделенного текста"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_providerDisabled": {
+    "message": "Выбранный провайдер отключен"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_providerUnavailable": {
+    "message": "Выбранный провайдер недоступен"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_provider": {
+    "message": "Провайдер"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_selectProvider": {
+    "message": "Выберите провайдера"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_noProviderAvailable": {
+    "message": "Нет доступных провайдеров"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_useProviderDefaultModel": {
+    "message": "Использовать модель провайдера по умолчанию"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_useCustomModel": {
+    "message": "Использовать пользовательскую модель"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_customModel": {
+    "message": "Пользовательская модель"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_model": {
+    "message": "Модель"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_modelNotAvailableForNonLLM": {
+    "message": "Настройки модели доступны только для LLM-провайдеров"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_translate_title": {
+    "message": "Перевод выделения"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_translate_description": {
+    "message": "Настройка провайдера и модели для перевода в панели выделения"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_title": {
+    "message": "Пользовательские AI-действия"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_description": {
+    "message": "Добавляйте собственные структурированные AI-действия для выделенного текста"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_add": {
+    "message": "Добавить AI-действие"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_edit": {
+    "message": "Редактировать AI-действие"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_empty": {
+    "message": "Пока нет пользовательских AI-действий"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_noEnabledLlmProvider": {
+    "message": "Включите хотя бы одного LLM-провайдера перед созданием пользовательских AI-действий"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_table_name": {
+    "message": "Название"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_table_provider": {
+    "message": "Провайдер"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_table_fields": {
+    "message": "Поля"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_table_actions": {
+    "message": "Действия"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_name": {
+    "message": "Название"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_icon": {
+    "message": "Иконка"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_chooseAriaLabel": {
+    "message": "Выбрать иконку"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_chooseTitle": {
+    "message": "Выберите иконку"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_inputPlaceholder": {
+    "message": "Введите имя иконки"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpAriaLabel": {
+    "message": "Справка по иконкам"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpTitle": {
+    "message": "Не нашли нужную иконку?"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpStepBrowsePrefix": {
+    "message": "Посмотреть иконки на"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpStepBrowseSuffix": {
+    "message": ""
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpStepCopyPrefix": {
+    "message": "Скопируйте имя иконки, например "
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpStepCopySuffix": {
+    "message": ", и вставьте его в поле."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_provider": {
+    "message": "Провайдер (требуется поддержка структурированного вывода)"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_selectProvider": {
+    "message": "Выберите провайдера"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_systemPrompt": {
+    "message": "Системный промпт"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_prompt": {
+    "message": "Промпт"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_outputSchema": {
+    "message": "Схема вывода"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_addField": {
+    "message": "Добавить поле"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldName": {
+    "message": "Имя поля"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldType": {
+    "message": "Тип поля"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldDescription": {
+    "message": "Описание"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldDescriptionPlaceholder": {
+    "message": "Опишите, что должно содержать это поле..."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldSpeaking": {
+    "message": "Включить озвучивание"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_actions": {
+    "message": "Действия"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_cancel": {
+    "message": "Отмена"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_save": {
+    "message": "Сохранить"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_defaultFieldName": {
+    "message": "результат"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldNamePlaceholder": {
+    "message": "имя_поля"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_autoFieldPrefix": {
+    "message": "поле"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_addFieldDialog_title": {
+    "message": "Добавить поле вывода"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_editFieldDialog_title": {
+    "message": "Редактировать поле вывода"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_editFieldDialog_save": {
+    "message": "Сохранить"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteFieldDialog_title": {
+    "message": "Удалить поле вывода?"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteFieldDialog_description": {
+    "message": "Это поле вывода будет удалено."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteFieldDialog_confirm": {
+    "message": "Удалить"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteFieldDialog_cancel": {
+    "message": "Отмена"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_title": {
+    "message": "Подключение Notebase"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_description": {
+    "message": "Сохранить структурированные результаты этого действия в удалённую Notebase."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_loginRequiredTitle": {
+    "message": "Войдите, чтобы настроить Notebase"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_loginRequiredDescription": {
+    "message": "Войдите на readfrog.app, прежде чем выбирать notebase или редактировать сопоставления."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_loginAction": {
+    "message": "Войти"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tableLabel": {
+    "message": "Notebase"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tablePlaceholder": {
+    "message": "Выберите notebase"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tableClearOption": {
+    "message": "Не подключать notebase"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_refreshAction": {
+    "message": "Обновить"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_emptyTitle": {
+    "message": "Notebase пока нет"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_emptyDescription": {
+    "message": "Создайте notebase на readfrog.app, затем вернитесь сюда и сопоставьте поля."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_openNotebaseAction": {
+    "message": "Открыть Notebase"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_betaLockedTitle": {
+    "message": "Этот аккаунт ещё не участвует в beta Notebase"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_betaLockedDescription": {
+    "message": "Вы можете сохранить текущую настройку action, но выбор Notebase и синхронизация результатов пока доступны только выбранным beta-аккаунтам."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tableUnavailableTitle": {
+    "message": "Выбранная notebase больше недоступна"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tableUnavailableDescription": {
+    "message": "Обновите список или выберите другую notebase перед следующим сохранением."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tableUnavailableOption": {
+    "message": "недоступно"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_schemaErrorTitle": {
+    "message": "Не удалось загрузить схему notebase"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_schemaErrorDescription": {
+    "message": "Попробуйте обновить схему ещё раз чуть позже."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_schemaLoading": {
+    "message": "Загрузка схемы notebase..."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingsLabel": {
+    "message": "Сопоставления полей"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingsEmpty": {
+    "message": "Сопоставлений пока нет. Добавьте хотя бы одно, когда будете готовы сохранять поля."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_addMappingAction": {
+    "message": "Добавить сопоставление"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_removeMappingAction": {
+    "message": "Удалить сопоставление"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_localFieldLabel": {
+    "message": "Поле действия"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_localFieldPlaceholder": {
+    "message": "Выберите поле действия"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_remoteFieldLabel": {
+    "message": "Поле Notebase"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_remoteFieldPlaceholder": {
+    "message": "Выберите поле notebase"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_columnUnavailableOption": {
+    "message": "удалено"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_invalidMappingsTitle": {
+    "message": "Некоторые сопоставления требуют внимания"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_invalidMappingsDescription": {
+    "message": "Некорректные сопоставления сохраняются, но кнопка Save to Notebase остаётся отключённой, пока вы их не исправите."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingMissingLocal": {
+    "message": "Сопоставленное поле действия больше не существует."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingMissingRemote": {
+    "message": "Сопоставленное поле notebase больше не существует."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingMissingSchema": {
+    "message": "Обновите схему notebase, чтобы проверить это сопоставление."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingIncompatible": {
+    "message": "Типы полей больше не совпадают."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_tokens_selection": {
+    "message": "Содержимое выделенного текста"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_tokens_paragraphs": {
+    "message": "Текст абзацев, пересекающихся с выделением, объединённый пустыми строками; при отправке в пользовательские AI-действия обрезается до первых 2000 символов"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_tokens_targetLanguage": {
+    "message": "Целевой язык пользователя"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_tokens_webTitle": {
+    "message": "Заголовок веб-страницы"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_tokens_webContent": {
+    "message": "Содержимое веб-страницы, извлечённое с текущей страницы и сокращённое до первых 2000 символов"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_delete": {
+    "message": "Удалить"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteDialog_title": {
+    "message": "Удалить пользовательское действие?"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteDialog_description": {
+    "message": "Это действие нельзя отменить."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteDialog_confirm": {
+    "message": "Удалить"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteDialog_cancel": {
+    "message": "Отмена"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_nameRequired": {
+    "message": "Название обязательно"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_duplicateName": {
+    "message": "Дублирующееся имя действия \"$1\""
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_invalidIcon": {
+    "message": "Неверная строка иконки Iconify"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_providerRequired": {
+    "message": "Выберите включённого LLM-провайдера"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_outputSchemaRequired": {
+    "message": "Добавьте хотя бы одно поле вывода"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_fieldKeyRequired": {
+    "message": "Имя поля обязательно"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_duplicateFieldKey": {
+    "message": "Имена полей должны быть уникальными"
+  },
+  "options_floatingButtonAndToolbar_contextMenu_title": {
+    "message": "Контекстное меню"
+  },
+  "options_floatingButtonAndToolbar_contextMenu_translate_title": {
+    "message": "Включить перевод в контекстном меню"
+  },
+  "options_floatingButtonAndToolbar_contextMenu_translate_description": {
+    "message": "Добавить опцию перевода в контекстное меню браузера для быстрого перевода страницы и выделенного текста"
+  },
+  "options_translation_title": {
+    "message": "Перевод"
+  },
+  "options_translation_requestQueueConfig_title": {
+    "message": "Скорость перевода"
+  },
+  "options_translation_requestQueueConfig_firstOnDescription": {
+    "message": "Настройте скорость обработки запросов перевода с помощью"
+  },
+  "options_translation_requestQueueConfig_lastOnDescription": {
+    "message": "алгоритма"
+  },
+  "options_translation_requestQueueConfig_capacity_title": {
+    "message": "Максимальное количество пакетных запросов"
+  },
+  "options_translation_requestQueueConfig_capacity_description": {
+    "message": "Допустимое временное количество пакетных запросов определяет максимальное количество запросов, которые могут обрабатываться одновременно в течение короткого периода"
+  },
+  "options_translation_requestQueueConfig_rate_title": {
+    "message": "Среднее количество запросов в секунду"
+  },
+  "options_translation_requestQueueConfig_rate_description": {
+    "message": "Среднее количество запросов в секунду, но позволяет настроить максимальное количество пакетов для временной отправки избыточных запросов"
+  },
+  "options_translation_batchQueueConfig_title": {
+    "message": "Пакетный перевод"
+  },
+  "options_translation_batchQueueConfig_description": {
+    "message": "Настройте лимиты символов и максимальное количество абзацев для пакетного перевода (действует только для LLM-перевода)"
+  },
+  "options_translation_batchQueueConfig_maxCharactersPerBatch_title": {
+    "message": "Максимум символов"
+  },
+  "options_translation_batchQueueConfig_maxCharactersPerBatch_description": {
+    "message": "Максимальное количество символов, разрешённое на один пакетный запрос, для контроля объёма содержимого каждого перевода"
+  },
+  "options_translation_batchQueueConfig_maxItemsPerBatch_title": {
+    "message": "Максимум абзацев"
+  },
+  "options_translation_batchQueueConfig_maxItemsPerBatch_description": {
+    "message": "Максимальное количество абзацев для каждого пакетного перевода для контроля объёма содержимого каждого перевода"
+  },
+  "options_translation_batchQueueConfig_statisticsLink": {
+    "message": "Сэкономлено примерно $1 за последние 7 дней"
+  },
+  "options_translation_autoTranslateWebsite_title": {
+    "message": "Автоперевод по веб-сайту"
+  },
+  "options_translation_autoTranslateWebsite_description": {
+    "message": "Всегда переводить этот веб-сайт"
+  },
+  "options_translation_autoTranslateWebsite_urlPattern": {
+    "message": "URL-шаблон"
+  },
+  "options_translation_autoTranslateWebsite_enterUrlPattern": {
+    "message": "Введите URL-шаблон"
+  },
+  "options_translation_personalizedPrompts_title": {
+    "message": "Персонализированные промпты"
+  },
+  "options_translation_personalizedPrompts_description": {
+    "message": "Настройка различных типов промптов позволяет вам самостоятельно изменять тип промпта во время перевода. Промпт — это текст, который пользователь отправляет LLM."
+  },
+  "options_translation_personalizedPrompts_communityPrompts": {
+    "message": "Получайте или делитесь промптами с сообществом"
+  },
+  "options_translation_personalizedPrompts_communityPromptsUrl": {
+    "message": "https://github.com/mengxi-ream/read-frog/discussions/821"
+  },
+  "options_translation_personalizedPrompts_addPrompt": {
+    "message": "Добавить промпт"
+  },
+  "options_translation_personalizedPrompts_default": {
+    "message": "По умолчанию"
+  },
+  "options_translation_personalizedPrompts_importSuccess": {
+    "message": "Импорт успешен"
+  },
+  "options_translation_personalizedPrompts_import": {
+    "message": "Импорт"
+  },
+  "options_translation_personalizedPrompts_export": {
+    "message": "Экспорт"
+  },
+  "options_translation_personalizedPrompts_current": {
+    "message": "используется"
+  },
+  "options_translation_personalizedPrompts_editPrompt_title": {
+    "message": "Редактировать промпт"
+  },
+  "options_translation_personalizedPrompts_editPrompt_name": {
+    "message": "Название"
+  },
+  "options_translation_personalizedPrompts_editPrompt_systemPrompt": {
+    "message": "Системный промпт"
+  },
+  "options_translation_personalizedPrompts_editPrompt_prompt": {
+    "message": "Промпт"
+  },
+  "options_translation_personalizedPrompts_editPrompt_promptCellInput_input": {
+    "message": "Текстовое содержимое для перевода"
+  },
+  "options_translation_personalizedPrompts_editPrompt_promptCellInput_targetLanguage": {
+    "message": "Целевой язык"
+  },
+  "options_translation_personalizedPrompts_editPrompt_promptCellInput_webTitle": {
+    "message": "Заголовок веб-страницы"
+  },
+  "options_translation_personalizedPrompts_editPrompt_promptCellInput_webContent": {
+    "message": "Содержимое веб-страницы (обрезается до первых 2000 символов)"
+  },
+  "options_translation_personalizedPrompts_editPrompt_promptCellInput_webSummary": {
+    "message": "Резюме веб-страницы (требуется умный контекст ИИ)"
+  },
+  "options_translation_personalizedPrompts_editPrompt_save": {
+    "message": "Сохранить изменения"
+  },
+  "options_translation_personalizedPrompts_editPrompt_close": {
+    "message": "Отмена"
+  },
+  "options_translation_personalizedPrompts_deletePrompt_title": {
+    "message": "Удалить промпт"
+  },
+  "options_translation_personalizedPrompts_deletePrompt_description": {
+    "message": "Подтвердить удаление промпта"
+  },
+  "options_translation_personalizedPrompts_deletePrompt_confirm": {
+    "message": "Подтвердить"
+  },
+  "options_translation_personalizedPrompts_deletePrompt_cancel": {
+    "message": "Отмена"
+  },
+  "options_translation_personalizedPrompts_exportPrompt_exportSelected": {
+    "message": "Экспортировать выбранные"
+  },
+  "options_translation_personalizedPrompts_exportPrompt_cancel": {
+    "message": "Отмена"
+  },
+  "options_translation_translationStyle_title": {
+    "message": "Стиль отображения перевода"
+  },
+  "options_translation_translationStyle_description": {
+    "message": "Установите любой стиль для отличия результатов перевода от оригинального текста"
+  },
+  "options_translation_translationStyle_useCustomStyle": {
+    "message": "Использовать пользовательский CSS-стиль"
+  },
+  "options_translation_translationStyle_useCustomStyleDescription": {
+    "message": "Поддерживает любой CSS, включая шрифты, анимации и стили для конкретных языков"
+  },
+  "options_translation_translationStyle_presetStyle": {
+    "message": "Предустановленный стиль"
+  },
+  "options_translation_translationStyle_cssEditor": {
+    "message": "CSS-редактор"
+  },
+  "options_translation_translationStyle_preview": {
+    "message": "Предпросмотр"
+  },
+  "options_translation_translationStyle_stylePreviewLanguage": {
+    "message": "Язык"
+  },
+  "options_translation_translationStyle_stylePreviewDirection": {
+    "message": "Направление"
+  },
+  "options_translation_translationStyle_stylePreviewTranslatedText": {
+    "message": "Переведённый текст"
+  },
+  "options_translation_translationStyle_style_default": {
+    "message": "Нет"
+  },
+  "options_translation_translationStyle_style_blur": {
+    "message": "Эффект размытия"
+  },
+  "options_translation_translationStyle_style_blockquote": {
+    "message": "Цитата"
+  },
+  "options_translation_translationStyle_style_weakened": {
+    "message": "Ослабленный"
+  },
+  "options_translation_translationStyle_style_dashedLine": {
+    "message": "Пунктирная линия"
+  },
+  "options_translation_translationStyle_style_border": {
+    "message": "Граница"
+  },
+  "options_translation_translationStyle_style_textColor": {
+    "message": "Цвет текста"
+  },
+  "options_translation_translationStyle_style_background": {
+    "message": "Фон"
+  },
+  "options_translation_translationStyle_customCSS_editor_placeholder": {
+    "message": "/* Пример: Пользовательский стиль с цветом и фоном */\n[data-read-frog-custom-translation-style='custom'] {\n  color: #414535;\n  background-color: light-dark(#F2E3BC, #C19875);\n  padding: 2px 4px;\n  border-radius: 4px;\n}\n"
+  },
+  "options_translation_translationStyle_customCSS_editor_saveButton": {
+    "message": "Сохранить"
+  },
+  "options_translation_translationStyle_customCSS_editor_savedButton": {
+    "message": "Сохранено"
+  },
+  "options_translation_translationStyle_customCSS_editor_validation_validating": {
+    "message": "Проверка..."
+  },
+  "options_translation_translationStyle_customCSS_editor_validation_valid": {
+    "message": "CSS корректен"
+  },
+  "options_translation_translationStyle_customCSS_editor_validation_syntaxError": {
+    "message": "CSS содержит синтаксические ошибки"
+  },
+  "options_translation_translationStyle_customCSS_editor_validation_tooLong": {
+    "message": "CSS слишком длинный"
+  },
+  "options_translation_translationStyle_customCSS_editor_validation_saved": {
+    "message": "Все изменения сохранены"
+  },
+  "options_translation_translationMode_title": {
+    "message": "Режим перевода"
+  },
+  "options_translation_translationMode_description": {
+    "message": "Выберите способ отображения переведённого текста: двуязычный или только перевод."
+  },
+  "options_translation_translationMode_mode_bilingual": {
+    "message": "Двуязычный"
+  },
+  "options_translation_translationMode_mode_translationOnly": {
+    "message": "Только перевод"
+  },
+  "options_translation_translateRange_title": {
+    "message": "Диапазон перевода"
+  },
+  "options_translation_translateRange_description": {
+    "message": "Выберите, переводить только основное содержимое или всё содержимое на странице."
+  },
+  "options_translation_translateRange_range_main": {
+    "message": "Основное содержимое"
+  },
+  "options_translation_translateRange_range_all": {
+    "message": "Всё содержимое"
+  },
+  "options_translation_pageTranslationShortcut_title": {
+    "message": "Горячая клавиша перевода страницы"
+  },
+  "options_translation_pageTranslationShortcut_description": {
+    "message": "Настройте горячую клавишу для перевода всей веб-страницы"
+  },
+  "options_translation_preloadConfig_title": {
+    "message": "Диапазон предварительного перевода"
+  },
+  "options_translation_preloadConfig_description": {
+    "message": "Управляйте количеством контента ниже области просмотра, который будет предварительно переведён для экономии затрат на API"
+  },
+  "options_translation_preloadConfig_margin_title": {
+    "message": "Расстояние предзагрузки (в пикселях)"
+  },
+  "options_translation_preloadConfig_margin_description": {
+    "message": "Насколько ниже области просмотра начинать перевод контента. Меньшие значения экономят затраты на API, но могут вызвать задержки при прокрутке."
+  },
+  "options_translation_preloadConfig_threshold_title": {
+    "message": "Порог видимости"
+  },
+  "options_translation_preloadConfig_threshold_description": {
+    "message": "Процент видимости элемента, необходимый для запуска перевода (0-1). Более высокие значения откладывают перевод до тех пор, пока больше элемента не станет видимым."
+  },
+  "options_translation_smallParagraphFilter_title": {
+    "message": "Фильтр коротких текстов"
+  },
+  "options_translation_smallParagraphFilter_description": {
+    "message": "Пропускать перевод текстовых узлов с меньшим количеством символов или слов, чем порог (0 = отключено)"
+  },
+  "options_translation_smallParagraphFilter_minCharacters_title": {
+    "message": "Минимальное количество символов"
+  },
+  "options_translation_smallParagraphFilter_minCharacters_description": {
+    "message": "Текстовые узлы с меньшим количеством символов не будут переведены. Количество символов включает пробелы."
+  },
+  "options_translation_smallParagraphFilter_minWords_title": {
+    "message": "Минимальное количество слов"
+  },
+  "options_translation_smallParagraphFilter_minWords_description": {
+    "message": "Текстовые узлы с меньшим количеством слов не будут переведены. Используется Intl.Segmenter для точного подсчёта слов на всех языках."
+  },
+  "options_translation_smallParagraphFilter_error": {
+    "message": "Значение должно быть от $1 до $2"
+  },
+  "options_translation_nodeTranslationHotkey_title": {
+    "message": "Горячая клавиша перевода при наведении или долгом нажатии"
+  },
+  "options_translation_nodeTranslationHotkey_description": {
+    "message": "Настройте клавишу-модификатор для перевода при наведении или используйте долгое нажатие для перевода абзацев"
+  },
+  "options_translation_nodeTranslationHotkey_enable": {
+    "message": "Включить"
+  },
+  "options_translation_llmProviderConfigured": {
+    "message": "LLM-провайдер выбран для $1"
+  },
+  "options_translation_llmProviderNotConfigured": {
+    "message": "LLM-провайдер не выбран для $1"
+  },
+  "options_translation_autoTranslateLanguages_title": {
+    "message": "Автоперевод по языку"
+  },
+  "options_translation_autoTranslateLanguages_description": {
+    "message": "Автоматически переводить содержимое страницы при обнаружении определённых языков"
+  },
+  "options_translation_autoTranslateLanguages_selectLanguages": {
+    "message": "Выберите языки"
+  },
+  "options_translation_autoTranslateLanguages_detection_label": {
+    "message": "Определение языка"
+  },
+  "options_translation_autoTranslateLanguages_detection_basic": {
+    "message": "Базовое"
+  },
+  "options_translation_autoTranslateLanguages_detection_llm": {
+    "message": "LLM"
+  },
+  "options_translation_autoTranslateLanguages_detection_description": {
+    "message": "Базовое определение быстрое и бесплатное. LLM определение точнее, но добавляет задержку и затраты на API. Требуются настроенные языки автоперевода."
+  },
+  "options_translation_skipLanguages_title": {
+    "message": "Автопропуск по языку"
+  },
+  "options_translation_skipLanguages_description": {
+    "message": "Автоматически пропускать перевод абзацев при обнаружении указанных языков"
+  },
+  "options_translation_skipLanguages_targetLanguageSkip": {
+    "message": "Пропускать целевой язык"
+  },
+  "options_translation_skipLanguages_targetLanguageSkipDescription": {
+    "message": "Перед переводом определяет, написан ли абзац уже на целевом языке. Совпадающий текст пропускается без отправки запроса. Отключение этого параметра не меняет последующую защиту, которая скрывает неизменившийся результат перевода."
+  },
+  "options_translation_skipLanguages_selectLanguages": {
+    "message": "Выберите языки"
+  },
+  "options_translation_skipLanguages_detection_label": {
+    "message": "Определение языка"
+  },
+  "options_translation_skipLanguages_detection_basic": {
+    "message": "Базовое"
+  },
+  "options_translation_skipLanguages_detection_llm": {
+    "message": "LLM"
+  },
+  "options_translation_skipLanguages_detection_description": {
+    "message": "Базовое определение быстрое и бесплатное. LLM определение точнее, но добавляет задержку и затраты на API."
+  },
+  "options_translation_aiContentAware_title": {
+    "message": "Умный контекстный перевод ИИ"
+  },
+  "options_translation_aiContentAware_description": {
+    "message": "Улучшайте качество перевода, предоставляя ИИ контекст веб-страницы"
+  },
+  "options_translation_aiContentAware_enable": {
+    "message": "Включить умный контекстный перевод ИИ"
+  },
+  "options_translation_aiContentAware_enableDescription": {
+    "message": "ИИ использует резюме веб-страницы для повышения точности перевода. Требуется LLM-провайдер. Добавляет задержку при начале перевода страницы и увеличивает затраты на API."
+  },
+  "options_tts_title": {
+    "message": "Синтез речи"
+  },
+  "options_tts_description": {
+    "message": "Настройте кнопку озвучивания с параметрами голоса Edge TTS."
+  },
+  "options_tts_voice_label": {
+    "message": "Голос"
+  },
+  "options_tts_voice_fallback": {
+    "message": "Резервный"
+  },
+  "options_tts_voice_selectPlaceholder": {
+    "message": "Выберите голос"
+  },
+  "options_tts_voice_preview": {
+    "message": "Предпросмотр"
+  },
+  "options_tts_voice_previewSample": {
+    "message": "Привет от Skim AI! Так я буду звучать при чтении вслух."
+  },
+  "options_tts_languageVoice_label": {
+    "message": "Голос для языка"
+  },
+  "options_tts_languageVoice_reset": {
+    "message": "Сбросить на значение по умолчанию"
+  },
+  "options_tts_languageVoice_description": {
+    "message": "Выберите язык и назначьте голос, который будет использоваться, когда TTS определит этот язык."
+  },
+  "options_tts_rate_label": {
+    "message": "Скорость (%)"
+  },
+  "options_tts_rate_hint": {
+    "message": "Допустимы целые значения от -100 до 100"
+  },
+  "options_tts_pitch_label": {
+    "message": "Высота (Hz)"
+  },
+  "options_tts_pitch_hint": {
+    "message": "Допустимы целые значения от -100 до 100"
+  },
+  "options_tts_volume_label": {
+    "message": "Громкость (%)"
+  },
+  "options_tts_volume_hint": {
+    "message": "Допустимы целые значения от -100 до 100"
+  },
+  "options_tts_betaDisabled": {
+    "message": "Включите бета-функции для настройки синтеза речи."
+  },
+  "options_statistics_title": {
+    "message": "Статистика"
+  },
+  "options_statistics_batchRequest_title": {
+    "message": "Сэкономлено запросов пакетного перевода"
+  },
+  "options_statistics_batchRequest_description": {
+    "message": "Процент запросов, сэкономленных пакетным переводом за период"
+  },
+  "options_statistics_batchRequest_originalRequestCount": {
+    "message": "Исходное количество запросов"
+  },
+  "options_statistics_batchRequest_batchRequestCount": {
+    "message": "Количество пакетных запросов"
+  },
+  "options_config_title": {
+    "message": "Конфигурация"
+  },
+  "options_config_about_title": {
+    "message": "О приложении"
+  },
+  "options_config_about_description": {
+    "message": "Skim AI появился в апреле 2025 года"
+  },
+  "options_config_about_mission": {
+    "message": "Skim AI стремится расширить равный доступ к качественному образованию в эпоху ИИ, делая обучение, максимально похожее на занятия с настоящим преподавателем, доступным по цене в языках, медицине и других знанияемких областях."
+  },
+  "options_config_about_analytics_title": {
+    "message": "Помочь улучшить пользовательский опыт"
+  },
+  "options_config_about_analytics_tooltip": {
+    "message": "Когда параметр включен, Skim AI отправляет анонимные сигналы об использовании продукта, чтобы мы могли проверять надежность функций, улучшать производительность и UX-детали, а также понимать, что развивать дальше в первую очередь."
+  },
+  "options_config_sync_title": {
+    "message": "Ручная синхронизация конфигурации"
+  },
+  "options_config_sync_description": {
+    "message": "Ручной импорт и экспорт настроек конфигурации"
+  },
+  "options_config_sync_import": {
+    "message": "Импорт конфигурации"
+  },
+  "options_config_sync_export": {
+    "message": "Экспорт конфигурации"
+  },
+  "options_config_sync_importSuccess": {
+    "message": "Конфигурация успешно импортирована"
+  },
+  "options_config_sync_exportSuccess": {
+    "message": "Конфигурация успешно экспортирована"
+  },
+  "options_config_sync_importError": {
+    "message": "Ошибка импорта"
+  },
+  "options_config_sync_versionTooNew": {
+    "message": "Версия импортированной конфигурации новее, пожалуйста, обновите Skim AI до последней версии"
+  },
+  "options_config_sync_migrationError": {
+    "message": "Ошибка миграции"
+  },
+  "options_config_sync_validationError": {
+    "message": "Ошибка валидации конфигурации"
+  },
+  "options_config_sync_exportOptions_title": {
+    "message": "Выберите параметры экспорта"
+  },
+  "options_config_sync_exportOptions_description": {
+    "message": "Пожалуйста, выберите, включать ли API-ключи в экспортируемую конфигурацию. Включение API-ключей может привести к утечке конфиденциальной информации, поэтому рекомендуется использовать только в безопасных средах."
+  },
+  "options_config_sync_exportOptions_includeAPIKeys": {
+    "message": "Включить API-ключи"
+  },
+  "options_config_sync_exportOptions_excludeAPIKeys": {
+    "message": "Исключить API-ключи"
+  },
+  "options_config_sync_exportOptions_cancel": {
+    "message": "Отмена"
+  },
+  "options_config_sync_viewConfig_expand": {
+    "message": "Развернуть конфигурацию"
+  },
+  "options_config_sync_viewConfig_collapse": {
+    "message": "Свернуть конфигурацию"
+  },
+  "options_config_sync_googleDrive_title": {
+    "message": "Облачная синхронизация Google Drive"
+  },
+  "options_config_sync_googleDrive_description": {
+    "message": "Загружает, когда удалённая версия новее, выгружает, когда локальная версия новее"
+  },
+  "options_config_sync_googleDrive_sync": {
+    "message": "Синхронизировать с Google Drive"
+  },
+  "options_config_sync_googleDrive_syncing": {
+    "message": "Синхронизация..."
+  },
+  "options_config_sync_googleDrive_syncSuccess_uploaded": {
+    "message": "Локальная конфигурация загружена в облако"
+  },
+  "options_config_sync_googleDrive_syncSuccess_downloaded": {
+    "message": "Удалённая конфигурация применена"
+  },
+  "options_config_sync_googleDrive_syncSuccess_sameChanges": {
+    "message": "Изменения совпадают, синхронизировано"
+  },
+  "options_config_sync_googleDrive_syncSuccess_noChange": {
+    "message": "Уже синхронизировано"
+  },
+  "options_config_sync_googleDrive_syncSuccess_unresolved": {
+    "message": "Конфликты разрешены и синхронизированы"
+  },
+  "options_config_sync_googleDrive_syncError": {
+    "message": "Ошибка синхронизации, попробуйте снова"
+  },
+  "options_config_sync_googleDrive_metadataCorrupted": {
+    "message": "Метаданные синхронизации повреждены, применена удалённая конфигурация"
+  },
+  "options_config_sync_googleDrive_lastSyncTime": {
+    "message": "Последняя синхронизация"
+  },
+  "options_config_sync_googleDrive_logout": {
+    "message": "Выйти"
+  },
+  "options_config_sync_googleDrive_logoutSuccess": {
+    "message": "Выполнен выход из аккаунта Google"
+  },
+  "options_config_sync_googleDrive_unresolved_title": {
+    "message": "Разрешение синхронизации конфигурации"
+  },
+  "options_config_sync_googleDrive_unresolved_description": {
+    "message": "Локальная и удалённая конфигурации отличаются. Пожалуйста, выберите, какую версию сохранить для каждого поля."
+  },
+  "options_config_sync_googleDrive_unresolved_resolved": {
+    "message": "Разрешено"
+  },
+  "options_config_sync_googleDrive_unresolved_unresolved": {
+    "message": "Не разрешено"
+  },
+  "options_config_sync_googleDrive_unresolved_localValue": {
+    "message": "Локальное значение"
+  },
+  "options_config_sync_googleDrive_unresolved_remoteValue": {
+    "message": "Удалённое значение"
+  },
+  "options_config_sync_googleDrive_unresolved_useLocal": {
+    "message": "Использовать локальное"
+  },
+  "options_config_sync_googleDrive_unresolved_useRemote": {
+    "message": "Использовать удалённое"
+  },
+  "options_config_sync_googleDrive_unresolved_useAllLocal": {
+    "message": "Использовать всё локальное"
+  },
+  "options_config_sync_googleDrive_unresolved_useAllRemote": {
+    "message": "Использовать всё удалённое"
+  },
+  "options_config_sync_googleDrive_unresolved_reset": {
+    "message": "Сбросить выбор"
+  },
+  "options_config_sync_googleDrive_unresolved_progress": {
+    "message": "Разрешено $1/$2 изменений"
+  },
+  "options_config_sync_googleDrive_unresolved_confirm": {
+    "message": "Подтвердить синхронизацию"
+  },
+  "options_config_sync_googleDrive_unresolved_cancel": {
+    "message": "Отмена"
+  },
+  "options_config_sync_googleDrive_unresolved_hasUnresolvedInChildren": {
+    "message": "⚠ Содержит неразрешённые изменения"
+  },
+  "options_config_sync_googleDrive_unresolved_item": {
+    "message": "элемент"
+  },
+  "options_config_sync_googleDrive_unresolved_items": {
+    "message": "элементов"
+  },
+  "options_config_sync_googleDrive_unresolved_unresolvedPrompt": {
+    "message": "[Не разрешено - Выберите]"
+  },
+  "options_config_sync_googleDrive_unresolved_localLatest": {
+    "message": "Локальная последняя"
+  },
+  "options_config_sync_googleDrive_unresolved_remoteLatest": {
+    "message": "Удалённая последняя"
+  },
+  "options_config_sync_googleDrive_unresolved_bothChanged": {
+    "message": "Оба изменены"
+  },
+  "options_config_sync_googleDrive_unresolved_localChanged": {
+    "message": "Локальное изменено"
+  },
+  "options_config_sync_googleDrive_unresolved_remoteChanged": {
+    "message": "Удалённое изменено"
+  },
+  "options_config_sync_googleDrive_unresolved_configValid": {
+    "message": "Конфигурация действительна"
+  },
+  "options_config_sync_googleDrive_unresolved_configInvalid": {
+    "message": "Конфигурация недействительна"
+  },
+  "options_config_sync_googleDrive_unresolved_resolveToContinue": {
+    "message": "Разрешите конфликты для продолжения"
+  },
+  "options_config_sync_googleDrive_unresolved_validationAlert_title": {
+    "message": "Объединённая конфигурация содержит ошибки валидации"
+  },
+  "options_config_sync_googleDrive_unresolved_validationAlert_description": {
+    "message": "Настройте различия ниже для исправления:"
+  },
+  "options_config_sync_googleDrive_unresolved_moreErrors": {
+    "message": "...и ещё $1 ошибок"
+  },
+  "options_config_backup_title": {
+    "message": "Резервное копирование конфигурации"
+  },
+  "options_config_backup_description": {
+    "message": "Автоматические резервные копии создаются каждый час при изменении конфигурации. Вы можете восстановить предыдущие конфигурации здесь. (Максимум $1 резервных копий)"
+  },
+  "options_config_backup_loading": {
+    "message": "Загрузка резервных копий..."
+  },
+  "options_config_backup_backupNow": {
+    "message": "Создать резервную копию сейчас"
+  },
+  "options_config_backup_backupSuccess": {
+    "message": "Резервная копия успешно создана"
+  },
+  "options_config_backup_restoreSuccess": {
+    "message": "Конфигурация успешно восстановлена"
+  },
+  "options_config_backup_empty_title": {
+    "message": "Резервные копии пока недоступны"
+  },
+  "options_config_backup_empty_description": {
+    "message": "Резервные копии создаются автоматически каждый час при изменении конфигурации."
+  },
+  "options_config_backup_item_extensionVersion": {
+    "message": "Версия расширения:"
+  },
+  "options_config_backup_item_schemaVersion": {
+    "message": "Версия схемы:"
+  },
+  "options_config_backup_item_restore": {
+    "message": "Восстановить"
+  },
+  "options_config_backup_item_export": {
+    "message": "Экспорт"
+  },
+  "options_config_backup_item_delete": {
+    "message": "Удалить"
+  },
+  "options_config_backup_restore_title": {
+    "message": "Восстановить резервную копию конфигурации?"
+  },
+  "options_config_backup_restore_description": {
+    "message": "Ваша текущая конфигурация будет автоматически сохранена, если она отличается от последней резервной копии. Самая старая резервная копия может быть удалена, если количество резервных копий превысит лимит."
+  },
+  "options_config_backup_restore_cancel": {
+    "message": "Отмена"
+  },
+  "options_config_backup_restore_confirm": {
+    "message": "Восстановить"
+  },
+  "options_config_backup_delete_title": {
+    "message": "Удалить резервную копию?"
+  },
+  "options_config_backup_delete_description": {
+    "message": "Вы уверены, что хотите удалить эту резервную копию? Это действие нельзя отменить."
+  },
+  "options_config_backup_delete_cancel": {
+    "message": "Отмена"
+  },
+  "options_config_backup_delete_confirm": {
+    "message": "Удалить"
+  },
+  "options_config_resetConfig_title": {
+    "message": "Сбросить конфигурацию"
+  },
+  "options_config_resetConfig_description": {
+    "message": "Сбросить все настройки до значений по умолчанию"
+  },
+  "options_config_resetConfig_dialog_title": {
+    "message": "Сбросить конфигурацию"
+  },
+  "options_config_resetConfig_dialog_trigger": {
+    "message": "Сбросить конфигурацию"
+  },
+  "options_config_resetConfig_dialog_confirm": {
+    "message": "Подтвердить"
+  },
+  "options_config_resetConfig_dialog_cancel": {
+    "message": "Отмена"
+  },
+  "options_config_resetConfig_dialog_description": {
+    "message": "Эта операция очистит все ваши пользовательские конфигурации и сбросит их до значений по умолчанию. Пожалуйста, подтвердите."
+  },
+  "options_videoSubtitles_title": {
+    "message": "Видео субтитры"
+  },
+  "options_videoSubtitles_description": {
+    "message": "В настоящее время поддерживаются только субтитры YouTube"
+  },
+  "options_videoSubtitles_provider_title": {
+    "message": "Провайдер перевода"
+  },
+  "options_videoSubtitles_provider_description": {
+    "message": "Выберите провайдера перевода для перевода видеосубтитров"
+  },
+  "options_videoSubtitles_provider_label": {
+    "message": "Провайдер"
+  },
+  "options_videoSubtitles_enable": {
+    "message": "Включить видео субтитры"
+  },
+  "options_videoSubtitles_enableDescription": {
+    "message": "При включении в панели управления YouTube появится кнопка перевода. Нажмите её, чтобы начать перевод субтитров."
+  },
+  "options_videoSubtitles_autoStart": {
+    "message": "Автовключение субтитров"
+  },
+  "options_videoSubtitles_autoStartDescription": {
+    "message": "Автоматически включать перевод субтитров после загрузки видео."
+  },
+  "options_videoSubtitles_style_title": {
+    "message": "Стиль субтитров"
+  },
+  "options_videoSubtitles_style_description": {
+    "message": "Настройка внешнего вида субтитров"
+  },
+  "options_videoSubtitles_style_preview": {
+    "message": "Предпросмотр"
+  },
+  "options_videoSubtitles_style_displayMode_title": {
+    "message": "Режим отображения"
+  },
+  "options_videoSubtitles_style_displayMode_bilingual": {
+    "message": "Двуязычный"
+  },
+  "options_videoSubtitles_style_displayMode_originalOnly": {
+    "message": "Только оригинал"
+  },
+  "options_videoSubtitles_style_displayMode_translationOnly": {
+    "message": "Только перевод"
+  },
+  "options_videoSubtitles_style_translationPosition_title": {
+    "message": "Позиция перевода"
+  },
+  "options_videoSubtitles_style_translationPosition_above": {
+    "message": "Сверху"
+  },
+  "options_videoSubtitles_style_translationPosition_below": {
+    "message": "Снизу"
+  },
+  "options_videoSubtitles_style_generalSettings": {
+    "message": "Общие настройки"
+  },
+  "options_videoSubtitles_style_mainSubtitle": {
+    "message": "Основные субтитры"
+  },
+  "options_videoSubtitles_style_translationSubtitle": {
+    "message": "Перевод субтитров"
+  },
+  "options_videoSubtitles_style_containerStyle": {
+    "message": "Фон"
+  },
+  "options_videoSubtitles_style_fontFamily": {
+    "message": "Шрифт"
+  },
+  "options_videoSubtitles_style_fontScale": {
+    "message": "Размер шрифта"
+  },
+  "options_videoSubtitles_style_color": {
+    "message": "Цвет"
+  },
+  "options_videoSubtitles_style_fontWeight": {
+    "message": "Толщина шрифта"
+  },
+  "options_videoSubtitles_style_backgroundOpacity": {
+    "message": "Прозрачность фона"
+  },
+  "options_videoSubtitles_style_reset": {
+    "message": "Сбросить по умолчанию"
+  },
+  "options_videoSubtitles_aiSegmentation_title": {
+    "message": "AI Умная сегментация"
+  },
+  "options_videoSubtitles_aiSegmentation_enable": {
+    "message": "Включить AI умную сегментацию"
+  },
+  "options_videoSubtitles_aiSegmentation_enableDescription": {
+    "message": "Использовать AI для интеллектуальной сегментации субтитров для лучшей читаемости. Временная шкала определяется AI, что может иногда вызывать смещение тайминга. Требуется LLM провайдер перевода."
+  },
+  "options_videoSubtitles_aiSegmentation_clearCache": {
+    "message": "Очистить кэш"
+  },
+  "options_videoSubtitles_aiSegmentation_clearing": {
+    "message": "Очистка..."
+  },
+  "options_videoSubtitles_aiSegmentation_clearCacheDialog_title": {
+    "message": "Очистить кэш AI сегментации"
+  },
+  "options_videoSubtitles_aiSegmentation_clearCacheDialog_description": {
+    "message": "Все кэшированные результаты AI сегментации будут удалены. При следующем воспроизведении видео с включенной AI сегментацией субтитры будут обработаны заново."
+  },
+  "options_videoSubtitles_aiSegmentation_clearCacheDialog_cancel": {
+    "message": "Отмена"
+  },
+  "options_videoSubtitles_aiSegmentation_clearCacheDialog_confirm": {
+    "message": "Подтвердить"
+  },
+  "options_videoSubtitles_requestQueueConfig_title": {
+    "message": "Скорость перевода субтитров"
+  },
+  "options_videoSubtitles_requestQueueConfig_firstOnDescription": {
+    "message": "Регулировка скорости обработки запросов перевода субтитров с помощью алгоритма"
+  },
+  "options_videoSubtitles_requestQueueConfig_lastOnDescription": {
+    "message": ""
+  },
+  "options_videoSubtitles_requestQueueConfig_capacity_title": {
+    "message": "Макс. пакетных запросов"
+  },
+  "options_videoSubtitles_requestQueueConfig_capacity_description": {
+    "message": "Максимальное количество запросов перевода субтитров, которые могут обрабатываться одновременно за короткий период"
+  },
+  "options_videoSubtitles_requestQueueConfig_rate_title": {
+    "message": "Среднее кол-во запросов/сек"
+  },
+  "options_videoSubtitles_requestQueueConfig_rate_description": {
+    "message": "Среднее количество запросов перевода субтитров в секунду с возможностью настройки максимального пакета для временной отправки избыточных запросов"
+  },
+  "options_videoSubtitles_batchQueueConfig_title": {
+    "message": "Пакетный перевод субтитров"
+  },
+  "options_videoSubtitles_batchQueueConfig_description": {
+    "message": "Настройте лимиты символов и максимальное количество абзацев для пакетного перевода (действует только для LLM-перевода)"
+  },
+  "options_videoSubtitles_batchQueueConfig_maxCharactersPerBatch_title": {
+    "message": "Максимум символов"
+  },
+  "options_videoSubtitles_batchQueueConfig_maxCharactersPerBatch_description": {
+    "message": "Максимальное количество символов, разрешённое на один пакетный запрос, для контроля объёма содержимого каждого перевода"
+  },
+  "options_videoSubtitles_batchQueueConfig_maxItemsPerBatch_title": {
+    "message": "Максимум абзацев"
+  },
+  "options_videoSubtitles_batchQueueConfig_maxItemsPerBatch_description": {
+    "message": "Максимальное количество абзацев для каждого пакетного перевода для контроля объёма содержимого каждого перевода"
+  },
+  "options_videoSubtitles_customPrompts_title": {
+    "message": "Пользовательские промпты субтитров"
+  },
+  "options_videoSubtitles_customPrompts_description": {
+    "message": "Настройте шаблоны промптов для перевода субтитров (отдельно от промптов перевода веб-страниц)"
+  },
+  "options_videoSubtitles_customPrompts_editPrompt_promptCellInput_input": {
+    "message": "Текст субтитров для перевода"
+  },
+  "options_videoSubtitles_customPrompts_editPrompt_promptCellInput_targetLanguage": {
+    "message": "Целевой язык"
+  },
+  "options_videoSubtitles_customPrompts_editPrompt_promptCellInput_videoTitle": {
+    "message": "Название видео"
+  },
+  "options_videoSubtitles_customPrompts_editPrompt_promptCellInput_videoSummary": {
+    "message": "Краткое содержание видео (требуется умный контекст ИИ)"
+  },
+  "options_whatsNew_title": {
+    "message": "Что нового"
+  },
+  "options_survey_title": {
+    "message": "Улучшить субтитры 🎁"
+  },
+  "options_rateUs_title": {
+    "message": "Оцените нас"
+  },
+  "side_sourceLang": {
+    "message": "Исходный язык"
+  },
+  "side_targetLang": {
+    "message": "Целевой язык"
+  },
+  "side_fileExport": {
+    "message": "Экспорт файла"
+  },
+  "translateService_title": {
+    "message": "Сервис перевода"
+  },
+  "translateService_description": {
+    "message": "Только для перевода веб-страницы"
+  },
+  "translateService_normalTranslator": {
+    "message": "Обычный переводчик"
+  },
+  "translateService_aiTranslator": {
+    "message": "ИИ-переводчик"
+  },
+  "translateService_selectServices": {
+    "message": "Выберите сервисы"
+  },
+  "translateService_translationProviders": {
+    "message": "Сервисы перевода"
+  },
+  "translateService_configureAPI": {
+    "message": "Настроить API"
+  },
+  "translatePrompt_title": {
+    "message": "Стиль ИИ-перевода"
+  },
+  "translatePrompt_description": {
+    "message": "Выберите промпт для использования во время перевода. Добавляйте или изменяйте пользовательские промпты на странице настроек."
+  },
+  "languageLevel": {
+    "message": "Ваш уровень исходного языка"
+  },
+  "languageLevels_beginner": {
+    "message": "Начинающий"
+  },
+  "languageLevels_intermediate": {
+    "message": "Средний"
+  },
+  "languageLevels_advanced": {
+    "message": "Продвинутый"
+  },
+  "noAPIKeyConfig_warning": {
+    "message": "Если вы хотите использовать ИИ-модели, сначала установите API-ключ на странице настроек"
+  },
+  "noAPIKeyConfig_warningWithLink_youMust": {
+    "message": "Вы должны"
+  },
+  "noAPIKeyConfig_warningWithLink_setTheAPIKey": {
+    "message": "установить API-ключ"
+  },
+  "noAPIKeyConfig_warningWithLink_firstOnThe": {
+    "message": "сначала на странице"
+  },
+  "noAPIKeyConfig_warningWithLink_optionsPage": {
+    "message": "настроек"
+  },
+  "noAPIKeyConfig_warningWithLink_page": {
+    "message": ""
+  },
+  "languageDetection_llmFailed": {
+    "message": "Определение языка через LLM не удалось, выполнен откат к базовому определению"
+  },
+  "translation_sameLanguage": {
+    "message": "Исходный и целевой языки должны различаться"
+  },
+  "translation_autoModeSameLanguage": {
+    "message": "Обнаруженный язык '$1' совпадает с целевым языком"
+  },
+  "speak_fetchingAudio": {
+    "message": "Генерация аудио..."
+  },
+  "speak_playingAudio": {
+    "message": "Воспроизведение аудио..."
+  },
+  "speak_failedToGenerateSpeech": {
+    "message": "Не удалось сгенерировать речь"
+  },
+  "speak_noTextSelected": {
+    "message": "Текст не выделен"
+  },
+  "speak_openaiNotConfigured": {
+    "message": "Провайдер OpenAI не настроен или не включён"
+  },
+  "speak_openaiApiKeyNotConfigured": {
+    "message": "API-ключ OpenAI не настроен"
+  },
+  "action_copy": {
+    "message": "Копировать"
+  },
+  "action_copied": {
+    "message": "Скопировано"
+  },
+  "action_regenerate": {
+    "message": "Сгенерировать заново"
+  },
+  "action_viewContextDetails": {
+    "message": "Контекст"
+  },
+  "action_saveToNotebase": {
+    "message": "Сохранить в Notebase"
+  },
+  "action_saveToNotebaseSaving": {
+    "message": "Сохранение..."
+  },
+  "action_saveToNotebaseSuccess": {
+    "message": "Сохранено в Notebase"
+  },
+  "action_saveToNotebaseFailed": {
+    "message": "Не удалось сохранить в Notebase"
+  },
+  "action_saveToNotebaseLoginRequired": {
+    "message": "Войдите на readfrog.app, чтобы сохранить в Notebase"
+  },
+  "action_saveToNotebaseBetaRequired": {
+    "message": "Для этого аккаунта beta-доступ к Notebase пока не включён"
+  },
+  "action_saveToNotebaseTableUnavailable": {
+    "message": "Выбранная Notebase больше недоступна"
+  },
+  "action_saveToNotebaseConnectionInvalid": {
+    "message": "Это подключение Notebase устарело. Обновите его в Custom AI Actions и исправьте сопоставления."
+  },
+  "action_saveToNotebaseNoMappings": {
+    "message": "Добавьте хотя бы одно корректное сопоставление перед сохранением"
+  },
+  "action_contextDetailsTitleLabel": {
+    "message": "Заголовок"
+  },
+  "action_contextDetailsParagraphsLabel": {
+    "message": "Абзацы"
+  },
+  "action_translation": {
+    "message": "Перевод"
+  },
+  "action_speak": {
+    "message": "Озвучить"
+  },
+  "action_playing": {
+    "message": "Воспроизведение"
+  },
+  "thinking_label": {
+    "message": "Размышление"
+  },
+  "thinking_complete": {
+    "message": "Размышление завершено"
+  },
+  "thinking_expand": {
+    "message": "Развернуть размышление"
+  },
+  "thinking_collapse": {
+    "message": "Свернуть размышление"
+  },
+  "shortcutKeySelector_placeholder": {
+    "message": "Пожалуйста, введите горячую клавишу"
+  },
+  "subtitles_actions_downloadSource": {
+    "message": "Скачать исходные субтитры"
+  },
+  "subtitles_state_loading": {
+    "message": "Skim AI загрузка субтитров"
+  },
+  "subtitles_state_error": {
+    "message": "Произошла ошибка"
+  },
+  "subtitles_errors_http429": {
+    "message": "429 Слишком много запросов к API YouTube субтитров, пожалуйста, попробуйте снова позже"
+  },
+  "subtitles_errors_http404": {
+    "message": "404 Субтитры YouTube не найдены"
+  },
+  "subtitles_errors_http403": {
+    "message": "403 Доступ к субтитрам YouTube запрещён"
+  },
+  "subtitles_errors_http500": {
+    "message": "500 Произошла ошибка сервера YouTube"
+  },
+  "subtitles_errors_httpUnknown": {
+    "message": "Ошибка HTTP $1"
+  },
+  "subtitles_errors_invalidResponse": {
+    "message": "Неверный формат ответа субтитров YouTube"
+  },
+  "subtitles_errors_networkError": {
+    "message": "Произошла сетевая ошибка при получении субтитров"
+  },
+  "subtitles_errors_fetchSubTimeout": {
+    "message": "Получение субтитров YouTube завершилось с ошибкой"
+  },
+  "subtitles_errors_buttonNotFound": {
+    "message": "Кнопка субтитров не найдена"
+  },
+  "subtitles_errors_noSubtitlesFound": {
+    "message": "Для этого видео нет субтитров"
+  },
+  "subtitles_errors_videoNotFound": {
+    "message": "Видео элемент не найден"
+  },
+  "subtitles_errors_controlsBarNotFound": {
+    "message": "Панель управления не найдена"
+  },
+  "subtitles_errors_aiRateLimited": {
+    "message": "Слишком много запросов, пожалуйста, повторите позже"
+  },
+  "subtitles_errors_aiAuthFailed": {
+    "message": "Ошибка аутентификации API, проверьте ваш API ключ"
+  },
+  "subtitles_errors_aiServiceUnavailable": {
+    "message": "Служба перевода временно недоступна"
+  },
+  "subtitles_errors_aiNoResponse": {
+    "message": "Служба AI не ответила, отображается оригинальный текст"
+  },
+  "hotkey_control": {
+    "message": "Ctrl"
+  },
+  "hotkey_alt": {
+    "message": "Option"
+  },
+  "hotkey_shift": {
+    "message": "Shift"
+  },
+  "hotkey_backtick": {
+    "message": "Обратный апостроф"
+  },
+  "hotkey_clickAndHold": {
+    "message": "Нажмите и удерживайте"
+  },
+  "translationHub_searchLanguages": {
+    "message": "Поиск языков..."
+  },
+  "translationHub_noLanguagesFound": {
+    "message": "Языки не найдены"
+  },
+  "translationHub_exchangeLanguages": {
+    "message": "Поменять языки местами"
+  },
+  "translationHub_title": {
+    "message": "Мульти-API перевод текста"
+  },
+  "translationHub_noServicesSelected": {
+    "message": "Сервисы перевода не выбраны"
+  },
+  "translationHub_noServicesDescription": {
+    "message": "Выберите сервисы перевода выше, чтобы увидеть карточки перевода."
+  },
+  "translationHub_inputPlaceholder": {
+    "message": "Введите текст для перевода..."
+  },
+  "translationHub_translate": {
+    "message": "Перевести"
+  },
+  "translationHub_copiedToClipboard": {
+    "message": "Перевод скопирован в буфер обмена!"
+  },
+  "translationHub_copyTranslation": {
+    "message": "Копировать перевод"
+  },
+  "translationHub_expandCard": {
+    "message": "Развернуть карточку"
+  },
+  "translationHub_collapseCard": {
+    "message": "Свернуть карточку"
+  },
+  "translationHub_expandAllCards": {
+    "message": "Развернуть все"
+  },
+  "translationHub_collapseAllCards": {
+    "message": "Свернуть все"
+  },
+  "translationHub_deleteCard": {
+    "message": "Удалить карточку"
+  },
+  "translationHub_translationFailed": {
+    "message": "Ошибка перевода"
+  },
+  "translationHub_translationFailedFallback": {
+    "message": "Ошибка перевода"
+  },
+  "translationHub_retryTranslation": {
+    "message": "Повторить перевод"
+  },
+  "languages_eng": {
+    "message": "Английский"
+  },
+  "languages_cmn": {
+    "message": "Упрощённый китайский"
+  },
+  "languages_cmnHant": {
+    "message": "Традиционный китайский"
+  },
+  "languages_yue": {
+    "message": "Кантонский"
+  },
+  "languages_spa": {
+    "message": "Испанский"
+  },
+  "languages_rus": {
+    "message": "Русский"
+  },
+  "languages_arb": {
+    "message": "Арабский"
+  },
+  "languages_ben": {
+    "message": "Бенгальский"
+  },
+  "languages_hin": {
+    "message": "Хинди"
+  },
+  "languages_por": {
+    "message": "Португальский"
+  },
+  "languages_ind": {
+    "message": "Индонезийский"
+  },
+  "languages_jpn": {
+    "message": "Японский"
+  },
+  "languages_fra": {
+    "message": "Французский"
+  },
+  "languages_deu": {
+    "message": "Немецкий"
+  },
+  "languages_jav": {
+    "message": "Яванский"
+  },
+  "languages_kor": {
+    "message": "Корейский"
+  },
+  "languages_tel": {
+    "message": "Телугу"
+  },
+  "languages_vie": {
+    "message": "Вьетнамский"
+  },
+  "languages_mar": {
+    "message": "Маратхи"
+  },
+  "languages_ita": {
+    "message": "Итальянский"
+  },
+  "languages_tam": {
+    "message": "Тамильский"
+  },
+  "languages_tur": {
+    "message": "Турецкий"
+  },
+  "languages_urd": {
+    "message": "Урду"
+  },
+  "languages_guj": {
+    "message": "Гуджарати"
+  },
+  "languages_pol": {
+    "message": "Польский"
+  },
+  "languages_ukr": {
+    "message": "Украинский"
+  },
+  "languages_kan": {
+    "message": "Каннада"
+  },
+  "languages_mai": {
+    "message": "Майтхили"
+  },
+  "languages_mal": {
+    "message": "Малаялам"
+  },
+  "languages_pes": {
+    "message": "Персидский"
+  },
+  "languages_mya": {
+    "message": "Бирманский"
+  },
+  "languages_swh": {
+    "message": "Суахили"
+  },
+  "languages_sun": {
+    "message": "Сунданский"
+  },
+  "languages_ron": {
+    "message": "Румынский"
+  },
+  "languages_pan": {
+    "message": "Панджаби"
+  },
+  "languages_bho": {
+    "message": "Бходжпури"
+  },
+  "languages_amh": {
+    "message": "Амхарский"
+  },
+  "languages_hau": {
+    "message": "Хауса"
+  },
+  "languages_fuv": {
+    "message": "Фула"
+  },
+  "languages_bos": {
+    "message": "Боснийский"
+  },
+  "languages_hrv": {
+    "message": "Хорватский"
+  },
+  "languages_nld": {
+    "message": "Нидерландский"
+  },
+  "languages_srp": {
+    "message": "Сербский"
+  },
+  "languages_tha": {
+    "message": "Тайский"
+  },
+  "languages_ckb": {
+    "message": "Центральнокурдский"
+  },
+  "languages_yor": {
+    "message": "Йоруба"
+  },
+  "languages_uzn": {
+    "message": "Узбекский"
+  },
+  "languages_zlm": {
+    "message": "Малайский"
+  },
+  "languages_ibo": {
+    "message": "Игбо"
+  },
+  "languages_npi": {
+    "message": "Непальский"
+  },
+  "languages_ceb": {
+    "message": "Себуано"
+  },
+  "languages_skr": {
+    "message": "Сараики"
+  },
+  "languages_tgl": {
+    "message": "Тагальский"
+  },
+  "languages_hun": {
+    "message": "Венгерский"
+  },
+  "languages_azj": {
+    "message": "Азербайджанский"
+  },
+  "languages_sin": {
+    "message": "Сингальский"
+  },
+  "languages_koi": {
+    "message": "Коми-пермяцкий"
+  },
+  "languages_ell": {
+    "message": "Греческий"
+  },
+  "languages_ces": {
+    "message": "Чешский"
+  },
+  "languages_mag": {
+    "message": "Магахи"
+  },
+  "languages_run": {
+    "message": "Рунди"
+  },
+  "languages_bel": {
+    "message": "Белорусский"
+  },
+  "languages_plt": {
+    "message": "Малагасийский"
+  },
+  "languages_qug": {
+    "message": "Кечуа Чимборасо"
+  },
+  "languages_mad": {
+    "message": "Мадурский"
+  },
+  "languages_nya": {
+    "message": "Чева"
+  },
+  "languages_zyb": {
+    "message": "Чжуанский"
+  },
+  "languages_pbu": {
+    "message": "Пушту"
+  },
+  "languages_kin": {
+    "message": "Киньяруанда"
+  },
+  "languages_zul": {
+    "message": "Зулу"
+  },
+  "languages_bul": {
+    "message": "Болгарский"
+  },
+  "languages_swe": {
+    "message": "Шведский"
+  },
+  "languages_lin": {
+    "message": "Лингала"
+  },
+  "languages_som": {
+    "message": "Сомали"
+  },
+  "languages_hms": {
+    "message": "Цяньдунский мяо"
+  },
+  "languages_hnj": {
+    "message": "Хмонг"
+  },
+  "languages_ilo": {
+    "message": "Илоканский"
+  },
+  "languages_kaz": {
+    "message": "Казахский"
+  },
+  "languages_heb": {
+    "message": "Иврит"
+  },
+  "languages_nob": {
+    "message": "Норвежский букмол"
+  },
+  "languages_nno": {
+    "message": "Норвежский нюнорск"
+  },
+  "languages_afr": {
+    "message": "Африкаанс"
+  },
+  "languages_sqi": {
+    "message": "Албанский"
+  },
+  "languages_asm": {
+    "message": "Ассамский"
+  },
+  "languages_eus": {
+    "message": "Баскский"
+  },
+  "languages_bre": {
+    "message": "Бретонский"
+  },
+  "languages_cat": {
+    "message": "Каталанский"
+  },
+  "languages_cos": {
+    "message": "Корсиканский"
+  },
+  "languages_cym": {
+    "message": "Валлийский"
+  },
+  "languages_dan": {
+    "message": "Датский"
+  },
+  "languages_div": {
+    "message": "Дивехи"
+  },
+  "languages_epo": {
+    "message": "Эсперанто"
+  },
+  "languages_ekk": {
+    "message": "Эстонский"
+  },
+  "languages_fao": {
+    "message": "Фарерский"
+  },
+  "languages_fij": {
+    "message": "Фиджийский"
+  },
+  "languages_fin": {
+    "message": "Финский"
+  },
+  "languages_fry": {
+    "message": "Западнофризский"
+  },
+  "languages_gla": {
+    "message": "Шотландский гэльский"
+  },
+  "languages_gle": {
+    "message": "Ирландский"
+  },
+  "languages_glg": {
+    "message": "Галисийский"
+  },
+  "languages_grn": {
+    "message": "Гуарани"
+  },
+  "languages_hat": {
+    "message": "Гаитянский креольский"
+  },
+  "languages_haw": {
+    "message": "Гавайский"
+  },
+  "languages_hye": {
+    "message": "Армянский"
+  },
+  "languages_ido": {
+    "message": "Идо"
+  },
+  "languages_ina": {
+    "message": "Интерлингва"
+  },
+  "languages_isl": {
+    "message": "Исландский"
+  },
+  "languages_kat": {
+    "message": "Грузинский"
+  },
+  "languages_khm": {
+    "message": "Кхмерский"
+  },
+  "languages_kir": {
+    "message": "Киргизский"
+  },
+  "languages_lao": {
+    "message": "Лаосский"
+  },
+  "languages_lat": {
+    "message": "Латинский"
+  },
+  "languages_lvs": {
+    "message": "Латышский"
+  },
+  "languages_lit": {
+    "message": "Литовский"
+  },
+  "languages_ltz": {
+    "message": "Люксембургский"
+  },
+  "languages_mkd": {
+    "message": "Македонский"
+  },
+  "languages_mlt": {
+    "message": "Мальтийский"
+  },
+  "languages_mon": {
+    "message": "Монгольский"
+  },
+  "languages_mri": {
+    "message": "Маори"
+  },
+  "languages_nso": {
+    "message": "Северный сото"
+  },
+  "languages_oci": {
+    "message": "Окситанский"
+  },
+  "languages_ori": {
+    "message": "Ория"
+  },
+  "languages_orm": {
+    "message": "Оромо"
+  },
+  "languages_prs": {
+    "message": "Дари"
+  },
+  "languages_san": {
+    "message": "Санскрит"
+  },
+  "languages_slk": {
+    "message": "Словацкий"
+  },
+  "languages_slv": {
+    "message": "Словенский"
+  },
+  "languages_smo": {
+    "message": "Самоанский"
+  },
+  "languages_sna": {
+    "message": "Шона"
+  },
+  "languages_snd": {
+    "message": "Синдхи"
+  },
+  "languages_sot": {
+    "message": "Южный сото"
+  },
+  "languages_tah": {
+    "message": "Таитянский"
+  },
+  "languages_tat": {
+    "message": "Татарский"
+  },
+  "languages_tgk": {
+    "message": "Таджикский"
+  },
+  "languages_tir": {
+    "message": "Тигринья"
+  },
+  "languages_ton": {
+    "message": "Тонганский"
+  },
+  "languages_tsn": {
+    "message": "Тсвана"
+  },
+  "languages_tuk": {
+    "message": "Туркменский"
+  },
+  "languages_uig": {
+    "message": "Уйгурский"
+  },
+  "languages_vol": {
+    "message": "Волапюк"
+  },
+  "languages_wol": {
+    "message": "Волоф"
+  },
+  "languages_xho": {
+    "message": "Коса"
+  },
+  "languages_ydd": {
+    "message": "Идиш"
+  },
+  "languages_aka": {
+    "message": "Акан"
+  },
+  "languages_bam": {
+    "message": "Бамбара"
+  },
+  "languages_bis": {
+    "message": "Бислама"
+  },
+  "languages_bod": {
+    "message": "Тибетский"
+  },
+  "languages_che": {
+    "message": "Чеченский"
+  },
+  "languages_chv": {
+    "message": "Чувашский"
+  },
+  "languages_dzo": {
+    "message": "Дзонг-кэ"
+  },
+  "languages_ewe": {
+    "message": "Эве"
+  },
+  "languages_kab": {
+    "message": "Кабильский"
+  },
+  "languages_lug": {
+    "message": "Ганда"
+  },
+  "languages_oss": {
+    "message": "Осетинский"
+  },
+  "languages_ssw": {
+    "message": "Свати"
+  },
+  "languages_ven": {
+    "message": "Венда"
+  },
+  "languages_war": {
+    "message": "Варай"
+  },
+  "languages_nde": {
+    "message": "Северный ндебеле"
+  },
+  "languages_nbl": {
+    "message": "Южный ндебеле"
+  },
+  "languages_pam": {
+    "message": "Пампанга"
+  },
+  "languages_hil": {
+    "message": "Хилигайнон"
+  },
+  "languages_bcl": {
+    "message": "Центральный бикольский"
+  },
+  "languages_min": {
+    "message": "Минангкабау"
+  },
+  "languages_ace": {
+    "message": "Ачехский"
+  },
+  "languages_bug": {
+    "message": "Бугийский"
+  },
+  "languages_ban": {
+    "message": "Балийский"
+  },
+  "languages_bjn": {
+    "message": "Банджарский"
+  },
+  "languages_mak": {
+    "message": "Макассарский"
+  },
+  "languages_sas": {
+    "message": "Сасакский"
+  },
+  "languages_tet": {
+    "message": "Тетум"
+  },
+  "languages_cha": {
+    "message": "Чаморро"
+  },
+  "languages_niu": {
+    "message": "Ниуэ"
+  },
+  "languages_tvl": {
+    "message": "Тувалуанский"
+  },
+  "languages_gil": {
+    "message": "Кирибати"
+  },
+  "languages_mah": {
+    "message": "Маршалльский"
+  },
+  "languages_pau": {
+    "message": "Палауский"
+  },
+  "languages_wls": {
+    "message": "Уоллисский"
+  },
+  "languages_rar": {
+    "message": "Раротонганский"
+  },
+  "languages_hif": {
+    "message": "Фиджийский хинди"
+  }
+}

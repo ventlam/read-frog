@@ -1,0 +1,1 @@
+var e=`analyticsEnabled`,t=`analyticsInstallId`,n=`feature_used`;function r(e=`chrome`){return e!==`firefox`}var i=r();export{i,n,t as r,e as t};

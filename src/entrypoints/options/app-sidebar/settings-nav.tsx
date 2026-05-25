@@ -66,6 +66,13 @@ export function SettingsNav() {
           </SidebarMenuItem>
 
           <SidebarMenuItem>
+            <SidebarMenuButton render={<Link to="/youtube-summary" />} isActive={pathname === "/youtube-summary"}>
+              <Icon icon="tabler:brand-youtube" />
+              <span>YouTube Summary</span>
+            </SidebarMenuButton>
+          </SidebarMenuItem>
+
+          <SidebarMenuItem>
             <SidebarMenuButton render={<Link to="/input-translation" />} isActive={pathname === "/input-translation"}>
               <Icon icon="tabler:keyboard" />
               <span>{i18n.t("options.overlayTools.inputTranslation.title")}</span>

@@ -1,6 +1,6 @@
-name: Read Frog
-extName: Read Frog - Dịch và học
-extDescription: Read Frog là tiện ích mở rộng trình duyệt mã nguồn mở được thiết kế để giúp bạn học ngôn ngữ sâu từ bất kỳ trang web nào.
+name: Skim AI
+extName: Skim AI - Dịch và học
+extDescription: Skim AI là tiện ích mở rộng trình duyệt mã nguồn mở được thiết kế để giúp bạn học ngôn ngữ sâu từ bất kỳ trang web nào.
 uninstallSurveyUrl: https://tally.so/r/nPK6Ob
 dataTypes:
   string: Văn bản
@@ -10,7 +10,7 @@ contextMenu:
   translateSelection: Dịch "%s"
   showOriginal: Hiển thị bản gốc
 sidePanel:
-  firefoxUserActionHint: Trong Firefox, hãy mở Read Frog từ thanh bên của trình duyệt.
+  firefoxUserActionHint: Trong Firefox, hãy mở Skim AI từ thanh bên của trình duyệt.
   firefoxUserActionHelpText: Xem cách mở thanh bên Firefox
   firefoxUserActionHelpUrl: https://support.mozilla.org/vi/kb/use-sidebar-access-tools-and-vertical-tabs
 popup:
@@ -33,7 +33,7 @@ popup:
   discord:
     tooltip: Tham gia Discord để kết nối với các nhà phát triển và truy cập sớm các tính năng mới
   blog:
-    notification: Có gì mới trong Read Frog
+    notification: Có gì mới trong Skim AI
   aiSmartContext: Ngữ cảnh thông minh AI
   aiSmartContextDescription: Sử dụng ngữ cảnh trang web để cải thiện chất lượng dịch. Yêu cầu nhà cung cấp dịch LLM.
   more:
@@ -279,7 +279,7 @@ options:
     floatingButton:
       globalToggle:
         title: Bật nút nổi
-        description: Hiển thị nút nổi trên các trang web để truy cập nhanh các tính năng Read Frog
+        description: Hiển thị nút nổi trên các trang web để truy cập nhanh các tính năng Skim AI
       closeMenu:
         disableForSite: Tắt cho trang web này
         disableGlobally: Tắt toàn cục
@@ -620,7 +620,7 @@ options:
       fallback: Dự phòng
       selectPlaceholder: Chọn giọng nói
       preview: Xem trước
-      previewSample: Xin chào từ Read Frog! Đây là cách tôi sẽ phát âm khi đọc to.
+      previewSample: Xin chào từ Skim AI! Đây là cách tôi sẽ phát âm khi đọc to.
     languageVoice:
       label: Giọng nói theo ngôn ngữ
       reset: Đặt lại mặc định
@@ -646,11 +646,11 @@ options:
     title: Cấu hình
     about:
       title: Giới thiệu
-      description: Read Frog ra đời vào tháng 4 năm 2025
-      mission: Read Frog hướng tới việc mở rộng cơ hội tiếp cận bình đẳng với giáo dục chất lượng cao trong thời đại AI bằng cách mang lại trải nghiệm học tập gần với cảm giác được giáo viên thật hướng dẫn, nhưng với chi phí hợp lý hơn trong học ngôn ngữ, y học và các lĩnh vực giàu tri thức khác.
+      description: Skim AI ra đời vào tháng 4 năm 2025
+      mission: Skim AI hướng tới việc mở rộng cơ hội tiếp cận bình đẳng với giáo dục chất lượng cao trong thời đại AI bằng cách mang lại trải nghiệm học tập gần với cảm giác được giáo viên thật hướng dẫn, nhưng với chi phí hợp lý hơn trong học ngôn ngữ, y học và các lĩnh vực giàu tri thức khác.
       analytics:
         title: Giúp cải thiện trải nghiệm người dùng
-        tooltip: Khi bật, Read Frog sẽ gửi các tín hiệu sử dụng ẩn danh để xác minh tính ổn định của tính năng, tối ưu hiệu năng và độ tinh chỉnh UX, đồng thời giúp chúng tôi ưu tiên những gì cần xây tiếp theo.
+        tooltip: Khi bật, Skim AI sẽ gửi các tín hiệu sử dụng ẩn danh để xác minh tính ổn định của tính năng, tối ưu hiệu năng và độ tinh chỉnh UX, đồng thời giúp chúng tôi ưu tiên những gì cần xây tiếp theo.
     sync:
       title: Đồng bộ cấu hình thủ công
       description: Nhập và xuất cài đặt cấu hình thủ công
@@ -659,7 +659,7 @@ options:
       importSuccess: Nhập cấu hình thành công
       exportSuccess: Xuất cấu hình thành công
       importError: Nhập thất bại
-      versionTooNew: Phiên bản cấu hình đã nhập mới hơn, vui lòng nâng cấp Read Frog lên phiên bản mới nhất
+      versionTooNew: Phiên bản cấu hình đã nhập mới hơn, vui lòng nâng cấp Skim AI lên phiên bản mới nhất
       migrationError: Di chuyển thất bại
       validationError: Xác thực cấu hình thất bại
       exportOptions:
@@ -902,7 +902,7 @@ subtitles:
   actions:
     downloadSource: Tải phụ đề gốc
   state:
-    loading: Read Frog đang tải phụ đề
+    loading: Skim AI đang tải phụ đề
     error: Đã xảy ra lỗi
   errors:
     http429: 429 Đã gửi quá nhiều yêu cầu đến API phụ đề Youtube, vui lòng thử lại sau

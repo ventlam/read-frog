@@ -1,0 +1,2801 @@
+{
+  "name": {
+    "message": "Skim AI"
+  },
+  "extName": {
+    "message": "Skim AI - 翻譯與學習"
+  },
+  "extDescription": {
+    "message": "Skim AI 是一款開放源代碼的瀏覽器插件，旨在幫助您從任何網站深入學習語言。"
+  },
+  "uninstallSurveyUrl": {
+    "message": "https://tally.so/r/3E9XDL"
+  },
+  "dataTypes_string": {
+    "message": "文字"
+  },
+  "dataTypes_number": {
+    "message": "數字"
+  },
+  "contextMenu_translate": {
+    "message": "翻譯"
+  },
+  "contextMenu_translateSelection": {
+    "message": "翻譯「%s」"
+  },
+  "contextMenu_showOriginal": {
+    "message": "顯示原文"
+  },
+  "sidePanel_firefoxUserActionHint": {
+    "message": "在 Firefox 中，請從瀏覽器側邊欄開啟 Skim AI。"
+  },
+  "sidePanel_firefoxUserActionHelpText": {
+    "message": "查看 Firefox 側邊欄說明"
+  },
+  "sidePanel_firefoxUserActionHelpUrl": {
+    "message": "https://support.mozilla.org/zh-TW/kb/use-sidebar-access-tools-and-vertical-tabs"
+  },
+  "popup_theme": {
+    "message": "主題"
+  },
+  "popup_autoLang": {
+    "message": "自動偵測"
+  },
+  "popup_sourceLang": {
+    "message": "來源語言"
+  },
+  "popup_targetLang": {
+    "message": "目標語言"
+  },
+  "popup_translate": {
+    "message": "翻譯"
+  },
+  "popup_showOriginal": {
+    "message": "顯示原文"
+  },
+  "popup_enabledFloatingButton": {
+    "message": "啟用懸浮按鈕"
+  },
+  "popup_enabledSelectionToolbar": {
+    "message": "啟用選擇工具列"
+  },
+  "popup_alwaysTranslate": {
+    "message": "總是翻譯這個網站"
+  },
+  "popup_addToWhitelist": {
+    "message": "在此網站啟用擴充功能"
+  },
+  "popup_addToBlacklist": {
+    "message": "在此網站停用擴充功能"
+  },
+  "popup_options": {
+    "message": "選項"
+  },
+  "popup_hover": {
+    "message": "滑鼠懸停"
+  },
+  "popup_translateParagraph": {
+    "message": "來翻譯段落"
+  },
+  "popup_hub_tooltip": {
+    "message": "一次性調用多個翻譯模型翻譯文本"
+  },
+  "popup_discord_tooltip": {
+    "message": "加入 Discord 與開發者交流，搶先體驗新功能"
+  },
+  "popup_blog_notification": {
+    "message": "Skim AI 更新動態"
+  },
+  "popup_aiSmartContext": {
+    "message": "AI 智慧上下文"
+  },
+  "popup_aiSmartContextDescription": {
+    "message": "結合網頁上下文提升翻譯效果。需要配置 LLM 翻譯服務商。"
+  },
+  "popup_more_title": {
+    "message": "更多"
+  },
+  "popup_more_translationHub": {
+    "message": "翻譯中心"
+  },
+  "popup_more_joinDiscord": {
+    "message": "加入 Discord"
+  },
+  "popup_more_joinWechat": {
+    "message": "加入微信群"
+  },
+  "popup_more_starGithub": {
+    "message": "Github 加星"
+  },
+  "popup_more_rateUs": {
+    "message": "好評支持"
+  },
+  "popup_more_ebook": {
+    "message": "第三方電子書閱讀器"
+  },
+  "popup_more_tutorial": {
+    "message": "使用教程"
+  },
+  "errorRecovery_title": {
+    "message": "應用發生異常"
+  },
+  "errorRecovery_description": {
+    "message": "已進入恢復模式。你可以先導出當前設定作為備份，再重置設定後重試。"
+  },
+  "errorRecovery_backupTitle": {
+    "message": "先備份當前設定（推薦）"
+  },
+  "errorRecovery_exportWithApiKeys": {
+    "message": "導出（包含 API Keys）"
+  },
+  "errorRecovery_exportWithoutApiKeys": {
+    "message": "導出（不包含 API Keys）"
+  },
+  "errorRecovery_recoveryTitle": {
+    "message": "恢復選項"
+  },
+  "errorRecovery_refreshPage": {
+    "message": "重新整理頁面"
+  },
+  "errorRecovery_resetAction": {
+    "message": "重置為預設設定"
+  },
+  "errorRecovery_resetSuccess": {
+    "message": "恢復完成，設定已重置"
+  },
+  "errorRecovery_resetFailed": {
+    "message": "恢復失敗，無法重置設定"
+  },
+  "errorRecovery_errorDetails": {
+    "message": "錯誤詳情"
+  },
+  "errorRecovery_resetDialog_title": {
+    "message": "確認重置設定？"
+  },
+  "errorRecovery_resetDialog_description": {
+    "message": "這會用預設設定覆蓋當前設定。"
+  },
+  "errorRecovery_resetDialog_confirm": {
+    "message": "重置"
+  },
+  "errorRecovery_resetDialog_cancel": {
+    "message": "取消"
+  },
+  "options_commandPalette_placeholder": {
+    "message": "搜尋設定..."
+  },
+  "options_commandPalette_noResults": {
+    "message": "找不到設定"
+  },
+  "options_sidebar_settings": {
+    "message": "設定"
+  },
+  "options_sidebar_tools": {
+    "message": "工具"
+  },
+  "options_sidebar_product": {
+    "message": "產品"
+  },
+  "options_tools_translationHub": {
+    "message": "翻譯中心"
+  },
+  "options_setAPIKeyWarning_please": {
+    "message": "請在"
+  },
+  "options_setAPIKeyWarning_page": {
+    "message": "頁設置 API Key"
+  },
+  "options_betaExperience_title": {
+    "message": "Beta 體驗"
+  },
+  "options_betaExperience_description": {
+    "message": "啟用實驗性功能和早期訪問新功能。這些功能可能不穩定或不完整。"
+  },
+  "options_betaExperience_enabled": {
+    "message": "啟用 Beta 體驗"
+  },
+  "options_apiProviders_title": {
+    "message": "API 提供商"
+  },
+  "options_apiProviders_description": {
+    "message": "配置用於翻譯和詞彙解析功能的 API 提供商。我們內建了 20 多個提供商，並支援任何 OpenAI 相容 API 提供商。"
+  },
+  "options_apiProviders_promotion_ai302_description": {
+    "message": "點擊右方鏈接註冊 302.AI 可以獲得 1 美元 API 額度"
+  },
+  "options_apiProviders_promotion_ai302_action": {
+    "message": "註冊獲取免費 API Key"
+  },
+  "options_apiProviders_promotion_ai302_addProvider": {
+    "message": "新增 302.AI 配置"
+  },
+  "options_apiProviders_addProvider": {
+    "message": "新增提供商"
+  },
+  "options_apiProviders_badges_featureCount": {
+    "message": "$1 個功能"
+  },
+  "options_apiProviders_dialog_title": {
+    "message": "新增提供商"
+  },
+  "options_apiProviders_dialog_groups_builtInProviders_title": {
+    "message": "內建 LLM 提供商"
+  },
+  "options_apiProviders_dialog_groups_builtInProviders_description": {
+    "message": "內建的大型語言模型提供商，無需填寫大部分配置如 Base URL"
+  },
+  "options_apiProviders_dialog_groups_openaiCompatibleProviders_title": {
+    "message": "OpenAI 相容自定義提供商"
+  },
+  "options_apiProviders_dialog_groups_openaiCompatibleProviders_description": {
+    "message": "如果找不到你想要的 AI 提供商，請選擇 Custom Provider 來配置任何 OpenAI 介面相容的提供商，例如智譜"
+  },
+  "options_apiProviders_dialog_groups_pureTranslationProviders_title": {
+    "message": "純翻譯提供商"
+  },
+  "options_apiProviders_dialog_groups_pureTranslationProviders_description": {
+    "message": "專注於翻譯功能的提供商，沒有大型語言模型能力"
+  },
+  "options_apiProviders_form_fields_name": {
+    "message": "名稱"
+  },
+  "options_apiProviders_form_fields_description": {
+    "message": "描述"
+  },
+  "options_apiProviders_form_fields_apiKey": {
+    "message": "API Key"
+  },
+  "options_apiProviders_form_fields_baseURL": {
+    "message": "Base URL"
+  },
+  "options_apiProviders_form_fields_optional": {
+    "message": "可選"
+  },
+  "options_apiProviders_form_duplicate": {
+    "message": "複製"
+  },
+  "options_apiProviders_form_delete": {
+    "message": "刪除"
+  },
+  "options_apiProviders_form_deleteDialog_title": {
+    "message": "刪除提供商？"
+  },
+  "options_apiProviders_form_deleteDialog_description": {
+    "message": "此操作無法撤銷。使用此提供商的功能將自動重新分配到其他可用提供商。"
+  },
+  "options_apiProviders_form_deleteDialog_confirm": {
+    "message": "刪除"
+  },
+  "options_apiProviders_form_deleteDialog_cancel": {
+    "message": "取消"
+  },
+  "options_apiProviders_form_atLeastOneLLMProvider": {
+    "message": "至少需要一個 LLM 翻譯提供商。"
+  },
+  "options_apiProviders_form_duplicateProviderName": {
+    "message": "重複的提供商名稱 \"$1\""
+  },
+  "options_apiProviders_form_defaultProvider_translate": {
+    "message": "設為預設翻譯提供商"
+  },
+  "options_apiProviders_form_models_translate_title": {
+    "message": "翻譯模型"
+  },
+  "options_apiProviders_form_models_translate_customTitle": {
+    "message": "自定義翻譯模型"
+  },
+  "options_apiProviders_form_models_translate_placeholder": {
+    "message": "選擇一個模型"
+  },
+  "options_apiProviders_form_models_fetchModels": {
+    "message": "獲取可用模型"
+  },
+  "options_apiProviders_form_models_fetchError": {
+    "message": "獲取模型失敗"
+  },
+  "options_apiProviders_form_models_clickToRetry": {
+    "message": "點擊重試"
+  },
+  "options_apiProviders_form_models_noModels": {
+    "message": "沒有可用的模型"
+  },
+  "options_apiProviders_form_models_selectModel": {
+    "message": "選擇模型"
+  },
+  "options_apiProviders_form_models_apiKeyRequired": {
+    "message": "請先添加 API 密鑰"
+  },
+  "options_apiProviders_form_models_searchModels": {
+    "message": "搜尋模型..."
+  },
+  "options_apiProviders_form_models_noModelsFound": {
+    "message": "未找到模型"
+  },
+  "options_apiProviders_form_featureProviders": {
+    "message": "功能提供商"
+  },
+  "options_apiProviders_form_advancedOptions": {
+    "message": "進階選項"
+  },
+  "options_apiProviders_form_providerSettingLabels_region": {
+    "message": "區域"
+  },
+  "options_apiProviders_form_temperature": {
+    "message": "溫度"
+  },
+  "options_apiProviders_form_temperatureHint": {
+    "message": "控制回應的隨機性。較低的值（0）更具確定性，較高的值更具創造性。範圍因提供者而異。留空則使用提供者預設值。"
+  },
+  "options_apiProviders_form_headers": {
+    "message": "請求標頭"
+  },
+  "options_apiProviders_form_headersHint": {
+    "message": "建立 AI 提供者客戶端時送出的自訂 HTTP 請求標頭。留空則使用提供者預設值；填入 {} 可停用預設值。"
+  },
+  "options_apiProviders_form_providerOptions": {
+    "message": "提供者選項"
+  },
+  "options_apiProviders_form_providerOptionsHint": {
+    "message": "用於非標準 API 功能（如思考/推理模式）的提供者特定選項。詳情請參閱 Vercel AI SDK 文件或您的提供者官方文件。"
+  },
+  "options_apiProviders_form_providerOptionsDocsLink": {
+    "message": "查看提供者文件"
+  },
+  "options_apiProviders_form_providerOptionsRecommendationTrigger": {
+    "message": "查看推薦的提供者選項"
+  },
+  "options_apiProviders_form_providerOptionsRecommendationTitle": {
+    "message": "偵測到推薦的提供者選項"
+  },
+  "options_apiProviders_form_providerOptionsRecommendationDescription": {
+    "message": "請先檢查，再手動套用推薦設定。"
+  },
+  "options_apiProviders_form_providerOptionsRecommendationApply": {
+    "message": "套用"
+  },
+  "options_apiProviders_form_providerOptionsRecommendationApplied": {
+    "message": "已套用"
+  },
+  "options_apiProviders_form_invalidJson": {
+    "message": "JSON 格式無效"
+  },
+  "options_apiProviders_providers_description_openai": {
+    "message": "提供 GPT-4o 等模型"
+  },
+  "options_apiProviders_providers_description_deepseek": {
+    "message": "推薦在中國使用"
+  },
+  "options_apiProviders_providers_description_openrouter": {
+    "message": "多個 LLM 提供商的統一介面，按使用量付費"
+  },
+  "options_apiProviders_providers_description_ollama": {
+    "message": "本地大模型服務"
+  },
+  "options_apiProviders_providers_description_google": {
+    "message": "具有先進推理能力的 Google 旗艦 AI 模型"
+  },
+  "options_apiProviders_providers_description_anthropic": {
+    "message": "以安全性和推理能力著稱的 Claude 模型"
+  },
+  "options_apiProviders_providers_description_xai": {
+    "message": "馬斯克的 AI 公司，提供具有即時數據存取能力的 Grok 模型"
+  },
+  "options_apiProviders_providers_description_siliconflow": {
+    "message": "面向中國和國際模型的高效能推理平台"
+  },
+  "options_apiProviders_providers_description_tensdaq": {
+    "message": "革命性競價 AI MaaS 平台，價格由市場供需決定，告別高成本固定定價"
+  },
+  "options_apiProviders_providers_description_ai302": {
+    "message": "提供最新、全面的模型和按量付費 API"
+  },
+  "options_apiProviders_providers_description_openaiCompatible": {
+    "message": "OpenAI API 相容的第三方"
+  },
+  "options_apiProviders_providers_description_deeplx": {
+    "message": "非官方 DeepL API"
+  },
+  "options_apiProviders_providers_description_deepl": {
+    "message": "官方 DeepL API"
+  },
+  "options_apiProviders_providers_description_bedrock": {
+    "message": "面向企業級基礎模型的 AWS 託管服務"
+  },
+  "options_apiProviders_providers_description_groq": {
+    "message": "專注於超高速 LLM 推理速度的專用硬體"
+  },
+  "options_apiProviders_providers_description_deepinfra": {
+    "message": "面向熱門開源模型的經濟高效雲端推理"
+  },
+  "options_apiProviders_providers_description_mistral": {
+    "message": "專注於高效多語言模型的歐洲 AI 公司"
+  },
+  "options_apiProviders_providers_description_togetherai": {
+    "message": "用於運行和微調開源模型的協作平台"
+  },
+  "options_apiProviders_providers_description_cohere": {
+    "message": "具有強大多語言和 RAG 能力的企業級 AI"
+  },
+  "options_apiProviders_providers_description_fireworks": {
+    "message": "面向開源模型的生產就緒推理平台"
+  },
+  "options_apiProviders_providers_description_cerebras": {
+    "message": "超快速 AI 推理，適合快速翻譯和文本分析"
+  },
+  "options_apiProviders_providers_description_replicate": {
+    "message": "存取多樣化開源模型，適合專業翻譯任務"
+  },
+  "options_apiProviders_providers_description_perplexity": {
+    "message": "即時知識增強 AI，提供語境化翻譯和閱讀輔助"
+  },
+  "options_apiProviders_providers_description_vercel": {
+    "message": "針對網頁內容翻譯和分析優化的 AI 模型"
+  },
+  "options_apiProviders_providers_description_volcengine": {
+    "message": "字節跳動旗下雲平台，提供豆包系列大模型"
+  },
+  "options_apiProviders_providers_description_minimax": {
+    "message": "MiniMax AI平台，提供先進的MiniMax-M2系列大模型"
+  },
+  "options_apiProviders_providers_description_alibaba": {
+    "message": "阿里雲通義千問系列模型，具備先進的推理和多語言能力"
+  },
+  "options_apiProviders_providers_description_moonshotai": {
+    "message": "月之暗面Kimi系列模型，具備強大的推理和長上下文能力"
+  },
+  "options_apiProviders_providers_description_huggingface": {
+    "message": "Hugging Face推理API，提供數千種開源模型存取"
+  },
+  "options_apiProviders_apiKey_showAPIKey": {
+    "message": "顯示 API Key"
+  },
+  "options_apiProviders_howToConfigure": {
+    "message": "如何配置?"
+  },
+  "options_apiProviders_testConnection_button": {
+    "message": "測試連接"
+  },
+  "options_apiProviders_testConnection_testing": {
+    "message": "測試中..."
+  },
+  "options_general_title": {
+    "message": "通用"
+  },
+  "options_general_appearance_title": {
+    "message": "外觀"
+  },
+  "options_general_appearance_theme": {
+    "message": "主題"
+  },
+  "options_general_appearance_system": {
+    "message": "跟隨系統"
+  },
+  "options_general_appearance_light": {
+    "message": "淺色"
+  },
+  "options_general_appearance_dark": {
+    "message": "深色"
+  },
+  "options_general_featureProviders_title": {
+    "message": "功能提供商"
+  },
+  "options_general_featureProviders_description": {
+    "message": "為每個功能選擇使用的提供商"
+  },
+  "options_general_featureProviders_customActions": {
+    "message": "自訂 AI 指令"
+  },
+  "options_general_featureProviders_features_translate": {
+    "message": "網頁翻譯"
+  },
+  "options_general_featureProviders_features_selectionToolbar_translate": {
+    "message": "劃詞翻譯"
+  },
+  "options_general_featureProviders_features_tts": {
+    "message": "文字轉語音"
+  },
+  "options_general_featureProviders_features_inputTranslation": {
+    "message": "輸入翻譯"
+  },
+  "options_general_featureProviders_features_videoSubtitles": {
+    "message": "影片字幕"
+  },
+  "options_general_translationConfig_model_title": {
+    "message": "模型"
+  },
+  "options_general_translationConfig_model_enterCustomModel": {
+    "message": "輸入自訂模型名稱"
+  },
+  "options_general_clearCache_title": {
+    "message": "清理快取"
+  },
+  "options_general_clearCache_description": {
+    "message": "清理瀏覽器中的所有翻譯快取"
+  },
+  "options_general_clearCache_clearing": {
+    "message": "清理中..."
+  },
+  "options_general_clearCache_dialog_title": {
+    "message": "清理快取"
+  },
+  "options_general_clearCache_dialog_trigger": {
+    "message": "清理快取"
+  },
+  "options_general_clearCache_dialog_confirm": {
+    "message": "確認"
+  },
+  "options_general_clearCache_dialog_cancel": {
+    "message": "取消"
+  },
+  "options_general_clearCache_dialog_description": {
+    "message": "此操作將清理所有翻譯快取。此操作無法撤銷。"
+  },
+  "options_general_languageDetection_title": {
+    "message": "語言偵測"
+  },
+  "options_general_languageDetection_description": {
+    "message": "影響自動翻譯語言偵測、跳過語言偵測和朗讀語音選擇的準確性。"
+  },
+  "options_general_languageDetection_mode_basic": {
+    "message": "基礎"
+  },
+  "options_general_languageDetection_mode_llm": {
+    "message": "LLM"
+  },
+  "options_general_languageDetection_provider_label": {
+    "message": "偵測提供者"
+  },
+  "options_general_languageDetection_provider_placeholder": {
+    "message": "選擇提供者"
+  },
+  "options_general_languageDetection_status_noProviders": {
+    "message": "請先設定 LLM 提供者"
+  },
+  "options_general_languageDetection_status_basicRecommend": {
+    "message": "建議啟用 LLM"
+  },
+  "options_general_languageDetection_status_llmEnabled": {
+    "message": "LLM 偵測已啟用"
+  },
+  "options_siteControl_title": {
+    "message": "站點控制"
+  },
+  "options_siteControl_mode_title": {
+    "message": "擴充功能啟動模式"
+  },
+  "options_siteControl_mode_description": {
+    "message": "使用黑名單模式可以在特定網站上停用擴充功能，或使用白名單模式限制擴充功能僅在特定網站上執行。"
+  },
+  "options_siteControl_mode_blacklist": {
+    "message": "僅在列出的站點禁止"
+  },
+  "options_siteControl_mode_whitelist": {
+    "message": "僅在列出的站點執行"
+  },
+  "options_siteControl_patterns_enterUrlPattern": {
+    "message": "輸入 URL 模式（例如 example.com）"
+  },
+  "options_siteControl_patterns_urlPattern": {
+    "message": "URL 模式"
+  },
+  "options_overlayTools_title": {
+    "message": "懸浮工具"
+  },
+  "options_overlayTools_floatingButton_title": {
+    "message": "懸浮按鈕"
+  },
+  "options_overlayTools_selectionToolbar_title": {
+    "message": "選擇工具列"
+  },
+  "options_overlayTools_contextMenu_title": {
+    "message": "右鍵選單"
+  },
+  "options_overlayTools_inputTranslation_title": {
+    "message": "輸入翻譯"
+  },
+  "options_inputTranslation_provider_title": {
+    "message": "翻譯服務"
+  },
+  "options_inputTranslation_provider_description": {
+    "message": "選擇用於輸入翻譯的翻譯服務"
+  },
+  "options_inputTranslation_provider_label": {
+    "message": "服務"
+  },
+  "options_inputTranslation_toggle_title": {
+    "message": "啟用三連空格翻譯"
+  },
+  "options_inputTranslation_toggle_description": {
+    "message": "在任意輸入框中快速按3次空格鍵即可翻譯其內容"
+  },
+  "options_inputTranslation_languages_title": {
+    "message": "翻譯語言"
+  },
+  "options_inputTranslation_languages_description": {
+    "message": "選擇輸入翻譯的源語言和目標語言"
+  },
+  "options_inputTranslation_languages_sourceCode": {
+    "message": "網頁源語言"
+  },
+  "options_inputTranslation_languages_targetCode": {
+    "message": "翻譯目標語言"
+  },
+  "options_inputTranslation_languages_enableCycle": {
+    "message": "每次翻譯時交換方向"
+  },
+  "options_inputTranslation_threshold_title": {
+    "message": "觸發閾值"
+  },
+  "options_inputTranslation_threshold_description": {
+    "message": "連續空格按鍵之間的時間間隔"
+  },
+  "options_inputTranslation_threshold_label": {
+    "message": "閾值 (毫秒)"
+  },
+  "options_inputTranslation_threshold_hint": {
+    "message": "連續空格按鍵之間的時間間隔 (100-1000毫秒)"
+  },
+  "options_inputTranslation_threshold_error": {
+    "message": "數值必須在 $1 到 $2 之間"
+  },
+  "options_floatingButtonAndToolbar_title": {
+    "message": "懸浮按鈕和工具列"
+  },
+  "options_floatingButtonAndToolbar_floatingButtonDemoImageAlt": {
+    "message": "懸浮按鈕示範"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbarDemoImageAlt": {
+    "message": "選擇工具列示範"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_globalToggle_title": {
+    "message": "啟用懸浮按鈕"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_globalToggle_description": {
+    "message": "在網頁上顯示懸浮按鈕，快速存取 Skim AI 功能"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_closeMenu_disableForSite": {
+    "message": "停用此網站"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_closeMenu_disableGlobally": {
+    "message": "全域停用"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_disabledSites_title": {
+    "message": "懸浮按鈕停用網站"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_disabledSites_description": {
+    "message": "設定需要停用懸浮按鈕的網站"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_disabledSites_enterUrlPattern": {
+    "message": "輸入網址模式"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_disabledSites_urlPattern": {
+    "message": "URL 模式"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_clickAction_title": {
+    "message": "點擊行為"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_clickAction_description": {
+    "message": "選擇點擊懸浮按鈕時執行的操作"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_clickAction_panel": {
+    "message": "開啟側邊欄"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_clickAction_translate": {
+    "message": "切換頁面翻譯"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_side_title": {
+    "message": "按鈕位置"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_side_description": {
+    "message": "選擇懸浮按鈕停靠在頁面的哪一側"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_side_left": {
+    "message": "左側"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_side_right": {
+    "message": "右側"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_globalToggle_title": {
+    "message": "啟用選擇工具列"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_globalToggle_description": {
+    "message": "在網頁上選取文字時顯示工具列，快速翻譯、朗讀和使用 AI 指令"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_opacity_title": {
+    "message": "透明度"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_opacity_description": {
+    "message": "調整選擇工具列及其展開內容視窗的透明度"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_featureToggles_title": {
+    "message": "功能開關"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_featureToggles_description": {
+    "message": "選擇在選擇工具列中顯示哪些內建功能"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_featureToggles_translate": {
+    "message": "翻譯"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_featureToggles_speak": {
+    "message": "朗讀"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_closeMenu_disableForSite": {
+    "message": "停用此網站"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_closeMenu_disableGlobally": {
+    "message": "全域停用"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_disabledSites_title": {
+    "message": "選擇工具列停用網站"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_disabledSites_description": {
+    "message": "設定需要停用選擇工具列的網站"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_disabledSites_enterUrlPattern": {
+    "message": "輸入網址模式"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_disabledSites_urlPattern": {
+    "message": "URL 模式"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_customActionFailed": {
+    "message": "自訂操作失敗"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_customActionFailedFallback": {
+    "message": "自訂操作請求失敗"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_actionUnavailable": {
+    "message": "所選操作不可用"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_missingSelection": {
+    "message": "沒有可用的選取文字"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_providerDisabled": {
+    "message": "所選提供商已被停用"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_providerUnavailable": {
+    "message": "所選提供商不可用"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_provider": {
+    "message": "提供商"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_selectProvider": {
+    "message": "選擇提供商"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_noProviderAvailable": {
+    "message": "暫無可用提供商"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_useProviderDefaultModel": {
+    "message": "使用提供商預設模型"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_useCustomModel": {
+    "message": "使用自定義模型"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_customModel": {
+    "message": "自定義模型"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_model": {
+    "message": "模型"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_modelNotAvailableForNonLLM": {
+    "message": "僅 LLM 提供商支援模型設定"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_translate_title": {
+    "message": "劃詞翻譯"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_translate_description": {
+    "message": "配置選擇工具列翻譯功能使用的提供商與模型"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_title": {
+    "message": "自訂 AI 指令"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_description": {
+    "message": "為劃詞新增你自己的結構化 AI 操作"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_add": {
+    "message": "新增 AI 指令"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_edit": {
+    "message": "編輯 AI 指令"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_empty": {
+    "message": "暫無自訂 AI 指令"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_noEnabledLlmProvider": {
+    "message": "請先啟用至少一個 LLM 提供商後再建立自訂 AI 指令"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_table_name": {
+    "message": "名稱"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_table_provider": {
+    "message": "提供商"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_table_fields": {
+    "message": "欄位數"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_table_actions": {
+    "message": "操作"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_name": {
+    "message": "名稱"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_icon": {
+    "message": "圖示"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_chooseAriaLabel": {
+    "message": "選擇圖示"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_chooseTitle": {
+    "message": "選擇圖示"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_inputPlaceholder": {
+    "message": "輸入圖示名稱"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpAriaLabel": {
+    "message": "更多圖示說明"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpTitle": {
+    "message": "沒找到想要的圖示？"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpStepBrowsePrefix": {
+    "message": "在 "
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpStepBrowseSuffix": {
+    "message": " 瀏覽圖示"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpStepCopyPrefix": {
+    "message": "複製圖示名稱，例如"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpStepCopySuffix": {
+    "message": "，然後貼到輸入框中。"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_provider": {
+    "message": "提供商（需支援結構化輸出）"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_selectProvider": {
+    "message": "選擇提供商"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_systemPrompt": {
+    "message": "系統提示詞"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_prompt": {
+    "message": "提示詞"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_outputSchema": {
+    "message": "輸出 Schema"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_addField": {
+    "message": "新增欄位"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldName": {
+    "message": "欄位名"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldType": {
+    "message": "欄位類型"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldDescription": {
+    "message": "描述"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldDescriptionPlaceholder": {
+    "message": "描述此欄位應包含的內容..."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldSpeaking": {
+    "message": "啟用朗讀"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_actions": {
+    "message": "操作"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_cancel": {
+    "message": "取消"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_save": {
+    "message": "儲存"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_defaultFieldName": {
+    "message": "結果"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldNamePlaceholder": {
+    "message": "欄位名"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_autoFieldPrefix": {
+    "message": "欄位"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_addFieldDialog_title": {
+    "message": "新增輸出欄位"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_editFieldDialog_title": {
+    "message": "編輯輸出欄位"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_editFieldDialog_save": {
+    "message": "儲存"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteFieldDialog_title": {
+    "message": "刪除輸出欄位？"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteFieldDialog_description": {
+    "message": "此輸出欄位將被移除。"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteFieldDialog_confirm": {
+    "message": "刪除"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteFieldDialog_cancel": {
+    "message": "取消"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_title": {
+    "message": "筆記庫連線"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_description": {
+    "message": "將這個指令的結構化結果儲存到遠端筆記庫。"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_loginRequiredTitle": {
+    "message": "登入後才能設定筆記庫"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_loginRequiredDescription": {
+    "message": "先到 readfrog.app 登入，再選擇筆記庫與編輯映射。"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_loginAction": {
+    "message": "前往登入"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tableLabel": {
+    "message": "筆記庫"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tablePlaceholder": {
+    "message": "選擇一個筆記庫"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tableClearOption": {
+    "message": "不連接筆記庫"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_refreshAction": {
+    "message": "重新整理"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_emptyTitle": {
+    "message": "還沒有筆記庫"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_emptyDescription": {
+    "message": "先到 readfrog.app 建立一個筆記庫，再回來映射欄位。"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_openNotebaseAction": {
+    "message": "開啟筆記庫"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_betaLockedTitle": {
+    "message": "目前帳號尚未加入 Notebase Beta"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_betaLockedDescription": {
+    "message": "你可以保留目前的 action 設定，但選擇筆記庫與同步結果目前僅對部分 Beta 帳號開放。"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tableUnavailableTitle": {
+    "message": "選取的筆記庫已不可用"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tableUnavailableDescription": {
+    "message": "請重新整理，或改選其他筆記庫後再儲存。"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tableUnavailableOption": {
+    "message": "不可用"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_schemaErrorTitle": {
+    "message": "載入筆記庫 schema 失敗"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_schemaErrorDescription": {
+    "message": "請稍後再試一次重新整理。"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_schemaLoading": {
+    "message": "正在載入筆記庫 schema..."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingsLabel": {
+    "message": "欄位映射"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingsEmpty": {
+    "message": "尚未建立映射，準備好後即可新增。"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_addMappingAction": {
+    "message": "新增映射"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_removeMappingAction": {
+    "message": "移除映射"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_localFieldLabel": {
+    "message": "指令欄位"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_localFieldPlaceholder": {
+    "message": "選擇一個指令欄位"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_remoteFieldLabel": {
+    "message": "筆記庫欄位"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_remoteFieldPlaceholder": {
+    "message": "選擇一個筆記庫欄位"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_columnUnavailableOption": {
+    "message": "已刪除"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_invalidMappingsTitle": {
+    "message": "有些映射需要處理"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_invalidMappingsDescription": {
+    "message": "無效映射會被保留，但在修復前會停用「儲存到筆記庫」。"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingMissingLocal": {
+    "message": "映射的指令欄位已不存在。"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingMissingRemote": {
+    "message": "映射的筆記庫欄位已不存在。"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingMissingSchema": {
+    "message": "重新整理筆記庫 schema 後才能驗證這個映射。"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingIncompatible": {
+    "message": "欄位類型已不相容。"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_tokens_selection": {
+    "message": "選取的文字內容"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_tokens_paragraphs": {
+    "message": "與選取範圍相交的段落內容，會以空行串接，傳給自訂 AI 指令時會截斷到前 2000 個字元"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_tokens_targetLanguage": {
+    "message": "使用者的目標語言"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_tokens_webTitle": {
+    "message": "網頁標題"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_tokens_webContent": {
+    "message": "從目前頁面擷取的網頁正文內容（截斷到前 2000 個字元）"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_delete": {
+    "message": "刪除"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteDialog_title": {
+    "message": "刪除自訂 AI 指令？"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteDialog_description": {
+    "message": "此操作無法撤銷。"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteDialog_confirm": {
+    "message": "刪除"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteDialog_cancel": {
+    "message": "取消"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_nameRequired": {
+    "message": "名稱不能為空"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_duplicateName": {
+    "message": "重複的指令名稱 \"$1\""
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_invalidIcon": {
+    "message": "Iconify 圖示字串格式無效"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_providerRequired": {
+    "message": "請選擇一個已啟用的 LLM 提供商"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_outputSchemaRequired": {
+    "message": "至少需要一個輸出欄位"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_fieldKeyRequired": {
+    "message": "欄位名不能為空"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_duplicateFieldKey": {
+    "message": "欄位名不能重複"
+  },
+  "options_floatingButtonAndToolbar_contextMenu_title": {
+    "message": "右鍵選單"
+  },
+  "options_floatingButtonAndToolbar_contextMenu_translate_title": {
+    "message": "啟用右鍵翻譯"
+  },
+  "options_floatingButtonAndToolbar_contextMenu_translate_description": {
+    "message": "在瀏覽器右鍵選單中新增翻譯選項，快速翻譯頁面或所選文字"
+  },
+  "options_translation_title": {
+    "message": "翻譯"
+  },
+  "options_translation_requestQueueConfig_title": {
+    "message": "翻譯速率"
+  },
+  "options_translation_requestQueueConfig_firstOnDescription": {
+    "message": "調整翻譯請求的處理速度，使用"
+  },
+  "options_translation_requestQueueConfig_lastOnDescription": {
+    "message": "實現"
+  },
+  "options_translation_requestQueueConfig_capacity_title": {
+    "message": "最大突發請求數"
+  },
+  "options_translation_requestQueueConfig_capacity_description": {
+    "message": "允許的暫時突發請求數量，決定了在短時間內最多能同時處理多少個請求"
+  },
+  "options_translation_requestQueueConfig_rate_title": {
+    "message": "每秒平均請求數量"
+  },
+  "options_translation_requestQueueConfig_rate_description": {
+    "message": "平均每秒的請求數量，但允許設定最大突發請求數來短暫發送超量請求"
+  },
+  "options_translation_batchQueueConfig_title": {
+    "message": "批量翻譯"
+  },
+  "options_translation_batchQueueConfig_description": {
+    "message": "配置批量翻譯時的字元數限制和最大段落數量（僅對大語言模型翻譯有效）"
+  },
+  "options_translation_batchQueueConfig_maxCharactersPerBatch_title": {
+    "message": "最大字元數"
+  },
+  "options_translation_batchQueueConfig_maxCharactersPerBatch_description": {
+    "message": "每個批量請求允許的最大字元數，用於控制單次翻譯的內容量"
+  },
+  "options_translation_batchQueueConfig_maxItemsPerBatch_title": {
+    "message": "最大段落數"
+  },
+  "options_translation_batchQueueConfig_maxItemsPerBatch_description": {
+    "message": "每個批量翻譯的最大段落數，用於控制單次翻譯的內容量"
+  },
+  "options_translation_batchQueueConfig_statisticsLink": {
+    "message": "過去 7 天已為您節省約 $1 成本"
+  },
+  "options_translation_autoTranslateWebsite_title": {
+    "message": "基於網站自動翻譯"
+  },
+  "options_translation_autoTranslateWebsite_description": {
+    "message": "總是翻譯這個網站"
+  },
+  "options_translation_autoTranslateWebsite_urlPattern": {
+    "message": "URL 模式"
+  },
+  "options_translation_autoTranslateWebsite_enterUrlPattern": {
+    "message": "輸入 URL 模式"
+  },
+  "options_translation_personalizedPrompts_title": {
+    "message": "個人化 Prompt"
+  },
+  "options_translation_personalizedPrompts_description": {
+    "message": "自訂不同類型的 Prompt，可以在翻譯時自行調整 Prompt 類型。Prompt 表示以用戶身份發送給 LLM 的文字。"
+  },
+  "options_translation_personalizedPrompts_communityPrompts": {
+    "message": "獲取或分享社區 Prompt"
+  },
+  "options_translation_personalizedPrompts_communityPromptsUrl": {
+    "message": "https://github.com/mengxi-ream/read-frog/discussions/820"
+  },
+  "options_translation_personalizedPrompts_addPrompt": {
+    "message": "添加 Prompt"
+  },
+  "options_translation_personalizedPrompts_default": {
+    "message": "通用"
+  },
+  "options_translation_personalizedPrompts_importSuccess": {
+    "message": "導入成功"
+  },
+  "options_translation_personalizedPrompts_import": {
+    "message": "導入"
+  },
+  "options_translation_personalizedPrompts_export": {
+    "message": "導出"
+  },
+  "options_translation_personalizedPrompts_current": {
+    "message": "正在使用"
+  },
+  "options_translation_personalizedPrompts_editPrompt_title": {
+    "message": "編輯 Prompt"
+  },
+  "options_translation_personalizedPrompts_editPrompt_name": {
+    "message": "標題"
+  },
+  "options_translation_personalizedPrompts_editPrompt_systemPrompt": {
+    "message": "系統提示詞"
+  },
+  "options_translation_personalizedPrompts_editPrompt_prompt": {
+    "message": "提示詞"
+  },
+  "options_translation_personalizedPrompts_editPrompt_promptCellInput_input": {
+    "message": "需要翻譯的文字內容"
+  },
+  "options_translation_personalizedPrompts_editPrompt_promptCellInput_targetLanguage": {
+    "message": "目標語言"
+  },
+  "options_translation_personalizedPrompts_editPrompt_promptCellInput_webTitle": {
+    "message": "網頁標題"
+  },
+  "options_translation_personalizedPrompts_editPrompt_promptCellInput_webContent": {
+    "message": "網頁正文內容（截斷到前 2000 個字元）"
+  },
+  "options_translation_personalizedPrompts_editPrompt_promptCellInput_webSummary": {
+    "message": "網頁摘要（需啟用 AI 智慧上下文）"
+  },
+  "options_translation_personalizedPrompts_editPrompt_save": {
+    "message": "保存"
+  },
+  "options_translation_personalizedPrompts_editPrompt_close": {
+    "message": "取消"
+  },
+  "options_translation_personalizedPrompts_deletePrompt_title": {
+    "message": "删除 Prompt"
+  },
+  "options_translation_personalizedPrompts_deletePrompt_description": {
+    "message": "確定要刪除 Prompt 嗎"
+  },
+  "options_translation_personalizedPrompts_deletePrompt_confirm": {
+    "message": "確定"
+  },
+  "options_translation_personalizedPrompts_deletePrompt_cancel": {
+    "message": "取消"
+  },
+  "options_translation_personalizedPrompts_exportPrompt_exportSelected": {
+    "message": "導出所選"
+  },
+  "options_translation_personalizedPrompts_exportPrompt_cancel": {
+    "message": "取消"
+  },
+  "options_translation_translationStyle_title": {
+    "message": "翻譯顯示樣式"
+  },
+  "options_translation_translationStyle_description": {
+    "message": "設置任何您想要的樣式以區分翻譯結果和原文"
+  },
+  "options_translation_translationStyle_useCustomStyle": {
+    "message": "使用自訂 CSS 樣式"
+  },
+  "options_translation_translationStyle_useCustomStyleDescription": {
+    "message": "支援任意 CSS，包括修改字體、動畫、多語言差異化樣式"
+  },
+  "options_translation_translationStyle_presetStyle": {
+    "message": "預設樣式"
+  },
+  "options_translation_translationStyle_cssEditor": {
+    "message": "CSS 編輯器"
+  },
+  "options_translation_translationStyle_preview": {
+    "message": "預覽"
+  },
+  "options_translation_translationStyle_stylePreviewLanguage": {
+    "message": "語言"
+  },
+  "options_translation_translationStyle_stylePreviewDirection": {
+    "message": "方向"
+  },
+  "options_translation_translationStyle_stylePreviewTranslatedText": {
+    "message": "翻譯的文字"
+  },
+  "options_translation_translationStyle_style_default": {
+    "message": "無"
+  },
+  "options_translation_translationStyle_style_blur": {
+    "message": "模糊效果"
+  },
+  "options_translation_translationStyle_style_blockquote": {
+    "message": "引用"
+  },
+  "options_translation_translationStyle_style_weakened": {
+    "message": "弱化"
+  },
+  "options_translation_translationStyle_style_dashedLine": {
+    "message": "虛線"
+  },
+  "options_translation_translationStyle_style_border": {
+    "message": "邊框"
+  },
+  "options_translation_translationStyle_style_textColor": {
+    "message": "文字顏色"
+  },
+  "options_translation_translationStyle_style_background": {
+    "message": "背景"
+  },
+  "options_translation_translationStyle_customCSS_editor_placeholder": {
+    "message": "/* 範例：自訂顏色和背景樣式 */\n[data-read-frog-custom-translation-style='custom'] {\n  color: #414535;\n  background-color: light-dark(#F2E3BC, #C19875);\n  padding: 2px 4px;\n  border-radius: 4px;\n}\n"
+  },
+  "options_translation_translationStyle_customCSS_editor_saveButton": {
+    "message": "儲存"
+  },
+  "options_translation_translationStyle_customCSS_editor_savedButton": {
+    "message": "已儲存"
+  },
+  "options_translation_translationStyle_customCSS_editor_validation_validating": {
+    "message": "驗證中..."
+  },
+  "options_translation_translationStyle_customCSS_editor_validation_valid": {
+    "message": "CSS 有效"
+  },
+  "options_translation_translationStyle_customCSS_editor_validation_syntaxError": {
+    "message": "CSS 存在語法錯誤"
+  },
+  "options_translation_translationStyle_customCSS_editor_validation_tooLong": {
+    "message": "CSS 過長"
+  },
+  "options_translation_translationStyle_customCSS_editor_validation_saved": {
+    "message": "所有變更已儲存"
+  },
+  "options_translation_translationMode_title": {
+    "message": "翻譯模式"
+  },
+  "options_translation_translationMode_description": {
+    "message": "選擇翻譯文字的顯示方式：雙語對照或僅顯示翻譯"
+  },
+  "options_translation_translationMode_mode_bilingual": {
+    "message": "雙語對照"
+  },
+  "options_translation_translationMode_mode_translationOnly": {
+    "message": "僅顯示翻譯"
+  },
+  "options_translation_translateRange_title": {
+    "message": "翻譯範圍"
+  },
+  "options_translation_translateRange_description": {
+    "message": "選擇是僅翻譯主要內容還是翻譯頁面上的所有內容。"
+  },
+  "options_translation_translateRange_range_main": {
+    "message": "主要內容"
+  },
+  "options_translation_translateRange_range_all": {
+    "message": "全部內容"
+  },
+  "options_translation_pageTranslationShortcut_title": {
+    "message": "網頁翻譯快捷鍵"
+  },
+  "options_translation_pageTranslationShortcut_description": {
+    "message": "自訂翻譯整個網頁的快捷鍵"
+  },
+  "options_translation_preloadConfig_title": {
+    "message": "預翻譯範圍"
+  },
+  "options_translation_preloadConfig_description": {
+    "message": "控制視窗下方多少內容會被預先翻譯，以節省 API 費用"
+  },
+  "options_translation_preloadConfig_margin_title": {
+    "message": "預載距離（像素）"
+  },
+  "options_translation_preloadConfig_margin_description": {
+    "message": "距離視窗多遠時開始翻譯內容。較小的值可節省 API 費用，但捲動時可能會有延遲。"
+  },
+  "options_translation_preloadConfig_threshold_title": {
+    "message": "可見度閾值"
+  },
+  "options_translation_preloadConfig_threshold_description": {
+    "message": "觸發翻譯所需的元素可見度百分比（0-1）。較高的值會延遲翻譯，直到更多元素可見。"
+  },
+  "options_translation_smallParagraphFilter_title": {
+    "message": "小段落過濾"
+  },
+  "options_translation_smallParagraphFilter_description": {
+    "message": "跳過翻譯少於指定字元數或詞數的文字節點（0 = 停用）"
+  },
+  "options_translation_smallParagraphFilter_minCharacters_title": {
+    "message": "最小字元數"
+  },
+  "options_translation_smallParagraphFilter_minCharacters_description": {
+    "message": "少於此字元數的文字節點將不會被翻譯。字元計數包含空格。"
+  },
+  "options_translation_smallParagraphFilter_minWords_title": {
+    "message": "最小詞數"
+  },
+  "options_translation_smallParagraphFilter_minWords_description": {
+    "message": "少於此詞數的文字節點將不會被翻譯。使用 Intl.Segmenter 進行跨語言準確分詞。"
+  },
+  "options_translation_smallParagraphFilter_error": {
+    "message": "數值必須在 $1 到 $2 之間"
+  },
+  "options_translation_nodeTranslationHotkey_title": {
+    "message": "懸停或長按翻譯快捷鍵"
+  },
+  "options_translation_nodeTranslationHotkey_description": {
+    "message": "自訂懸停翻譯的修飾鍵，或使用滑鼠長按翻譯段落"
+  },
+  "options_translation_nodeTranslationHotkey_enable": {
+    "message": "啟用"
+  },
+  "options_translation_llmProviderConfigured": {
+    "message": "已為$1選擇 LLM 提供商"
+  },
+  "options_translation_llmProviderNotConfigured": {
+    "message": "沒有為$1選擇 LLM 提供商"
+  },
+  "options_translation_autoTranslateLanguages_title": {
+    "message": "基於語言的自動翻譯"
+  },
+  "options_translation_autoTranslateLanguages_description": {
+    "message": "當檢測到特定語言時自動翻譯頁面內容"
+  },
+  "options_translation_autoTranslateLanguages_selectLanguages": {
+    "message": "選擇語言"
+  },
+  "options_translation_autoTranslateLanguages_detection_label": {
+    "message": "語言偵測"
+  },
+  "options_translation_autoTranslateLanguages_detection_basic": {
+    "message": "基礎"
+  },
+  "options_translation_autoTranslateLanguages_detection_llm": {
+    "message": "LLM"
+  },
+  "options_translation_autoTranslateLanguages_detection_description": {
+    "message": "基礎偵測快速且免費。LLM 偵測更準確，但會增加延遲和 API 費用。需配置自動翻譯語言。"
+  },
+  "options_translation_skipLanguages_title": {
+    "message": "基於語言的自動跳過"
+  },
+  "options_translation_skipLanguages_description": {
+    "message": "當檢測到指定語言時自動跳過段落翻譯"
+  },
+  "options_translation_skipLanguages_targetLanguageSkip": {
+    "message": "跳過目標語言"
+  },
+  "options_translation_skipLanguages_targetLanguageSkipDescription": {
+    "message": "翻譯前預先偵測段落是否已是目標語言；命中時不發送翻譯請求。關閉後仍保留譯文與原文相同則不顯示的後置保護。"
+  },
+  "options_translation_skipLanguages_selectLanguages": {
+    "message": "選擇語言"
+  },
+  "options_translation_skipLanguages_detection_label": {
+    "message": "語言偵測"
+  },
+  "options_translation_skipLanguages_detection_basic": {
+    "message": "基礎"
+  },
+  "options_translation_skipLanguages_detection_llm": {
+    "message": "LLM"
+  },
+  "options_translation_skipLanguages_detection_description": {
+    "message": "基礎偵測快速且免費。LLM 偵測更準確，但會增加延遲和 API 費用。"
+  },
+  "options_translation_aiContentAware_title": {
+    "message": "AI 智慧上下文翻譯"
+  },
+  "options_translation_aiContentAware_description": {
+    "message": "透過向 AI 提供網頁上下文來提高翻譯品質"
+  },
+  "options_translation_aiContentAware_enable": {
+    "message": "啟用 AI 智慧上下文翻譯"
+  },
+  "options_translation_aiContentAware_enableDescription": {
+    "message": "AI 使用網頁摘要來提高翻譯準確性。需要 LLM 翻譯提供商。剛開始翻譯頁面時會有延遲，並增加 API 費用。"
+  },
+  "options_tts_title": {
+    "message": "文字轉語音"
+  },
+  "options_tts_description": {
+    "message": "使用 Edge TTS 語音參數來自訂「朗讀」按鈕。"
+  },
+  "options_tts_voice_label": {
+    "message": "語音"
+  },
+  "options_tts_voice_fallback": {
+    "message": "後備"
+  },
+  "options_tts_voice_selectPlaceholder": {
+    "message": "請選擇一個語音"
+  },
+  "options_tts_voice_preview": {
+    "message": "試聽"
+  },
+  "options_tts_voice_previewSample": {
+    "message": "Skim AI 的問候！這是我朗讀時的語音。"
+  },
+  "options_tts_languageVoice_label": {
+    "message": "語言語音"
+  },
+  "options_tts_languageVoice_reset": {
+    "message": "重設為預設"
+  },
+  "options_tts_languageVoice_description": {
+    "message": "選擇一種語言，並指定當 TTS 偵測到該語言時要使用的語音。"
+  },
+  "options_tts_rate_label": {
+    "message": "語速 (%)"
+  },
+  "options_tts_rate_hint": {
+    "message": "支援 -100 到 100 的整數"
+  },
+  "options_tts_pitch_label": {
+    "message": "音高 (Hz)"
+  },
+  "options_tts_pitch_hint": {
+    "message": "支援 -100 到 100 的整數"
+  },
+  "options_tts_volume_label": {
+    "message": "音量 (%)"
+  },
+  "options_tts_volume_hint": {
+    "message": "支援 -100 到 100 的整數"
+  },
+  "options_tts_betaDisabled": {
+    "message": "啟用 Beta 體驗即可自訂文字轉語音設定。"
+  },
+  "options_statistics_title": {
+    "message": "統計"
+  },
+  "options_statistics_batchRequest_title": {
+    "message": "批量翻譯已節省請求"
+  },
+  "options_statistics_batchRequest_description": {
+    "message": "週期內批量翻譯節省的請求百分比"
+  },
+  "options_statistics_batchRequest_originalRequestCount": {
+    "message": "原始請求數量"
+  },
+  "options_statistics_batchRequest_batchRequestCount": {
+    "message": "批量請求數量"
+  },
+  "options_config_title": {
+    "message": "設定"
+  },
+  "options_config_about_title": {
+    "message": "關於"
+  },
+  "options_config_about_description": {
+    "message": "Skim AI 誕生於 2025 年 4 月"
+  },
+  "options_config_about_mission": {
+    "message": "Skim AI 致力於在 AI 時代擴大高品質教育機會的平等可及性，透過更低成本地提供盡可能接近真人教師的學習體驗，涵蓋語言學習、醫學以及其他知識密集型領域。"
+  },
+  "options_config_about_analytics_title": {
+    "message": "幫助改進使用者體驗"
+  },
+  "options_config_about_analytics_tooltip": {
+    "message": "開啟後，Skim AI 會傳送匿名的產品使用訊號，用於驗證功能是否穩定、優化效能與互動細節，並幫助我們決定接下來優先投入的方向。"
+  },
+  "options_config_sync_title": {
+    "message": "手動設定同步"
+  },
+  "options_config_sync_description": {
+    "message": "手動匯入和匯出您的設定"
+  },
+  "options_config_sync_import": {
+    "message": "匯入設定"
+  },
+  "options_config_sync_export": {
+    "message": "匯出設定"
+  },
+  "options_config_sync_importSuccess": {
+    "message": "設定匯入成功"
+  },
+  "options_config_sync_exportSuccess": {
+    "message": "設定匯出成功"
+  },
+  "options_config_sync_importError": {
+    "message": "匯入失敗"
+  },
+  "options_config_sync_versionTooNew": {
+    "message": "匯入的設定版本較新，請升級 Skim AI 到最新版本"
+  },
+  "options_config_sync_migrationError": {
+    "message": "遷移失敗"
+  },
+  "options_config_sync_validationError": {
+    "message": "設定驗證失敗"
+  },
+  "options_config_sync_exportOptions_title": {
+    "message": "選擇匯出選項"
+  },
+  "options_config_sync_exportOptions_description": {
+    "message": "請選擇是否在匯出的設定中包含 API Keys。包含 API Keys 可能會洩露敏感資訊，建議僅在安全環境下使用。"
+  },
+  "options_config_sync_exportOptions_includeAPIKeys": {
+    "message": "包含 API Keys"
+  },
+  "options_config_sync_exportOptions_excludeAPIKeys": {
+    "message": "不包含 API Keys"
+  },
+  "options_config_sync_exportOptions_cancel": {
+    "message": "取消"
+  },
+  "options_config_sync_viewConfig_expand": {
+    "message": "展開設定"
+  },
+  "options_config_sync_viewConfig_collapse": {
+    "message": "收起設定"
+  },
+  "options_config_sync_googleDrive_title": {
+    "message": "Google Drive 雲端同步"
+  },
+  "options_config_sync_googleDrive_description": {
+    "message": "遠端設定較新時下載，本機設定較新時上傳"
+  },
+  "options_config_sync_googleDrive_sync": {
+    "message": "同步到 Google Drive"
+  },
+  "options_config_sync_googleDrive_syncing": {
+    "message": "同步中..."
+  },
+  "options_config_sync_googleDrive_syncSuccess_uploaded": {
+    "message": "本機設定已上傳至雲端"
+  },
+  "options_config_sync_googleDrive_syncSuccess_downloaded": {
+    "message": "已套用遠端設定"
+  },
+  "options_config_sync_googleDrive_syncSuccess_sameChanges": {
+    "message": "本機和遠端修改一致，已同步"
+  },
+  "options_config_sync_googleDrive_syncSuccess_noChange": {
+    "message": "已是最新狀態"
+  },
+  "options_config_sync_googleDrive_syncSuccess_unresolved": {
+    "message": "衝突已解決並同步至本機和雲端"
+  },
+  "options_config_sync_googleDrive_syncError": {
+    "message": "同步失敗，請重試"
+  },
+  "options_config_sync_googleDrive_metadataCorrupted": {
+    "message": "同步資料損壞，已自動套用遠端設定"
+  },
+  "options_config_sync_googleDrive_lastSyncTime": {
+    "message": "最後同步時間"
+  },
+  "options_config_sync_googleDrive_logout": {
+    "message": "登出帳號"
+  },
+  "options_config_sync_googleDrive_logoutSuccess": {
+    "message": "已登出 Google 帳號"
+  },
+  "options_config_sync_googleDrive_unresolved_title": {
+    "message": "設定同步解決"
+  },
+  "options_config_sync_googleDrive_unresolved_description": {
+    "message": "本地與雲端設定存在差異，請選擇每個欄位要保留的版本。"
+  },
+  "options_config_sync_googleDrive_unresolved_resolved": {
+    "message": "已解決"
+  },
+  "options_config_sync_googleDrive_unresolved_unresolved": {
+    "message": "未解決"
+  },
+  "options_config_sync_googleDrive_unresolved_localValue": {
+    "message": "本地值"
+  },
+  "options_config_sync_googleDrive_unresolved_remoteValue": {
+    "message": "遠端值"
+  },
+  "options_config_sync_googleDrive_unresolved_useLocal": {
+    "message": "使用本地"
+  },
+  "options_config_sync_googleDrive_unresolved_useRemote": {
+    "message": "使用遠端"
+  },
+  "options_config_sync_googleDrive_unresolved_useAllLocal": {
+    "message": "全選本地"
+  },
+  "options_config_sync_googleDrive_unresolved_useAllRemote": {
+    "message": "全選遠端"
+  },
+  "options_config_sync_googleDrive_unresolved_reset": {
+    "message": "撤銷選擇"
+  },
+  "options_config_sync_googleDrive_unresolved_progress": {
+    "message": "已解決 $1/$2 個更改"
+  },
+  "options_config_sync_googleDrive_unresolved_confirm": {
+    "message": "確認同步"
+  },
+  "options_config_sync_googleDrive_unresolved_cancel": {
+    "message": "取消"
+  },
+  "options_config_sync_googleDrive_unresolved_hasUnresolvedInChildren": {
+    "message": "⚠ 包含待解決項"
+  },
+  "options_config_sync_googleDrive_unresolved_item": {
+    "message": "項"
+  },
+  "options_config_sync_googleDrive_unresolved_items": {
+    "message": "項"
+  },
+  "options_config_sync_googleDrive_unresolved_unresolvedPrompt": {
+    "message": "[待解決 - 請選擇]"
+  },
+  "options_config_sync_googleDrive_unresolved_localLatest": {
+    "message": "本地最新"
+  },
+  "options_config_sync_googleDrive_unresolved_remoteLatest": {
+    "message": "遠端最新"
+  },
+  "options_config_sync_googleDrive_unresolved_bothChanged": {
+    "message": "雙方已變更"
+  },
+  "options_config_sync_googleDrive_unresolved_localChanged": {
+    "message": "本地已變更"
+  },
+  "options_config_sync_googleDrive_unresolved_remoteChanged": {
+    "message": "遠端已變更"
+  },
+  "options_config_sync_googleDrive_unresolved_configValid": {
+    "message": "設定有效"
+  },
+  "options_config_sync_googleDrive_unresolved_configInvalid": {
+    "message": "設定無效"
+  },
+  "options_config_sync_googleDrive_unresolved_resolveToContinue": {
+    "message": "解決衝突後繼續"
+  },
+  "options_config_sync_googleDrive_unresolved_validationAlert_title": {
+    "message": "合併後的設定存在驗證錯誤"
+  },
+  "options_config_sync_googleDrive_unresolved_validationAlert_description": {
+    "message": "請調整下方差異以修復："
+  },
+  "options_config_sync_googleDrive_unresolved_moreErrors": {
+    "message": "...還有 $1 個錯誤"
+  },
+  "options_config_backup_title": {
+    "message": "設定備份"
+  },
+  "options_config_backup_description": {
+    "message": "如果設定發生變化，每小時會自動建立備份。您可以在這裡還原之前的設定。（最多 $1 個備份）"
+  },
+  "options_config_backup_loading": {
+    "message": "正在載入備份..."
+  },
+  "options_config_backup_backupNow": {
+    "message": "立即備份"
+  },
+  "options_config_backup_backupSuccess": {
+    "message": "備份建立成功"
+  },
+  "options_config_backup_restoreSuccess": {
+    "message": "設定還原成功"
+  },
+  "options_config_backup_empty_title": {
+    "message": "尚無可用備份"
+  },
+  "options_config_backup_empty_description": {
+    "message": "如果設定發生變化，每小時會自動建立備份。"
+  },
+  "options_config_backup_item_extensionVersion": {
+    "message": "擴充功能版本："
+  },
+  "options_config_backup_item_schemaVersion": {
+    "message": "設定版本："
+  },
+  "options_config_backup_item_restore": {
+    "message": "還原"
+  },
+  "options_config_backup_item_export": {
+    "message": "匯出"
+  },
+  "options_config_backup_item_delete": {
+    "message": "刪除"
+  },
+  "options_config_backup_restore_title": {
+    "message": "還原設定備份？"
+  },
+  "options_config_backup_restore_description": {
+    "message": "如果目前設定與最新備份不同，將自動備份您的目前設定。如果備份數量超過限制，最舊的備份可能會被刪除。"
+  },
+  "options_config_backup_restore_cancel": {
+    "message": "取消"
+  },
+  "options_config_backup_restore_confirm": {
+    "message": "還原"
+  },
+  "options_config_backup_delete_title": {
+    "message": "刪除備份？"
+  },
+  "options_config_backup_delete_description": {
+    "message": "您確定要刪除此備份嗎？此操作無法復原。"
+  },
+  "options_config_backup_delete_cancel": {
+    "message": "取消"
+  },
+  "options_config_backup_delete_confirm": {
+    "message": "刪除"
+  },
+  "options_config_resetConfig_title": {
+    "message": "重置配置"
+  },
+  "options_config_resetConfig_description": {
+    "message": "重置所有配置為預設值"
+  },
+  "options_config_resetConfig_dialog_title": {
+    "message": "重置配置"
+  },
+  "options_config_resetConfig_dialog_trigger": {
+    "message": "重置配置"
+  },
+  "options_config_resetConfig_dialog_confirm": {
+    "message": "確認"
+  },
+  "options_config_resetConfig_dialog_cancel": {
+    "message": "取消"
+  },
+  "options_config_resetConfig_dialog_description": {
+    "message": "此操作將清空您的所有自定義配置，並將其重置為預設值，請確認是否清除。"
+  },
+  "options_videoSubtitles_title": {
+    "message": "影片字幕"
+  },
+  "options_videoSubtitles_description": {
+    "message": "目前僅支援 YouTube 影片字幕"
+  },
+  "options_videoSubtitles_provider_title": {
+    "message": "翻譯服務商"
+  },
+  "options_videoSubtitles_provider_description": {
+    "message": "選擇用於影片字幕翻譯的翻譯服務商"
+  },
+  "options_videoSubtitles_provider_label": {
+    "message": "服務商"
+  },
+  "options_videoSubtitles_enable": {
+    "message": "開啟影片字幕"
+  },
+  "options_videoSubtitles_enableDescription": {
+    "message": "啟用後，YouTube 播放器控制列會出現翻譯按鈕。點擊即可開始翻譯字幕。"
+  },
+  "options_videoSubtitles_autoStart": {
+    "message": "自動開啟字幕"
+  },
+  "options_videoSubtitles_autoStartDescription": {
+    "message": "當影片載入完成後，自動開啟字幕翻譯。"
+  },
+  "options_videoSubtitles_style_title": {
+    "message": "字幕樣式"
+  },
+  "options_videoSubtitles_style_description": {
+    "message": "自訂字幕外觀"
+  },
+  "options_videoSubtitles_style_preview": {
+    "message": "預覽"
+  },
+  "options_videoSubtitles_style_displayMode_title": {
+    "message": "顯示模式"
+  },
+  "options_videoSubtitles_style_displayMode_bilingual": {
+    "message": "雙語模式"
+  },
+  "options_videoSubtitles_style_displayMode_originalOnly": {
+    "message": "僅原文"
+  },
+  "options_videoSubtitles_style_displayMode_translationOnly": {
+    "message": "僅譯文"
+  },
+  "options_videoSubtitles_style_translationPosition_title": {
+    "message": "譯文位置"
+  },
+  "options_videoSubtitles_style_translationPosition_above": {
+    "message": "上方"
+  },
+  "options_videoSubtitles_style_translationPosition_below": {
+    "message": "下方"
+  },
+  "options_videoSubtitles_style_generalSettings": {
+    "message": "通用設定"
+  },
+  "options_videoSubtitles_style_mainSubtitle": {
+    "message": "主字幕"
+  },
+  "options_videoSubtitles_style_translationSubtitle": {
+    "message": "翻譯字幕"
+  },
+  "options_videoSubtitles_style_containerStyle": {
+    "message": "背景"
+  },
+  "options_videoSubtitles_style_fontFamily": {
+    "message": "字體"
+  },
+  "options_videoSubtitles_style_fontScale": {
+    "message": "字號"
+  },
+  "options_videoSubtitles_style_color": {
+    "message": "顏色"
+  },
+  "options_videoSubtitles_style_fontWeight": {
+    "message": "字重"
+  },
+  "options_videoSubtitles_style_backgroundOpacity": {
+    "message": "背景透明度"
+  },
+  "options_videoSubtitles_style_reset": {
+    "message": "重置為預設值"
+  },
+  "options_videoSubtitles_aiSegmentation_title": {
+    "message": "AI 智能斷句"
+  },
+  "options_videoSubtitles_aiSegmentation_enable": {
+    "message": "啟用 AI 智能斷句"
+  },
+  "options_videoSubtitles_aiSegmentation_enableDescription": {
+    "message": "使用 AI 智能斷句字幕，提升可讀性。啟用後時間軸由 AI 判斷，可能出現時間軸錯位。需要配置 LLM 翻譯提供商。"
+  },
+  "options_videoSubtitles_aiSegmentation_clearCache": {
+    "message": "清除快取"
+  },
+  "options_videoSubtitles_aiSegmentation_clearing": {
+    "message": "清除中..."
+  },
+  "options_videoSubtitles_aiSegmentation_clearCacheDialog_title": {
+    "message": "清除 AI 斷句快取"
+  },
+  "options_videoSubtitles_aiSegmentation_clearCacheDialog_description": {
+    "message": "這將刪除所有已快取的 AI 斷句結果。下次播放啟用 AI 斷句的影片時，將重新處理字幕。"
+  },
+  "options_videoSubtitles_aiSegmentation_clearCacheDialog_cancel": {
+    "message": "取消"
+  },
+  "options_videoSubtitles_aiSegmentation_clearCacheDialog_confirm": {
+    "message": "確認"
+  },
+  "options_videoSubtitles_requestQueueConfig_title": {
+    "message": "字幕翻譯速率"
+  },
+  "options_videoSubtitles_requestQueueConfig_firstOnDescription": {
+    "message": "使用"
+  },
+  "options_videoSubtitles_requestQueueConfig_lastOnDescription": {
+    "message": "演算法調整字幕翻譯請求的處理速度"
+  },
+  "options_videoSubtitles_requestQueueConfig_capacity_title": {
+    "message": "最大突發請求數"
+  },
+  "options_videoSubtitles_requestQueueConfig_capacity_description": {
+    "message": "允許的臨時突發請求數決定了在短時間內可以同時處理的最大字幕翻譯請求數量"
+  },
+  "options_videoSubtitles_requestQueueConfig_rate_title": {
+    "message": "平均每秒請求數"
+  },
+  "options_videoSubtitles_requestQueueConfig_rate_description": {
+    "message": "平均每秒字幕翻譯請求數，但允許配置最大突發數以臨時發送超額請求"
+  },
+  "options_videoSubtitles_batchQueueConfig_title": {
+    "message": "字幕批次翻譯"
+  },
+  "options_videoSubtitles_batchQueueConfig_description": {
+    "message": "配置批量翻譯時的字元數限制和最大段落數量（僅對大語言模型翻譯有效）"
+  },
+  "options_videoSubtitles_batchQueueConfig_maxCharactersPerBatch_title": {
+    "message": "最大字元數"
+  },
+  "options_videoSubtitles_batchQueueConfig_maxCharactersPerBatch_description": {
+    "message": "每個批量請求允許的最大字元數，用於控制單次翻譯的內容量"
+  },
+  "options_videoSubtitles_batchQueueConfig_maxItemsPerBatch_title": {
+    "message": "最大段落數"
+  },
+  "options_videoSubtitles_batchQueueConfig_maxItemsPerBatch_description": {
+    "message": "每個批量翻譯的最大段落數，用於控制單次翻譯的內容量"
+  },
+  "options_videoSubtitles_customPrompts_title": {
+    "message": "自訂字幕提示詞"
+  },
+  "options_videoSubtitles_customPrompts_description": {
+    "message": "自訂字幕翻譯的提示詞模板（與網頁翻譯提示詞分離）"
+  },
+  "options_videoSubtitles_customPrompts_editPrompt_promptCellInput_input": {
+    "message": "要翻譯的字幕文字"
+  },
+  "options_videoSubtitles_customPrompts_editPrompt_promptCellInput_targetLanguage": {
+    "message": "目標語言"
+  },
+  "options_videoSubtitles_customPrompts_editPrompt_promptCellInput_videoTitle": {
+    "message": "影片標題"
+  },
+  "options_videoSubtitles_customPrompts_editPrompt_promptCellInput_videoSummary": {
+    "message": "影片摘要（需啟用 AI 智慧上下文）"
+  },
+  "options_whatsNew_title": {
+    "message": "最近更新"
+  },
+  "options_survey_title": {
+    "message": "改進字幕 🎁"
+  },
+  "options_rateUs_title": {
+    "message": "好評支持"
+  },
+  "side_sourceLang": {
+    "message": "來源語言"
+  },
+  "side_targetLang": {
+    "message": "目標語言"
+  },
+  "side_fileExport": {
+    "message": "文件導出"
+  },
+  "translateService_title": {
+    "message": "翻譯服務"
+  },
+  "translateService_description": {
+    "message": "僅用於翻譯網頁內容"
+  },
+  "translateService_normalTranslator": {
+    "message": "普通翻譯"
+  },
+  "translateService_aiTranslator": {
+    "message": "AI 翻譯"
+  },
+  "translateService_selectServices": {
+    "message": "選擇服務"
+  },
+  "translateService_translationProviders": {
+    "message": "翻譯服務"
+  },
+  "translateService_configureAPI": {
+    "message": "設定 API"
+  },
+  "translatePrompt_title": {
+    "message": "AI 翻譯風格"
+  },
+  "translatePrompt_description": {
+    "message": "選擇在翻譯時使用的 Prompt。可在選項頁面新增或修改自訂 Prompt"
+  },
+  "languageLevel": {
+    "message": "你的來源語言水平"
+  },
+  "languageLevels_beginner": {
+    "message": "初級"
+  },
+  "languageLevels_intermediate": {
+    "message": "中級"
+  },
+  "languageLevels_advanced": {
+    "message": "高級"
+  },
+  "noAPIKeyConfig_warning": {
+    "message": "如果想要使用 AI 模型，請先在選項頁設置 API Key"
+  },
+  "noAPIKeyConfig_warningWithLink_youMust": {
+    "message": "您必須先"
+  },
+  "noAPIKeyConfig_warningWithLink_setTheAPIKey": {
+    "message": "設置 API Key"
+  },
+  "noAPIKeyConfig_warningWithLink_firstOnThe": {
+    "message": "在"
+  },
+  "noAPIKeyConfig_warningWithLink_optionsPage": {
+    "message": "選項"
+  },
+  "noAPIKeyConfig_warningWithLink_page": {
+    "message": "頁"
+  },
+  "languageDetection_llmFailed": {
+    "message": "LLM 語言偵測失敗，已回退到基礎偵測"
+  },
+  "translation_sameLanguage": {
+    "message": "源語言和目標語言必須不同"
+  },
+  "translation_autoModeSameLanguage": {
+    "message": "檢測到的語言 '$1' 與目標語言相同"
+  },
+  "speak_fetchingAudio": {
+    "message": "正在獲取音訊..."
+  },
+  "speak_playingAudio": {
+    "message": "正在播放音訊..."
+  },
+  "speak_failedToGenerateSpeech": {
+    "message": "語音生成失敗"
+  },
+  "speak_noTextSelected": {
+    "message": "未選擇文字"
+  },
+  "speak_openaiNotConfigured": {
+    "message": "OpenAI 提供商未配置或未啟用"
+  },
+  "speak_openaiApiKeyNotConfigured": {
+    "message": "OpenAI API Key 未配置"
+  },
+  "action_copy": {
+    "message": "複製"
+  },
+  "action_copied": {
+    "message": "已複製"
+  },
+  "action_regenerate": {
+    "message": "重新生成"
+  },
+  "action_viewContextDetails": {
+    "message": "上下文"
+  },
+  "action_saveToNotebase": {
+    "message": "儲存到筆記庫"
+  },
+  "action_saveToNotebaseSaving": {
+    "message": "儲存中..."
+  },
+  "action_saveToNotebaseSuccess": {
+    "message": "已儲存到筆記庫"
+  },
+  "action_saveToNotebaseFailed": {
+    "message": "儲存到筆記庫失敗"
+  },
+  "action_saveToNotebaseLoginRequired": {
+    "message": "請先到 readfrog.app 登入後再儲存到筆記庫"
+  },
+  "action_saveToNotebaseBetaRequired": {
+    "message": "目前帳號尚未加入 Notebase Beta"
+  },
+  "action_saveToNotebaseTableUnavailable": {
+    "message": "選取的筆記庫已不可用"
+  },
+  "action_saveToNotebaseConnectionInvalid": {
+    "message": "目前的筆記庫連線已過期，請到 Custom AI Actions 重新整理並修復映射"
+  },
+  "action_saveToNotebaseNoMappings": {
+    "message": "至少新增一個有效映射後才能儲存"
+  },
+  "action_contextDetailsTitleLabel": {
+    "message": "標題"
+  },
+  "action_contextDetailsParagraphsLabel": {
+    "message": "段落內容"
+  },
+  "action_translation": {
+    "message": "翻譯"
+  },
+  "action_speak": {
+    "message": "朗讀"
+  },
+  "action_playing": {
+    "message": "播放中"
+  },
+  "thinking_label": {
+    "message": "思考中"
+  },
+  "thinking_complete": {
+    "message": "思考完成"
+  },
+  "thinking_expand": {
+    "message": "展開思考"
+  },
+  "thinking_collapse": {
+    "message": "收起思考"
+  },
+  "shortcutKeySelector_placeholder": {
+    "message": "請輸入快捷鍵"
+  },
+  "subtitles_actions_downloadSource": {
+    "message": "下載原始字幕"
+  },
+  "subtitles_state_loading": {
+    "message": "Skim AI 字幕載入中"
+  },
+  "subtitles_state_error": {
+    "message": "發生錯誤"
+  },
+  "subtitles_errors_http429": {
+    "message": "429 youtube 字幕介面請求次數過多，請稍後再試"
+  },
+  "subtitles_errors_http404": {
+    "message": "404 找不到 youtube 字幕"
+  },
+  "subtitles_errors_http403": {
+    "message": "403 youtube 字幕存取被拒絕"
+  },
+  "subtitles_errors_http500": {
+    "message": "500 youtube 伺服器錯誤"
+  },
+  "subtitles_errors_httpUnknown": {
+    "message": "HTTP 錯誤 $1"
+  },
+  "subtitles_errors_invalidResponse": {
+    "message": "youtube 字幕回應格式無效"
+  },
+  "subtitles_errors_networkError": {
+    "message": "取得字幕時發生網路錯誤"
+  },
+  "subtitles_errors_fetchSubTimeout": {
+    "message": "取得 youtube 字幕逾時"
+  },
+  "subtitles_errors_buttonNotFound": {
+    "message": "字幕按鈕未找到"
+  },
+  "subtitles_errors_noSubtitlesFound": {
+    "message": "當前影片沒有字幕"
+  },
+  "subtitles_errors_videoNotFound": {
+    "message": "影片元素未找到"
+  },
+  "subtitles_errors_controlsBarNotFound": {
+    "message": "控制列未找到"
+  },
+  "subtitles_errors_aiRateLimited": {
+    "message": "請求過於頻繁，請稍後再試"
+  },
+  "subtitles_errors_aiAuthFailed": {
+    "message": "API 認證失敗，請檢查您的 API 金鑰"
+  },
+  "subtitles_errors_aiServiceUnavailable": {
+    "message": "翻譯服務暫時無法使用"
+  },
+  "subtitles_errors_aiNoResponse": {
+    "message": "AI 服務未回應，使用原文顯示"
+  },
+  "hotkey_control": {
+    "message": "Ctrl"
+  },
+  "hotkey_alt": {
+    "message": "Option"
+  },
+  "hotkey_shift": {
+    "message": "Shift"
+  },
+  "hotkey_backtick": {
+    "message": "反引號"
+  },
+  "hotkey_clickAndHold": {
+    "message": "點擊並按住"
+  },
+  "translationHub_searchLanguages": {
+    "message": "搜尋語言..."
+  },
+  "translationHub_noLanguagesFound": {
+    "message": "未找到語言"
+  },
+  "translationHub_exchangeLanguages": {
+    "message": "交換語言"
+  },
+  "translationHub_title": {
+    "message": "多接口文本翻譯"
+  },
+  "translationHub_noServicesSelected": {
+    "message": "未選擇翻譯服務"
+  },
+  "translationHub_noServicesDescription": {
+    "message": "請在上方選擇翻譯服務以查看翻譯結果。"
+  },
+  "translationHub_inputPlaceholder": {
+    "message": "輸入要翻譯的文字..."
+  },
+  "translationHub_translate": {
+    "message": "翻譯"
+  },
+  "translationHub_copiedToClipboard": {
+    "message": "翻譯已複製到剪貼簿！"
+  },
+  "translationHub_copyTranslation": {
+    "message": "複製翻譯"
+  },
+  "translationHub_expandCard": {
+    "message": "展開卡片"
+  },
+  "translationHub_collapseCard": {
+    "message": "摺疊卡片"
+  },
+  "translationHub_expandAllCards": {
+    "message": "全部展開"
+  },
+  "translationHub_collapseAllCards": {
+    "message": "全部摺疊"
+  },
+  "translationHub_deleteCard": {
+    "message": "刪除卡片"
+  },
+  "translationHub_translationFailed": {
+    "message": "翻譯失敗"
+  },
+  "translationHub_translationFailedFallback": {
+    "message": "翻譯失敗"
+  },
+  "translationHub_retryTranslation": {
+    "message": "重試翻譯"
+  },
+  "languages_eng": {
+    "message": "英語"
+  },
+  "languages_cmn": {
+    "message": "簡體中文"
+  },
+  "languages_cmnHant": {
+    "message": "繁體中文"
+  },
+  "languages_yue": {
+    "message": "粵語"
+  },
+  "languages_spa": {
+    "message": "西班牙語"
+  },
+  "languages_rus": {
+    "message": "俄語"
+  },
+  "languages_arb": {
+    "message": "阿拉伯語"
+  },
+  "languages_ben": {
+    "message": "孟加拉語"
+  },
+  "languages_hin": {
+    "message": "印地語"
+  },
+  "languages_por": {
+    "message": "葡萄牙語"
+  },
+  "languages_ind": {
+    "message": "印尼語"
+  },
+  "languages_jpn": {
+    "message": "日語"
+  },
+  "languages_fra": {
+    "message": "法語"
+  },
+  "languages_deu": {
+    "message": "德語"
+  },
+  "languages_jav": {
+    "message": "爪哇語"
+  },
+  "languages_kor": {
+    "message": "韓語"
+  },
+  "languages_tel": {
+    "message": "泰盧固語"
+  },
+  "languages_vie": {
+    "message": "越南語"
+  },
+  "languages_mar": {
+    "message": "馬拉地語"
+  },
+  "languages_ita": {
+    "message": "義大利語"
+  },
+  "languages_tam": {
+    "message": "泰米爾語"
+  },
+  "languages_tur": {
+    "message": "土耳其語"
+  },
+  "languages_urd": {
+    "message": "烏爾都語"
+  },
+  "languages_guj": {
+    "message": "古吉拉特語"
+  },
+  "languages_pol": {
+    "message": "波蘭語"
+  },
+  "languages_ukr": {
+    "message": "烏克蘭語"
+  },
+  "languages_kan": {
+    "message": "卡納達語"
+  },
+  "languages_mai": {
+    "message": "邁蒂利語"
+  },
+  "languages_mal": {
+    "message": "馬拉雅拉姆語"
+  },
+  "languages_pes": {
+    "message": "波斯語"
+  },
+  "languages_mya": {
+    "message": "緬甸語"
+  },
+  "languages_swh": {
+    "message": "史瓦希里語"
+  },
+  "languages_sun": {
+    "message": "巽他語"
+  },
+  "languages_ron": {
+    "message": "羅馬尼亞語"
+  },
+  "languages_pan": {
+    "message": "旁遮普語"
+  },
+  "languages_bho": {
+    "message": "博杰普爾語"
+  },
+  "languages_amh": {
+    "message": "阿姆哈拉語"
+  },
+  "languages_hau": {
+    "message": "豪薩語"
+  },
+  "languages_fuv": {
+    "message": "富拉語"
+  },
+  "languages_bos": {
+    "message": "波士尼亞語"
+  },
+  "languages_hrv": {
+    "message": "克羅埃西亞語"
+  },
+  "languages_nld": {
+    "message": "荷蘭語"
+  },
+  "languages_srp": {
+    "message": "塞爾維亞語"
+  },
+  "languages_tha": {
+    "message": "泰語"
+  },
+  "languages_ckb": {
+    "message": "中庫德語"
+  },
+  "languages_yor": {
+    "message": "約魯巴語"
+  },
+  "languages_uzn": {
+    "message": "烏茲別克語"
+  },
+  "languages_zlm": {
+    "message": "馬來語"
+  },
+  "languages_ibo": {
+    "message": "伊博語"
+  },
+  "languages_npi": {
+    "message": "尼泊爾語"
+  },
+  "languages_ceb": {
+    "message": "宿霧語"
+  },
+  "languages_skr": {
+    "message": "薩拉基語"
+  },
+  "languages_tgl": {
+    "message": "塔加洛語"
+  },
+  "languages_hun": {
+    "message": "匈牙利語"
+  },
+  "languages_azj": {
+    "message": "亞塞拜然語"
+  },
+  "languages_sin": {
+    "message": "僧伽羅語"
+  },
+  "languages_koi": {
+    "message": "科米-彼爾米亞克語"
+  },
+  "languages_ell": {
+    "message": "希臘語"
+  },
+  "languages_ces": {
+    "message": "捷克語"
+  },
+  "languages_mag": {
+    "message": "摩揭陀語"
+  },
+  "languages_run": {
+    "message": "基隆迪語"
+  },
+  "languages_bel": {
+    "message": "白俄羅斯語"
+  },
+  "languages_plt": {
+    "message": "馬達加斯加語"
+  },
+  "languages_qug": {
+    "message": "欽博拉索高地基丘亞語"
+  },
+  "languages_mad": {
+    "message": "馬都拉語"
+  },
+  "languages_nya": {
+    "message": "齊切瓦語"
+  },
+  "languages_zyb": {
+    "message": "壯語"
+  },
+  "languages_pbu": {
+    "message": "普什圖語"
+  },
+  "languages_kin": {
+    "message": "盧安達語"
+  },
+  "languages_zul": {
+    "message": "祖魯語"
+  },
+  "languages_bul": {
+    "message": "保加利亞語"
+  },
+  "languages_swe": {
+    "message": "瑞典語"
+  },
+  "languages_lin": {
+    "message": "林加拉語"
+  },
+  "languages_som": {
+    "message": "索馬利亞語"
+  },
+  "languages_hms": {
+    "message": "黔東苗語"
+  },
+  "languages_hnj": {
+    "message": "苗語"
+  },
+  "languages_ilo": {
+    "message": "伊洛卡諾語"
+  },
+  "languages_kaz": {
+    "message": "哈薩克語"
+  },
+  "languages_heb": {
+    "message": "希伯來語"
+  },
+  "languages_nob": {
+    "message": "挪威語(書面語)"
+  },
+  "languages_nno": {
+    "message": "挪威語(新挪威語)"
+  },
+  "languages_afr": {
+    "message": "南非荷蘭語"
+  },
+  "languages_sqi": {
+    "message": "阿爾巴尼亞語"
+  },
+  "languages_asm": {
+    "message": "阿薩姆語"
+  },
+  "languages_eus": {
+    "message": "巴斯克語"
+  },
+  "languages_bre": {
+    "message": "布列塔尼語"
+  },
+  "languages_cat": {
+    "message": "加泰隆尼亞語"
+  },
+  "languages_cos": {
+    "message": "科西嘉語"
+  },
+  "languages_cym": {
+    "message": "威爾斯語"
+  },
+  "languages_dan": {
+    "message": "丹麥語"
+  },
+  "languages_div": {
+    "message": "迪維希語"
+  },
+  "languages_epo": {
+    "message": "世界語"
+  },
+  "languages_ekk": {
+    "message": "愛沙尼亞語"
+  },
+  "languages_fao": {
+    "message": "法羅語"
+  },
+  "languages_fij": {
+    "message": "斐濟語"
+  },
+  "languages_fin": {
+    "message": "芬蘭語"
+  },
+  "languages_fry": {
+    "message": "西弗里斯蘭語"
+  },
+  "languages_gla": {
+    "message": "蘇格蘭蓋爾語"
+  },
+  "languages_gle": {
+    "message": "愛爾蘭語"
+  },
+  "languages_glg": {
+    "message": "加利西亞語"
+  },
+  "languages_grn": {
+    "message": "瓜拉尼語"
+  },
+  "languages_hat": {
+    "message": "海地克里奧爾語"
+  },
+  "languages_haw": {
+    "message": "夏威夷語"
+  },
+  "languages_hye": {
+    "message": "亞美尼亞語"
+  },
+  "languages_ido": {
+    "message": "伊多語"
+  },
+  "languages_ina": {
+    "message": "國際語"
+  },
+  "languages_isl": {
+    "message": "冰島語"
+  },
+  "languages_kat": {
+    "message": "喬治亞語"
+  },
+  "languages_khm": {
+    "message": "高棉語"
+  },
+  "languages_kir": {
+    "message": "吉爾吉斯語"
+  },
+  "languages_lao": {
+    "message": "寮國語"
+  },
+  "languages_lat": {
+    "message": "拉丁語"
+  },
+  "languages_lvs": {
+    "message": "拉脫維亞語"
+  },
+  "languages_lit": {
+    "message": "立陶宛語"
+  },
+  "languages_ltz": {
+    "message": "盧森堡語"
+  },
+  "languages_mkd": {
+    "message": "馬其頓語"
+  },
+  "languages_mlt": {
+    "message": "馬爾他語"
+  },
+  "languages_mon": {
+    "message": "蒙古語"
+  },
+  "languages_mri": {
+    "message": "毛利語"
+  },
+  "languages_nso": {
+    "message": "北索托語"
+  },
+  "languages_oci": {
+    "message": "奧克語"
+  },
+  "languages_ori": {
+    "message": "奧里亞語"
+  },
+  "languages_orm": {
+    "message": "奧羅莫語"
+  },
+  "languages_prs": {
+    "message": "達里語"
+  },
+  "languages_san": {
+    "message": "梵語"
+  },
+  "languages_slk": {
+    "message": "斯洛伐克語"
+  },
+  "languages_slv": {
+    "message": "斯洛維尼亞語"
+  },
+  "languages_smo": {
+    "message": "薩摩亞語"
+  },
+  "languages_sna": {
+    "message": "紹納語"
+  },
+  "languages_snd": {
+    "message": "信德語"
+  },
+  "languages_sot": {
+    "message": "南索托語"
+  },
+  "languages_tah": {
+    "message": "大溪地語"
+  },
+  "languages_tat": {
+    "message": "韃靼語"
+  },
+  "languages_tgk": {
+    "message": "塔吉克語"
+  },
+  "languages_tir": {
+    "message": "提格利尼亞語"
+  },
+  "languages_ton": {
+    "message": "東加語"
+  },
+  "languages_tsn": {
+    "message": "茨瓦納語"
+  },
+  "languages_tuk": {
+    "message": "土庫曼語"
+  },
+  "languages_uig": {
+    "message": "維吾爾語"
+  },
+  "languages_vol": {
+    "message": "沃拉普克語"
+  },
+  "languages_wol": {
+    "message": "沃洛夫語"
+  },
+  "languages_xho": {
+    "message": "科薩語"
+  },
+  "languages_ydd": {
+    "message": "意第緒語"
+  },
+  "languages_aka": {
+    "message": "阿坎語"
+  },
+  "languages_bam": {
+    "message": "班巴拉語"
+  },
+  "languages_bis": {
+    "message": "比斯拉馬語"
+  },
+  "languages_bod": {
+    "message": "藏語"
+  },
+  "languages_che": {
+    "message": "車臣語"
+  },
+  "languages_chv": {
+    "message": "楚瓦什語"
+  },
+  "languages_dzo": {
+    "message": "宗卡語"
+  },
+  "languages_ewe": {
+    "message": "埃維語"
+  },
+  "languages_kab": {
+    "message": "卡比爾語"
+  },
+  "languages_lug": {
+    "message": "盧干達語"
+  },
+  "languages_oss": {
+    "message": "奧塞梯語"
+  },
+  "languages_ssw": {
+    "message": "史瓦濟語"
+  },
+  "languages_ven": {
+    "message": "文達語"
+  },
+  "languages_war": {
+    "message": "瓦瑞語"
+  },
+  "languages_nde": {
+    "message": "北恩德貝萊語"
+  },
+  "languages_nbl": {
+    "message": "南恩德貝萊語"
+  },
+  "languages_pam": {
+    "message": "邦板牙語"
+  },
+  "languages_hil": {
+    "message": "希利蓋農語"
+  },
+  "languages_bcl": {
+    "message": "中比科爾語"
+  },
+  "languages_min": {
+    "message": "米南卡保語"
+  },
+  "languages_ace": {
+    "message": "亞齊語"
+  },
+  "languages_bug": {
+    "message": "布吉語"
+  },
+  "languages_ban": {
+    "message": "峇里語"
+  },
+  "languages_bjn": {
+    "message": "班查爾語"
+  },
+  "languages_mak": {
+    "message": "望加錫語"
+  },
+  "languages_sas": {
+    "message": "薩薩克語"
+  },
+  "languages_tet": {
+    "message": "德頓語"
+  },
+  "languages_cha": {
+    "message": "查莫羅語"
+  },
+  "languages_niu": {
+    "message": "紐埃語"
+  },
+  "languages_tvl": {
+    "message": "吐瓦魯語"
+  },
+  "languages_gil": {
+    "message": "吉爾伯特語"
+  },
+  "languages_mah": {
+    "message": "馬紹爾語"
+  },
+  "languages_pau": {
+    "message": "帛琉語"
+  },
+  "languages_wls": {
+    "message": "瓦利斯語"
+  },
+  "languages_rar": {
+    "message": "拉羅湯加語"
+  },
+  "languages_hif": {
+    "message": "斐濟印地語"
+  }
+}

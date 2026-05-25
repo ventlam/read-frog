@@ -73,7 +73,7 @@ export function walkAndLabelElement(
 
   element.setAttribute(WALKED_ATTRIBUTE, walkId)
 
-  if (element.shadowRoot) {
+  if (element.shadowRoot && !element.classList.contains("notranslate") && element.getAttribute("translate") !== "no") {
     for (const child of element.shadowRoot.children) {
       if (isHTMLElement(child)) {
         walkAndLabelElement(child, walkId, config)

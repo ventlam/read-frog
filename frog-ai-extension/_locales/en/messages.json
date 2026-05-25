@@ -1,0 +1,2894 @@
+{
+  "name": {
+    "message": "Skim AI"
+  },
+  "extName": {
+    "message": "Skim AI - Search & Video Insights"
+  },
+  "extDescription": {
+    "message": "Skim AI is an open source browser extension that enhances your browsing with AI-powered search summaries, YouTube insights, and translation."
+  },
+  "uninstallSurveyUrl": {
+    "message": "https://tally.so/r/nPK6Ob"
+  },
+  "dataTypes_string": {
+    "message": "Text"
+  },
+  "dataTypes_number": {
+    "message": "Number"
+  },
+  "contextMenu_translate": {
+    "message": "Translate"
+  },
+  "contextMenu_translateSelection": {
+    "message": "Translate \"%s\""
+  },
+  "contextMenu_showOriginal": {
+    "message": "Show Original"
+  },
+  "sidePanel_firefoxUserActionHint": {
+    "message": "In Firefox, open Skim AI from the browser sidebar."
+  },
+  "sidePanel_firefoxUserActionHelpText": {
+    "message": "Learn how to open the Firefox sidebar"
+  },
+  "sidePanel_firefoxUserActionHelpUrl": {
+    "message": "https://support.mozilla.org/en-US/kb/use-sidebar-access-tools-and-vertical-tabs"
+  },
+  "popup_theme": {
+    "message": "Theme"
+  },
+  "popup_autoLang": {
+    "message": "Auto"
+  },
+  "popup_sourceLang": {
+    "message": "Source"
+  },
+  "popup_targetLang": {
+    "message": "Target"
+  },
+  "popup_translate": {
+    "message": "Translate"
+  },
+  "popup_showOriginal": {
+    "message": "Show Original"
+  },
+  "popup_enabledFloatingButton": {
+    "message": "Enable floating button"
+  },
+  "popup_enabledSelectionToolbar": {
+    "message": "Enable selection toolbar"
+  },
+  "popup_alwaysTranslate": {
+    "message": "Always translate this site"
+  },
+  "popup_addToWhitelist": {
+    "message": "Enable extension on this site"
+  },
+  "popup_addToBlacklist": {
+    "message": "Disable extension on this site"
+  },
+  "popup_options": {
+    "message": "Options"
+  },
+  "popup_hover": {
+    "message": "Hover"
+  },
+  "popup_translateParagraph": {
+    "message": "to translate paragraph"
+  },
+  "popup_hub_tooltip": {
+    "message": "Translate text with multiple models simultaneously"
+  },
+  "popup_discord_tooltip": {
+    "message": "Join Discord to connect with developers and get early access to new features"
+  },
+  "popup_blog_notification": {
+    "message": "What's new in Skim AI"
+  },
+  "popup_aiSmartContext": {
+    "message": "AI Smart Context"
+  },
+  "popup_aiSmartContextDescription": {
+    "message": "Uses webpage context to improve translation quality. Requires LLM translation provider."
+  },
+  "popup_more_title": {
+    "message": "More"
+  },
+  "popup_more_translationHub": {
+    "message": "Translation Hub"
+  },
+  "popup_more_joinDiscord": {
+    "message": "Join Discord"
+  },
+  "popup_more_joinWechat": {
+    "message": "Join WeChat Group"
+  },
+  "popup_more_starGithub": {
+    "message": "Star on Github"
+  },
+  "popup_more_rateUs": {
+    "message": "Rate Us"
+  },
+  "popup_more_ebook": {
+    "message": "Third-party E-book Reader"
+  },
+  "popup_more_tutorial": {
+    "message": "Tutorial"
+  },
+  "errorRecovery_title": {
+    "message": "Something went wrong"
+  },
+  "errorRecovery_description": {
+    "message": "Recovery mode is active. You can export your current settings as a backup, then reset settings and try again."
+  },
+  "errorRecovery_backupTitle": {
+    "message": "Backup current settings first (recommended)"
+  },
+  "errorRecovery_exportWithApiKeys": {
+    "message": "Export with API Keys"
+  },
+  "errorRecovery_exportWithoutApiKeys": {
+    "message": "Export without API Keys"
+  },
+  "errorRecovery_recoveryTitle": {
+    "message": "Recovery options"
+  },
+  "errorRecovery_refreshPage": {
+    "message": "Refresh the page"
+  },
+  "errorRecovery_resetAction": {
+    "message": "Reset to default settings"
+  },
+  "errorRecovery_resetSuccess": {
+    "message": "Recovery completed. Settings have been reset"
+  },
+  "errorRecovery_resetFailed": {
+    "message": "Recovery failed. Unable to reset settings"
+  },
+  "errorRecovery_errorDetails": {
+    "message": "Error details"
+  },
+  "errorRecovery_resetDialog_title": {
+    "message": "Reset settings?"
+  },
+  "errorRecovery_resetDialog_description": {
+    "message": "This will replace your current settings with the default values."
+  },
+  "errorRecovery_resetDialog_confirm": {
+    "message": "Reset"
+  },
+  "errorRecovery_resetDialog_cancel": {
+    "message": "Cancel"
+  },
+  "options_commandPalette_placeholder": {
+    "message": "Search settings..."
+  },
+  "options_commandPalette_noResults": {
+    "message": "No settings found"
+  },
+  "options_sidebar_settings": {
+    "message": "Settings"
+  },
+  "options_sidebar_tools": {
+    "message": "Tools"
+  },
+  "options_sidebar_product": {
+    "message": "Product"
+  },
+  "options_tools_translationHub": {
+    "message": "Translation Hub"
+  },
+  "options_setAPIKeyWarning_please": {
+    "message": "Please set API Key on"
+  },
+  "options_setAPIKeyWarning_page": {
+    "message": "page"
+  },
+  "options_betaExperience_title": {
+    "message": "Beta Experience"
+  },
+  "options_betaExperience_description": {
+    "message": "Enable experimental features and early access to new functionality. These features may be unstable or incomplete."
+  },
+  "options_betaExperience_enabled": {
+    "message": "Enable Beta Experience"
+  },
+  "options_apiProviders_title": {
+    "message": "API Providers"
+  },
+  "options_apiProviders_description": {
+    "message": "Configure API providers for translation and vocabulary insight. We have 20+ built-in providers and support any OpenAI-compatible API provider."
+  },
+  "options_apiProviders_promotion_ai302_description": {
+    "message": "Click the link on the right to register 302.AI and get 1 USD API credit"
+  },
+  "options_apiProviders_promotion_ai302_action": {
+    "message": "Register to Get Free API Key"
+  },
+  "options_apiProviders_promotion_ai302_addProvider": {
+    "message": "Add 302.AI Configuration"
+  },
+  "options_apiProviders_addProvider": {
+    "message": "Add Provider"
+  },
+  "options_apiProviders_badges_featureCount": {
+    "message": "$1 features"
+  },
+  "options_apiProviders_dialog_title": {
+    "message": "Add New Provider"
+  },
+  "options_apiProviders_dialog_groups_builtInProviders_title": {
+    "message": "Built-in LLM Providers"
+  },
+  "options_apiProviders_dialog_groups_builtInProviders_description": {
+    "message": "Built-in large language model providers, no need to fill in most configurations like Base URL"
+  },
+  "options_apiProviders_dialog_groups_openaiCompatibleProviders_title": {
+    "message": "OpenAI Compatible Custom Providers"
+  },
+  "options_apiProviders_dialog_groups_openaiCompatibleProviders_description": {
+    "message": "If you can't find your desired AI provider, select Custom Provider to configure any OpenAI-compatible provider, such as Zhipu AI"
+  },
+  "options_apiProviders_dialog_groups_pureTranslationProviders_title": {
+    "message": "Pure Translation Providers"
+  },
+  "options_apiProviders_dialog_groups_pureTranslationProviders_description": {
+    "message": "Providers focused on translation features without large language model capabilities"
+  },
+  "options_apiProviders_form_fields_name": {
+    "message": "Name"
+  },
+  "options_apiProviders_form_fields_description": {
+    "message": "Description"
+  },
+  "options_apiProviders_form_fields_apiKey": {
+    "message": "API Key"
+  },
+  "options_apiProviders_form_fields_baseURL": {
+    "message": "Base URL"
+  },
+  "options_apiProviders_form_fields_optional": {
+    "message": "Optional"
+  },
+  "options_apiProviders_form_duplicate": {
+    "message": "Duplicate"
+  },
+  "options_apiProviders_form_delete": {
+    "message": "Delete"
+  },
+  "options_apiProviders_form_deleteDialog_title": {
+    "message": "Delete Provider?"
+  },
+  "options_apiProviders_form_deleteDialog_description": {
+    "message": "This action cannot be undone. Features using this provider will be automatically reassigned to another available provider."
+  },
+  "options_apiProviders_form_deleteDialog_confirm": {
+    "message": "Delete"
+  },
+  "options_apiProviders_form_deleteDialog_cancel": {
+    "message": "Cancel"
+  },
+  "options_apiProviders_form_atLeastOneLLMProvider": {
+    "message": "At least one LLM translation provider is required."
+  },
+  "options_apiProviders_form_providerInUseCannotDisable": {
+    "message": "Cannot disable \"$1\" because it is currently used by $2 feature(s)."
+  },
+  "options_apiProviders_form_duplicateProviderName": {
+    "message": "Duplicate provider name \"$1\""
+  },
+  "options_apiProviders_form_defaultProvider_translate": {
+    "message": "Set as default translate provider"
+  },
+  "options_apiProviders_form_models_translate_title": {
+    "message": "Translate Model"
+  },
+  "options_apiProviders_form_models_translate_customTitle": {
+    "message": "Translate Custom Model"
+  },
+  "options_apiProviders_form_models_translate_placeholder": {
+    "message": "Select a model"
+  },
+  "options_apiProviders_form_models_fetchModels": {
+    "message": "Fetch available models"
+  },
+  "options_apiProviders_form_models_fetchError": {
+    "message": "Failed to fetch models"
+  },
+  "options_apiProviders_form_models_clickToRetry": {
+    "message": "Click to retry"
+  },
+  "options_apiProviders_form_models_noModels": {
+    "message": "No models available"
+  },
+  "options_apiProviders_form_models_selectModel": {
+    "message": "Select a model"
+  },
+  "options_apiProviders_form_models_apiKeyRequired": {
+    "message": "Please add API key first"
+  },
+  "options_apiProviders_form_models_searchModels": {
+    "message": "Search models..."
+  },
+  "options_apiProviders_form_models_noModelsFound": {
+    "message": "No models found"
+  },
+  "options_apiProviders_form_featureProviders": {
+    "message": "Feature Providers"
+  },
+  "options_apiProviders_form_advancedOptions": {
+    "message": "Advanced Options"
+  },
+  "options_apiProviders_form_providerSettingLabels_region": {
+    "message": "Region"
+  },
+  "options_apiProviders_form_temperature": {
+    "message": "Temperature"
+  },
+  "options_apiProviders_form_temperatureHint": {
+    "message": "Controls randomness in responses. Lower values (0) are more deterministic, higher values are more creative. Range varies by provider. Leave empty to use provider default."
+  },
+  "options_apiProviders_form_headers": {
+    "message": "Headers"
+  },
+  "options_apiProviders_form_headersHint": {
+    "message": "Custom HTTP headers sent when creating the AI provider client. Leave empty to use provider defaults; use {} to disable defaults."
+  },
+  "options_apiProviders_form_providerOptions": {
+    "message": "Provider Options"
+  },
+  "options_apiProviders_form_providerOptionsHint": {
+    "message": "Provider-specific options for non-standard API features like thinking/reasoning mode. See the Vercel AI SDK docs or your provider's official documentation for configuration details."
+  },
+  "options_apiProviders_form_providerOptionsDocsLink": {
+    "message": "View Provider Docs"
+  },
+  "options_apiProviders_form_providerOptionsRecommendationTrigger": {
+    "message": "View recommended provider options"
+  },
+  "options_apiProviders_form_providerOptionsRecommendationTitle": {
+    "message": "Recommended provider options detected"
+  },
+  "options_apiProviders_form_providerOptionsRecommendationDescription": {
+    "message": "Review and manually apply the recommended configuration."
+  },
+  "options_apiProviders_form_providerOptionsRecommendationApply": {
+    "message": "Apply"
+  },
+  "options_apiProviders_form_providerOptionsRecommendationApplied": {
+    "message": "Applied"
+  },
+  "options_apiProviders_form_invalidJson": {
+    "message": "Invalid JSON format"
+  },
+  "options_apiProviders_providers_description_openai": {
+    "message": "Provides models like GPT-4o"
+  },
+  "options_apiProviders_providers_description_deepseek": {
+    "message": "Recommend to use in China"
+  },
+  "options_apiProviders_providers_description_openrouter": {
+    "message": "Unified interface for multiple LLM providers with pay-per-use pricing"
+  },
+  "options_apiProviders_providers_description_ollama": {
+    "message": "Run large language models locally on your machine for complete privacy"
+  },
+  "options_apiProviders_providers_description_google": {
+    "message": "Google's flagship AI models with advanced reasoning capabilities"
+  },
+  "options_apiProviders_providers_description_anthropic": {
+    "message": "Claude models known for safety and reasoning excellence"
+  },
+  "options_apiProviders_providers_description_xai": {
+    "message": "Elon Musk's AI company offering Grok models with real-time data access"
+  },
+  "options_apiProviders_providers_description_siliconflow": {
+    "message": "High-performance inference platform for Chinese and international models"
+  },
+  "options_apiProviders_providers_description_tensdaq": {
+    "message": "Revolutionary bidding AI MaaS platform with market-driven pricing, eliminating high-cost fixed pricing"
+  },
+  "options_apiProviders_providers_description_ai302": {
+    "message": "Provides the latest and most comprehensive models with pay-as-you-go API"
+  },
+  "options_apiProviders_providers_description_openaiCompatible": {
+    "message": "Third-party and OpenAI API compatible"
+  },
+  "options_apiProviders_providers_description_deeplx": {
+    "message": "Unofficial DeepL API"
+  },
+  "options_apiProviders_providers_description_deepl": {
+    "message": "Official DeepL API"
+  },
+  "options_apiProviders_providers_description_bedrock": {
+    "message": "AWS managed service for enterprise-grade foundation models"
+  },
+  "options_apiProviders_providers_description_groq": {
+    "message": "Specialized hardware for ultra-fast LLM inference speeds"
+  },
+  "options_apiProviders_providers_description_deepinfra": {
+    "message": "Cost-effective cloud inference for popular open-source models"
+  },
+  "options_apiProviders_providers_description_mistral": {
+    "message": "European AI company specializing in efficient multilingual models"
+  },
+  "options_apiProviders_providers_description_togetherai": {
+    "message": "Collaborative platform for running and fine-tuning open-source models"
+  },
+  "options_apiProviders_providers_description_cohere": {
+    "message": "Enterprise-focused AI with strong multilingual and RAG capabilities"
+  },
+  "options_apiProviders_providers_description_fireworks": {
+    "message": "Production-ready inference platform for open-source models"
+  },
+  "options_apiProviders_providers_description_cerebras": {
+    "message": "Ultra-fast AI inference for rapid translation and text analysis"
+  },
+  "options_apiProviders_providers_description_replicate": {
+    "message": "Access to diverse open-source models for specialized translation tasks"
+  },
+  "options_apiProviders_providers_description_perplexity": {
+    "message": "Real-time knowledge-enhanced AI for contextual translations and reading assistance"
+  },
+  "options_apiProviders_providers_description_vercel": {
+    "message": "Optimized AI models for web content translation and analysis"
+  },
+  "options_apiProviders_providers_description_volcengine": {
+    "message": "ByteDance's cloud AI platform offering Doubao models for translation and reading"
+  },
+  "options_apiProviders_providers_description_minimax": {
+    "message": "MiniMax AI platform offering advanced MiniMax-M2 models for text generation"
+  },
+  "options_apiProviders_providers_description_alibaba": {
+    "message": "Alibaba Cloud's Qwen model series with advanced reasoning and multilingual capabilities"
+  },
+  "options_apiProviders_providers_description_moonshotai": {
+    "message": "Moonshot AI's Kimi model series with strong reasoning and long-context capabilities"
+  },
+  "options_apiProviders_providers_description_huggingface": {
+    "message": "Hugging Face Inference API providing access to thousands of open-source models"
+  },
+  "options_apiProviders_apiKey_showAPIKey": {
+    "message": "Show API Key"
+  },
+  "options_apiProviders_howToConfigure": {
+    "message": "How to configure?"
+  },
+  "options_apiProviders_testConnection_button": {
+    "message": "Test Connection"
+  },
+  "options_apiProviders_testConnection_testing": {
+    "message": "Testing..."
+  },
+  "options_general_title": {
+    "message": "General"
+  },
+  "options_general_appearance_title": {
+    "message": "Appearance"
+  },
+  "options_general_appearance_theme": {
+    "message": "Theme"
+  },
+  "options_general_appearance_system": {
+    "message": "System"
+  },
+  "options_general_appearance_light": {
+    "message": "Light"
+  },
+  "options_general_appearance_dark": {
+    "message": "Dark"
+  },
+  "options_general_featureProviders_title": {
+    "message": "Feature Providers"
+  },
+  "options_general_featureProviders_description": {
+    "message": "Choose which provider to use for each feature"
+  },
+  "options_general_featureProviders_customActions": {
+    "message": "Custom AI Actions"
+  },
+  "options_general_featureProviders_features_translate": {
+    "message": "Page Translation"
+  },
+  "options_general_featureProviders_features_selectionToolbar_translate": {
+    "message": "Selection Toolbar Translation"
+  },
+  "options_general_featureProviders_features_tts": {
+    "message": "Text to Speech"
+  },
+  "options_general_featureProviders_features_inputTranslation": {
+    "message": "Input Translation"
+  },
+  "options_general_featureProviders_features_videoSubtitles": {
+    "message": "Video Subtitles"
+  },
+  "options_general_translationConfig_model_title": {
+    "message": "Model"
+  },
+  "options_general_translationConfig_model_enterCustomModel": {
+    "message": "Enter the name of the custom model"
+  },
+  "options_general_clearCache_title": {
+    "message": "Clear Cache"
+  },
+  "options_general_clearCache_description": {
+    "message": "Clear all translation cache in your browser"
+  },
+  "options_general_clearCache_clearing": {
+    "message": "Clearing..."
+  },
+  "options_general_clearCache_dialog_title": {
+    "message": "Clear Cache"
+  },
+  "options_general_clearCache_dialog_trigger": {
+    "message": "Clear Cache"
+  },
+  "options_general_clearCache_dialog_confirm": {
+    "message": "Confirm"
+  },
+  "options_general_clearCache_dialog_cancel": {
+    "message": "Cancel"
+  },
+  "options_general_clearCache_dialog_description": {
+    "message": "This operation will clear all translation cache. This action cannot be undone."
+  },
+  "options_general_languageDetection_title": {
+    "message": "Language Detection"
+  },
+  "options_general_languageDetection_description": {
+    "message": "Affects auto-translate language detection, skip-language detection, and Speaking voice selection accuracy."
+  },
+  "options_general_languageDetection_mode_basic": {
+    "message": "Basic"
+  },
+  "options_general_languageDetection_mode_llm": {
+    "message": "LLM"
+  },
+  "options_general_languageDetection_provider_label": {
+    "message": "Detection Provider"
+  },
+  "options_general_languageDetection_provider_placeholder": {
+    "message": "Select a provider"
+  },
+  "options_general_languageDetection_status_noProviders": {
+    "message": "Configure an LLM provider first"
+  },
+  "options_general_languageDetection_status_basicRecommend": {
+    "message": "Recommend enabling LLM"
+  },
+  "options_general_languageDetection_status_llmEnabled": {
+    "message": "LLM detection enabled"
+  },
+  "options_siteControl_title": {
+    "message": "Site Control"
+  },
+  "options_siteControl_mode_title": {
+    "message": "Extension Activation Mode"
+  },
+  "options_siteControl_mode_description": {
+    "message": "Use blacklist mode to disable the extension on specific sites, or whitelist mode to limit it to specific sites only."
+  },
+  "options_siteControl_mode_blacklist": {
+    "message": "Only disable on listed sites"
+  },
+  "options_siteControl_mode_whitelist": {
+    "message": "Only run on listed sites"
+  },
+  "options_siteControl_patterns_enterUrlPattern": {
+    "message": "Enter URL pattern (e.g., example.com)"
+  },
+  "options_siteControl_patterns_urlPattern": {
+    "message": "URL Pattern"
+  },
+  "options_overlayTools_title": {
+    "message": "Overlay Tools"
+  },
+  "options_overlayTools_floatingButton_title": {
+    "message": "Floating Button"
+  },
+  "options_overlayTools_selectionToolbar_title": {
+    "message": "Selection Toolbar"
+  },
+  "options_overlayTools_contextMenu_title": {
+    "message": "Context Menu"
+  },
+  "options_overlayTools_inputTranslation_title": {
+    "message": "Input Translation"
+  },
+  "options_inputTranslation_provider_title": {
+    "message": "Translation Provider"
+  },
+  "options_inputTranslation_provider_description": {
+    "message": "Choose which translation provider to use for input translation"
+  },
+  "options_inputTranslation_provider_label": {
+    "message": "Provider"
+  },
+  "options_inputTranslation_toggle_title": {
+    "message": "Enable Triple-Space Translation"
+  },
+  "options_inputTranslation_toggle_description": {
+    "message": "Press spacebar 3 times quickly in any input field to translate its content"
+  },
+  "options_inputTranslation_languages_title": {
+    "message": "Translation Languages"
+  },
+  "options_inputTranslation_languages_description": {
+    "message": "Choose source and target languages for input translation"
+  },
+  "options_inputTranslation_languages_sourceCode": {
+    "message": "Page Source Language"
+  },
+  "options_inputTranslation_languages_targetCode": {
+    "message": "Translation Target Language"
+  },
+  "options_inputTranslation_languages_enableCycle": {
+    "message": "Swap direction each time"
+  },
+  "options_inputTranslation_threshold_title": {
+    "message": "Trigger Threshold"
+  },
+  "options_inputTranslation_threshold_description": {
+    "message": "Time interval between space presses to trigger translation"
+  },
+  "options_inputTranslation_threshold_label": {
+    "message": "Threshold (ms)"
+  },
+  "options_inputTranslation_threshold_hint": {
+    "message": "Time in milliseconds between consecutive space presses (100-1000ms)"
+  },
+  "options_inputTranslation_threshold_error": {
+    "message": "Value must be between $1 and $2"
+  },
+  "options_floatingButtonAndToolbar_title": {
+    "message": "Floating Button & Toolbar"
+  },
+  "options_floatingButtonAndToolbar_floatingButtonDemoImageAlt": {
+    "message": "Floating Button Demo"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbarDemoImageAlt": {
+    "message": "Selection Toolbar Demo"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_globalToggle_title": {
+    "message": "Enable Floating Button"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_globalToggle_description": {
+    "message": "Display the floating button on web pages for quick access to Skim AI features"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_closeMenu_disableForSite": {
+    "message": "Disable for this site"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_closeMenu_disableGlobally": {
+    "message": "Disable globally"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_disabledSites_title": {
+    "message": "Floating Button Disabled Sites"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_disabledSites_description": {
+    "message": "Configure websites where the floating button should be disabled"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_disabledSites_enterUrlPattern": {
+    "message": "Enter URL pattern"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_disabledSites_urlPattern": {
+    "message": "URL Pattern"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_clickAction_title": {
+    "message": "Click Action"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_clickAction_description": {
+    "message": "Choose the action when clicking the floating button"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_clickAction_panel": {
+    "message": "Open Side Panel"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_clickAction_translate": {
+    "message": "Toggle Page Translation"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_side_title": {
+    "message": "Button Side"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_side_description": {
+    "message": "Choose which side of the page the floating button is docked to"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_side_left": {
+    "message": "Left"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_side_right": {
+    "message": "Right"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_globalToggle_title": {
+    "message": "Enable Selection Toolbar"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_globalToggle_description": {
+    "message": "Display the toolbar when selecting text on web pages for quick translation, speech, and AI actions"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_opacity_title": {
+    "message": "Opacity"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_opacity_description": {
+    "message": "Adjust the opacity of the selection toolbar and the expanded window opened from it"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_featureToggles_title": {
+    "message": "Feature Toggles"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_featureToggles_description": {
+    "message": "Choose which built-in features to show in the selection toolbar"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_featureToggles_translate": {
+    "message": "Translate"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_featureToggles_speak": {
+    "message": "Speak"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_closeMenu_disableForSite": {
+    "message": "Disable for this site"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_closeMenu_disableGlobally": {
+    "message": "Disable globally"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_disabledSites_title": {
+    "message": "Selection Toolbar Disabled Sites"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_disabledSites_description": {
+    "message": "Configure websites where the selection toolbar should be disabled"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_disabledSites_enterUrlPattern": {
+    "message": "Enter URL pattern"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_disabledSites_urlPattern": {
+    "message": "URL Pattern"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_customActionFailed": {
+    "message": "Custom Action Failed"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_customActionFailedFallback": {
+    "message": "Custom action request failed"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_actionUnavailable": {
+    "message": "Selected action is unavailable"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_missingSelection": {
+    "message": "No selected text available"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_providerDisabled": {
+    "message": "Selected provider is disabled"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_providerUnavailable": {
+    "message": "Selected provider is unavailable"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_provider": {
+    "message": "Provider"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_selectProvider": {
+    "message": "Select a provider"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_noProviderAvailable": {
+    "message": "No available provider"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_useProviderDefaultModel": {
+    "message": "Use provider default model"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_useCustomModel": {
+    "message": "Use custom model"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_customModel": {
+    "message": "Custom model"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_model": {
+    "message": "Model"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_modelNotAvailableForNonLLM": {
+    "message": "Model settings are only available for LLM providers"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_translate_title": {
+    "message": "Selection Translation"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_translate_description": {
+    "message": "Configure provider and model for the selection toolbar translation feature"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_title": {
+    "message": "Custom AI Actions"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_description": {
+    "message": "Add your own structured AI actions for selected text"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_add": {
+    "message": "Add AI Action"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_edit": {
+    "message": "Edit AI Action"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_empty": {
+    "message": "No custom AI actions yet"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_noEnabledLlmProvider": {
+    "message": "Enable at least one LLM provider before creating custom AI actions"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_table_name": {
+    "message": "Name"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_table_provider": {
+    "message": "Provider"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_table_fields": {
+    "message": "Fields"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_table_actions": {
+    "message": "Actions"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_name": {
+    "message": "Name"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_icon": {
+    "message": "Icon"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_chooseAriaLabel": {
+    "message": "Choose icon"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_chooseTitle": {
+    "message": "Choose an icon"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_inputPlaceholder": {
+    "message": "Enter an icon name"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpAriaLabel": {
+    "message": "More icon help"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpTitle": {
+    "message": "Can't find the icon you want?"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpStepBrowsePrefix": {
+    "message": "Browse icons on "
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpStepBrowseSuffix": {
+    "message": ""
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpStepCopyPrefix": {
+    "message": "Copy the icon name, for example "
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpStepCopySuffix": {
+    "message": ", then paste it into the field."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_provider": {
+    "message": "Provider (requires structured output support)"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_selectProvider": {
+    "message": "Select a provider"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_systemPrompt": {
+    "message": "System Prompt"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_prompt": {
+    "message": "Prompt"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_outputSchema": {
+    "message": "Output Schema"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_addField": {
+    "message": "Add Field"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldName": {
+    "message": "Field Name"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldType": {
+    "message": "Field Type"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldDescription": {
+    "message": "Description"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldDescriptionPlaceholder": {
+    "message": "Describe what this field should contain..."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldSpeaking": {
+    "message": "Enable speaking"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_actions": {
+    "message": "Actions"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_cancel": {
+    "message": "Cancel"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_save": {
+    "message": "Save"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_defaultFieldName": {
+    "message": "Result"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldNamePlaceholder": {
+    "message": "Field Name"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_autoFieldPrefix": {
+    "message": "Field"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_addFieldDialog_title": {
+    "message": "Add Output Field"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_editFieldDialog_title": {
+    "message": "Edit Output Field"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_editFieldDialog_save": {
+    "message": "Save"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteFieldDialog_title": {
+    "message": "Delete Output Field?"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteFieldDialog_description": {
+    "message": "This output field will be removed."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteFieldDialog_confirm": {
+    "message": "Delete"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteFieldDialog_cancel": {
+    "message": "Cancel"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_title": {
+    "message": "Notebase Connection"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_description": {
+    "message": "Save this action's structured results to a remote notebase."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_loginRequiredTitle": {
+    "message": "Log in to configure Notebase"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_loginRequiredDescription": {
+    "message": "Sign in on readfrog.app before choosing a notebase or editing mappings."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_loginAction": {
+    "message": "Log in"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tableLabel": {
+    "message": "Notebase"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tablePlaceholder": {
+    "message": "Select a notebase"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tableClearOption": {
+    "message": "Disconnect notebase"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_refreshAction": {
+    "message": "Refresh"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_emptyTitle": {
+    "message": "No notebases yet"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_emptyDescription": {
+    "message": "Create a notebase on readfrog.app, then come back here to map fields."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_openNotebaseAction": {
+    "message": "Open Notebase"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_betaLockedTitle": {
+    "message": "This account is not in the Notebase beta"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_betaLockedDescription": {
+    "message": "You can keep this action configured, but choosing notebases and syncing results is limited to selected beta accounts for now."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tableUnavailableTitle": {
+    "message": "Selected notebase is no longer available"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tableUnavailableDescription": {
+    "message": "Refresh or choose another notebase before saving again."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tableUnavailableOption": {
+    "message": "unavailable"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_schemaErrorTitle": {
+    "message": "Failed to load notebase schema"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_schemaErrorDescription": {
+    "message": "Try refreshing the schema again in a moment."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_schemaLoading": {
+    "message": "Loading notebase schema..."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingsLabel": {
+    "message": "Field Mappings"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingsEmpty": {
+    "message": "No mappings yet. Add one when you are ready to save fields."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_addMappingAction": {
+    "message": "Add Mapping"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_removeMappingAction": {
+    "message": "Remove mapping"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_localFieldLabel": {
+    "message": "Action field"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_localFieldPlaceholder": {
+    "message": "Select an action field"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_remoteFieldLabel": {
+    "message": "Notebase field"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_remoteFieldPlaceholder": {
+    "message": "Select a notebase field"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_columnUnavailableOption": {
+    "message": "removed"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_invalidMappingsTitle": {
+    "message": "Some mappings need attention"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_invalidMappingsDescription": {
+    "message": "Invalid mappings are preserved, but Save to Notebase stays disabled until you fix them."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingMissingLocal": {
+    "message": "The mapped action field no longer exists."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingMissingRemote": {
+    "message": "The mapped notebase field no longer exists."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingMissingSchema": {
+    "message": "Refresh the notebase schema to validate this mapping."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingIncompatible": {
+    "message": "The field types no longer match."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_tokens_selection": {
+    "message": "Selected text content"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_tokens_paragraphs": {
+    "message": "Intersecting paragraph text joined with blank lines, truncated to the first 2000 characters when sent to custom AI actions"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_tokens_targetLanguage": {
+    "message": "User's target language"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_tokens_webTitle": {
+    "message": "Webpage title"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_tokens_webContent": {
+    "message": "Webpage content extracted from the current page, truncated to the first 2000 characters"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_delete": {
+    "message": "Delete"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteDialog_title": {
+    "message": "Delete Custom Action?"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteDialog_description": {
+    "message": "This action cannot be undone."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteDialog_confirm": {
+    "message": "Delete"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteDialog_cancel": {
+    "message": "Cancel"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dialogTitle": {
+    "message": "Choose a Template"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dialogDescription": {
+    "message": "Select a template to quickly create a new AI action, or start from scratch."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dictionary_name": {
+    "message": "Dictionary"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dictionary_description": {
+    "message": "Look up words with definitions, phonetics, and paragraph translations"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dictionary_systemPrompt": {
+    "message": "You are a dictionary assistant for language learners.\n\n## Goal\nGiven a term and its surrounding paragraphs, produce a concise dictionary entry that matches the required output object.\n\n## Rules\n1. Focus on the meaning that best matches the provided paragraphs.\n2. Normalize Term to its base/canonical form.\n3. Keep Definition precise and learner-friendly.\n4. Keep Paragraphs exactly as provided in the prompt.\n5. Phonetic must use the standard notation for the term's language (e.g., IPA for English, pinyin for Mandarin, romaji for Japanese).\n6. Part of Speech in English (noun, verb, adjective, etc.).\n7. Difficulty must be a CEFR level (A1, A2, B1, B2, C1, or C2).\n8. If a field is unknown, return an empty string instead of guessing.\n9. Respond in {{targetLanguage}} for all textual fields unless source-form text is required for clarity.\n\n## Examples\n\n### Example 1\nInput: Selection=\"blossoms\", Paragraphs=\"The ephemeral beauty of cherry blossoms reminds us to cherish each moment.\", Target language=Chinese\n\nOutput:\n- Term: blossom\n- Phonetic: /ˈblɒs.əm/\n- Part of Speech: noun\n- Paragraphs: The ephemeral beauty of cherry blossoms reminds us to cherish each moment.\n- Definition: 花；花朵（尤指果树的花）\n- Paragraphs Translation: 樱花短暂的美丽提醒我们珍惜每一刻。\n- Difficulty: B2\n\n### Example 2\nInput: Selection=\"感動\", Paragraphs=\"この映画はつまらないと思ったけど、最後は感動した。\", Target language=English\n\nOutput:\n- Term: 感動\n- Phonetic: kandou\n- Part of Speech: noun\n- Paragraphs: この映画はつまらないと思ったけど、最後は感動した。\n- Definition: Being deeply moved; emotional touch\n- Paragraphs Translation: I thought this movie was boring, but the ending was moving.\n- Difficulty: B1"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dictionary_prompt": {
+    "message": "## Input\nSelection: {{selection}}\nParagraphs: {{paragraphs}}\nTarget language: {{targetLanguage}}"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dictionary_fieldTerm": {
+    "message": "Term"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dictionary_fieldTermDescription": {
+    "message": "Base/canonical lemma of the selected term."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dictionary_fieldPhonetic": {
+    "message": "Phonetic"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dictionary_fieldPhoneticDescription": {
+    "message": "Standard phonetic transcription for the term's language (e.g., IPA for English, pinyin for Mandarin, romaji for Japanese)."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dictionary_fieldPartOfSpeech": {
+    "message": "Part of Speech"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dictionary_fieldPartOfSpeechDescription": {
+    "message": "Grammatical category (e.g., noun, verb, adjective)."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dictionary_fieldParagraphs": {
+    "message": "Paragraphs"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dictionary_fieldParagraphsDescription": {
+    "message": "The paragraphs from the prompt above. Do not rewrite them."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dictionary_fieldDefinition": {
+    "message": "Definition"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dictionary_fieldDefinitionDescription": {
+    "message": "One concise definition for the contextual sense."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dictionary_fieldParagraphsTranslation": {
+    "message": "Paragraphs Translation"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dictionary_fieldParagraphsTranslationDescription": {
+    "message": "The translation of the paragraphs."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dictionary_fieldDifficulty": {
+    "message": "Difficulty"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_dictionary_fieldDifficultyDescription": {
+    "message": "Estimated CEFR difficulty level A1, A2, B1, B2, C1, or C2."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_improveWriting_name": {
+    "message": "Improve Writing"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_improveWriting_description": {
+    "message": "Analyze writing errors and suggest improvements"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_improveWriting_systemPrompt": {
+    "message": "You are a writing assistant for language learners.\n\n## Goal\nGiven selected text and its surrounding paragraphs, analyze writing issues and produce an improved version.\n\n## Language Policy (critical)\n1. Detect the original language of Selection as {{originLanguage}}.\n2. The \"Error Analysis\" field must be written in {{targetLanguage}}.\n3. The \"Improved Version\" field must stay in {{originLanguage}}.\n4. Never translate \"Improved Version\" into {{targetLanguage}} unless {{originLanguage}} is already {{targetLanguage}}.\n\n## Writing Rules\n1. Identify grammar, spelling, punctuation, and word choice errors.\n2. Keep edits natural and preserve the author's intent and tone.\n3. If there are no major errors, state that clearly in \"Error Analysis\" and return a lightly polished \"Improved Version\".\n4. Keep \"Improved Version\" concise and directly usable.\n\n## Examples\nExample A:\n- Selection: \"He go to school yesterday, and he don't finish his homework.\"\n- Detected {{originLanguage}}: English\n- {{targetLanguage}}: Chinese\n- Error Analysis (Chinese — {{targetLanguage}}): 存在主谓一致和时态错误：go 应改为 went，don't 应改为 didn't，finish 应改为 finish 的过去时语境搭配。\n- Improved Version (English — {{originLanguage}}): He went to school yesterday, and he didn't finish his homework.\n\nExample B:\n- Selection: \"昨日私は友達に会いて、一緒に映画を見るました。\"\n- Detected {{originLanguage}}: Japanese\n- {{targetLanguage}}: English\n- Error Analysis (English — {{targetLanguage}}): There are verb conjugation errors: \"会いて\" should be \"会って\" (te-form of 会う), and \"見るました\" should be \"見ました\" (past tense of 見る in masu-form).\n- Improved Version (Japanese — {{originLanguage}}): 昨日私は友達に会って、一緒に映画を見ました。"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_improveWriting_prompt": {
+    "message": "## Input\nSelection: {{selection}}\nParagraphs: {{paragraphs}}\nTarget language: {{targetLanguage}}"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_improveWriting_fieldErrorAnalysis": {
+    "message": "Error Analysis"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_improveWriting_fieldErrorAnalysisDescription": {
+    "message": "Explain grammar, spelling, punctuation, and word-choice issues in {{targetLanguage}}."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_improveWriting_fieldImprovedVersion": {
+    "message": "Improved Version"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_improveWriting_fieldImprovedVersionDescription": {
+    "message": "Corrected and improved version of the selected text in its original language."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_blank_name": {
+    "message": "Blank"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_templates_blank_description": {
+    "message": "Start from scratch with an empty action"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_nameRequired": {
+    "message": "Name is required"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_duplicateName": {
+    "message": "Duplicate action name \"$1\""
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_invalidIcon": {
+    "message": "Invalid Iconify icon string"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_providerRequired": {
+    "message": "Please select an enabled LLM provider"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_outputSchemaRequired": {
+    "message": "Add at least one output field"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_fieldKeyRequired": {
+    "message": "Field name is required"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_duplicateFieldKey": {
+    "message": "Field names must be unique"
+  },
+  "options_floatingButtonAndToolbar_contextMenu_title": {
+    "message": "Context Menu"
+  },
+  "options_floatingButtonAndToolbar_contextMenu_translate_title": {
+    "message": "Enable Context Menu Translate"
+  },
+  "options_floatingButtonAndToolbar_contextMenu_translate_description": {
+    "message": "Add translate options to the browser right-click menu for quick page and selection translation"
+  },
+  "options_translation_title": {
+    "message": "Translation"
+  },
+  "options_translation_requestQueueConfig_title": {
+    "message": "Translation Rate"
+  },
+  "options_translation_requestQueueConfig_firstOnDescription": {
+    "message": "Adjust the processing speed of translation requests using the"
+  },
+  "options_translation_requestQueueConfig_lastOnDescription": {
+    "message": "algorithm"
+  },
+  "options_translation_requestQueueConfig_capacity_title": {
+    "message": "Maximum Burst Request Count"
+  },
+  "options_translation_requestQueueConfig_capacity_description": {
+    "message": "The allowed temporary burst request count determines the maximum number of requests that can be processed concurrently within a short period"
+  },
+  "options_translation_requestQueueConfig_rate_title": {
+    "message": "Average Requests Per Second"
+  },
+  "options_translation_requestQueueConfig_rate_description": {
+    "message": "Average requests per second, but allows configuring a maximum burst count to temporarily send excess requests"
+  },
+  "options_translation_batchQueueConfig_title": {
+    "message": "Batch Translation"
+  },
+  "options_translation_batchQueueConfig_description": {
+    "message": "Configure character limits and maximum paragraph count for batch translation (only effective for LLM translation)"
+  },
+  "options_translation_batchQueueConfig_maxCharactersPerBatch_title": {
+    "message": "Maximum Characters"
+  },
+  "options_translation_batchQueueConfig_maxCharactersPerBatch_description": {
+    "message": "Maximum number of characters allowed per batch request to control the content volume of each translation"
+  },
+  "options_translation_batchQueueConfig_maxItemsPerBatch_title": {
+    "message": "Maximum Paragraph Count"
+  },
+  "options_translation_batchQueueConfig_maxItemsPerBatch_description": {
+    "message": "Maximum number of paragraphs for each batch translation to control the content volume of each translation"
+  },
+  "options_translation_batchQueueConfig_statisticsLink": {
+    "message": "Saved approximately $1 cost in the past 7 days"
+  },
+  "options_translation_autoTranslateWebsite_title": {
+    "message": "Auto Translate Based on Website"
+  },
+  "options_translation_autoTranslateWebsite_description": {
+    "message": "Always translate this website"
+  },
+  "options_translation_autoTranslateWebsite_urlPattern": {
+    "message": "URL Pattern"
+  },
+  "options_translation_autoTranslateWebsite_enterUrlPattern": {
+    "message": "Enter URL Pattern"
+  },
+  "options_translation_personalizedPrompts_title": {
+    "message": "Personalized Prompts"
+  },
+  "options_translation_personalizedPrompts_description": {
+    "message": "Customizing different types of Prompts allows you to adjust the Prompt type yourself during translation. A Prompt represents the text that the user sends to the LLM."
+  },
+  "options_translation_personalizedPrompts_communityPrompts": {
+    "message": "Get or share prompts from community"
+  },
+  "options_translation_personalizedPrompts_communityPromptsUrl": {
+    "message": "https://github.com/mengxi-ream/read-frog/discussions/821"
+  },
+  "options_translation_personalizedPrompts_addPrompt": {
+    "message": "Add Prompt"
+  },
+  "options_translation_personalizedPrompts_default": {
+    "message": "Default"
+  },
+  "options_translation_personalizedPrompts_importSuccess": {
+    "message": "Import Success"
+  },
+  "options_translation_personalizedPrompts_import": {
+    "message": "Import"
+  },
+  "options_translation_personalizedPrompts_export": {
+    "message": "Export"
+  },
+  "options_translation_personalizedPrompts_current": {
+    "message": "in use"
+  },
+  "options_translation_personalizedPrompts_editPrompt_title": {
+    "message": "Edit Prompt"
+  },
+  "options_translation_personalizedPrompts_editPrompt_name": {
+    "message": "Name"
+  },
+  "options_translation_personalizedPrompts_editPrompt_systemPrompt": {
+    "message": "System Prompt"
+  },
+  "options_translation_personalizedPrompts_editPrompt_prompt": {
+    "message": "Prompt"
+  },
+  "options_translation_personalizedPrompts_editPrompt_promptCellInput_input": {
+    "message": "Text content to translate"
+  },
+  "options_translation_personalizedPrompts_editPrompt_promptCellInput_targetLanguage": {
+    "message": "Target language"
+  },
+  "options_translation_personalizedPrompts_editPrompt_promptCellInput_webTitle": {
+    "message": "Webpage title"
+  },
+  "options_translation_personalizedPrompts_editPrompt_promptCellInput_webContent": {
+    "message": "Webpage content (truncated to the first 2000 characters)"
+  },
+  "options_translation_personalizedPrompts_editPrompt_promptCellInput_webSummary": {
+    "message": "Webpage summary (requires AI Smart Context)"
+  },
+  "options_translation_personalizedPrompts_editPrompt_save": {
+    "message": "Save Changes"
+  },
+  "options_translation_personalizedPrompts_editPrompt_close": {
+    "message": "Cancel"
+  },
+  "options_translation_personalizedPrompts_deletePrompt_title": {
+    "message": "Delete Prompt"
+  },
+  "options_translation_personalizedPrompts_deletePrompt_description": {
+    "message": "Confirm delete prompt"
+  },
+  "options_translation_personalizedPrompts_deletePrompt_confirm": {
+    "message": "Confirm"
+  },
+  "options_translation_personalizedPrompts_deletePrompt_cancel": {
+    "message": "Cancel"
+  },
+  "options_translation_personalizedPrompts_exportPrompt_exportSelected": {
+    "message": "Export Selected"
+  },
+  "options_translation_personalizedPrompts_exportPrompt_cancel": {
+    "message": "Cancel"
+  },
+  "options_translation_translationStyle_title": {
+    "message": "Translation Display Style"
+  },
+  "options_translation_translationStyle_description": {
+    "message": "Set any style you want to distinguish translation results from original text"
+  },
+  "options_translation_translationStyle_useCustomStyle": {
+    "message": "Use Custom CSS Style"
+  },
+  "options_translation_translationStyle_useCustomStyleDescription": {
+    "message": "Supports any CSS, including fonts, animations, and language-specific styles"
+  },
+  "options_translation_translationStyle_presetStyle": {
+    "message": "Preset Style"
+  },
+  "options_translation_translationStyle_cssEditor": {
+    "message": "CSS Editor"
+  },
+  "options_translation_translationStyle_preview": {
+    "message": "Preview"
+  },
+  "options_translation_translationStyle_stylePreviewLanguage": {
+    "message": "Language"
+  },
+  "options_translation_translationStyle_stylePreviewDirection": {
+    "message": "Direction"
+  },
+  "options_translation_translationStyle_stylePreviewTranslatedText": {
+    "message": "Translated Text"
+  },
+  "options_translation_translationStyle_style_default": {
+    "message": "None"
+  },
+  "options_translation_translationStyle_style_blur": {
+    "message": "Blur Effect"
+  },
+  "options_translation_translationStyle_style_blockquote": {
+    "message": "Blockquote"
+  },
+  "options_translation_translationStyle_style_weakened": {
+    "message": "Weakened"
+  },
+  "options_translation_translationStyle_style_dashedLine": {
+    "message": "Dashed Line"
+  },
+  "options_translation_translationStyle_style_border": {
+    "message": "Border"
+  },
+  "options_translation_translationStyle_style_textColor": {
+    "message": "Text Color"
+  },
+  "options_translation_translationStyle_style_background": {
+    "message": "Background"
+  },
+  "options_translation_translationStyle_customCSS_editor_placeholder": {
+    "message": "/* Example: Custom style with color and background */\n[data-read-frog-custom-translation-style='custom'] {\n  color: #414535;\n  background-color: light-dark(#F2E3BC, #C19875);\n  padding: 2px 4px;\n  border-radius: 4px;\n}\n"
+  },
+  "options_translation_translationStyle_customCSS_editor_saveButton": {
+    "message": "Save"
+  },
+  "options_translation_translationStyle_customCSS_editor_savedButton": {
+    "message": "Saved"
+  },
+  "options_translation_translationStyle_customCSS_editor_validation_validating": {
+    "message": "Validating..."
+  },
+  "options_translation_translationStyle_customCSS_editor_validation_valid": {
+    "message": "CSS is valid"
+  },
+  "options_translation_translationStyle_customCSS_editor_validation_syntaxError": {
+    "message": "CSS has syntax errors"
+  },
+  "options_translation_translationStyle_customCSS_editor_validation_tooLong": {
+    "message": "CSS is too long"
+  },
+  "options_translation_translationStyle_customCSS_editor_validation_saved": {
+    "message": "All changes saved"
+  },
+  "options_translation_translationMode_title": {
+    "message": "Translation Mode"
+  },
+  "options_translation_translationMode_description": {
+    "message": "Choose how the translated text is displayed: bilingual or translation only."
+  },
+  "options_translation_translationMode_mode_bilingual": {
+    "message": "Bilingual"
+  },
+  "options_translation_translationMode_mode_translationOnly": {
+    "message": "Translation Only"
+  },
+  "options_translation_translateRange_title": {
+    "message": "Translate Range"
+  },
+  "options_translation_translateRange_description": {
+    "message": "Select whether to translate only the main content or all content on the page."
+  },
+  "options_translation_translateRange_range_main": {
+    "message": "Main Content"
+  },
+  "options_translation_translateRange_range_all": {
+    "message": "All Content"
+  },
+  "options_translation_pageTranslationShortcut_title": {
+    "message": "Page Translation Shortcut"
+  },
+  "options_translation_pageTranslationShortcut_description": {
+    "message": "Customize the shortcut key for translating entire web pages"
+  },
+  "options_translation_preloadConfig_title": {
+    "message": "Pre-translate Range"
+  },
+  "options_translation_preloadConfig_description": {
+    "message": "Control how much content below the viewport gets pre-translated to save API costs"
+  },
+  "options_translation_preloadConfig_margin_title": {
+    "message": "Preload Distance (pixels)"
+  },
+  "options_translation_preloadConfig_margin_description": {
+    "message": "How far below the viewport to start translating content. Lower values save API costs but may cause delays when scrolling."
+  },
+  "options_translation_preloadConfig_threshold_title": {
+    "message": "Visibility Threshold"
+  },
+  "options_translation_preloadConfig_threshold_description": {
+    "message": "Percentage of element visibility required to trigger translation (0-1). Higher values delay translation until more of the element is visible."
+  },
+  "options_translation_smallParagraphFilter_title": {
+    "message": "Small Paragraph Filter"
+  },
+  "options_translation_smallParagraphFilter_description": {
+    "message": "Skip translating text nodes with fewer characters or words than the threshold (0 = disabled)"
+  },
+  "options_translation_smallParagraphFilter_minCharacters_title": {
+    "message": "Minimum Characters"
+  },
+  "options_translation_smallParagraphFilter_minCharacters_description": {
+    "message": "Text nodes with fewer characters than this value will not be translated. Character count includes whitespace."
+  },
+  "options_translation_smallParagraphFilter_minWords_title": {
+    "message": "Minimum Words"
+  },
+  "options_translation_smallParagraphFilter_minWords_description": {
+    "message": "Text nodes with fewer words than this value will not be translated. Uses Intl.Segmenter for accurate word counting across all languages."
+  },
+  "options_translation_smallParagraphFilter_error": {
+    "message": "Value must be between $1 and $2"
+  },
+  "options_translation_nodeTranslationHotkey_title": {
+    "message": "Hover or Long-Press Translation Shortcut"
+  },
+  "options_translation_nodeTranslationHotkey_description": {
+    "message": "Customize the hover modifier key or use long press to translate paragraphs"
+  },
+  "options_translation_nodeTranslationHotkey_enable": {
+    "message": "Enable"
+  },
+  "options_translation_llmProviderConfigured": {
+    "message": "LLM provider selected for $1"
+  },
+  "options_translation_llmProviderNotConfigured": {
+    "message": "No LLM provider selected for $1"
+  },
+  "options_translation_autoTranslateLanguages_title": {
+    "message": "Auto Translate Based on Language"
+  },
+  "options_translation_autoTranslateLanguages_description": {
+    "message": "Automatically translate page content when specific languages are detected"
+  },
+  "options_translation_autoTranslateLanguages_selectLanguages": {
+    "message": "Select languages"
+  },
+  "options_translation_autoTranslateLanguages_detection_label": {
+    "message": "Language Detection"
+  },
+  "options_translation_autoTranslateLanguages_detection_basic": {
+    "message": "Basic"
+  },
+  "options_translation_autoTranslateLanguages_detection_llm": {
+    "message": "LLM"
+  },
+  "options_translation_autoTranslateLanguages_detection_description": {
+    "message": "Basic detection is fast and free. LLM detection is more accurate but adds latency and API costs. Requires configured auto-translate languages."
+  },
+  "options_translation_skipLanguages_title": {
+    "message": "Auto Skip Based on Language"
+  },
+  "options_translation_skipLanguages_description": {
+    "message": "Automatically skip paragraph translation when specific languages are detected"
+  },
+  "options_translation_skipLanguages_targetLanguageSkip": {
+    "message": "Skip target language"
+  },
+  "options_translation_skipLanguages_targetLanguageSkipDescription": {
+    "message": "Before translating, detect whether the paragraph is already in the target language. Matching text is skipped without sending a request. Turning this off does not change the later safeguard that hides unchanged translation output."
+  },
+  "options_translation_skipLanguages_selectLanguages": {
+    "message": "Select languages"
+  },
+  "options_translation_skipLanguages_detection_label": {
+    "message": "Language Detection"
+  },
+  "options_translation_skipLanguages_detection_basic": {
+    "message": "Basic"
+  },
+  "options_translation_skipLanguages_detection_llm": {
+    "message": "LLM"
+  },
+  "options_translation_skipLanguages_detection_description": {
+    "message": "Basic detection is fast and free. LLM detection is more accurate but adds latency and API costs."
+  },
+  "options_translation_aiContentAware_title": {
+    "message": "AI Smart Context Translation"
+  },
+  "options_translation_aiContentAware_description": {
+    "message": "Enhance translation quality by providing webpage context to the AI"
+  },
+  "options_translation_aiContentAware_enable": {
+    "message": "Enable AI Smart Context Translation"
+  },
+  "options_translation_aiContentAware_enableDescription": {
+    "message": "AI uses webpage summary to improve translation accuracy. Requires LLM provider. Adds latency when starting to translate a page and increases API costs."
+  },
+  "options_tts_title": {
+    "message": "Text to Speech"
+  },
+  "options_tts_description": {
+    "message": "Use Edge TTS voice settings for the Speak button."
+  },
+  "options_tts_voice_label": {
+    "message": "Voice"
+  },
+  "options_tts_voice_fallback": {
+    "message": "Fallback"
+  },
+  "options_tts_voice_selectPlaceholder": {
+    "message": "Select a voice"
+  },
+  "options_tts_voice_preview": {
+    "message": "Preview"
+  },
+  "options_tts_voice_previewSample": {
+    "message": "Hello from Skim AI! This is how I will sound when reading aloud."
+  },
+  "options_tts_languageVoice_label": {
+    "message": "Language Voice"
+  },
+  "options_tts_languageVoice_reset": {
+    "message": "Reset to Default"
+  },
+  "options_tts_languageVoice_description": {
+    "message": "Select a language and assign a voice used when TTS detects that language."
+  },
+  "options_tts_rate_label": {
+    "message": "Rate (%)"
+  },
+  "options_tts_rate_hint": {
+    "message": "Accepts integer values between -100 and 100"
+  },
+  "options_tts_pitch_label": {
+    "message": "Pitch (Hz)"
+  },
+  "options_tts_pitch_hint": {
+    "message": "Accepts integer values between -100 and 100"
+  },
+  "options_tts_volume_label": {
+    "message": "Volume (%)"
+  },
+  "options_tts_volume_hint": {
+    "message": "Accepts integer values between -100 and 100"
+  },
+  "options_tts_betaDisabled": {
+    "message": "Enable Beta Experience to customize text-to-speech settings."
+  },
+  "options_statistics_title": {
+    "message": "Statistics"
+  },
+  "options_statistics_batchRequest_title": {
+    "message": "Batch Translation Requests Saved"
+  },
+  "options_statistics_batchRequest_description": {
+    "message": "Percentage of requests saved by batch translation in the period"
+  },
+  "options_statistics_batchRequest_originalRequestCount": {
+    "message": "Original Request Count"
+  },
+  "options_statistics_batchRequest_batchRequestCount": {
+    "message": "Batch Request Count"
+  },
+  "options_config_title": {
+    "message": "Config"
+  },
+  "options_config_about_title": {
+    "message": "About"
+  },
+  "options_config_about_description": {
+    "message": "Skim AI was born in April 2025"
+  },
+  "options_config_about_mission": {
+    "message": "Skim AI aims to expand equal access to high-quality education in the AI era by making learning experiences that feel closer to a real teacher affordable across language learning, medicine, and other knowledge-heavy fields."
+  },
+  "options_config_about_analytics_title": {
+    "message": "Help improve user experience"
+  },
+  "options_config_about_analytics_tooltip": {
+    "message": "When enabled, Skim AI sends anonymous product usage signals so we can verify feature reliability, improve performance and UX polish, and prioritize future work."
+  },
+  "options_config_sync_title": {
+    "message": "Manual Config Sync"
+  },
+  "options_config_sync_description": {
+    "message": "Manually import and export your configuration settings"
+  },
+  "options_config_sync_import": {
+    "message": "Import Config"
+  },
+  "options_config_sync_export": {
+    "message": "Export Config"
+  },
+  "options_config_sync_importSuccess": {
+    "message": "Config imported successfully"
+  },
+  "options_config_sync_exportSuccess": {
+    "message": "Config exported successfully"
+  },
+  "options_config_sync_importError": {
+    "message": "Import failed"
+  },
+  "options_config_sync_versionTooNew": {
+    "message": "The imported config version is newer, please upgrade Skim AI to the latest version"
+  },
+  "options_config_sync_migrationError": {
+    "message": "Migration failed"
+  },
+  "options_config_sync_validationError": {
+    "message": "Config validation failed"
+  },
+  "options_config_sync_exportOptions_title": {
+    "message": "Select Export Options"
+  },
+  "options_config_sync_exportOptions_description": {
+    "message": "Please choose whether to include API Keys in the exported config. Including API Keys may leak sensitive information, so it's recommended to use only in secure environments."
+  },
+  "options_config_sync_exportOptions_includeAPIKeys": {
+    "message": "Include API Keys"
+  },
+  "options_config_sync_exportOptions_excludeAPIKeys": {
+    "message": "Exclude API Keys"
+  },
+  "options_config_sync_exportOptions_cancel": {
+    "message": "Cancel"
+  },
+  "options_config_sync_viewConfig_expand": {
+    "message": "Expand Config"
+  },
+  "options_config_sync_viewConfig_collapse": {
+    "message": "Collapse Config"
+  },
+  "options_config_sync_googleDrive_title": {
+    "message": "Google Drive Cloud Sync"
+  },
+  "options_config_sync_googleDrive_description": {
+    "message": "Downloads config when remote is newer, uploads config when local is newer"
+  },
+  "options_config_sync_googleDrive_sync": {
+    "message": "Sync to Google Drive"
+  },
+  "options_config_sync_googleDrive_syncing": {
+    "message": "Syncing..."
+  },
+  "options_config_sync_googleDrive_syncSuccess_uploaded": {
+    "message": "Local config uploaded to cloud"
+  },
+  "options_config_sync_googleDrive_syncSuccess_downloaded": {
+    "message": "Remote config applied"
+  },
+  "options_config_sync_googleDrive_syncSuccess_sameChanges": {
+    "message": "Same changes on both sides, synced"
+  },
+  "options_config_sync_googleDrive_syncSuccess_noChange": {
+    "message": "Already in sync"
+  },
+  "options_config_sync_googleDrive_syncSuccess_unresolved": {
+    "message": "Conflicts resolved and synced"
+  },
+  "options_config_sync_googleDrive_syncError": {
+    "message": "Sync failed, please try again"
+  },
+  "options_config_sync_googleDrive_metadataCorrupted": {
+    "message": "Sync metadata corrupted, remote config applied"
+  },
+  "options_config_sync_googleDrive_lastSyncTime": {
+    "message": "Last sync at"
+  },
+  "options_config_sync_googleDrive_logout": {
+    "message": "Logout"
+  },
+  "options_config_sync_googleDrive_logoutSuccess": {
+    "message": "Logged out from Google account"
+  },
+  "options_config_sync_googleDrive_unresolved_title": {
+    "message": "Configuration Sync Resolution"
+  },
+  "options_config_sync_googleDrive_unresolved_description": {
+    "message": "Local and remote configurations differ. Please choose which version to keep for each field."
+  },
+  "options_config_sync_googleDrive_unresolved_resolved": {
+    "message": "Resolved"
+  },
+  "options_config_sync_googleDrive_unresolved_unresolved": {
+    "message": "Unresolved"
+  },
+  "options_config_sync_googleDrive_unresolved_localValue": {
+    "message": "Local Value"
+  },
+  "options_config_sync_googleDrive_unresolved_remoteValue": {
+    "message": "Remote Value"
+  },
+  "options_config_sync_googleDrive_unresolved_useLocal": {
+    "message": "Use Local"
+  },
+  "options_config_sync_googleDrive_unresolved_useRemote": {
+    "message": "Use Remote"
+  },
+  "options_config_sync_googleDrive_unresolved_useAllLocal": {
+    "message": "Use All Local"
+  },
+  "options_config_sync_googleDrive_unresolved_useAllRemote": {
+    "message": "Use All Remote"
+  },
+  "options_config_sync_googleDrive_unresolved_reset": {
+    "message": "Reset Selection"
+  },
+  "options_config_sync_googleDrive_unresolved_progress": {
+    "message": "Resolved $1/$2 changes"
+  },
+  "options_config_sync_googleDrive_unresolved_confirm": {
+    "message": "Confirm Sync"
+  },
+  "options_config_sync_googleDrive_unresolved_cancel": {
+    "message": "Cancel"
+  },
+  "options_config_sync_googleDrive_unresolved_hasUnresolvedInChildren": {
+    "message": "⚠ Contains unresolved changes"
+  },
+  "options_config_sync_googleDrive_unresolved_item": {
+    "message": "item"
+  },
+  "options_config_sync_googleDrive_unresolved_items": {
+    "message": "items"
+  },
+  "options_config_sync_googleDrive_unresolved_unresolvedPrompt": {
+    "message": "[Unresolved - Please select]"
+  },
+  "options_config_sync_googleDrive_unresolved_localLatest": {
+    "message": "Local Latest"
+  },
+  "options_config_sync_googleDrive_unresolved_remoteLatest": {
+    "message": "Remote Latest"
+  },
+  "options_config_sync_googleDrive_unresolved_bothChanged": {
+    "message": "Both changed"
+  },
+  "options_config_sync_googleDrive_unresolved_localChanged": {
+    "message": "Local changed"
+  },
+  "options_config_sync_googleDrive_unresolved_remoteChanged": {
+    "message": "Remote changed"
+  },
+  "options_config_sync_googleDrive_unresolved_configValid": {
+    "message": "Config is valid"
+  },
+  "options_config_sync_googleDrive_unresolved_configInvalid": {
+    "message": "Config is invalid"
+  },
+  "options_config_sync_googleDrive_unresolved_resolveToContinue": {
+    "message": "Resolve conflicts to continue"
+  },
+  "options_config_sync_googleDrive_unresolved_validationAlert_title": {
+    "message": "The merged config has validation errors."
+  },
+  "options_config_sync_googleDrive_unresolved_validationAlert_description": {
+    "message": "Adjust the differences below to fix:"
+  },
+  "options_config_sync_googleDrive_unresolved_moreErrors": {
+    "message": "...and $1 more errors"
+  },
+  "options_config_backup_title": {
+    "message": "Config Backup"
+  },
+  "options_config_backup_description": {
+    "message": "Automatic backups are created every hour if the config is changed. You can restore previous configurations here. (Maximum $1 backups)"
+  },
+  "options_config_backup_loading": {
+    "message": "Loading backups..."
+  },
+  "options_config_backup_backupNow": {
+    "message": "Backup now"
+  },
+  "options_config_backup_backupSuccess": {
+    "message": "Backup created successfully"
+  },
+  "options_config_backup_restoreSuccess": {
+    "message": "Config restored successfully"
+  },
+  "options_config_backup_empty_title": {
+    "message": "No backups available yet"
+  },
+  "options_config_backup_empty_description": {
+    "message": "Backups are created automatically every hour if the config is changed."
+  },
+  "options_config_backup_item_extensionVersion": {
+    "message": "Extension version:"
+  },
+  "options_config_backup_item_schemaVersion": {
+    "message": "Schema version:"
+  },
+  "options_config_backup_item_restore": {
+    "message": "Restore"
+  },
+  "options_config_backup_item_export": {
+    "message": "Export"
+  },
+  "options_config_backup_item_delete": {
+    "message": "Delete"
+  },
+  "options_config_backup_restore_title": {
+    "message": "Restore config backup?"
+  },
+  "options_config_backup_restore_description": {
+    "message": "Your current config will be automatically backed up if it is different from the latest backup. The oldest backup may be removed if the number of backups exceeds the limit."
+  },
+  "options_config_backup_restore_cancel": {
+    "message": "Cancel"
+  },
+  "options_config_backup_restore_confirm": {
+    "message": "Restore"
+  },
+  "options_config_backup_delete_title": {
+    "message": "Delete backup?"
+  },
+  "options_config_backup_delete_description": {
+    "message": "Are you sure you want to delete this backup? This action cannot be undone."
+  },
+  "options_config_backup_delete_cancel": {
+    "message": "Cancel"
+  },
+  "options_config_backup_delete_confirm": {
+    "message": "Delete"
+  },
+  "options_config_resetConfig_title": {
+    "message": "Reset Config"
+  },
+  "options_config_resetConfig_description": {
+    "message": "Reset all config to default value"
+  },
+  "options_config_resetConfig_dialog_title": {
+    "message": "Reset Config"
+  },
+  "options_config_resetConfig_dialog_trigger": {
+    "message": "Reset Config"
+  },
+  "options_config_resetConfig_dialog_confirm": {
+    "message": "Confirm"
+  },
+  "options_config_resetConfig_dialog_cancel": {
+    "message": "Cancel"
+  },
+  "options_config_resetConfig_dialog_description": {
+    "message": "This operation will clear all your custom configurations and reset them to default values. Please confirm."
+  },
+  "options_videoSubtitles_title": {
+    "message": "Video Subtitles"
+  },
+  "options_videoSubtitles_description": {
+    "message": "Currently only supports YouTube video subtitles"
+  },
+  "options_videoSubtitles_provider_title": {
+    "message": "Translation Provider"
+  },
+  "options_videoSubtitles_provider_description": {
+    "message": "Choose which translation provider to use for video subtitle translation"
+  },
+  "options_videoSubtitles_provider_label": {
+    "message": "Provider"
+  },
+  "options_videoSubtitles_enable": {
+    "message": "Enable Video Subtitles"
+  },
+  "options_videoSubtitles_enableDescription": {
+    "message": "When enabled, a translation button will appear in the YouTube player controls. Click it to start translating subtitles."
+  },
+  "options_videoSubtitles_autoStart": {
+    "message": "Auto-Enable Subtitles"
+  },
+  "options_videoSubtitles_autoStartDescription": {
+    "message": "Automatically enable subtitle translation when the video is loaded."
+  },
+  "options_videoSubtitles_style_title": {
+    "message": "Subtitle Style"
+  },
+  "options_videoSubtitles_style_description": {
+    "message": "Customize subtitle appearance"
+  },
+  "options_videoSubtitles_style_preview": {
+    "message": "Preview"
+  },
+  "options_videoSubtitles_style_displayMode_title": {
+    "message": "Display Mode"
+  },
+  "options_videoSubtitles_style_displayMode_bilingual": {
+    "message": "Bilingual"
+  },
+  "options_videoSubtitles_style_displayMode_originalOnly": {
+    "message": "Original Only"
+  },
+  "options_videoSubtitles_style_displayMode_translationOnly": {
+    "message": "Translation Only"
+  },
+  "options_videoSubtitles_style_translationPosition_title": {
+    "message": "Translation Position"
+  },
+  "options_videoSubtitles_style_translationPosition_above": {
+    "message": "Above"
+  },
+  "options_videoSubtitles_style_translationPosition_below": {
+    "message": "Below"
+  },
+  "options_videoSubtitles_style_generalSettings": {
+    "message": "General"
+  },
+  "options_videoSubtitles_style_mainSubtitle": {
+    "message": "Main Subtitle"
+  },
+  "options_videoSubtitles_style_translationSubtitle": {
+    "message": "Translation Subtitle"
+  },
+  "options_videoSubtitles_style_containerStyle": {
+    "message": "Background"
+  },
+  "options_videoSubtitles_style_fontFamily": {
+    "message": "Font"
+  },
+  "options_videoSubtitles_style_fontScale": {
+    "message": "Font Scale"
+  },
+  "options_videoSubtitles_style_color": {
+    "message": "Color"
+  },
+  "options_videoSubtitles_style_fontWeight": {
+    "message": "Font Weight"
+  },
+  "options_videoSubtitles_style_backgroundOpacity": {
+    "message": "Background Opacity"
+  },
+  "options_videoSubtitles_style_reset": {
+    "message": "Reset to Default"
+  },
+  "options_videoSubtitles_aiSegmentation_title": {
+    "message": "AI Smart Segmentation"
+  },
+  "options_videoSubtitles_aiSegmentation_enable": {
+    "message": "Enable AI Smart Segmentation"
+  },
+  "options_videoSubtitles_aiSegmentation_enableDescription": {
+    "message": "Use AI to intelligently segment subtitles for better readability. Timeline is determined by AI, which may occasionally cause timing misalignment. Requires LLM translate provider."
+  },
+  "options_videoSubtitles_aiSegmentation_clearCache": {
+    "message": "Clear Cache"
+  },
+  "options_videoSubtitles_aiSegmentation_clearing": {
+    "message": "Clearing..."
+  },
+  "options_videoSubtitles_aiSegmentation_clearCacheDialog_title": {
+    "message": "Clear AI Segmentation Cache"
+  },
+  "options_videoSubtitles_aiSegmentation_clearCacheDialog_description": {
+    "message": "This will delete all cached AI segmentation results. The next time you play a video with AI segmentation enabled, it will re-process the subtitles."
+  },
+  "options_videoSubtitles_aiSegmentation_clearCacheDialog_cancel": {
+    "message": "Cancel"
+  },
+  "options_videoSubtitles_aiSegmentation_clearCacheDialog_confirm": {
+    "message": "Confirm"
+  },
+  "options_videoSubtitles_requestQueueConfig_title": {
+    "message": "Subtitle Translation Rate"
+  },
+  "options_videoSubtitles_requestQueueConfig_firstOnDescription": {
+    "message": "Adjust the processing speed of subtitle translation requests using the"
+  },
+  "options_videoSubtitles_requestQueueConfig_lastOnDescription": {
+    "message": "algorithm"
+  },
+  "options_videoSubtitles_requestQueueConfig_capacity_title": {
+    "message": "Maximum Burst Request Count"
+  },
+  "options_videoSubtitles_requestQueueConfig_capacity_description": {
+    "message": "The allowed temporary burst request count determines the maximum number of subtitle translation requests that can be processed concurrently within a short period"
+  },
+  "options_videoSubtitles_requestQueueConfig_rate_title": {
+    "message": "Average Requests Per Second"
+  },
+  "options_videoSubtitles_requestQueueConfig_rate_description": {
+    "message": "Average subtitle translation requests per second, but allows configuring a maximum burst count to temporarily send excess requests"
+  },
+  "options_videoSubtitles_batchQueueConfig_title": {
+    "message": "Subtitle Batch Translation"
+  },
+  "options_videoSubtitles_batchQueueConfig_description": {
+    "message": "Configure character limits and maximum paragraph count for batch translation (only effective for LLM translation)"
+  },
+  "options_videoSubtitles_batchQueueConfig_maxCharactersPerBatch_title": {
+    "message": "Maximum Characters"
+  },
+  "options_videoSubtitles_batchQueueConfig_maxCharactersPerBatch_description": {
+    "message": "Maximum number of characters allowed per batch request, used to control the content volume per translation"
+  },
+  "options_videoSubtitles_batchQueueConfig_maxItemsPerBatch_title": {
+    "message": "Maximum Paragraph Count"
+  },
+  "options_videoSubtitles_batchQueueConfig_maxItemsPerBatch_description": {
+    "message": "Maximum paragraphs per batch translation, used to control the content volume per translation"
+  },
+  "options_videoSubtitles_customPrompts_title": {
+    "message": "Custom Subtitle Prompts"
+  },
+  "options_videoSubtitles_customPrompts_description": {
+    "message": "Customize prompt templates for subtitle translation (separate from webpage translation prompts)"
+  },
+  "options_videoSubtitles_customPrompts_editPrompt_promptCellInput_input": {
+    "message": "Subtitle text to translate"
+  },
+  "options_videoSubtitles_customPrompts_editPrompt_promptCellInput_targetLanguage": {
+    "message": "Target language"
+  },
+  "options_videoSubtitles_customPrompts_editPrompt_promptCellInput_videoTitle": {
+    "message": "Video title"
+  },
+  "options_videoSubtitles_customPrompts_editPrompt_promptCellInput_videoSummary": {
+    "message": "Video summary (requires AI Smart Context)"
+  },
+  "options_whatsNew_title": {
+    "message": "What's New"
+  },
+  "options_survey_title": {
+    "message": "Improve Subtitle 🎁"
+  },
+  "options_rateUs_title": {
+    "message": "Rate Us"
+  },
+  "side_sourceLang": {
+    "message": "Source Language"
+  },
+  "side_targetLang": {
+    "message": "Target Language"
+  },
+  "side_fileExport": {
+    "message": "File Export"
+  },
+  "translateService_title": {
+    "message": "Translation Service"
+  },
+  "translateService_description": {
+    "message": "For translate the webpage only"
+  },
+  "translateService_normalTranslator": {
+    "message": "Normal Translator"
+  },
+  "translateService_aiTranslator": {
+    "message": "AI Translator"
+  },
+  "translateService_selectServices": {
+    "message": "Select services"
+  },
+  "translateService_translationProviders": {
+    "message": "Translation Providers"
+  },
+  "translateService_configureAPI": {
+    "message": "Configure API"
+  },
+  "translatePrompt_title": {
+    "message": "AI Translation Style"
+  },
+  "translatePrompt_description": {
+    "message": "Select a Prompt to use during translation. Add or modify custom Prompts on the options page."
+  },
+  "languageLevel": {
+    "message": "Your Source Lang Level"
+  },
+  "languageLevels_beginner": {
+    "message": "Beginner"
+  },
+  "languageLevels_intermediate": {
+    "message": "Intermediate"
+  },
+  "languageLevels_advanced": {
+    "message": "Advanced"
+  },
+  "noAPIKeyConfig_warning": {
+    "message": "If you want to use AI models, please set API key on the options page first"
+  },
+  "noAPIKeyConfig_warningWithLink_youMust": {
+    "message": "You must"
+  },
+  "noAPIKeyConfig_warningWithLink_setTheAPIKey": {
+    "message": "set the API key"
+  },
+  "noAPIKeyConfig_warningWithLink_firstOnThe": {
+    "message": "first on the"
+  },
+  "noAPIKeyConfig_warningWithLink_optionsPage": {
+    "message": "options"
+  },
+  "noAPIKeyConfig_warningWithLink_page": {
+    "message": "page"
+  },
+  "languageDetection_llmFailed": {
+    "message": "LLM language detection failed, fell back to basic detection"
+  },
+  "translation_sameLanguage": {
+    "message": "Source and target languages must be different"
+  },
+  "translation_autoModeSameLanguage": {
+    "message": "Detected language '$1' is the same as target language"
+  },
+  "speak_fetchingAudio": {
+    "message": "Generating audio..."
+  },
+  "speak_playingAudio": {
+    "message": "Playing audio..."
+  },
+  "speak_failedToGenerateSpeech": {
+    "message": "Failed to generate speech"
+  },
+  "speak_noTextSelected": {
+    "message": "No text selected"
+  },
+  "speak_openaiNotConfigured": {
+    "message": "OpenAI provider is not configured or enabled"
+  },
+  "speak_openaiApiKeyNotConfigured": {
+    "message": "OpenAI API key is not configured"
+  },
+  "action_copy": {
+    "message": "Copy"
+  },
+  "action_copied": {
+    "message": "Copied"
+  },
+  "action_regenerate": {
+    "message": "Regenerate"
+  },
+  "action_viewContextDetails": {
+    "message": "Context"
+  },
+  "action_saveToNotebase": {
+    "message": "Save to Notebase"
+  },
+  "action_saveToNotebaseSaving": {
+    "message": "Saving..."
+  },
+  "action_saveToNotebaseSuccess": {
+    "message": "Saved to Notebase"
+  },
+  "action_saveToNotebaseFailed": {
+    "message": "Failed to save to Notebase"
+  },
+  "action_saveToNotebaseLoginRequired": {
+    "message": "Log in on readfrog.app to save to Notebase"
+  },
+  "action_saveToNotebaseBetaRequired": {
+    "message": "This account is not enrolled in the Notebase beta yet"
+  },
+  "action_saveToNotebaseTableUnavailable": {
+    "message": "The selected Notebase is no longer available"
+  },
+  "action_saveToNotebaseConnectionInvalid": {
+    "message": "This Notebase connection is out of date. Refresh it in Custom AI Actions and fix the mappings."
+  },
+  "action_saveToNotebaseNoMappings": {
+    "message": "Add at least one valid mapping before saving"
+  },
+  "action_contextDetailsTitleLabel": {
+    "message": "Title"
+  },
+  "action_contextDetailsParagraphsLabel": {
+    "message": "Paragraphs"
+  },
+  "action_translation": {
+    "message": "Translation"
+  },
+  "action_speak": {
+    "message": "Speak"
+  },
+  "action_playing": {
+    "message": "Playing"
+  },
+  "thinking_label": {
+    "message": "Thinking"
+  },
+  "thinking_complete": {
+    "message": "Thinking complete"
+  },
+  "thinking_expand": {
+    "message": "Expand thinking"
+  },
+  "thinking_collapse": {
+    "message": "Collapse thinking"
+  },
+  "shortcutKeySelector_placeholder": {
+    "message": "Please enter the shortcut"
+  },
+  "subtitles_actions_downloadSource": {
+    "message": "Download source subtitles"
+  },
+  "subtitles_state_loading": {
+    "message": "Skim AI loading captions"
+  },
+  "subtitles_state_error": {
+    "message": "Error occurred"
+  },
+  "subtitles_errors_http429": {
+    "message": "429 Too many requests to youtube subtitle API, please try again later"
+  },
+  "subtitles_errors_http404": {
+    "message": "404 Youtube captions not found"
+  },
+  "subtitles_errors_http403": {
+    "message": "403 Youtube caption access denied"
+  },
+  "subtitles_errors_http500": {
+    "message": "500 Youtube server error"
+  },
+  "subtitles_errors_httpUnknown": {
+    "message": "HTTP error $1"
+  },
+  "subtitles_errors_invalidResponse": {
+    "message": "Invalid Youtube subtitle response format"
+  },
+  "subtitles_errors_networkError": {
+    "message": "Network error occurred when fetching captions"
+  },
+  "subtitles_errors_fetchSubTimeout": {
+    "message": "Fetching youtube captions timed out"
+  },
+  "subtitles_errors_buttonNotFound": {
+    "message": "Subtitle button not found"
+  },
+  "subtitles_errors_noSubtitlesFound": {
+    "message": "No subtitles available for this video"
+  },
+  "subtitles_errors_videoNotFound": {
+    "message": "Video element not found"
+  },
+  "subtitles_errors_controlsBarNotFound": {
+    "message": "Controls bar not found"
+  },
+  "subtitles_errors_aiRateLimited": {
+    "message": "Too many requests, please try again later"
+  },
+  "subtitles_errors_aiAuthFailed": {
+    "message": "API authentication failed, please check your API key"
+  },
+  "subtitles_errors_aiServiceUnavailable": {
+    "message": "Translation service temporarily unavailable"
+  },
+  "subtitles_errors_aiNoResponse": {
+    "message": "AI service did not respond, using original text"
+  },
+  "hotkey_control": {
+    "message": "Ctrl"
+  },
+  "hotkey_alt": {
+    "message": "Option"
+  },
+  "hotkey_shift": {
+    "message": "Shift"
+  },
+  "hotkey_backtick": {
+    "message": "Backtick"
+  },
+  "hotkey_clickAndHold": {
+    "message": "Click and hold"
+  },
+  "translationHub_searchLanguages": {
+    "message": "Search languages..."
+  },
+  "translationHub_noLanguagesFound": {
+    "message": "No languages found"
+  },
+  "translationHub_exchangeLanguages": {
+    "message": "Exchange languages"
+  },
+  "translationHub_title": {
+    "message": "Multi-API Text Translation"
+  },
+  "translationHub_noServicesSelected": {
+    "message": "No Translation Services Selected"
+  },
+  "translationHub_noServicesDescription": {
+    "message": "Select translation services above to see translation cards here."
+  },
+  "translationHub_inputPlaceholder": {
+    "message": "Enter text to translate..."
+  },
+  "translationHub_translate": {
+    "message": "Translate"
+  },
+  "translationHub_copiedToClipboard": {
+    "message": "Translation copied to clipboard!"
+  },
+  "translationHub_copyTranslation": {
+    "message": "Copy translation"
+  },
+  "translationHub_expandCard": {
+    "message": "Expand card"
+  },
+  "translationHub_collapseCard": {
+    "message": "Collapse card"
+  },
+  "translationHub_expandAllCards": {
+    "message": "Expand all"
+  },
+  "translationHub_collapseAllCards": {
+    "message": "Collapse all"
+  },
+  "translationHub_deleteCard": {
+    "message": "Delete card"
+  },
+  "translationHub_translationFailed": {
+    "message": "Translation Failed"
+  },
+  "translationHub_translationFailedFallback": {
+    "message": "Translation failed"
+  },
+  "translationHub_retryTranslation": {
+    "message": "Retry translation"
+  },
+  "languages_eng": {
+    "message": "English"
+  },
+  "languages_cmn": {
+    "message": "Simplified Chinese"
+  },
+  "languages_cmnHant": {
+    "message": "Traditional Chinese"
+  },
+  "languages_yue": {
+    "message": "Cantonese"
+  },
+  "languages_spa": {
+    "message": "Spanish"
+  },
+  "languages_rus": {
+    "message": "Russian"
+  },
+  "languages_arb": {
+    "message": "Arabic"
+  },
+  "languages_ben": {
+    "message": "Bengali"
+  },
+  "languages_hin": {
+    "message": "Hindi"
+  },
+  "languages_por": {
+    "message": "Portuguese"
+  },
+  "languages_ind": {
+    "message": "Indonesian"
+  },
+  "languages_jpn": {
+    "message": "Japanese"
+  },
+  "languages_fra": {
+    "message": "French"
+  },
+  "languages_deu": {
+    "message": "German"
+  },
+  "languages_jav": {
+    "message": "Javanese"
+  },
+  "languages_kor": {
+    "message": "Korean"
+  },
+  "languages_tel": {
+    "message": "Telugu"
+  },
+  "languages_vie": {
+    "message": "Vietnamese"
+  },
+  "languages_mar": {
+    "message": "Marathi"
+  },
+  "languages_ita": {
+    "message": "Italian"
+  },
+  "languages_tam": {
+    "message": "Tamil"
+  },
+  "languages_tur": {
+    "message": "Turkish"
+  },
+  "languages_urd": {
+    "message": "Urdu"
+  },
+  "languages_guj": {
+    "message": "Gujarati"
+  },
+  "languages_pol": {
+    "message": "Polish"
+  },
+  "languages_ukr": {
+    "message": "Ukrainian"
+  },
+  "languages_kan": {
+    "message": "Kannada"
+  },
+  "languages_mai": {
+    "message": "Maithili"
+  },
+  "languages_mal": {
+    "message": "Malayalam"
+  },
+  "languages_pes": {
+    "message": "Persian"
+  },
+  "languages_mya": {
+    "message": "Burmese"
+  },
+  "languages_swh": {
+    "message": "Swahili"
+  },
+  "languages_sun": {
+    "message": "Sundanese"
+  },
+  "languages_ron": {
+    "message": "Romanian"
+  },
+  "languages_pan": {
+    "message": "Punjabi"
+  },
+  "languages_bho": {
+    "message": "Bhojpuri"
+  },
+  "languages_amh": {
+    "message": "Amharic"
+  },
+  "languages_hau": {
+    "message": "Hausa"
+  },
+  "languages_fuv": {
+    "message": "Fulani"
+  },
+  "languages_bos": {
+    "message": "Bosnian"
+  },
+  "languages_hrv": {
+    "message": "Croatian"
+  },
+  "languages_nld": {
+    "message": "Dutch"
+  },
+  "languages_srp": {
+    "message": "Serbian"
+  },
+  "languages_tha": {
+    "message": "Thai"
+  },
+  "languages_ckb": {
+    "message": "Central Kurdish"
+  },
+  "languages_yor": {
+    "message": "Yoruba"
+  },
+  "languages_uzn": {
+    "message": "Uzbek"
+  },
+  "languages_zlm": {
+    "message": "Malay"
+  },
+  "languages_ibo": {
+    "message": "Igbo"
+  },
+  "languages_npi": {
+    "message": "Nepali"
+  },
+  "languages_ceb": {
+    "message": "Cebuano"
+  },
+  "languages_skr": {
+    "message": "Saraiki"
+  },
+  "languages_tgl": {
+    "message": "Tagalog"
+  },
+  "languages_hun": {
+    "message": "Hungarian"
+  },
+  "languages_azj": {
+    "message": "Azerbaijani"
+  },
+  "languages_sin": {
+    "message": "Sinhala"
+  },
+  "languages_koi": {
+    "message": "Komi-Permyak"
+  },
+  "languages_ell": {
+    "message": "Greek"
+  },
+  "languages_ces": {
+    "message": "Czech"
+  },
+  "languages_mag": {
+    "message": "Magahi"
+  },
+  "languages_run": {
+    "message": "Rundi"
+  },
+  "languages_bel": {
+    "message": "Belarusian"
+  },
+  "languages_plt": {
+    "message": "Malagasy"
+  },
+  "languages_qug": {
+    "message": "Chimborazo Highland Quichua"
+  },
+  "languages_mad": {
+    "message": "Madurese"
+  },
+  "languages_nya": {
+    "message": "Chewa"
+  },
+  "languages_zyb": {
+    "message": "Zhuang"
+  },
+  "languages_pbu": {
+    "message": "Pashto"
+  },
+  "languages_kin": {
+    "message": "Kinyarwanda"
+  },
+  "languages_zul": {
+    "message": "Zulu"
+  },
+  "languages_bul": {
+    "message": "Bulgarian"
+  },
+  "languages_swe": {
+    "message": "Swedish"
+  },
+  "languages_lin": {
+    "message": "Lingala"
+  },
+  "languages_som": {
+    "message": "Somali"
+  },
+  "languages_hms": {
+    "message": "Qiandong Miao"
+  },
+  "languages_hnj": {
+    "message": "Hmong Njua"
+  },
+  "languages_ilo": {
+    "message": "Ilocano"
+  },
+  "languages_kaz": {
+    "message": "Kazakh"
+  },
+  "languages_heb": {
+    "message": "Hebrew"
+  },
+  "languages_nob": {
+    "message": "Norwegian Bokmål"
+  },
+  "languages_nno": {
+    "message": "Norwegian Nynorsk"
+  },
+  "languages_afr": {
+    "message": "Afrikaans"
+  },
+  "languages_sqi": {
+    "message": "Albanian"
+  },
+  "languages_asm": {
+    "message": "Assamese"
+  },
+  "languages_eus": {
+    "message": "Basque"
+  },
+  "languages_bre": {
+    "message": "Breton"
+  },
+  "languages_cat": {
+    "message": "Catalan"
+  },
+  "languages_cos": {
+    "message": "Corsican"
+  },
+  "languages_cym": {
+    "message": "Welsh"
+  },
+  "languages_dan": {
+    "message": "Danish"
+  },
+  "languages_div": {
+    "message": "Divehi"
+  },
+  "languages_epo": {
+    "message": "Esperanto"
+  },
+  "languages_ekk": {
+    "message": "Estonian"
+  },
+  "languages_fao": {
+    "message": "Faroese"
+  },
+  "languages_fij": {
+    "message": "Fijian"
+  },
+  "languages_fin": {
+    "message": "Finnish"
+  },
+  "languages_fry": {
+    "message": "Western Frisian"
+  },
+  "languages_gla": {
+    "message": "Scottish Gaelic"
+  },
+  "languages_gle": {
+    "message": "Irish"
+  },
+  "languages_glg": {
+    "message": "Galician"
+  },
+  "languages_grn": {
+    "message": "Guarani"
+  },
+  "languages_hat": {
+    "message": "Haitian Creole"
+  },
+  "languages_haw": {
+    "message": "Hawaiian"
+  },
+  "languages_hye": {
+    "message": "Armenian"
+  },
+  "languages_ido": {
+    "message": "Ido"
+  },
+  "languages_ina": {
+    "message": "Interlingua"
+  },
+  "languages_isl": {
+    "message": "Icelandic"
+  },
+  "languages_kat": {
+    "message": "Georgian"
+  },
+  "languages_khm": {
+    "message": "Khmer"
+  },
+  "languages_kir": {
+    "message": "Kyrgyz"
+  },
+  "languages_lao": {
+    "message": "Lao"
+  },
+  "languages_lat": {
+    "message": "Latin"
+  },
+  "languages_lvs": {
+    "message": "Latvian"
+  },
+  "languages_lit": {
+    "message": "Lithuanian"
+  },
+  "languages_ltz": {
+    "message": "Luxembourgish"
+  },
+  "languages_mkd": {
+    "message": "Macedonian"
+  },
+  "languages_mlt": {
+    "message": "Maltese"
+  },
+  "languages_mon": {
+    "message": "Mongolian"
+  },
+  "languages_mri": {
+    "message": "Maori"
+  },
+  "languages_nso": {
+    "message": "Northern Sotho"
+  },
+  "languages_oci": {
+    "message": "Occitan"
+  },
+  "languages_ori": {
+    "message": "Odia"
+  },
+  "languages_orm": {
+    "message": "Oromo"
+  },
+  "languages_prs": {
+    "message": "Dari"
+  },
+  "languages_san": {
+    "message": "Sanskrit"
+  },
+  "languages_slk": {
+    "message": "Slovak"
+  },
+  "languages_slv": {
+    "message": "Slovenian"
+  },
+  "languages_smo": {
+    "message": "Samoan"
+  },
+  "languages_sna": {
+    "message": "Shona"
+  },
+  "languages_snd": {
+    "message": "Sindhi"
+  },
+  "languages_sot": {
+    "message": "Southern Sotho"
+  },
+  "languages_tah": {
+    "message": "Tahitian"
+  },
+  "languages_tat": {
+    "message": "Tatar"
+  },
+  "languages_tgk": {
+    "message": "Tajik"
+  },
+  "languages_tir": {
+    "message": "Tigrinya"
+  },
+  "languages_ton": {
+    "message": "Tongan"
+  },
+  "languages_tsn": {
+    "message": "Tswana"
+  },
+  "languages_tuk": {
+    "message": "Turkmen"
+  },
+  "languages_uig": {
+    "message": "Uyghur"
+  },
+  "languages_vol": {
+    "message": "Volapük"
+  },
+  "languages_wol": {
+    "message": "Wolof"
+  },
+  "languages_xho": {
+    "message": "Xhosa"
+  },
+  "languages_ydd": {
+    "message": "Yiddish"
+  },
+  "languages_aka": {
+    "message": "Akan"
+  },
+  "languages_bam": {
+    "message": "Bambara"
+  },
+  "languages_bis": {
+    "message": "Bislama"
+  },
+  "languages_bod": {
+    "message": "Tibetan"
+  },
+  "languages_che": {
+    "message": "Chechen"
+  },
+  "languages_chv": {
+    "message": "Chuvash"
+  },
+  "languages_dzo": {
+    "message": "Dzongkha"
+  },
+  "languages_ewe": {
+    "message": "Ewe"
+  },
+  "languages_kab": {
+    "message": "Kabyle"
+  },
+  "languages_lug": {
+    "message": "Luganda"
+  },
+  "languages_oss": {
+    "message": "Ossetian"
+  },
+  "languages_ssw": {
+    "message": "Swati"
+  },
+  "languages_ven": {
+    "message": "Venda"
+  },
+  "languages_war": {
+    "message": "Waray"
+  },
+  "languages_nde": {
+    "message": "Northern Ndebele"
+  },
+  "languages_nbl": {
+    "message": "Southern Ndebele"
+  },
+  "languages_pam": {
+    "message": "Pampanga"
+  },
+  "languages_hil": {
+    "message": "Hiligaynon"
+  },
+  "languages_bcl": {
+    "message": "Central Bicolano"
+  },
+  "languages_min": {
+    "message": "Minangkabau"
+  },
+  "languages_ace": {
+    "message": "Acehnese"
+  },
+  "languages_bug": {
+    "message": "Buginese"
+  },
+  "languages_ban": {
+    "message": "Balinese"
+  },
+  "languages_bjn": {
+    "message": "Banjar"
+  },
+  "languages_mak": {
+    "message": "Makasar"
+  },
+  "languages_sas": {
+    "message": "Sasak"
+  },
+  "languages_tet": {
+    "message": "Tetum"
+  },
+  "languages_cha": {
+    "message": "Chamorro"
+  },
+  "languages_niu": {
+    "message": "Niuean"
+  },
+  "languages_tvl": {
+    "message": "Tuvaluan"
+  },
+  "languages_gil": {
+    "message": "Gilbertese"
+  },
+  "languages_mah": {
+    "message": "Marshallese"
+  },
+  "languages_pau": {
+    "message": "Palauan"
+  },
+  "languages_wls": {
+    "message": "Wallisian"
+  },
+  "languages_rar": {
+    "message": "Rarotongan"
+  },
+  "languages_hif": {
+    "message": "Fiji Hindi"
+  }
+}

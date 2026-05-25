@@ -1,6 +1,6 @@
-name: Read Frog
-extName: "Read Frog - Translate & Learn"
-extDescription: Read Frog is an open source browser extension designed to help you learn languages deeply from any website.
+name: Skim AI
+extName: "Skim AI - Search & Video Insights"
+extDescription: Skim AI is an open source browser extension that enhances your browsing with AI-powered search summaries, YouTube insights, and translation.
 uninstallSurveyUrl: https://tally.so/r/nPK6Ob
 dataTypes:
   string: Text
@@ -10,7 +10,7 @@ contextMenu:
   translateSelection: Translate "%s"
   showOriginal: Show Original
 sidePanel:
-  firefoxUserActionHint: In Firefox, open Read Frog from the browser sidebar.
+  firefoxUserActionHint: In Firefox, open Skim AI from the browser sidebar.
   firefoxUserActionHelpText: Learn how to open the Firefox sidebar
   firefoxUserActionHelpUrl: https://support.mozilla.org/en-US/kb/use-sidebar-access-tools-and-vertical-tabs
 popup:
@@ -33,7 +33,7 @@ popup:
   discord:
     tooltip: Join Discord to connect with developers and get early access to new features
   blog:
-    notification: What's new in Read Frog
+    notification: What's new in Skim AI
   aiSmartContext: AI Smart Context
   aiSmartContextDescription: Uses webpage context to improve translation quality. Requires LLM translation provider.
   more:
@@ -280,7 +280,7 @@ options:
     floatingButton:
       globalToggle:
         title: Enable Floating Button
-        description: Display the floating button on web pages for quick access to Read Frog features
+        description: Display the floating button on web pages for quick access to Skim AI features
       closeMenu:
         disableForSite: Disable for this site
         disableGlobally: Disable globally
@@ -735,7 +735,7 @@ options:
       fallback: Fallback
       selectPlaceholder: Select a voice
       preview: Preview
-      previewSample: Hello from Read Frog! This is how I will sound when reading aloud.
+      previewSample: Hello from Skim AI! This is how I will sound when reading aloud.
     languageVoice:
       label: Language Voice
       reset: Reset to Default
@@ -761,11 +761,11 @@ options:
     title: Config
     about:
       title: About
-      description: Read Frog was born in April 2025
-      mission: Read Frog aims to expand equal access to high-quality education in the AI era by making learning experiences that feel closer to a real teacher affordable across language learning, medicine, and other knowledge-heavy fields.
+      description: Skim AI was born in April 2025
+      mission: Skim AI aims to expand equal access to high-quality education in the AI era by making learning experiences that feel closer to a real teacher affordable across language learning, medicine, and other knowledge-heavy fields.
       analytics:
         title: Help improve user experience
-        tooltip: When enabled, Read Frog sends anonymous product usage signals so we can verify feature reliability, improve performance and UX polish, and prioritize future work.
+        tooltip: When enabled, Skim AI sends anonymous product usage signals so we can verify feature reliability, improve performance and UX polish, and prioritize future work.
     sync:
       title: Manual Config Sync
       description: Manually import and export your configuration settings
@@ -774,7 +774,7 @@ options:
       importSuccess: Config imported successfully
       exportSuccess: Config exported successfully
       importError: Import failed
-      versionTooNew: The imported config version is newer, please upgrade Read Frog to the latest version
+      versionTooNew: The imported config version is newer, please upgrade Skim AI to the latest version
       migrationError: Migration failed
       validationError: Config validation failed
       exportOptions:
@@ -1017,7 +1017,7 @@ subtitles:
   actions:
     downloadSource: Download source subtitles
   state:
-    loading: Read Frog loading captions
+    loading: Skim AI loading captions
     error: Error occurred
   errors:
     http429: 429 Too many requests to youtube subtitle API, please try again later

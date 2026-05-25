@@ -1,10 +1,11 @@
 {
-  "name": "@read-frog/extension",
+  "name": "@skim-ai/extension",
   "type": "module",
-  "version": "1.33.9",
+  "version": "0.1.0",
   "private": true,
   "packageManager": "pnpm@10.33.4",
-  "description": "Read Frog browser extension for language learning",
+  "displayName": "Skim AI",
+  "description": "AI-enhanced browsing: search summaries, YouTube insights, and translation",
   "scripts": {
     "build": "wxt build",
     "build:edge": "wxt build -b edge",

@@ -10,6 +10,7 @@ const ApiProvidersPage = lazy(() => import("./pages/api-providers").then(module 
 const CustomActionsPage = lazy(() => import("./pages/custom-actions").then(module => ({ default: module.CustomActionsPage })))
 const TranslationPage = lazy(() => import("./pages/translation").then(module => ({ default: module.TranslationPage })))
 const VideoSubtitlesPage = lazy(() => import("./pages/video-subtitles").then(module => ({ default: module.VideoSubtitlesPage })))
+const YouTubeSummaryPage = lazy(() => import("./pages/youtube-summary").then(module => ({ default: module.YouTubeSummaryPage })))
 const FloatingButtonPage = lazy(() => import("./pages/floating-button").then(module => ({ default: module.FloatingButtonPage })))
 const SelectionToolbarPage = lazy(() => import("./pages/selection-toolbar").then(module => ({ default: module.SelectionToolbarPage })))
 const ContextMenuPage = lazy(() => import("./pages/context-menu").then(module => ({ default: module.ContextMenuPage })))
@@ -24,6 +25,7 @@ const ROUTE_COMPONENTS: Record<RoutePath, ComponentType> = {
   "/custom-actions": CustomActionsPage,
   "/translation": TranslationPage,
   "/video-subtitles": VideoSubtitlesPage,
+  "/youtube-summary": YouTubeSummaryPage,
   "/floating-button": FloatingButtonPage,
   "/selection-toolbar": SelectionToolbarPage,
   "/context-menu": ContextMenuPage,

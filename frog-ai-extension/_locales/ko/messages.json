@@ -1,0 +1,2801 @@
+{
+  "name": {
+    "message": "Skim AI"
+  },
+  "extName": {
+    "message": "Skim AI - 번역하고 배우기"
+  },
+  "extDescription": {
+    "message": "Skim AI는 모든 웹사이트에서 언어를 깊이 있게 학습할 수 있도록 도와주는 오픈 소스 브라우저 확장 프로그램입니다."
+  },
+  "uninstallSurveyUrl": {
+    "message": "https://tally.so/r/nPK6Ob"
+  },
+  "dataTypes_string": {
+    "message": "텍스트"
+  },
+  "dataTypes_number": {
+    "message": "숫자"
+  },
+  "contextMenu_translate": {
+    "message": "번역"
+  },
+  "contextMenu_translateSelection": {
+    "message": "\"%s\" 번역"
+  },
+  "contextMenu_showOriginal": {
+    "message": "원문 보기"
+  },
+  "sidePanel_firefoxUserActionHint": {
+    "message": "Firefox에서는 브라우저 사이드바에서 Skim AI를 열어 주세요."
+  },
+  "sidePanel_firefoxUserActionHelpText": {
+    "message": "Firefox 사이드바 여는 방법 보기"
+  },
+  "sidePanel_firefoxUserActionHelpUrl": {
+    "message": "https://support.mozilla.org/ko/kb/use-sidebar-access-tools-and-vertical-tabs"
+  },
+  "popup_theme": {
+    "message": "테마"
+  },
+  "popup_autoLang": {
+    "message": "자동"
+  },
+  "popup_sourceLang": {
+    "message": "원본"
+  },
+  "popup_targetLang": {
+    "message": "대상"
+  },
+  "popup_translate": {
+    "message": "번역"
+  },
+  "popup_showOriginal": {
+    "message": "원문 보기"
+  },
+  "popup_enabledFloatingButton": {
+    "message": "플로팅 버튼 활성화"
+  },
+  "popup_enabledSelectionToolbar": {
+    "message": "선택 툴바 활성화"
+  },
+  "popup_alwaysTranslate": {
+    "message": "이 사이트 항상 번역"
+  },
+  "popup_addToWhitelist": {
+    "message": "이 사이트에서 확장 프로그램 활성화"
+  },
+  "popup_addToBlacklist": {
+    "message": "이 사이트에서 확장 프로그램 비활성화"
+  },
+  "popup_options": {
+    "message": "옵션"
+  },
+  "popup_hover": {
+    "message": "마우스 오버"
+  },
+  "popup_translateParagraph": {
+    "message": "단락 번역"
+  },
+  "popup_hub_tooltip": {
+    "message": "여러 번역 모델로 동시에 텍스트 번역"
+  },
+  "popup_discord_tooltip": {
+    "message": "Discord에 참여하여 개발자와 소통하고 새 기능을 먼저 체험하세요"
+  },
+  "popup_blog_notification": {
+    "message": "Skim AI의 새로운 소식"
+  },
+  "popup_aiSmartContext": {
+    "message": "AI 스마트 컨텍스트"
+  },
+  "popup_aiSmartContextDescription": {
+    "message": "웹페이지 컨텍스트를 사용하여 번역 품질을 향상시킵니다. LLM 번역 제공자가 필요합니다."
+  },
+  "popup_more_title": {
+    "message": "더보기"
+  },
+  "popup_more_translationHub": {
+    "message": "번역 허브"
+  },
+  "popup_more_joinDiscord": {
+    "message": "Discord 참여"
+  },
+  "popup_more_joinWechat": {
+    "message": "WeChat 그룹 참여"
+  },
+  "popup_more_starGithub": {
+    "message": "Github에서 스타"
+  },
+  "popup_more_rateUs": {
+    "message": "리뷰 남기기"
+  },
+  "popup_more_ebook": {
+    "message": "서드파티 전자책 리더"
+  },
+  "popup_more_tutorial": {
+    "message": "사용 가이드"
+  },
+  "errorRecovery_title": {
+    "message": "문제가 발생했습니다"
+  },
+  "errorRecovery_description": {
+    "message": "복구 모드가 활성화되었습니다. 현재 설정을 백업으로 내보낸 뒤 설정을 초기화하고 다시 시도하세요."
+  },
+  "errorRecovery_backupTitle": {
+    "message": "현재 설정 먼저 백업(권장)"
+  },
+  "errorRecovery_exportWithApiKeys": {
+    "message": "API Key 포함 내보내기"
+  },
+  "errorRecovery_exportWithoutApiKeys": {
+    "message": "API Key 제외 내보내기"
+  },
+  "errorRecovery_recoveryTitle": {
+    "message": "복구 옵션"
+  },
+  "errorRecovery_refreshPage": {
+    "message": "페이지 새로고침"
+  },
+  "errorRecovery_resetAction": {
+    "message": "기본 설정으로 초기화"
+  },
+  "errorRecovery_resetSuccess": {
+    "message": "복구가 완료되었습니다. 설정이 초기화되었습니다"
+  },
+  "errorRecovery_resetFailed": {
+    "message": "복구에 실패했습니다. 설정을 초기화할 수 없습니다"
+  },
+  "errorRecovery_errorDetails": {
+    "message": "오류 세부 정보"
+  },
+  "errorRecovery_resetDialog_title": {
+    "message": "설정을 초기화할까요?"
+  },
+  "errorRecovery_resetDialog_description": {
+    "message": "현재 설정이 기본값으로 덮어써집니다."
+  },
+  "errorRecovery_resetDialog_confirm": {
+    "message": "초기화"
+  },
+  "errorRecovery_resetDialog_cancel": {
+    "message": "취소"
+  },
+  "options_commandPalette_placeholder": {
+    "message": "설정 검색..."
+  },
+  "options_commandPalette_noResults": {
+    "message": "설정을 찾을 수 없습니다"
+  },
+  "options_sidebar_settings": {
+    "message": "설정"
+  },
+  "options_sidebar_tools": {
+    "message": "도구"
+  },
+  "options_sidebar_product": {
+    "message": "제품"
+  },
+  "options_tools_translationHub": {
+    "message": "번역 허브"
+  },
+  "options_setAPIKeyWarning_please": {
+    "message": "API Key를 설정해 주세요"
+  },
+  "options_setAPIKeyWarning_page": {
+    "message": "페이지에서"
+  },
+  "options_betaExperience_title": {
+    "message": "Beta 체험"
+  },
+  "options_betaExperience_description": {
+    "message": "실험적 기능과 새로운 기능에 대한 조기 액세스를 활성화합니다. 이러한 기능은 불안정하거나 불완전할 수 있습니다."
+  },
+  "options_betaExperience_enabled": {
+    "message": "Beta 체험 활성화"
+  },
+  "options_apiProviders_title": {
+    "message": "API 제공업체"
+  },
+  "options_apiProviders_description": {
+    "message": "번역 및 어휘 분석 기능을 위한 API 제공업체를 구성합니다. 20개 이상의 내장 제공업체와 모든 OpenAI 호환 API를 지원합니다."
+  },
+  "options_apiProviders_promotion_ai302_description": {
+    "message": "오른쪽 링크를 클릭하여 302.AI에 등록하면 1달러 API 크레딧을 받을 수 있습니다"
+  },
+  "options_apiProviders_promotion_ai302_action": {
+    "message": "등록하여 무료 API 키 받기"
+  },
+  "options_apiProviders_promotion_ai302_addProvider": {
+    "message": "302.AI 구성 추가"
+  },
+  "options_apiProviders_addProvider": {
+    "message": "제공업체 추가"
+  },
+  "options_apiProviders_badges_featureCount": {
+    "message": "$1 개 기능"
+  },
+  "options_apiProviders_dialog_title": {
+    "message": "새 제공업체 추가"
+  },
+  "options_apiProviders_dialog_groups_builtInProviders_title": {
+    "message": "내장 LLM 제공업체"
+  },
+  "options_apiProviders_dialog_groups_builtInProviders_description": {
+    "message": "내장된 대규모 언어 모델 제공업체, Base URL과 같은 대부분의 설정이 필요 없음"
+  },
+  "options_apiProviders_dialog_groups_openaiCompatibleProviders_title": {
+    "message": "OpenAI 호환 사용자 정의 제공업체"
+  },
+  "options_apiProviders_dialog_groups_openaiCompatibleProviders_description": {
+    "message": "원하는 AI 제공업체를 찾을 수 없는 경우 Custom Provider를 선택하여 Zhipu AI와 같은 OpenAI 호환 제공업체를 구성할 수 있습니다"
+  },
+  "options_apiProviders_dialog_groups_pureTranslationProviders_title": {
+    "message": "순수 번역 제공업체"
+  },
+  "options_apiProviders_dialog_groups_pureTranslationProviders_description": {
+    "message": "대규모 언어 모델 기능이 없는 번역 전문 제공업체"
+  },
+  "options_apiProviders_form_fields_name": {
+    "message": "이름"
+  },
+  "options_apiProviders_form_fields_description": {
+    "message": "설명"
+  },
+  "options_apiProviders_form_fields_apiKey": {
+    "message": "API Key"
+  },
+  "options_apiProviders_form_fields_baseURL": {
+    "message": "Base URL"
+  },
+  "options_apiProviders_form_fields_optional": {
+    "message": "선택사항"
+  },
+  "options_apiProviders_form_duplicate": {
+    "message": "복제"
+  },
+  "options_apiProviders_form_delete": {
+    "message": "삭제"
+  },
+  "options_apiProviders_form_deleteDialog_title": {
+    "message": "제공업체를 삭제하시겠습니까?"
+  },
+  "options_apiProviders_form_deleteDialog_description": {
+    "message": "이 작업은 취소할 수 없습니다. 이 제공업체를 사용하는 기능은 다른 사용 가능한 제공업체로 자동 재할당됩니다."
+  },
+  "options_apiProviders_form_deleteDialog_confirm": {
+    "message": "삭제"
+  },
+  "options_apiProviders_form_deleteDialog_cancel": {
+    "message": "취소"
+  },
+  "options_apiProviders_form_atLeastOneLLMProvider": {
+    "message": "최소 하나의 LLM 번역 제공업체가 필요합니다."
+  },
+  "options_apiProviders_form_duplicateProviderName": {
+    "message": "중복된 제공업체 이름 \"$1\""
+  },
+  "options_apiProviders_form_defaultProvider_translate": {
+    "message": "기본 번역 제공업체로 설정"
+  },
+  "options_apiProviders_form_models_translate_title": {
+    "message": "번역 모델"
+  },
+  "options_apiProviders_form_models_translate_customTitle": {
+    "message": "사용자 정의 번역 모델"
+  },
+  "options_apiProviders_form_models_translate_placeholder": {
+    "message": "모델을 선택하세요"
+  },
+  "options_apiProviders_form_models_fetchModels": {
+    "message": "사용 가능한 모델 가져오기"
+  },
+  "options_apiProviders_form_models_fetchError": {
+    "message": "모델을 가져오지 못했습니다"
+  },
+  "options_apiProviders_form_models_clickToRetry": {
+    "message": "다시 시도하려면 클릭"
+  },
+  "options_apiProviders_form_models_noModels": {
+    "message": "사용 가능한 모델이 없습니다"
+  },
+  "options_apiProviders_form_models_selectModel": {
+    "message": "모델 선택"
+  },
+  "options_apiProviders_form_models_apiKeyRequired": {
+    "message": "먼저 API 키를 추가하세요"
+  },
+  "options_apiProviders_form_models_searchModels": {
+    "message": "모델 검색..."
+  },
+  "options_apiProviders_form_models_noModelsFound": {
+    "message": "모델을 찾을 수 없습니다"
+  },
+  "options_apiProviders_form_featureProviders": {
+    "message": "기능 제공업체"
+  },
+  "options_apiProviders_form_advancedOptions": {
+    "message": "고급 옵션"
+  },
+  "options_apiProviders_form_providerSettingLabels_region": {
+    "message": "리전"
+  },
+  "options_apiProviders_form_temperature": {
+    "message": "온도"
+  },
+  "options_apiProviders_form_temperatureHint": {
+    "message": "응답의 무작위성을 제어합니다. 낮은 값(0)은 더 결정적이고, 높은 값은 더 창의적입니다. 범위는 제공자에 따라 다릅니다. 비워두면 제공자 기본값을 사용합니다."
+  },
+  "options_apiProviders_form_headers": {
+    "message": "헤더"
+  },
+  "options_apiProviders_form_headersHint": {
+    "message": "AI 제공자 클라이언트를 만들 때 전송할 사용자 지정 HTTP 헤더입니다. 비워두면 제공자 기본값을 사용하고, {}를 입력하면 기본값을 비활성화합니다."
+  },
+  "options_apiProviders_form_providerOptions": {
+    "message": "제공자 옵션"
+  },
+  "options_apiProviders_form_providerOptionsHint": {
+    "message": "사고/추론 모드와 같은 비표준 API 기능을 위한 공급자별 옵션입니다. 자세한 내용은 Vercel AI SDK 문서 또는 공급자의 공식 문서를 참조하세요."
+  },
+  "options_apiProviders_form_providerOptionsDocsLink": {
+    "message": "공급자 문서 보기"
+  },
+  "options_apiProviders_form_providerOptionsRecommendationTrigger": {
+    "message": "추천 제공자 옵션 보기"
+  },
+  "options_apiProviders_form_providerOptionsRecommendationTitle": {
+    "message": "추천 제공자 옵션이 감지되었습니다"
+  },
+  "options_apiProviders_form_providerOptionsRecommendationDescription": {
+    "message": "추천 구성을 검토한 뒤 수동으로 적용하세요."
+  },
+  "options_apiProviders_form_providerOptionsRecommendationApply": {
+    "message": "적용"
+  },
+  "options_apiProviders_form_providerOptionsRecommendationApplied": {
+    "message": "적용됨"
+  },
+  "options_apiProviders_form_invalidJson": {
+    "message": "잘못된 JSON 형식"
+  },
+  "options_apiProviders_providers_description_openai": {
+    "message": "GPT-4o 같은 모델을 제공합니다"
+  },
+  "options_apiProviders_providers_description_deepseek": {
+    "message": "중국에서 사용을 권장합니다"
+  },
+  "options_apiProviders_providers_description_openrouter": {
+    "message": "여러 LLM 제공업체를 위한 통합 인터페이스, 사용량 기반 과금"
+  },
+  "options_apiProviders_providers_description_ollama": {
+    "message": "로컬 LLM"
+  },
+  "options_apiProviders_providers_description_google": {
+    "message": "고급 추론 능력을 갖춘 구글의 주력 AI 모델"
+  },
+  "options_apiProviders_providers_description_anthropic": {
+    "message": "안전성과 추론 능력이 뛰어난 Claude 모델"
+  },
+  "options_apiProviders_providers_description_xai": {
+    "message": "실시간 데이터 접근이 가능한 Grok 모델을 제공하는 일론 머스크의 AI 회사"
+  },
+  "options_apiProviders_providers_description_siliconflow": {
+    "message": "중국 및 국제 모델을 위한 고성능 추론 플랫폼"
+  },
+  "options_apiProviders_providers_description_tensdaq": {
+    "message": "혁신적인 경매 AI MaaS 플랫폼으로 시장 수요와 공급에 따라 가격이 결정되어 고비용 고정 요금제를 없앰"
+  },
+  "options_apiProviders_providers_description_ai302": {
+    "message": "최신의 포괄적인 모델과 종량제 API를 제공"
+  },
+  "options_apiProviders_providers_description_openaiCompatible": {
+    "message": "OpenAI API 호환 서드파티"
+  },
+  "options_apiProviders_providers_description_deeplx": {
+    "message": "비공식 DeepL API"
+  },
+  "options_apiProviders_providers_description_deepl": {
+    "message": "공식 DeepL API"
+  },
+  "options_apiProviders_providers_description_bedrock": {
+    "message": "엔터프라이즈급 파운데이션 모델을 위한 AWS 관리 서비스"
+  },
+  "options_apiProviders_providers_description_groq": {
+    "message": "초고속 LLM 추론 속도에 특화된 하드웨어"
+  },
+  "options_apiProviders_providers_description_deepinfra": {
+    "message": "인기 있는 오픈소스 모델을 위한 비용 효율적인 클라우드 추론"
+  },
+  "options_apiProviders_providers_description_mistral": {
+    "message": "효율적인 다국어 모델에 특화된 유럽 AI 회사"
+  },
+  "options_apiProviders_providers_description_togetherai": {
+    "message": "오픈소스 모델 실행 및 파인튜닝을 위한 협업 플랫폼"
+  },
+  "options_apiProviders_providers_description_cohere": {
+    "message": "강력한 다국어 및 RAG 기능을 갖춘 엔터프라이즈 중심 AI"
+  },
+  "options_apiProviders_providers_description_fireworks": {
+    "message": "오픈소스 모델을 위한 프로덕션 준비 추론 플랫폼"
+  },
+  "options_apiProviders_providers_description_cerebras": {
+    "message": "빠른 번역과 텍스트 분석을 위한 초고속 AI 추론"
+  },
+  "options_apiProviders_providers_description_replicate": {
+    "message": "전문적인 번역 작업을 위한 다양한 오픈소스 모델 액세스"
+  },
+  "options_apiProviders_providers_description_perplexity": {
+    "message": "맥락적 번역과 읽기 지원을 위한 실시간 지식 강화 AI"
+  },
+  "options_apiProviders_providers_description_vercel": {
+    "message": "웹 콘텐츠 번역과 분석에 최적화된 AI 모델"
+  },
+  "options_apiProviders_providers_description_volcengine": {
+    "message": "ByteDance의 클라우드 AI 플랫폼, Doubao 모델 제공"
+  },
+  "options_apiProviders_providers_description_minimax": {
+    "message": "MiniMax AI 플랫폼, 고급 MiniMax-M2 모델 제공"
+  },
+  "options_apiProviders_providers_description_alibaba": {
+    "message": "알리바바 클라우드의 Qwen 모델 시리즈, 고급 추론 및 다국어 기능 제공"
+  },
+  "options_apiProviders_providers_description_moonshotai": {
+    "message": "Moonshot AI의 Kimi 모델 시리즈, 강력한 추론 및 긴 컨텍스트 기능 제공"
+  },
+  "options_apiProviders_providers_description_huggingface": {
+    "message": "Hugging Face 추론 API, 수천 개의 오픈소스 모델 접근 제공"
+  },
+  "options_apiProviders_apiKey_showAPIKey": {
+    "message": "API Key 표시"
+  },
+  "options_apiProviders_howToConfigure": {
+    "message": "구성 방법은?"
+  },
+  "options_apiProviders_testConnection_button": {
+    "message": "연결 테스트"
+  },
+  "options_apiProviders_testConnection_testing": {
+    "message": "테스트 중..."
+  },
+  "options_general_title": {
+    "message": "일반"
+  },
+  "options_general_appearance_title": {
+    "message": "외관"
+  },
+  "options_general_appearance_theme": {
+    "message": "테마"
+  },
+  "options_general_appearance_system": {
+    "message": "시스템"
+  },
+  "options_general_appearance_light": {
+    "message": "라이트"
+  },
+  "options_general_appearance_dark": {
+    "message": "다크"
+  },
+  "options_general_featureProviders_title": {
+    "message": "기능 제공업체"
+  },
+  "options_general_featureProviders_description": {
+    "message": "각 기능에 사용할 제공업체를 선택"
+  },
+  "options_general_featureProviders_customActions": {
+    "message": "사용자 정의 AI 액션"
+  },
+  "options_general_featureProviders_features_translate": {
+    "message": "페이지 번역"
+  },
+  "options_general_featureProviders_features_selectionToolbar_translate": {
+    "message": "선택 툴바 번역"
+  },
+  "options_general_featureProviders_features_tts": {
+    "message": "텍스트 음성 변환"
+  },
+  "options_general_featureProviders_features_inputTranslation": {
+    "message": "입력 번역"
+  },
+  "options_general_featureProviders_features_videoSubtitles": {
+    "message": "비디오 자막"
+  },
+  "options_general_translationConfig_model_title": {
+    "message": "모델"
+  },
+  "options_general_translationConfig_model_enterCustomModel": {
+    "message": "사용자 정의 모델 이름 입력"
+  },
+  "options_general_clearCache_title": {
+    "message": "캐시 지우기"
+  },
+  "options_general_clearCache_description": {
+    "message": "브라우저의 모든 번역 캐시를 지웁니다"
+  },
+  "options_general_clearCache_clearing": {
+    "message": "지우는 중..."
+  },
+  "options_general_clearCache_dialog_title": {
+    "message": "캐시 지우기"
+  },
+  "options_general_clearCache_dialog_trigger": {
+    "message": "캐시 지우기"
+  },
+  "options_general_clearCache_dialog_confirm": {
+    "message": "확인"
+  },
+  "options_general_clearCache_dialog_cancel": {
+    "message": "취소"
+  },
+  "options_general_clearCache_dialog_description": {
+    "message": "이 작업은 모든 번역 캐시를 지웁니다. 이 작업은 되돌릴 수 없습니다."
+  },
+  "options_general_languageDetection_title": {
+    "message": "언어 감지"
+  },
+  "options_general_languageDetection_description": {
+    "message": "자동 번역 언어 감지, 건너뛰기 언어 감지 및 읽기 음성 선택 정확도에 영향을 줍니다."
+  },
+  "options_general_languageDetection_mode_basic": {
+    "message": "기본"
+  },
+  "options_general_languageDetection_mode_llm": {
+    "message": "LLM"
+  },
+  "options_general_languageDetection_provider_label": {
+    "message": "감지 제공자"
+  },
+  "options_general_languageDetection_provider_placeholder": {
+    "message": "제공자 선택"
+  },
+  "options_general_languageDetection_status_noProviders": {
+    "message": "LLM 제공자를 먼저 구성하세요"
+  },
+  "options_general_languageDetection_status_basicRecommend": {
+    "message": "LLM 활성화 권장"
+  },
+  "options_general_languageDetection_status_llmEnabled": {
+    "message": "LLM 감지 활성화됨"
+  },
+  "options_siteControl_title": {
+    "message": "사이트 제어"
+  },
+  "options_siteControl_mode_title": {
+    "message": "확장 프로그램 활성화 모드"
+  },
+  "options_siteControl_mode_description": {
+    "message": "블랙리스트 모드를 사용하여 특정 사이트에서 확장 프로그램을 비활성화하거나, 화이트리스트 모드를 사용하여 특정 사이트에서만 실행되도록 제한할 수 있습니다."
+  },
+  "options_siteControl_mode_blacklist": {
+    "message": "나열된 사이트에서만 비활성화"
+  },
+  "options_siteControl_mode_whitelist": {
+    "message": "나열된 사이트에서만 실행"
+  },
+  "options_siteControl_patterns_enterUrlPattern": {
+    "message": "URL 패턴 입력 (예: example.com)"
+  },
+  "options_siteControl_patterns_urlPattern": {
+    "message": "URL 패턴"
+  },
+  "options_overlayTools_title": {
+    "message": "오버레이 도구"
+  },
+  "options_overlayTools_floatingButton_title": {
+    "message": "플로팅 버튼"
+  },
+  "options_overlayTools_selectionToolbar_title": {
+    "message": "선택 툴바"
+  },
+  "options_overlayTools_contextMenu_title": {
+    "message": "컨텍스트 메뉴"
+  },
+  "options_overlayTools_inputTranslation_title": {
+    "message": "입력 번역"
+  },
+  "options_inputTranslation_provider_title": {
+    "message": "번역 제공자"
+  },
+  "options_inputTranslation_provider_description": {
+    "message": "입력 번역에 사용할 번역 제공자 선택"
+  },
+  "options_inputTranslation_provider_label": {
+    "message": "제공자"
+  },
+  "options_inputTranslation_toggle_title": {
+    "message": "트리플 스페이스 번역 활성화"
+  },
+  "options_inputTranslation_toggle_description": {
+    "message": "입력 필드에서 스페이스바를 빠르게 3번 누르면 내용이 번역됩니다"
+  },
+  "options_inputTranslation_languages_title": {
+    "message": "번역 언어"
+  },
+  "options_inputTranslation_languages_description": {
+    "message": "입력 번역의 소스 및 타겟 언어 선택"
+  },
+  "options_inputTranslation_languages_sourceCode": {
+    "message": "페이지 소스 언어"
+  },
+  "options_inputTranslation_languages_targetCode": {
+    "message": "페이지 타겟 언어"
+  },
+  "options_inputTranslation_languages_enableCycle": {
+    "message": "매번 방향 전환"
+  },
+  "options_inputTranslation_threshold_title": {
+    "message": "트리거 임계값"
+  },
+  "options_inputTranslation_threshold_description": {
+    "message": "스페이스바 누름 사이의 시간 간격"
+  },
+  "options_inputTranslation_threshold_label": {
+    "message": "임계값 (밀리초)"
+  },
+  "options_inputTranslation_threshold_hint": {
+    "message": "연속 스페이스바 누름 사이의 시간 간격 (100-1000밀리초)"
+  },
+  "options_inputTranslation_threshold_error": {
+    "message": "값은 $1에서 $2 사이여야 합니다"
+  },
+  "options_floatingButtonAndToolbar_title": {
+    "message": "플로팅 버튼 및 툴바"
+  },
+  "options_floatingButtonAndToolbar_floatingButtonDemoImageAlt": {
+    "message": "플로팅 버튼 데모"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbarDemoImageAlt": {
+    "message": "선택 툴바 데모"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_globalToggle_title": {
+    "message": "플로팅 버튼 활성화"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_globalToggle_description": {
+    "message": "웹 페이지에 플로팅 버튼을 표시하여 Skim AI 기능에 빠르게 액세스"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_closeMenu_disableForSite": {
+    "message": "이 사이트에서 비활성화"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_closeMenu_disableGlobally": {
+    "message": "전역 비활성화"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_disabledSites_title": {
+    "message": "플로팅 버튼 비활성화 사이트"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_disabledSites_description": {
+    "message": "플로팅 버튼을 비활성화할 웹사이트를 설정합니다"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_disabledSites_enterUrlPattern": {
+    "message": "URL 패턴 입력"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_disabledSites_urlPattern": {
+    "message": "URL 패턴"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_clickAction_title": {
+    "message": "클릭 동작"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_clickAction_description": {
+    "message": "플로팅 버튼을 클릭할 때 실행할 동작 선택"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_clickAction_panel": {
+    "message": "사이드 패널 열기"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_clickAction_translate": {
+    "message": "페이지 번역 전환"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_side_title": {
+    "message": "버튼 위치"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_side_description": {
+    "message": "플로팅 버튼을 페이지 어느 쪽에 고정할지 선택합니다"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_side_left": {
+    "message": "왼쪽"
+  },
+  "options_floatingButtonAndToolbar_floatingButton_side_right": {
+    "message": "오른쪽"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_globalToggle_title": {
+    "message": "선택 툴바 활성화"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_globalToggle_description": {
+    "message": "웹 페이지에서 텍스트를 선택할 때 도구 모음을 표시하여 빠르게 번역, 읽기, AI 액션을 사용할 수 있습니다"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_opacity_title": {
+    "message": "투명도"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_opacity_description": {
+    "message": "선택 툴바와 여기서 열리는 확장 창의 투명도를 조절합니다"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_featureToggles_title": {
+    "message": "기능 토글"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_featureToggles_description": {
+    "message": "선택 툴바에 표시할 기본 제공 기능 선택"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_featureToggles_translate": {
+    "message": "번역"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_featureToggles_speak": {
+    "message": "읽기"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_closeMenu_disableForSite": {
+    "message": "이 사이트에서 비활성화"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_closeMenu_disableGlobally": {
+    "message": "전역 비활성화"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_disabledSites_title": {
+    "message": "선택 툴바 비활성화 사이트"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_disabledSites_description": {
+    "message": "선택 툴바를 비활성화할 웹사이트를 설정합니다"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_disabledSites_enterUrlPattern": {
+    "message": "URL 패턴 입력"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_disabledSites_urlPattern": {
+    "message": "URL 패턴"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_customActionFailed": {
+    "message": "사용자 지정 작업 실패"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_customActionFailedFallback": {
+    "message": "사용자 지정 작업 요청에 실패했습니다"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_actionUnavailable": {
+    "message": "선택한 작업을 사용할 수 없습니다"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_missingSelection": {
+    "message": "선택된 텍스트가 없습니다"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_providerDisabled": {
+    "message": "선택한 제공업체가 비활성화되었습니다"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_errors_providerUnavailable": {
+    "message": "선택한 제공업체를 사용할 수 없습니다"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_provider": {
+    "message": "제공업체"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_selectProvider": {
+    "message": "제공업체 선택"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_noProviderAvailable": {
+    "message": "사용 가능한 제공업체가 없습니다"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_useProviderDefaultModel": {
+    "message": "제공업체 기본 모델 사용"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_useCustomModel": {
+    "message": "사용자 지정 모델 사용"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_customModel": {
+    "message": "사용자 지정 모델"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_model": {
+    "message": "모델"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_modelNotAvailableForNonLLM": {
+    "message": "모델 설정은 LLM 제공업체에서만 사용할 수 있습니다"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_translate_title": {
+    "message": "선택 번역"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_features_translate_description": {
+    "message": "선택 툴바 번역 기능의 제공업체와 모델을 구성합니다"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_title": {
+    "message": "커스텀 AI 액션"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_description": {
+    "message": "선택한 텍스트에 대한 구조화된 AI 작업을 직접 추가하세요"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_add": {
+    "message": "AI 액션 추가"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_edit": {
+    "message": "AI 액션 편집"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_empty": {
+    "message": "아직 커스텀 AI 액션이 없습니다"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_noEnabledLlmProvider": {
+    "message": "커스텀 AI 액션을 만들기 전에 최소 하나의 LLM 제공업체를 활성화하세요"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_table_name": {
+    "message": "이름"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_table_provider": {
+    "message": "제공업체"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_table_fields": {
+    "message": "필드"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_table_actions": {
+    "message": "작업"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_name": {
+    "message": "이름"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_icon": {
+    "message": "아이콘"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_chooseAriaLabel": {
+    "message": "아이콘 선택"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_chooseTitle": {
+    "message": "아이콘 선택"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_inputPlaceholder": {
+    "message": "아이콘 이름 입력"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpAriaLabel": {
+    "message": "아이콘 도움말 더보기"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpTitle": {
+    "message": "원하는 아이콘을 못 찾았나요?"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpStepBrowsePrefix": {
+    "message": ""
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpStepBrowseSuffix": {
+    "message": "에서 아이콘 찾아보기"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpStepCopyPrefix": {
+    "message": "예를 들어 "
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_iconField_helpStepCopySuffix": {
+    "message": " 같은 아이콘 이름을 복사해 입력란에 붙여넣으세요."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_provider": {
+    "message": "제공업체(구조화 출력 지원 필요)"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_selectProvider": {
+    "message": "제공업체 선택"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_systemPrompt": {
+    "message": "시스템 프롬프트"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_prompt": {
+    "message": "프롬프트"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_outputSchema": {
+    "message": "출력 스키마"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_addField": {
+    "message": "필드 추가"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldName": {
+    "message": "필드 이름"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldType": {
+    "message": "필드 유형"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldDescription": {
+    "message": "설명"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldDescriptionPlaceholder": {
+    "message": "이 필드에 포함할 내용을 설명하세요..."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldSpeaking": {
+    "message": "음성 읽기 사용"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_actions": {
+    "message": "작업"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_cancel": {
+    "message": "취소"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_save": {
+    "message": "저장"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_defaultFieldName": {
+    "message": "결과"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_fieldNamePlaceholder": {
+    "message": "필드명"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_autoFieldPrefix": {
+    "message": "필드"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_addFieldDialog_title": {
+    "message": "출력 필드 추가"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_editFieldDialog_title": {
+    "message": "출력 필드 편집"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_editFieldDialog_save": {
+    "message": "저장"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteFieldDialog_title": {
+    "message": "출력 필드를 삭제하시겠습니까?"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteFieldDialog_description": {
+    "message": "이 출력 필드가 제거됩니다."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteFieldDialog_confirm": {
+    "message": "삭제"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteFieldDialog_cancel": {
+    "message": "취소"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_title": {
+    "message": "Notebase 연결"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_description": {
+    "message": "이 액션의 구조화된 결과를 원격 Notebase에 저장합니다."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_loginRequiredTitle": {
+    "message": "Notebase를 설정하려면 로그인하세요"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_loginRequiredDescription": {
+    "message": "notebase를 선택하거나 매핑을 편집하기 전에 readfrog.app에 로그인하세요."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_loginAction": {
+    "message": "로그인"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tableLabel": {
+    "message": "Notebase"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tablePlaceholder": {
+    "message": "notebase 선택"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tableClearOption": {
+    "message": "notebase 연결 안 함"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_refreshAction": {
+    "message": "새로고침"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_emptyTitle": {
+    "message": "아직 Notebase가 없습니다"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_emptyDescription": {
+    "message": "readfrog.app에서 notebase를 만든 뒤 여기로 돌아와 필드를 매핑하세요."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_openNotebaseAction": {
+    "message": "Notebase 열기"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_betaLockedTitle": {
+    "message": "이 계정은 Notebase 베타에 포함되어 있지 않습니다"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_betaLockedDescription": {
+    "message": "현재 action 설정은 유지할 수 있지만, Notebase 선택과 결과 동기화는 일부 베타 계정에만 제공됩니다."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tableUnavailableTitle": {
+    "message": "선택한 notebase를 더 이상 사용할 수 없습니다"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tableUnavailableDescription": {
+    "message": "다시 저장하기 전에 새로고침하거나 다른 notebase를 선택하세요."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_tableUnavailableOption": {
+    "message": "사용 불가"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_schemaErrorTitle": {
+    "message": "notebase 스키마를 불러오지 못했습니다"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_schemaErrorDescription": {
+    "message": "잠시 후 다시 새로고침해 보세요."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_schemaLoading": {
+    "message": "notebase 스키마를 불러오는 중..."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingsLabel": {
+    "message": "필드 매핑"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingsEmpty": {
+    "message": "아직 매핑이 없습니다. 필드를 저장할 준비가 되면 추가하세요."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_addMappingAction": {
+    "message": "매핑 추가"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_removeMappingAction": {
+    "message": "매핑 제거"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_localFieldLabel": {
+    "message": "액션 필드"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_localFieldPlaceholder": {
+    "message": "액션 필드 선택"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_remoteFieldLabel": {
+    "message": "Notebase 필드"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_remoteFieldPlaceholder": {
+    "message": "notebase 필드 선택"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_columnUnavailableOption": {
+    "message": "삭제됨"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_invalidMappingsTitle": {
+    "message": "일부 매핑을 확인해야 합니다"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_invalidMappingsDescription": {
+    "message": "잘못된 매핑은 유지되지만, 수정하기 전까지 Save to Notebase는 비활성화됩니다."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingMissingLocal": {
+    "message": "매핑된 액션 필드가 더 이상 존재하지 않습니다."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingMissingRemote": {
+    "message": "매핑된 notebase 필드가 더 이상 존재하지 않습니다."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingMissingSchema": {
+    "message": "이 매핑을 검증하려면 notebase 스키마를 새로고침하세요."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_notebase_mappingIncompatible": {
+    "message": "필드 타입이 더 이상 맞지 않습니다."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_tokens_selection": {
+    "message": "선택한 텍스트 내용"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_tokens_paragraphs": {
+    "message": "선택 영역과 겹치는 문단 내용을 빈 줄로 이어 붙인 값이며, 사용자 정의 AI 액션에 전달될 때는 앞의 2000자로 잘립니다"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_tokens_targetLanguage": {
+    "message": "사용자의 대상 언어"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_tokens_webTitle": {
+    "message": "웹페이지 제목"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_tokens_webContent": {
+    "message": "현재 페이지에서 추출한 웹페이지 본문(앞의 2000자로 잘린 버전)"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_delete": {
+    "message": "삭제"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteDialog_title": {
+    "message": "사용자 정의 액션을 삭제하시겠습니까?"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteDialog_description": {
+    "message": "이 작업은 취소할 수 없습니다."
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteDialog_confirm": {
+    "message": "삭제"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_form_deleteDialog_cancel": {
+    "message": "취소"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_nameRequired": {
+    "message": "이름은 필수입니다"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_duplicateName": {
+    "message": "중복된 액션 이름 \"$1\""
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_invalidIcon": {
+    "message": "올바르지 않은 Iconify 아이콘 문자열입니다"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_providerRequired": {
+    "message": "활성화된 LLM 제공업체를 선택하세요"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_outputSchemaRequired": {
+    "message": "최소 하나의 출력 필드를 추가하세요"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_fieldKeyRequired": {
+    "message": "필드 이름은 필수입니다"
+  },
+  "options_floatingButtonAndToolbar_selectionToolbar_customActions_errors_duplicateFieldKey": {
+    "message": "필드 이름은 고유해야 합니다"
+  },
+  "options_floatingButtonAndToolbar_contextMenu_title": {
+    "message": "컨텍스트 메뉴"
+  },
+  "options_floatingButtonAndToolbar_contextMenu_translate_title": {
+    "message": "우클릭 번역 활성화"
+  },
+  "options_floatingButtonAndToolbar_contextMenu_translate_description": {
+    "message": "브라우저 우클릭 메뉴에 번역 옵션을 추가하여 페이지나 선택한 텍스트를 빠르게 번역"
+  },
+  "options_translation_title": {
+    "message": "번역"
+  },
+  "options_translation_requestQueueConfig_title": {
+    "message": "번역 속도"
+  },
+  "options_translation_requestQueueConfig_firstOnDescription": {
+    "message": "번역 요청 처리 속도 조정 및"
+  },
+  "options_translation_requestQueueConfig_lastOnDescription": {
+    "message": "구현"
+  },
+  "options_translation_requestQueueConfig_capacity_title": {
+    "message": "최대 버스트 요청 수"
+  },
+  "options_translation_requestQueueConfig_capacity_description": {
+    "message": "허용되는 임시 버스트 요청 수는 짧은 시간 내 동시 처리 가능한 최대 요청 수를 결정함"
+  },
+  "options_translation_requestQueueConfig_rate_title": {
+    "message": "초당 평균 요청 수"
+  },
+  "options_translation_requestQueueConfig_rate_description": {
+    "message": "초당 평균 요청 수 (단, 최대 버스트 요청 수 설정을 통한 일시적 초과 요청 전송 허용)"
+  },
+  "options_translation_batchQueueConfig_title": {
+    "message": "배치 번역"
+  },
+  "options_translation_batchQueueConfig_description": {
+    "message": "배치 번역 시 문자 수 제한 및 최대 단락 수 구성 (대규모 언어 모델 번역에서만 유효)"
+  },
+  "options_translation_batchQueueConfig_maxCharactersPerBatch_title": {
+    "message": "최대 문자 수"
+  },
+  "options_translation_batchQueueConfig_maxCharactersPerBatch_description": {
+    "message": "배치 요청당 허용되는 최대 문자 수로 각 번역의 콘텐츠 양을 제어합니다"
+  },
+  "options_translation_batchQueueConfig_maxItemsPerBatch_title": {
+    "message": "최대 단락 수"
+  },
+  "options_translation_batchQueueConfig_maxItemsPerBatch_description": {
+    "message": "각 배치 번역의 최대 단락 수로 각 번역의 콘텐츠 양을 제어합니다"
+  },
+  "options_translation_batchQueueConfig_statisticsLink": {
+    "message": "지난 7일간 약 $1 의 비용을 절약했습니다"
+  },
+  "options_translation_autoTranslateWebsite_title": {
+    "message": "웹사이트 기반 자동 번역"
+  },
+  "options_translation_autoTranslateWebsite_description": {
+    "message": "이 사이트를 항상 번역합니다"
+  },
+  "options_translation_autoTranslateWebsite_urlPattern": {
+    "message": "URL 패턴"
+  },
+  "options_translation_autoTranslateWebsite_enterUrlPattern": {
+    "message": "URL 패턴 입력"
+  },
+  "options_translation_personalizedPrompts_title": {
+    "message": "개인화된 프롬프트"
+  },
+  "options_translation_personalizedPrompts_description": {
+    "message": "다양한 유형의 프롬프트를 사용자 정의하여, 번역 시 프롬프트 유형을 직접 조정할 수 있습니다. 프롬프트는 사용자가 LLM에게 보내는 텍스트를 나타내며."
+  },
+  "options_translation_personalizedPrompts_communityPrompts": {
+    "message": "커뮤니티에서 프롬프트 가져오기 또는 공유"
+  },
+  "options_translation_personalizedPrompts_communityPromptsUrl": {
+    "message": "https://github.com/mengxi-ream/read-frog/discussions/821"
+  },
+  "options_translation_personalizedPrompts_addPrompt": {
+    "message": "프롬프트 추가"
+  },
+  "options_translation_personalizedPrompts_default": {
+    "message": "기본"
+  },
+  "options_translation_personalizedPrompts_importSuccess": {
+    "message": "가져오기 성공"
+  },
+  "options_translation_personalizedPrompts_import": {
+    "message": "가져오기"
+  },
+  "options_translation_personalizedPrompts_export": {
+    "message": "내보내기"
+  },
+  "options_translation_personalizedPrompts_current": {
+    "message": "사용 중"
+  },
+  "options_translation_personalizedPrompts_editPrompt_title": {
+    "message": "프롬프트 편집"
+  },
+  "options_translation_personalizedPrompts_editPrompt_name": {
+    "message": "이름"
+  },
+  "options_translation_personalizedPrompts_editPrompt_systemPrompt": {
+    "message": "시스템 프롬프트"
+  },
+  "options_translation_personalizedPrompts_editPrompt_prompt": {
+    "message": "프롬프트"
+  },
+  "options_translation_personalizedPrompts_editPrompt_promptCellInput_input": {
+    "message": "번역할 텍스트 내용"
+  },
+  "options_translation_personalizedPrompts_editPrompt_promptCellInput_targetLanguage": {
+    "message": "목표 언어"
+  },
+  "options_translation_personalizedPrompts_editPrompt_promptCellInput_webTitle": {
+    "message": "웹페이지 제목"
+  },
+  "options_translation_personalizedPrompts_editPrompt_promptCellInput_webContent": {
+    "message": "웹페이지 본문(앞의 2000자로 잘림)"
+  },
+  "options_translation_personalizedPrompts_editPrompt_promptCellInput_webSummary": {
+    "message": "웹페이지 요약 (AI 스마트 컨텍스트 필요)"
+  },
+  "options_translation_personalizedPrompts_editPrompt_save": {
+    "message": "저장"
+  },
+  "options_translation_personalizedPrompts_editPrompt_close": {
+    "message": "취소"
+  },
+  "options_translation_personalizedPrompts_deletePrompt_title": {
+    "message": "프롬프트 삭제"
+  },
+  "options_translation_personalizedPrompts_deletePrompt_description": {
+    "message": "이 프롬프트를 삭제하시겠습니까"
+  },
+  "options_translation_personalizedPrompts_deletePrompt_confirm": {
+    "message": "확인"
+  },
+  "options_translation_personalizedPrompts_deletePrompt_cancel": {
+    "message": "취소"
+  },
+  "options_translation_personalizedPrompts_exportPrompt_exportSelected": {
+    "message": "선택 항목 내보내기"
+  },
+  "options_translation_personalizedPrompts_exportPrompt_cancel": {
+    "message": "취소"
+  },
+  "options_translation_translationStyle_title": {
+    "message": "번역 표시 스타일"
+  },
+  "options_translation_translationStyle_description": {
+    "message": "번역 결과와 원문을 구분하기 위해 원하는 스타일을 설정하세요"
+  },
+  "options_translation_translationStyle_useCustomStyle": {
+    "message": "커스텀 CSS 스타일 사용"
+  },
+  "options_translation_translationStyle_useCustomStyleDescription": {
+    "message": "모든 CSS 지원, 글꼴, 애니메이션, 언어별 스타일 등"
+  },
+  "options_translation_translationStyle_presetStyle": {
+    "message": "프리셋 스타일"
+  },
+  "options_translation_translationStyle_cssEditor": {
+    "message": "CSS 편집기"
+  },
+  "options_translation_translationStyle_preview": {
+    "message": "미리보기"
+  },
+  "options_translation_translationStyle_stylePreviewLanguage": {
+    "message": "언어"
+  },
+  "options_translation_translationStyle_stylePreviewDirection": {
+    "message": "방향"
+  },
+  "options_translation_translationStyle_stylePreviewTranslatedText": {
+    "message": "번역된 텍스트"
+  },
+  "options_translation_translationStyle_style_default": {
+    "message": "없음"
+  },
+  "options_translation_translationStyle_style_blur": {
+    "message": "흐림 효과"
+  },
+  "options_translation_translationStyle_style_blockquote": {
+    "message": "인용"
+  },
+  "options_translation_translationStyle_style_weakened": {
+    "message": "약화"
+  },
+  "options_translation_translationStyle_style_dashedLine": {
+    "message": "점선"
+  },
+  "options_translation_translationStyle_style_border": {
+    "message": "테두리"
+  },
+  "options_translation_translationStyle_style_textColor": {
+    "message": "텍스트 색상"
+  },
+  "options_translation_translationStyle_style_background": {
+    "message": "배경"
+  },
+  "options_translation_translationStyle_customCSS_editor_placeholder": {
+    "message": "/* 예제: 사용자 정의 색상 및 배경 스타일 */\n[data-read-frog-custom-translation-style='custom'] {\n  color: #414535;\n  background-color: light-dark(#F2E3BC, #C19875);\n  padding: 2px 4px;\n  border-radius: 4px;\n}\n"
+  },
+  "options_translation_translationStyle_customCSS_editor_saveButton": {
+    "message": "저장"
+  },
+  "options_translation_translationStyle_customCSS_editor_savedButton": {
+    "message": "저장됨"
+  },
+  "options_translation_translationStyle_customCSS_editor_validation_validating": {
+    "message": "검증 중..."
+  },
+  "options_translation_translationStyle_customCSS_editor_validation_valid": {
+    "message": "CSS가 유효합니다"
+  },
+  "options_translation_translationStyle_customCSS_editor_validation_syntaxError": {
+    "message": "CSS에 구문 오류가 있습니다"
+  },
+  "options_translation_translationStyle_customCSS_editor_validation_tooLong": {
+    "message": "CSS가 너무 깁니다"
+  },
+  "options_translation_translationStyle_customCSS_editor_validation_saved": {
+    "message": "모든 변경사항이 저장되었습니다"
+  },
+  "options_translation_translationMode_title": {
+    "message": "번역 모드"
+  },
+  "options_translation_translationMode_description": {
+    "message": "번역된 텍스트 표시 방법 선택: 이중 언어 또는 번역만"
+  },
+  "options_translation_translationMode_mode_bilingual": {
+    "message": "이중 언어"
+  },
+  "options_translation_translationMode_mode_translationOnly": {
+    "message": "번역만"
+  },
+  "options_translation_translateRange_title": {
+    "message": "번역 범위"
+  },
+  "options_translation_translateRange_description": {
+    "message": "페이지의 주요 내용만 번역할지 모든 내용을 번역할지 선택합니다."
+  },
+  "options_translation_translateRange_range_main": {
+    "message": "주요 내용"
+  },
+  "options_translation_translateRange_range_all": {
+    "message": "전체 내용"
+  },
+  "options_translation_pageTranslationShortcut_title": {
+    "message": "페이지 번역 단축키"
+  },
+  "options_translation_pageTranslationShortcut_description": {
+    "message": "전체 웹페이지를 번역하는 단축키를 사용자 지정합니다"
+  },
+  "options_translation_preloadConfig_title": {
+    "message": "사전 번역 범위"
+  },
+  "options_translation_preloadConfig_description": {
+    "message": "API 비용을 절약하기 위해 뷰포트 아래 콘텐츠를 얼마나 사전 번역할지 제어합니다"
+  },
+  "options_translation_preloadConfig_margin_title": {
+    "message": "미리 로드 거리 (픽셀)"
+  },
+  "options_translation_preloadConfig_margin_description": {
+    "message": "뷰포트에서 얼마나 떨어진 곳에서 콘텐츠 번역을 시작할지. 작은 값은 API 비용을 절약하지만 스크롤 시 지연이 발생할 수 있습니다."
+  },
+  "options_translation_preloadConfig_threshold_title": {
+    "message": "가시성 임계값"
+  },
+  "options_translation_preloadConfig_threshold_description": {
+    "message": "번역을 트리거하는 데 필요한 요소 가시성 비율 (0-1). 높은 값은 요소가 더 많이 보일 때까지 번역을 지연시킵니다."
+  },
+  "options_translation_smallParagraphFilter_title": {
+    "message": "짧은 텍스트 필터"
+  },
+  "options_translation_smallParagraphFilter_description": {
+    "message": "지정한 문자 수 또는 단어 수보다 적은 텍스트 노드의 번역을 건너뜁니다 (0 = 비활성화)"
+  },
+  "options_translation_smallParagraphFilter_minCharacters_title": {
+    "message": "최소 문자 수"
+  },
+  "options_translation_smallParagraphFilter_minCharacters_description": {
+    "message": "이 값보다 적은 문자 수의 텍스트 노드는 번역되지 않습니다. 문자 수에는 공백이 포함됩니다."
+  },
+  "options_translation_smallParagraphFilter_minWords_title": {
+    "message": "최소 단어 수"
+  },
+  "options_translation_smallParagraphFilter_minWords_description": {
+    "message": "이 값보다 적은 단어 수의 텍스트 노드는 번역되지 않습니다. 모든 언어에서 정확한 단어 카운트를 위해 Intl.Segmenter를 사용합니다."
+  },
+  "options_translation_smallParagraphFilter_error": {
+    "message": "값은 $1에서 $2 사이여야 합니다"
+  },
+  "options_translation_nodeTranslationHotkey_title": {
+    "message": "호버 또는 길게 누르기 번역 단축키"
+  },
+  "options_translation_nodeTranslationHotkey_description": {
+    "message": "호버 번역 수정 키를 사용자 지정하거나 마우스 길게 누르기로 단락을 번역합니다"
+  },
+  "options_translation_nodeTranslationHotkey_enable": {
+    "message": "활성화"
+  },
+  "options_translation_llmProviderConfigured": {
+    "message": "$1에 LLM 제공업체 선택됨"
+  },
+  "options_translation_llmProviderNotConfigured": {
+    "message": "$1에 LLM 제공업체 미선택"
+  },
+  "options_translation_autoTranslateLanguages_title": {
+    "message": "언어에 기반한 자동 번역"
+  },
+  "options_translation_autoTranslateLanguages_description": {
+    "message": "특정 언어가 감지되면 페이지 콘텐츠를 자동으로 번역합니다"
+  },
+  "options_translation_autoTranslateLanguages_selectLanguages": {
+    "message": "언어 선택"
+  },
+  "options_translation_autoTranslateLanguages_detection_label": {
+    "message": "언어 감지"
+  },
+  "options_translation_autoTranslateLanguages_detection_basic": {
+    "message": "기본"
+  },
+  "options_translation_autoTranslateLanguages_detection_llm": {
+    "message": "LLM"
+  },
+  "options_translation_autoTranslateLanguages_detection_description": {
+    "message": "기본 감지는 빠르고 무료입니다. LLM 감지는 더 정확하지만 지연 시간과 API 비용이 증가합니다. 자동 번역 언어 설정이 필요합니다."
+  },
+  "options_translation_skipLanguages_title": {
+    "message": "언어 기반 자동 건너뛰기"
+  },
+  "options_translation_skipLanguages_description": {
+    "message": "지정된 언어가 감지되면 단락 번역을 자동으로 건너뜁니다"
+  },
+  "options_translation_skipLanguages_targetLanguageSkip": {
+    "message": "대상 언어 건너뛰기"
+  },
+  "options_translation_skipLanguages_targetLanguageSkipDescription": {
+    "message": "번역 전에 단락이 이미 대상 언어인지 미리 감지합니다. 일치하는 텍스트는 요청을 보내지 않고 건너뜁니다. 이 옵션을 꺼도 번역 결과가 원문과 같으면 숨기는 후처리 보호는 유지됩니다."
+  },
+  "options_translation_skipLanguages_selectLanguages": {
+    "message": "언어 선택"
+  },
+  "options_translation_skipLanguages_detection_label": {
+    "message": "언어 감지"
+  },
+  "options_translation_skipLanguages_detection_basic": {
+    "message": "기본"
+  },
+  "options_translation_skipLanguages_detection_llm": {
+    "message": "LLM"
+  },
+  "options_translation_skipLanguages_detection_description": {
+    "message": "기본 감지는 빠르고 무료입니다. LLM 감지는 더 정확하지만 지연 시간과 API 비용이 증가합니다."
+  },
+  "options_translation_aiContentAware_title": {
+    "message": "AI 스마트 컨텍스트 번역"
+  },
+  "options_translation_aiContentAware_description": {
+    "message": "AI에 웹페이지 컨텍스트를 제공하여 번역 품질을 향상시킵니다"
+  },
+  "options_translation_aiContentAware_enable": {
+    "message": "AI 스마트 컨텍스트 번역 활성화"
+  },
+  "options_translation_aiContentAware_enableDescription": {
+    "message": "AI가 웹페이지 요약을 사용하여 번역 정확도를 향상시킵니다. LLM 제공업체가 필요합니다. 번역 시작 시 지연이 발생하고 API 비용이 증가합니다."
+  },
+  "options_tts_title": {
+    "message": "텍스트 음성 변환"
+  },
+  "options_tts_description": {
+    "message": "Edge TTS 음성 설정으로 말하기 버튼을 사용자 지정하세요."
+  },
+  "options_tts_voice_label": {
+    "message": "음성"
+  },
+  "options_tts_voice_fallback": {
+    "message": "대체"
+  },
+  "options_tts_voice_selectPlaceholder": {
+    "message": "음성을 선택하세요"
+  },
+  "options_tts_voice_preview": {
+    "message": "미리 듣기"
+  },
+  "options_tts_voice_previewSample": {
+    "message": "Skim AI의 인사입니다! 제가 읽어 드릴 때 이렇게 들립니다."
+  },
+  "options_tts_languageVoice_label": {
+    "message": "언어별 음성"
+  },
+  "options_tts_languageVoice_reset": {
+    "message": "기본값으로 재설정"
+  },
+  "options_tts_languageVoice_description": {
+    "message": "언어를 선택하고 TTS가 해당 언어를 감지했을 때 사용할 음성을 지정합니다."
+  },
+  "options_tts_rate_label": {
+    "message": "속도 (%)"
+  },
+  "options_tts_rate_hint": {
+    "message": "-100에서 100 사이 정수 값을 입력할 수 있습니다"
+  },
+  "options_tts_pitch_label": {
+    "message": "피치 (Hz)"
+  },
+  "options_tts_pitch_hint": {
+    "message": "-100에서 100 사이 정수 값을 입력할 수 있습니다"
+  },
+  "options_tts_volume_label": {
+    "message": "볼륨 (%)"
+  },
+  "options_tts_volume_hint": {
+    "message": "-100에서 100 사이 정수 값을 입력할 수 있습니다"
+  },
+  "options_tts_betaDisabled": {
+    "message": "텍스트 음성 변환 설정을 사용자 지정하려면 Beta 체험을 활성화하세요."
+  },
+  "options_statistics_title": {
+    "message": "통계"
+  },
+  "options_statistics_batchRequest_title": {
+    "message": "일괄 번역으로 절약된 요청"
+  },
+  "options_statistics_batchRequest_description": {
+    "message": "기간 내 일괄 번역으로 절약된 요청 비율"
+  },
+  "options_statistics_batchRequest_originalRequestCount": {
+    "message": "원래 요청 수"
+  },
+  "options_statistics_batchRequest_batchRequestCount": {
+    "message": "일괄 요청 수"
+  },
+  "options_config_title": {
+    "message": "설정"
+  },
+  "options_config_about_title": {
+    "message": "소개"
+  },
+  "options_config_about_description": {
+    "message": "Skim AI는 2025년 4월에 태어났습니다"
+  },
+  "options_config_about_mission": {
+    "message": "Skim AI는 언어 학습, 의학 등 지식 집약적 분야에서 AI 시대의 고품질 교육 기회에 더 평등하게 접근할 수 있도록, 실제 교사에 가까운 학습 경험을 더 낮은 비용으로 제공하는 것을 목표로 합니다."
+  },
+  "options_config_about_analytics_title": {
+    "message": "사용자 경험 개선에 기여"
+  },
+  "options_config_about_analytics_tooltip": {
+    "message": "켜면 Skim AI가 익명 사용 신호를 전송하여 기능 안정성을 검증하고, 성능과 UX 디테일을 개선하며, 앞으로 무엇을 우선적으로 만들지 결정하는 데 활용합니다."
+  },
+  "options_config_sync_title": {
+    "message": "수동 설정 동기화"
+  },
+  "options_config_sync_description": {
+    "message": "수동으로 설정 가져오기 및 내보내기"
+  },
+  "options_config_sync_import": {
+    "message": "설정 가져오기"
+  },
+  "options_config_sync_export": {
+    "message": "설정 내보내기"
+  },
+  "options_config_sync_importSuccess": {
+    "message": "설정 가져오기 완료"
+  },
+  "options_config_sync_exportSuccess": {
+    "message": "설정 내보내기 완료"
+  },
+  "options_config_sync_importError": {
+    "message": "가져오기 실패"
+  },
+  "options_config_sync_versionTooNew": {
+    "message": "가져온 설정 버전이 최신이므로 Skim AI를 최신 버전으로 업그레이드해 주세요"
+  },
+  "options_config_sync_migrationError": {
+    "message": "마이그레이션 실패"
+  },
+  "options_config_sync_validationError": {
+    "message": "설정 검증 실패"
+  },
+  "options_config_sync_exportOptions_title": {
+    "message": "내보내기 옵션 선택"
+  },
+  "options_config_sync_exportOptions_description": {
+    "message": "내보내는 설정에 API 키를 포함할지 선택하세요. API 키를 포함하면 민감한 정보가 유출될 수 있으므로 안전한 환경에서만 사용하는 것을 권장합니다."
+  },
+  "options_config_sync_exportOptions_includeAPIKeys": {
+    "message": "API 키 포함"
+  },
+  "options_config_sync_exportOptions_excludeAPIKeys": {
+    "message": "API 키 제외"
+  },
+  "options_config_sync_exportOptions_cancel": {
+    "message": "취소"
+  },
+  "options_config_sync_viewConfig_expand": {
+    "message": "설정 펼치기"
+  },
+  "options_config_sync_viewConfig_collapse": {
+    "message": "설정 접기"
+  },
+  "options_config_sync_googleDrive_title": {
+    "message": "Google Drive 클라우드 동기화"
+  },
+  "options_config_sync_googleDrive_description": {
+    "message": "원격이 최신이면 다운로드, 로컬이 최신이면 업로드"
+  },
+  "options_config_sync_googleDrive_sync": {
+    "message": "Google Drive 동기화"
+  },
+  "options_config_sync_googleDrive_syncing": {
+    "message": "동기화 중..."
+  },
+  "options_config_sync_googleDrive_syncSuccess_uploaded": {
+    "message": "로컬 설정이 클라우드에 업로드됨"
+  },
+  "options_config_sync_googleDrive_syncSuccess_downloaded": {
+    "message": "원격 설정이 적용됨"
+  },
+  "options_config_sync_googleDrive_syncSuccess_sameChanges": {
+    "message": "로컬과 원격 변경 사항이 동일하여 동기화됨"
+  },
+  "options_config_sync_googleDrive_syncSuccess_noChange": {
+    "message": "이미 동기화됨"
+  },
+  "options_config_sync_googleDrive_syncSuccess_unresolved": {
+    "message": "충돌이 해결되고 로컬 및 클라우드에 동기화됨"
+  },
+  "options_config_sync_googleDrive_syncError": {
+    "message": "동기화 실패, 다시 시도해 주세요"
+  },
+  "options_config_sync_googleDrive_metadataCorrupted": {
+    "message": "동기화 메타데이터가 손상되어 원격 구성을 적용했습니다"
+  },
+  "options_config_sync_googleDrive_lastSyncTime": {
+    "message": "마지막 동기화 시간"
+  },
+  "options_config_sync_googleDrive_logout": {
+    "message": "로그아웃"
+  },
+  "options_config_sync_googleDrive_logoutSuccess": {
+    "message": "Google 계정에서 로그아웃되었습니다"
+  },
+  "options_config_sync_googleDrive_unresolved_title": {
+    "message": "구성 동기화 해결"
+  },
+  "options_config_sync_googleDrive_unresolved_description": {
+    "message": "로컬 및 원격 구성이 다릅니다. 각 필드에 대해 유지할 버전을 선택하세요."
+  },
+  "options_config_sync_googleDrive_unresolved_resolved": {
+    "message": "해결됨"
+  },
+  "options_config_sync_googleDrive_unresolved_unresolved": {
+    "message": "미해결"
+  },
+  "options_config_sync_googleDrive_unresolved_localValue": {
+    "message": "로컬 값"
+  },
+  "options_config_sync_googleDrive_unresolved_remoteValue": {
+    "message": "원격 값"
+  },
+  "options_config_sync_googleDrive_unresolved_useLocal": {
+    "message": "로컬 사용"
+  },
+  "options_config_sync_googleDrive_unresolved_useRemote": {
+    "message": "원격 사용"
+  },
+  "options_config_sync_googleDrive_unresolved_useAllLocal": {
+    "message": "모두 로컬 사용"
+  },
+  "options_config_sync_googleDrive_unresolved_useAllRemote": {
+    "message": "모두 원격 사용"
+  },
+  "options_config_sync_googleDrive_unresolved_reset": {
+    "message": "선택 재설정"
+  },
+  "options_config_sync_googleDrive_unresolved_progress": {
+    "message": "$1/$2개의 변경 해결됨"
+  },
+  "options_config_sync_googleDrive_unresolved_confirm": {
+    "message": "동기화 확인"
+  },
+  "options_config_sync_googleDrive_unresolved_cancel": {
+    "message": "취소"
+  },
+  "options_config_sync_googleDrive_unresolved_hasUnresolvedInChildren": {
+    "message": "⚠ 미해결 변경 포함"
+  },
+  "options_config_sync_googleDrive_unresolved_item": {
+    "message": "항목"
+  },
+  "options_config_sync_googleDrive_unresolved_items": {
+    "message": "항목"
+  },
+  "options_config_sync_googleDrive_unresolved_unresolvedPrompt": {
+    "message": "[미해결 - 선택하세요]"
+  },
+  "options_config_sync_googleDrive_unresolved_localLatest": {
+    "message": "로컬 최신"
+  },
+  "options_config_sync_googleDrive_unresolved_remoteLatest": {
+    "message": "원격 최신"
+  },
+  "options_config_sync_googleDrive_unresolved_bothChanged": {
+    "message": "양쪽 모두 변경됨"
+  },
+  "options_config_sync_googleDrive_unresolved_localChanged": {
+    "message": "로컬이 변경됨"
+  },
+  "options_config_sync_googleDrive_unresolved_remoteChanged": {
+    "message": "원격이 변경됨"
+  },
+  "options_config_sync_googleDrive_unresolved_configValid": {
+    "message": "구성이 유효합니다"
+  },
+  "options_config_sync_googleDrive_unresolved_configInvalid": {
+    "message": "구성이 유효하지 않습니다"
+  },
+  "options_config_sync_googleDrive_unresolved_resolveToContinue": {
+    "message": "계속하려면 충돌을 해결하세요"
+  },
+  "options_config_sync_googleDrive_unresolved_validationAlert_title": {
+    "message": "병합된 구성에 유효성 검사 오류가 있습니다"
+  },
+  "options_config_sync_googleDrive_unresolved_validationAlert_description": {
+    "message": "아래 차이점을 조정하여 수정하세요:"
+  },
+  "options_config_sync_googleDrive_unresolved_moreErrors": {
+    "message": "...그리고 $1개의 오류가 더 있습니다"
+  },
+  "options_config_backup_title": {
+    "message": "설정 백업"
+  },
+  "options_config_backup_description": {
+    "message": "설정이 변경되면 매시간 자동으로 백업이 생성됩니다. 여기에서 이전 설정을 복원할 수 있습니다. (최대 $1개 백업)"
+  },
+  "options_config_backup_loading": {
+    "message": "백업을 불러오는 중..."
+  },
+  "options_config_backup_backupNow": {
+    "message": "지금 백업"
+  },
+  "options_config_backup_backupSuccess": {
+    "message": "백업이 생성되었습니다"
+  },
+  "options_config_backup_restoreSuccess": {
+    "message": "설정이 복원되었습니다"
+  },
+  "options_config_backup_empty_title": {
+    "message": "아직 사용 가능한 백업이 없습니다"
+  },
+  "options_config_backup_empty_description": {
+    "message": "설정이 변경되면 매시간 자동으로 백업이 생성됩니다."
+  },
+  "options_config_backup_item_extensionVersion": {
+    "message": "확장 프로그램 버전："
+  },
+  "options_config_backup_item_schemaVersion": {
+    "message": "설정 버전："
+  },
+  "options_config_backup_item_restore": {
+    "message": "복원"
+  },
+  "options_config_backup_item_export": {
+    "message": "내보내기"
+  },
+  "options_config_backup_item_delete": {
+    "message": "삭제"
+  },
+  "options_config_backup_restore_title": {
+    "message": "설정 백업을 복원하시겠습니까?"
+  },
+  "options_config_backup_restore_description": {
+    "message": "현재 설정이 최신 백업과 다른 경우 자동으로 현재 설정이 백업됩니다. 백업 수가 제한을 초과하면 가장 오래된 백업이 삭제될 수 있습니다."
+  },
+  "options_config_backup_restore_cancel": {
+    "message": "취소"
+  },
+  "options_config_backup_restore_confirm": {
+    "message": "복원"
+  },
+  "options_config_backup_delete_title": {
+    "message": "백업을 삭제하시겠습니까?"
+  },
+  "options_config_backup_delete_description": {
+    "message": "이 백업을 삭제하시겠습니까? 이 작업은 취소할 수 없습니다."
+  },
+  "options_config_backup_delete_cancel": {
+    "message": "취소"
+  },
+  "options_config_backup_delete_confirm": {
+    "message": "삭제"
+  },
+  "options_config_resetConfig_title": {
+    "message": "기본 설정 복원"
+  },
+  "options_config_resetConfig_description": {
+    "message": "모든 설정을 기본값으로 재설정"
+  },
+  "options_config_resetConfig_dialog_title": {
+    "message": "기본 설정 복원"
+  },
+  "options_config_resetConfig_dialog_trigger": {
+    "message": "설정 초기화"
+  },
+  "options_config_resetConfig_dialog_confirm": {
+    "message": "확인"
+  },
+  "options_config_resetConfig_dialog_cancel": {
+    "message": "취소"
+  },
+  "options_config_resetConfig_dialog_description": {
+    "message": "이 작업은 모든 사용자 지정 설정을 지우고 기본값으로 재설정합니다. 삭제하시겠습니까?"
+  },
+  "options_videoSubtitles_title": {
+    "message": "비디오 자막"
+  },
+  "options_videoSubtitles_description": {
+    "message": "현재 YouTube 비디오 자막만 지원"
+  },
+  "options_videoSubtitles_provider_title": {
+    "message": "번역 제공자"
+  },
+  "options_videoSubtitles_provider_description": {
+    "message": "비디오 자막 번역에 사용할 번역 제공자를 선택하세요"
+  },
+  "options_videoSubtitles_provider_label": {
+    "message": "제공자"
+  },
+  "options_videoSubtitles_enable": {
+    "message": "비디오 자막 활성화"
+  },
+  "options_videoSubtitles_enableDescription": {
+    "message": "활성화하면 YouTube 플레이어 컨트롤 바에 번역 버튼이 나타납니다. 클릭하여 자막 번역을 시작하세요."
+  },
+  "options_videoSubtitles_autoStart": {
+    "message": "자막 자동 활성화"
+  },
+  "options_videoSubtitles_autoStartDescription": {
+    "message": "비디오가 로드되면 자동으로 자막 번역을 활성화합니다."
+  },
+  "options_videoSubtitles_style_title": {
+    "message": "자막 스타일"
+  },
+  "options_videoSubtitles_style_description": {
+    "message": "자막 외관 사용자 지정"
+  },
+  "options_videoSubtitles_style_preview": {
+    "message": "미리보기"
+  },
+  "options_videoSubtitles_style_displayMode_title": {
+    "message": "표시 모드"
+  },
+  "options_videoSubtitles_style_displayMode_bilingual": {
+    "message": "이중 언어"
+  },
+  "options_videoSubtitles_style_displayMode_originalOnly": {
+    "message": "원문만"
+  },
+  "options_videoSubtitles_style_displayMode_translationOnly": {
+    "message": "번역만"
+  },
+  "options_videoSubtitles_style_translationPosition_title": {
+    "message": "번역 위치"
+  },
+  "options_videoSubtitles_style_translationPosition_above": {
+    "message": "위"
+  },
+  "options_videoSubtitles_style_translationPosition_below": {
+    "message": "아래"
+  },
+  "options_videoSubtitles_style_generalSettings": {
+    "message": "일반 설정"
+  },
+  "options_videoSubtitles_style_mainSubtitle": {
+    "message": "메인 자막"
+  },
+  "options_videoSubtitles_style_translationSubtitle": {
+    "message": "번역 자막"
+  },
+  "options_videoSubtitles_style_containerStyle": {
+    "message": "배경"
+  },
+  "options_videoSubtitles_style_fontFamily": {
+    "message": "글꼴"
+  },
+  "options_videoSubtitles_style_fontScale": {
+    "message": "글꼴 크기"
+  },
+  "options_videoSubtitles_style_color": {
+    "message": "색상"
+  },
+  "options_videoSubtitles_style_fontWeight": {
+    "message": "글꼴 굵기"
+  },
+  "options_videoSubtitles_style_backgroundOpacity": {
+    "message": "배경 투명도"
+  },
+  "options_videoSubtitles_style_reset": {
+    "message": "기본값으로 재설정"
+  },
+  "options_videoSubtitles_aiSegmentation_title": {
+    "message": "AI 스마트 분할"
+  },
+  "options_videoSubtitles_aiSegmentation_enable": {
+    "message": "AI 스마트 분할 활성화"
+  },
+  "options_videoSubtitles_aiSegmentation_enableDescription": {
+    "message": "AI를 사용하여 자막을 지능적으로 분할하여 가독성을 향상시킵니다. 타임라인은 AI가 결정하므로 타이밍 오차가 발생할 수 있습니다. LLM 번역 공급자가 필요합니다."
+  },
+  "options_videoSubtitles_aiSegmentation_clearCache": {
+    "message": "캐시 삭제"
+  },
+  "options_videoSubtitles_aiSegmentation_clearing": {
+    "message": "삭제 중..."
+  },
+  "options_videoSubtitles_aiSegmentation_clearCacheDialog_title": {
+    "message": "AI 분할 캐시 삭제"
+  },
+  "options_videoSubtitles_aiSegmentation_clearCacheDialog_description": {
+    "message": "모든 캐시된 AI 분할 결과가 삭제됩니다. 다음에 AI 분할이 활성화된 비디오를 재생하면 자막이 다시 처리됩니다."
+  },
+  "options_videoSubtitles_aiSegmentation_clearCacheDialog_cancel": {
+    "message": "취소"
+  },
+  "options_videoSubtitles_aiSegmentation_clearCacheDialog_confirm": {
+    "message": "확인"
+  },
+  "options_videoSubtitles_requestQueueConfig_title": {
+    "message": "자막 번역 속도"
+  },
+  "options_videoSubtitles_requestQueueConfig_firstOnDescription": {
+    "message": "자막 번역 요청 처리 속도를"
+  },
+  "options_videoSubtitles_requestQueueConfig_lastOnDescription": {
+    "message": "알고리즘으로 조정"
+  },
+  "options_videoSubtitles_requestQueueConfig_capacity_title": {
+    "message": "최대 버스트 요청 수"
+  },
+  "options_videoSubtitles_requestQueueConfig_capacity_description": {
+    "message": "짧은 시간 내에 동시에 처리할 수 있는 최대 자막 번역 요청 수"
+  },
+  "options_videoSubtitles_requestQueueConfig_rate_title": {
+    "message": "초당 평균 요청 수"
+  },
+  "options_videoSubtitles_requestQueueConfig_rate_description": {
+    "message": "초당 평균 자막 번역 요청 수. 최대 버스트 수를 설정하여 일시적으로 초과 요청을 보낼 수 있습니다"
+  },
+  "options_videoSubtitles_batchQueueConfig_title": {
+    "message": "자막 일괄 번역"
+  },
+  "options_videoSubtitles_batchQueueConfig_description": {
+    "message": "배치 번역 시 문자 수 제한 및 최대 단락 수 구성 (대규모 언어 모델 번역에서만 유효)"
+  },
+  "options_videoSubtitles_batchQueueConfig_maxCharactersPerBatch_title": {
+    "message": "최대 문자 수"
+  },
+  "options_videoSubtitles_batchQueueConfig_maxCharactersPerBatch_description": {
+    "message": "배치 요청당 허용되는 최대 문자 수로 각 번역의 콘텐츠 양을 제어합니다"
+  },
+  "options_videoSubtitles_batchQueueConfig_maxItemsPerBatch_title": {
+    "message": "최대 단락 수"
+  },
+  "options_videoSubtitles_batchQueueConfig_maxItemsPerBatch_description": {
+    "message": "각 배치 번역의 최대 단락 수로 각 번역의 콘텐츠 양을 제어합니다"
+  },
+  "options_videoSubtitles_customPrompts_title": {
+    "message": "사용자 정의 자막 프롬프트"
+  },
+  "options_videoSubtitles_customPrompts_description": {
+    "message": "자막 번역용 프롬프트 템플릿을 사용자 정의합니다 (웹페이지 번역 프롬프트와 별도)"
+  },
+  "options_videoSubtitles_customPrompts_editPrompt_promptCellInput_input": {
+    "message": "번역할 자막 텍스트"
+  },
+  "options_videoSubtitles_customPrompts_editPrompt_promptCellInput_targetLanguage": {
+    "message": "대상 언어"
+  },
+  "options_videoSubtitles_customPrompts_editPrompt_promptCellInput_videoTitle": {
+    "message": "동영상 제목"
+  },
+  "options_videoSubtitles_customPrompts_editPrompt_promptCellInput_videoSummary": {
+    "message": "동영상 요약 (AI 스마트 컨텍스트 필요)"
+  },
+  "options_whatsNew_title": {
+    "message": "새로운 기능"
+  },
+  "options_survey_title": {
+    "message": "자막 개선하기 🎁"
+  },
+  "options_rateUs_title": {
+    "message": "리뷰 남기기"
+  },
+  "side_sourceLang": {
+    "message": "원본 언어"
+  },
+  "side_targetLang": {
+    "message": "대상 언어"
+  },
+  "side_fileExport": {
+    "message": "파일 내보내기"
+  },
+  "translateService_title": {
+    "message": "번역 서비스"
+  },
+  "translateService_description": {
+    "message": "웹페이지 번역 전용"
+  },
+  "translateService_normalTranslator": {
+    "message": "일반 번역기"
+  },
+  "translateService_aiTranslator": {
+    "message": "AI 번역기"
+  },
+  "translateService_selectServices": {
+    "message": "서비스 선택"
+  },
+  "translateService_translationProviders": {
+    "message": "번역 서비스"
+  },
+  "translateService_configureAPI": {
+    "message": "API 설정"
+  },
+  "translatePrompt_title": {
+    "message": "AI 번역 스타일"
+  },
+  "translatePrompt_description": {
+    "message": "번역 시 사용할 프롬프트를 선택할 수 있습니다. 설정 페이지에서 사용자 정의 프롬프트를 추가하거나 수정할 수 있습니다"
+  },
+  "languageLevel": {
+    "message": "원본 언어 수준"
+  },
+  "languageLevels_beginner": {
+    "message": "초급"
+  },
+  "languageLevels_intermediate": {
+    "message": "중급"
+  },
+  "languageLevels_advanced": {
+    "message": "고급"
+  },
+  "noAPIKeyConfig_warning": {
+    "message": "AI 모델을 사용하려면 먼저 옵션 페이지에서 API 키를 설정해 주세요"
+  },
+  "noAPIKeyConfig_warningWithLink_youMust": {
+    "message": "반드시"
+  },
+  "noAPIKeyConfig_warningWithLink_setTheAPIKey": {
+    "message": "API 키를 설정해야 합니다"
+  },
+  "noAPIKeyConfig_warningWithLink_firstOnThe": {
+    "message": "먼저"
+  },
+  "noAPIKeyConfig_warningWithLink_optionsPage": {
+    "message": "옵션"
+  },
+  "noAPIKeyConfig_warningWithLink_page": {
+    "message": "페이지에서"
+  },
+  "languageDetection_llmFailed": {
+    "message": "LLM 언어 감지 실패, 기본 감지로 대체되었습니다"
+  },
+  "translation_sameLanguage": {
+    "message": "원본 언어와 대상 언어는 달라야 합니다"
+  },
+  "translation_autoModeSameLanguage": {
+    "message": "감지된 언어 '$1'은(는) 대상 언어와 같습니다"
+  },
+  "speak_fetchingAudio": {
+    "message": "오디오 생성 중..."
+  },
+  "speak_playingAudio": {
+    "message": "오디오 재생 중..."
+  },
+  "speak_failedToGenerateSpeech": {
+    "message": "음성 생성 실패"
+  },
+  "speak_noTextSelected": {
+    "message": "텍스트가 선택되지 않았습니다"
+  },
+  "speak_openaiNotConfigured": {
+    "message": "OpenAI 공급자가 구성되지 않았거나 활성화되지 않았습니다"
+  },
+  "speak_openaiApiKeyNotConfigured": {
+    "message": "OpenAI API 키가 구성되지 않았습니다"
+  },
+  "action_copy": {
+    "message": "복사"
+  },
+  "action_copied": {
+    "message": "복사됨"
+  },
+  "action_regenerate": {
+    "message": "다시 생성"
+  },
+  "action_viewContextDetails": {
+    "message": "컨텍스트"
+  },
+  "action_saveToNotebase": {
+    "message": "Notebase에 저장"
+  },
+  "action_saveToNotebaseSaving": {
+    "message": "저장 중..."
+  },
+  "action_saveToNotebaseSuccess": {
+    "message": "Notebase에 저장했습니다"
+  },
+  "action_saveToNotebaseFailed": {
+    "message": "Notebase에 저장하지 못했습니다"
+  },
+  "action_saveToNotebaseLoginRequired": {
+    "message": "Notebase에 저장하려면 readfrog.app에 로그인하세요"
+  },
+  "action_saveToNotebaseBetaRequired": {
+    "message": "이 계정은 아직 Notebase 베타 대상이 아닙니다"
+  },
+  "action_saveToNotebaseTableUnavailable": {
+    "message": "선택한 Notebase를 더 이상 사용할 수 없습니다"
+  },
+  "action_saveToNotebaseConnectionInvalid": {
+    "message": "현재 Notebase 연결이 오래되었습니다. Custom AI Actions에서 새로고침하고 매핑을 수정하세요."
+  },
+  "action_saveToNotebaseNoMappings": {
+    "message": "저장하기 전에 유효한 매핑을 하나 이상 추가하세요"
+  },
+  "action_contextDetailsTitleLabel": {
+    "message": "제목"
+  },
+  "action_contextDetailsParagraphsLabel": {
+    "message": "문단 내용"
+  },
+  "action_translation": {
+    "message": "번역"
+  },
+  "action_speak": {
+    "message": "읽기"
+  },
+  "action_playing": {
+    "message": "재생 중"
+  },
+  "thinking_label": {
+    "message": "사고 중"
+  },
+  "thinking_complete": {
+    "message": "사고 완료"
+  },
+  "thinking_expand": {
+    "message": "사고 펼치기"
+  },
+  "thinking_collapse": {
+    "message": "사고 접기"
+  },
+  "shortcutKeySelector_placeholder": {
+    "message": "단축키를 입력해 주세요"
+  },
+  "subtitles_actions_downloadSource": {
+    "message": "원본 자막 다운로드"
+  },
+  "subtitles_state_loading": {
+    "message": "Skim AI 자막 로딩 중"
+  },
+  "subtitles_state_error": {
+    "message": "오류 발생"
+  },
+  "subtitles_errors_http429": {
+    "message": "429 유튜브 자막 인터페이스 요청이 너무 많습니다. 잠시 후 다시 시도해 주세요"
+  },
+  "subtitles_errors_http404": {
+    "message": "404 유튜브 자막을 찾을 수 없습니다"
+  },
+  "subtitles_errors_http403": {
+    "message": "403 유튜브 자막 접근이 거부되었습니다"
+  },
+  "subtitles_errors_http500": {
+    "message": "500 유튜브 서버 오류"
+  },
+  "subtitles_errors_httpUnknown": {
+    "message": "HTTP 오류 $1"
+  },
+  "subtitles_errors_invalidResponse": {
+    "message": "유튜브 자막 응답 형식이 잘못되었습니다"
+  },
+  "subtitles_errors_networkError": {
+    "message": "자막을 가져오는 도중 네트워크 오류가 발생했습니다"
+  },
+  "subtitles_errors_fetchSubTimeout": {
+    "message": "유튜브 자막 가져오기 시간이 초과되었습니다"
+  },
+  "subtitles_errors_buttonNotFound": {
+    "message": "자막 버튼을 찾을 수 없습니다"
+  },
+  "subtitles_errors_noSubtitlesFound": {
+    "message": "현재 영상에 자막이 없습니다"
+  },
+  "subtitles_errors_videoNotFound": {
+    "message": "비디오 요소를 찾을 수 없습니다"
+  },
+  "subtitles_errors_controlsBarNotFound": {
+    "message": "컨트롤 바를 찾을 수 없습니다"
+  },
+  "subtitles_errors_aiRateLimited": {
+    "message": "요청이 너무 많습니다. 나중에 다시 시도해 주세요"
+  },
+  "subtitles_errors_aiAuthFailed": {
+    "message": "API 인증에 실패했습니다. API 키를 확인해 주세요"
+  },
+  "subtitles_errors_aiServiceUnavailable": {
+    "message": "번역 서비스를 일시적으로 사용할 수 없습니다"
+  },
+  "subtitles_errors_aiNoResponse": {
+    "message": "AI 서비스가 응답하지 않았습니다. 원문을 표시합니다"
+  },
+  "hotkey_control": {
+    "message": "Ctrl"
+  },
+  "hotkey_alt": {
+    "message": "Option"
+  },
+  "hotkey_shift": {
+    "message": "Shift"
+  },
+  "hotkey_backtick": {
+    "message": "백틱"
+  },
+  "hotkey_clickAndHold": {
+    "message": "클릭하고 길게 누르기"
+  },
+  "translationHub_searchLanguages": {
+    "message": "언어 검색..."
+  },
+  "translationHub_noLanguagesFound": {
+    "message": "언어를 찾을 수 없습니다"
+  },
+  "translationHub_exchangeLanguages": {
+    "message": "언어 교환"
+  },
+  "translationHub_title": {
+    "message": "멀티 API 텍스트 번역"
+  },
+  "translationHub_noServicesSelected": {
+    "message": "번역 서비스가 선택되지 않았습니다"
+  },
+  "translationHub_noServicesDescription": {
+    "message": "위에서 번역 서비스를 선택하여 번역 카드를 확인하세요."
+  },
+  "translationHub_inputPlaceholder": {
+    "message": "번역할 텍스트를 입력하세요..."
+  },
+  "translationHub_translate": {
+    "message": "번역"
+  },
+  "translationHub_copiedToClipboard": {
+    "message": "번역이 클립보드에 복사되었습니다!"
+  },
+  "translationHub_copyTranslation": {
+    "message": "번역 복사"
+  },
+  "translationHub_expandCard": {
+    "message": "카드 펼치기"
+  },
+  "translationHub_collapseCard": {
+    "message": "카드 접기"
+  },
+  "translationHub_expandAllCards": {
+    "message": "모두 펼치기"
+  },
+  "translationHub_collapseAllCards": {
+    "message": "모두 접기"
+  },
+  "translationHub_deleteCard": {
+    "message": "카드 삭제"
+  },
+  "translationHub_translationFailed": {
+    "message": "번역 실패"
+  },
+  "translationHub_translationFailedFallback": {
+    "message": "번역 실패"
+  },
+  "translationHub_retryTranslation": {
+    "message": "번역 재시도"
+  },
+  "languages_eng": {
+    "message": "영어"
+  },
+  "languages_cmn": {
+    "message": "중국어 간체"
+  },
+  "languages_cmnHant": {
+    "message": "중국어 번체"
+  },
+  "languages_yue": {
+    "message": "광둥어"
+  },
+  "languages_spa": {
+    "message": "스페인어"
+  },
+  "languages_rus": {
+    "message": "러시아어"
+  },
+  "languages_arb": {
+    "message": "아랍어"
+  },
+  "languages_ben": {
+    "message": "벵골어"
+  },
+  "languages_hin": {
+    "message": "힌디어"
+  },
+  "languages_por": {
+    "message": "포르투갈어"
+  },
+  "languages_ind": {
+    "message": "인도네시아어"
+  },
+  "languages_jpn": {
+    "message": "일본어"
+  },
+  "languages_fra": {
+    "message": "프랑스어"
+  },
+  "languages_deu": {
+    "message": "독일어"
+  },
+  "languages_jav": {
+    "message": "자바어"
+  },
+  "languages_kor": {
+    "message": "한국어"
+  },
+  "languages_tel": {
+    "message": "텔루구어"
+  },
+  "languages_vie": {
+    "message": "베트남어"
+  },
+  "languages_mar": {
+    "message": "마라티어"
+  },
+  "languages_ita": {
+    "message": "이탈리아어"
+  },
+  "languages_tam": {
+    "message": "타밀어"
+  },
+  "languages_tur": {
+    "message": "터키어"
+  },
+  "languages_urd": {
+    "message": "우르두어"
+  },
+  "languages_guj": {
+    "message": "구자라트어"
+  },
+  "languages_pol": {
+    "message": "폴란드어"
+  },
+  "languages_ukr": {
+    "message": "우크라이나어"
+  },
+  "languages_kan": {
+    "message": "칸나다어"
+  },
+  "languages_mai": {
+    "message": "마이틸리어"
+  },
+  "languages_mal": {
+    "message": "말라얄람어"
+  },
+  "languages_pes": {
+    "message": "페르시아어"
+  },
+  "languages_mya": {
+    "message": "미얀마어"
+  },
+  "languages_swh": {
+    "message": "스와힐리어"
+  },
+  "languages_sun": {
+    "message": "순다어"
+  },
+  "languages_ron": {
+    "message": "루마니아어"
+  },
+  "languages_pan": {
+    "message": "펀자브어"
+  },
+  "languages_bho": {
+    "message": "보즈푸리어"
+  },
+  "languages_amh": {
+    "message": "암하라어"
+  },
+  "languages_hau": {
+    "message": "하우사어"
+  },
+  "languages_fuv": {
+    "message": "풀라어"
+  },
+  "languages_bos": {
+    "message": "보스니아어"
+  },
+  "languages_hrv": {
+    "message": "크로아티아어"
+  },
+  "languages_nld": {
+    "message": "네덜란드어"
+  },
+  "languages_srp": {
+    "message": "세르비아어"
+  },
+  "languages_tha": {
+    "message": "태국어"
+  },
+  "languages_ckb": {
+    "message": "중앙 쿠르드어"
+  },
+  "languages_yor": {
+    "message": "요루바어"
+  },
+  "languages_uzn": {
+    "message": "우즈베크어"
+  },
+  "languages_zlm": {
+    "message": "말레이어"
+  },
+  "languages_ibo": {
+    "message": "이그보어"
+  },
+  "languages_npi": {
+    "message": "네팔어"
+  },
+  "languages_ceb": {
+    "message": "세부아노어"
+  },
+  "languages_skr": {
+    "message": "사라이키어"
+  },
+  "languages_tgl": {
+    "message": "타갈로그어"
+  },
+  "languages_hun": {
+    "message": "헝가리어"
+  },
+  "languages_azj": {
+    "message": "아제르바이잔어"
+  },
+  "languages_sin": {
+    "message": "싱할라어"
+  },
+  "languages_koi": {
+    "message": "코미페르먀크어"
+  },
+  "languages_ell": {
+    "message": "그리스어"
+  },
+  "languages_ces": {
+    "message": "체코어"
+  },
+  "languages_mag": {
+    "message": "마가히어"
+  },
+  "languages_run": {
+    "message": "룬디어"
+  },
+  "languages_bel": {
+    "message": "벨라루스어"
+  },
+  "languages_plt": {
+    "message": "마다가스카르어"
+  },
+  "languages_qug": {
+    "message": "침보라소 고원 키추아어"
+  },
+  "languages_mad": {
+    "message": "마두라어"
+  },
+  "languages_nya": {
+    "message": "체와어"
+  },
+  "languages_zyb": {
+    "message": "좡어"
+  },
+  "languages_pbu": {
+    "message": "파슈토어"
+  },
+  "languages_kin": {
+    "message": "르완다어"
+  },
+  "languages_zul": {
+    "message": "줄루어"
+  },
+  "languages_bul": {
+    "message": "불가리아어"
+  },
+  "languages_swe": {
+    "message": "스웨덴어"
+  },
+  "languages_lin": {
+    "message": "링갈라어"
+  },
+  "languages_som": {
+    "message": "소말리어"
+  },
+  "languages_hms": {
+    "message": "첸동 먀오어"
+  },
+  "languages_hnj": {
+    "message": "몽어"
+  },
+  "languages_ilo": {
+    "message": "일로카노어"
+  },
+  "languages_kaz": {
+    "message": "카자흐어"
+  },
+  "languages_heb": {
+    "message": "히브리어"
+  },
+  "languages_nob": {
+    "message": "노르웨이어(보크몰)"
+  },
+  "languages_nno": {
+    "message": "노르웨이어(뉘노르스크)"
+  },
+  "languages_afr": {
+    "message": "아프리칸스어"
+  },
+  "languages_sqi": {
+    "message": "알바니아어"
+  },
+  "languages_asm": {
+    "message": "아삼어"
+  },
+  "languages_eus": {
+    "message": "바스크어"
+  },
+  "languages_bre": {
+    "message": "브르타뉴어"
+  },
+  "languages_cat": {
+    "message": "카탈루냐어"
+  },
+  "languages_cos": {
+    "message": "코르시카어"
+  },
+  "languages_cym": {
+    "message": "웨일스어"
+  },
+  "languages_dan": {
+    "message": "덴마크어"
+  },
+  "languages_div": {
+    "message": "디베히어"
+  },
+  "languages_epo": {
+    "message": "에스페란토"
+  },
+  "languages_ekk": {
+    "message": "에스토니아어"
+  },
+  "languages_fao": {
+    "message": "페로어"
+  },
+  "languages_fij": {
+    "message": "피지어"
+  },
+  "languages_fin": {
+    "message": "핀란드어"
+  },
+  "languages_fry": {
+    "message": "서프리슬란트어"
+  },
+  "languages_gla": {
+    "message": "스코틀랜드 게일어"
+  },
+  "languages_gle": {
+    "message": "아일랜드어"
+  },
+  "languages_glg": {
+    "message": "갈리시아어"
+  },
+  "languages_grn": {
+    "message": "과라니어"
+  },
+  "languages_hat": {
+    "message": "아이티 크리올어"
+  },
+  "languages_haw": {
+    "message": "하와이어"
+  },
+  "languages_hye": {
+    "message": "아르메니아어"
+  },
+  "languages_ido": {
+    "message": "이도어"
+  },
+  "languages_ina": {
+    "message": "인터링구아"
+  },
+  "languages_isl": {
+    "message": "아이슬란드어"
+  },
+  "languages_kat": {
+    "message": "조지아어"
+  },
+  "languages_khm": {
+    "message": "크메르어"
+  },
+  "languages_kir": {
+    "message": "키르기스어"
+  },
+  "languages_lao": {
+    "message": "라오어"
+  },
+  "languages_lat": {
+    "message": "라틴어"
+  },
+  "languages_lvs": {
+    "message": "라트비아어"
+  },
+  "languages_lit": {
+    "message": "리투아니아어"
+  },
+  "languages_ltz": {
+    "message": "룩셈부르크어"
+  },
+  "languages_mkd": {
+    "message": "마케도니아어"
+  },
+  "languages_mlt": {
+    "message": "몰타어"
+  },
+  "languages_mon": {
+    "message": "몽골어"
+  },
+  "languages_mri": {
+    "message": "마오리어"
+  },
+  "languages_nso": {
+    "message": "북소토어"
+  },
+  "languages_oci": {
+    "message": "오크어"
+  },
+  "languages_ori": {
+    "message": "오리야어"
+  },
+  "languages_orm": {
+    "message": "오로모어"
+  },
+  "languages_prs": {
+    "message": "다리어"
+  },
+  "languages_san": {
+    "message": "산스크리트어"
+  },
+  "languages_slk": {
+    "message": "슬로바키아어"
+  },
+  "languages_slv": {
+    "message": "슬로베니아어"
+  },
+  "languages_smo": {
+    "message": "사모아어"
+  },
+  "languages_sna": {
+    "message": "쇼나어"
+  },
+  "languages_snd": {
+    "message": "신디어"
+  },
+  "languages_sot": {
+    "message": "남소토어"
+  },
+  "languages_tah": {
+    "message": "타히티어"
+  },
+  "languages_tat": {
+    "message": "타타르어"
+  },
+  "languages_tgk": {
+    "message": "타지크어"
+  },
+  "languages_tir": {
+    "message": "티그리냐어"
+  },
+  "languages_ton": {
+    "message": "통가어"
+  },
+  "languages_tsn": {
+    "message": "츠와나어"
+  },
+  "languages_tuk": {
+    "message": "투르크멘어"
+  },
+  "languages_uig": {
+    "message": "위구르어"
+  },
+  "languages_vol": {
+    "message": "볼라퓌크"
+  },
+  "languages_wol": {
+    "message": "월로프어"
+  },
+  "languages_xho": {
+    "message": "코사어"
+  },
+  "languages_ydd": {
+    "message": "이디시어"
+  },
+  "languages_aka": {
+    "message": "아칸어"
+  },
+  "languages_bam": {
+    "message": "밤바라어"
+  },
+  "languages_bis": {
+    "message": "비슬라마어"
+  },
+  "languages_bod": {
+    "message": "티베트어"
+  },
+  "languages_che": {
+    "message": "체첸어"
+  },
+  "languages_chv": {
+    "message": "추바시어"
+  },
+  "languages_dzo": {
+    "message": "종카어"
+  },
+  "languages_ewe": {
+    "message": "에웨어"
+  },
+  "languages_kab": {
+    "message": "카빌어"
+  },
+  "languages_lug": {
+    "message": "루간다어"
+  },
+  "languages_oss": {
+    "message": "오세트어"
+  },
+  "languages_ssw": {
+    "message": "스와티어"
+  },
+  "languages_ven": {
+    "message": "벤다어"
+  },
+  "languages_war": {
+    "message": "와라이어"
+  },
+  "languages_nde": {
+    "message": "북은데벨레어"
+  },
+  "languages_nbl": {
+    "message": "남은데벨레어"
+  },
+  "languages_pam": {
+    "message": "팜팡가어"
+  },
+  "languages_hil": {
+    "message": "힐리가이논어"
+  },
+  "languages_bcl": {
+    "message": "중앙비콜어"
+  },
+  "languages_min": {
+    "message": "미낭카바우어"
+  },
+  "languages_ace": {
+    "message": "아체어"
+  },
+  "languages_bug": {
+    "message": "부기어"
+  },
+  "languages_ban": {
+    "message": "발리어"
+  },
+  "languages_bjn": {
+    "message": "반자르어"
+  },
+  "languages_mak": {
+    "message": "마카사르어"
+  },
+  "languages_sas": {
+    "message": "사삭어"
+  },
+  "languages_tet": {
+    "message": "테툼어"
+  },
+  "languages_cha": {
+    "message": "차모로어"
+  },
+  "languages_niu": {
+    "message": "니우에어"
+  },
+  "languages_tvl": {
+    "message": "투발루어"
+  },
+  "languages_gil": {
+    "message": "키리바시어"
+  },
+  "languages_mah": {
+    "message": "마셜어"
+  },
+  "languages_pau": {
+    "message": "팔라우어"
+  },
+  "languages_wls": {
+    "message": "월리스어"
+  },
+  "languages_rar": {
+    "message": "라로통가어"
+  },
+  "languages_hif": {
+    "message": "피지 힌디어"
+  }
+}

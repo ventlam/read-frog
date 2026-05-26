@@ -39,7 +39,7 @@ export const videoSummaryStyles = /* css */ `
     display: flex;
     flex-direction: column;
     -webkit-font-smoothing: antialiased;
-    max-height: 620px;
+    height: 100%;
   }
 
   .skim-header {
@@ -147,10 +147,10 @@ export const videoSummaryStyles = /* css */ `
   }
 
   .skim-summary-text {
-    font-family: var(--font-display);
+    font-family: var(--font-ui);
     font-style: normal;
-    font-size: 15px;
-    line-height: 1.45;
+    font-size: 13.5px;
+    line-height: 1.55;
     letter-spacing: -0.005em;
     color: var(--ink);
     margin: 0 0 14px;

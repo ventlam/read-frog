@@ -7,6 +7,16 @@ import App from "./app"
 import { videoSummaryStyles } from "./styles"
 
 let currentRoot: ReactDOM.Root | null = null
+let resizeObserver: ResizeObserver | null = null
+
+function syncHeight(host: HTMLElement) {
+  const player = document.querySelector("#movie_player")
+  if (!player)
+    return
+  const h = player.clientHeight
+  if (h > 200)
+    host.style.height = `${h}px`
+}
 
 function mount(config: any) {
   const existing = document.getElementById("skim-ai-video-summary")
@@ -25,6 +35,16 @@ function mount(config: any) {
   host.id = "skim-ai-video-summary"
   host.classList.add("notranslate")
   host.setAttribute("translate", "no")
+  host.style.marginBottom = "12px"
+  host.style.overflow = "hidden"
+  syncHeight(host)
+
+  const player = document.querySelector("#movie_player")
+  if (player) {
+    resizeObserver = new ResizeObserver(() => syncHeight(host))
+    resizeObserver.observe(player)
+  }
+
   const shadow = host.attachShadow({ mode: "open" })
 
   const style = document.createElement("style")
@@ -32,6 +52,7 @@ function mount(config: any) {
   shadow.appendChild(style)
 
   const container = document.createElement("div")
+  container.style.height = "100%"
   shadow.appendChild(container)
 
   anchor.insertAdjacentElement("afterbegin", host)
@@ -41,6 +62,10 @@ function mount(config: any) {
 }
 
 function unmount() {
+  if (resizeObserver) {
+    resizeObserver.disconnect()
+    resizeObserver = null
+  }
   if (currentRoot) {
     currentRoot.unmount()
     currentRoot = null

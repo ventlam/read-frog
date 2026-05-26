@@ -1,51 +1,32 @@
+import { YoutubeSubtitlesFetcher } from "@/utils/subtitles/fetchers/youtube"
+
 export interface TranscriptSegment {
   start: number
   duration: number
   text: string
 }
 
-const MSG_REQUEST = "skim-ai-transcript-request"
-const MSG_RESPONSE = "skim-ai-transcript-response"
+let fetcher: YoutubeSubtitlesFetcher | null = null
 
-export async function fetchTranscript(videoId: string): Promise<TranscriptSegment[]> {
-  // Ask the main-world bridge script for transcript data
-  const delays = [0, 2000, 4000, 6000]
-  for (const delay of delays) {
-    if (delay > 0)
-      await new Promise(r => setTimeout(r, delay))
+export async function fetchTranscript(_videoId: string): Promise<TranscriptSegment[]> {
+  try {
+    if (!fetcher)
+      fetcher = new YoutubeSubtitlesFetcher()
 
-    console.log("[SkimAI] Requesting transcript via bridge, attempt", delays.indexOf(delay) + 1)
-    const segments = await requestFromBridge(videoId)
-    if (segments.length > 0) {
-      console.log("[SkimAI] Got", segments.length, "segments from bridge")
-      return segments
-    }
+    const fragments = await fetcher.fetch()
+    return fragments.map(f => ({
+      start: f.start / 1000,
+      duration: (f.end - f.start) / 1000,
+      text: f.text,
+    }))
   }
-  return []
+  catch (err) {
+    console.warn("[SkimAI] Transcript fetch failed:", err)
+    return []
+  }
 }
 
-function requestFromBridge(videoId: string): Promise<TranscriptSegment[]> {
-  return new Promise((resolve) => {
-    const timeout = setTimeout(() => {
-      window.removeEventListener("message", handler)
-      console.log("[SkimAI] Bridge request timed out")
-      resolve([])
-    }, 10000)
-
-    function handler(event: MessageEvent) {
-      if (event.data?.type !== MSG_RESPONSE || event.data?.videoId !== videoId)
-        return
-      window.removeEventListener("message", handler)
-      clearTimeout(timeout)
-      resolve(event.data.segments || [])
-    }
-
-    window.addEventListener("message", handler)
-    window.postMessage({ type: MSG_REQUEST, videoId }, "*")
-  })
-}
-
-export function transcriptToText(segments: TranscriptSegment[], maxChars = 12000): string {
+export function transcriptToText(segments: TranscriptSegment[], maxChars = 200000): string {
   let result = ""
   for (const seg of segments) {
     if (result.length + seg.text.length > maxChars)
@@ -63,4 +44,32 @@ export function getVideoTitle(): string {
 
 export function getVideoId(): string | null {
   return new URLSearchParams(window.location.search).get("v")
+}
+
+export function estimateDuration(segments: TranscriptSegment[]): number {
+  if (segments.length === 0)
+    return 0
+  const last = segments[segments.length - 1]
+  return Math.ceil((last.start + last.duration) / 60)
+}
+
+export function sliceTranscript(segments: TranscriptSegment[], startSec: number, endSec: number): string {
+  return segments
+    .filter(s => s.start >= startSec && s.start < endSec)
+    .map(s => s.text)
+    .join(" ")
+    .trim()
+}
+
+export function parseTimestamp(ts: string): number {
+  const parts = ts.split(":").map(Number)
+  if (parts.length === 3) return parts[0] * 3600 + parts[1] * 60 + parts[2]
+  return parts[0] * 60 + (parts[1] || 0)
+}
+
+export function resetFetcher(): void {
+  if (fetcher) {
+    fetcher.cleanup()
+    fetcher = null
+  }
 }

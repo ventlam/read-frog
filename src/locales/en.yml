@@ -1,6 +1,6 @@
 name: Skim AI
 extName: "Skim AI - Search & Video Insights"
-extDescription: AI-powered YouTube video summaries with deep chapter analysis, search enhancement, and translation.
+extDescription: Skim AI is an open source browser extension that enhances your browsing with AI-powered search summaries, YouTube insights, and translation.
 uninstallSurveyUrl: https://tally.so/r/nPK6Ob
 dataTypes:
   string: Text

@@ -1,6 +1,6 @@
 # Privacy Policy — Skim AI
 
-*Last updated: May 28, 2026*
+_Last updated: May 28, 2026_
 
 ## Overview
 
@@ -37,14 +37,14 @@ This data is sent using **your own API key** under **your own API agreement** wi
 
 ## Permissions Explained
 
-| Permission | Why it's needed |
-|---|---|
-| storage | Save your settings and API keys locally |
-| tabs | Detect when you're on YouTube or a search engine to show relevant features |
-| cookies | Authenticate with YouTube's caption API to fetch video transcripts |
-| host_permissions | Enable webpage translation on any site you choose to translate |
-| scripting | Inject translation overlay when you activate translation |
-| webNavigation | Detect YouTube page navigation (it's a single-page app) to refresh the summary panel |
+| Permission       | Why it's needed                                                                      |
+| ---------------- | ------------------------------------------------------------------------------------ |
+| storage          | Save your settings and API keys locally                                              |
+| tabs             | Detect when you're on YouTube or a search engine to show relevant features           |
+| cookies          | Authenticate with YouTube's caption API to fetch video transcripts                   |
+| host_permissions | Enable webpage translation on any site you choose to translate                       |
+| scripting        | Inject translation overlay when you activate translation                             |
+| webNavigation    | Detect YouTube page navigation (it's a single-page app) to refresh the summary panel |
 
 ## Data Retention
 

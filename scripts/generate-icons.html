@@ -1,80 +1,82 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head><title>Skim AI Icon Generator</title></head>
-<body>
-<canvas id="c"></canvas>
-<script>
-const sizes = [16, 32, 48, 96, 128];
-const canvas = document.getElementById('c');
-const ctx = canvas.getContext('2d');
+  <head>
+    <title>Skim AI Icon Generator</title>
+  </head>
+  <body>
+    <canvas id="c"></canvas>
+    <script>
+      const sizes = [16, 32, 48, 96, 128]
+      const canvas = document.getElementById("c")
+      const ctx = canvas.getContext("2d")
 
-function drawIcon(size) {
-  canvas.width = size;
-  canvas.height = size;
-  ctx.clearRect(0, 0, size, size);
+      function drawIcon(size) {
+        canvas.width = size
+        canvas.height = size
+        ctx.clearRect(0, 0, size, size)
 
-  const s = size / 128;
-  const pad = 20 * s;
-  const cx = size / 2;
-  const cy = size / 2;
+        const s = size / 128
+        const pad = 20 * s
+        const cx = size / 2
+        const cy = size / 2
 
-  // Background circle — deep forest
-  ctx.beginPath();
-  ctx.arc(cx, cy, size / 2, 0, Math.PI * 2);
-  ctx.fillStyle = '#0B3B30';
-  ctx.fill();
+        // Background circle — deep forest
+        ctx.beginPath()
+        ctx.arc(cx, cy, size / 2, 0, Math.PI * 2)
+        ctx.fillStyle = "#0B3B30"
+        ctx.fill()
 
-  // Three text lines
-  const lineH = 10 * s;
-  const gap = 16 * s;
-  const startY = cy - gap - lineH / 2;
+        // Three text lines
+        const lineH = 10 * s
+        const gap = 16 * s
+        const startY = cy - gap - lineH / 2
 
-  // Line 1 — top, muted
-  const l1w = 52 * s;
-  ctx.fillStyle = 'rgba(250,248,243,0.4)';
-  roundRect(ctx, cx - l1w / 2, startY, l1w, lineH, 4 * s);
-  ctx.fill();
+        // Line 1 — top, muted
+        const l1w = 52 * s
+        ctx.fillStyle = "rgba(250,248,243,0.4)"
+        roundRect(ctx, cx - l1w / 2, startY, l1w, lineH, 4 * s)
+        ctx.fill()
 
-  // Line 2 — middle, acid lime highlight (the Skim mark)
-  const l2w = 76 * s;
-  const l2y = startY + gap;
-  const l2h = 16 * s;
-  ctx.fillStyle = '#D2F26C';
-  roundRect(ctx, cx - l2w / 2, l2y, l2w, l2h, 6 * s);
-  ctx.fill();
+        // Line 2 — middle, acid lime highlight (the Skim mark)
+        const l2w = 76 * s
+        const l2y = startY + gap
+        const l2h = 16 * s
+        ctx.fillStyle = "#D2F26C"
+        roundRect(ctx, cx - l2w / 2, l2y, l2w, l2h, 6 * s)
+        ctx.fill()
 
-  // Line 3 — bottom, muted
-  const l3w = 38 * s;
-  const l3y = l2y + gap + (l2h - lineH);
-  ctx.fillStyle = 'rgba(250,248,243,0.4)';
-  roundRect(ctx, cx - l3w / 2, l3y, l3w, lineH, 4 * s);
-  ctx.fill();
-}
+        // Line 3 — bottom, muted
+        const l3w = 38 * s
+        const l3y = l2y + gap + (l2h - lineH)
+        ctx.fillStyle = "rgba(250,248,243,0.4)"
+        roundRect(ctx, cx - l3w / 2, l3y, l3w, lineH, 4 * s)
+        ctx.fill()
+      }
 
-function roundRect(ctx, x, y, w, h, r) {
-  ctx.beginPath();
-  ctx.moveTo(x + r, y);
-  ctx.lineTo(x + w - r, y);
-  ctx.quadraticCurveTo(x + w, y, x + w, y + r);
-  ctx.lineTo(x + w, y + h - r);
-  ctx.quadraticCurveTo(x + w, y + h, x + w - r, y + h);
-  ctx.lineTo(x + r, y + h);
-  ctx.quadraticCurveTo(x, y + h, x, y + h - r);
-  ctx.lineTo(x, y + r);
-  ctx.quadraticCurveTo(x, y, x + r, y);
-  ctx.closePath();
-}
+      function roundRect(ctx, x, y, w, h, r) {
+        ctx.beginPath()
+        ctx.moveTo(x + r, y)
+        ctx.lineTo(x + w - r, y)
+        ctx.quadraticCurveTo(x + w, y, x + w, y + r)
+        ctx.lineTo(x + w, y + h - r)
+        ctx.quadraticCurveTo(x + w, y + h, x + w - r, y + h)
+        ctx.lineTo(x + r, y + h)
+        ctx.quadraticCurveTo(x, y + h, x, y + h - r)
+        ctx.lineTo(x, y + r)
+        ctx.quadraticCurveTo(x, y, x + r, y)
+        ctx.closePath()
+      }
 
-// Generate and download all sizes
-sizes.forEach(size => {
-  drawIcon(size);
-  const link = document.createElement('a');
-  link.download = `${size}.png`;
-  link.href = canvas.toDataURL('image/png');
-  link.click();
-});
+      // Generate and download all sizes
+      sizes.forEach((size) => {
+        drawIcon(size)
+        const link = document.createElement("a")
+        link.download = `${size}.png`
+        link.href = canvas.toDataURL("image/png")
+        link.click()
+      })
 
-document.body.innerHTML = '<h2>Icons generated! Check your downloads.</h2>';
-</script>
-</body>
+      document.body.innerHTML = "<h2>Icons generated! Check your downloads.</h2>"
+    </script>
+  </body>
 </html>

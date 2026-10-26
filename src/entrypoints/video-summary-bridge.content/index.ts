@@ -14,7 +14,6 @@ export default defineContentScript({
       const existing = (window as any).ytInitialPlayerResponse
       if (existing?.captions?.playerCaptionsTracklistRenderer?.captionTracks?.length) {
         cachedTracks = existing.captions.playerCaptionsTracklistRenderer.captionTracks
-        console.log("[SkimAI Bridge] Found existing ytInitialPlayerResponse with", cachedTracks!.length, "tracks")
       }
     }
     catch { /* ignore */ }
@@ -28,7 +27,6 @@ export default defineContentScript({
           const tracks = value?.captions?.playerCaptionsTracklistRenderer?.captionTracks
           if (tracks?.length) {
             cachedTracks = tracks
-            console.log("[SkimAI Bridge] Intercepted ytInitialPlayerResponse:", tracks.length, "tracks")
           }
         },
         configurable: true,
@@ -39,8 +37,6 @@ export default defineContentScript({
       console.warn("[SkimAI Bridge] Could not defineProperty:", e)
     }
 
-    console.log("[SkimAI Bridge] Loaded in MAIN world")
-
     window.addEventListener("message", async (event) => {
       if (event.data?.type !== MSG_REQUEST)
         return
@@ -48,11 +44,8 @@ export default defineContentScript({
       if (!videoId)
         return
 
-      console.log("[SkimAI Bridge] Request for", videoId)
-
       try {
         const segments = await getTranscript(videoId)
-        console.log("[SkimAI Bridge] Result:", segments.length, "segments")
         window.postMessage({ type: MSG_RESPONSE, videoId, segments }, "*")
       }
       catch (err) {
@@ -64,61 +57,43 @@ export default defineContentScript({
     async function getTranscript(videoId: string): Promise<any[]> {
       // Method 1: cached tracks from interceptor
       if (cachedTracks?.length) {
-        console.log("[SkimAI Bridge] Trying cached tracks:", cachedTracks.length)
         const result = await tryTracks(cachedTracks)
-        if (result.length > 0) return result
-        console.log("[SkimAI Bridge] Cached tracks failed")
+        if (result.length > 0)
+          return result
       }
 
       // Method 2: window objects
       const windowTracks = getCaptionTracksFromWindow()
       if (windowTracks?.length) {
-        console.log("[SkimAI Bridge] Trying window tracks:", windowTracks.length)
         const result = await tryTracks(windowTracks)
-        if (result.length > 0) return result
-        console.log("[SkimAI Bridge] Window tracks failed")
-      }
-      else {
-        console.log("[SkimAI Bridge] No window tracks found")
+        if (result.length > 0)
+          return result
       }
 
       // Method 3: player API
       const playerTracks = getCaptionTracksFromPlayer()
       if (playerTracks?.length) {
-        console.log("[SkimAI Bridge] Trying player tracks:", playerTracks.length)
         const result = await tryTracks(playerTracks)
-        if (result.length > 0) return result
-        console.log("[SkimAI Bridge] Player tracks failed")
-      }
-      else {
-        console.log("[SkimAI Bridge] No player tracks found")
+        if (result.length > 0)
+          return result
       }
 
       // Method 4: Performance API URLs
       const perfUrls = getTimedTextFromPerformance()
       if (perfUrls.length > 0) {
-        console.log("[SkimAI Bridge] Trying", perfUrls.length, "perf URLs")
         for (const url of perfUrls) {
           const segments = await fetchCaptions(url)
-          if (segments.length > 0) return segments
+          if (segments.length > 0)
+            return segments
         }
-        console.log("[SkimAI Bridge] Perf URLs failed")
-      }
-      else {
-        console.log("[SkimAI Bridge] No perf URLs found")
       }
 
       // Method 5: Fetch page HTML and extract caption tracks
-      console.log("[SkimAI Bridge] Trying HTML fallback for", videoId)
       const htmlTracks = await getCaptionTracksFromHTML(videoId)
       if (htmlTracks?.length) {
-        console.log("[SkimAI Bridge] HTML fallback found", htmlTracks.length, "tracks")
         const result = await tryTracks(htmlTracks)
-        if (result.length > 0) return result
-        console.log("[SkimAI Bridge] HTML fallback tracks failed to fetch")
-      }
-      else {
-        console.log("[SkimAI Bridge] HTML fallback found no tracks")
+        if (result.length > 0)
+          return result
       }
 
       return []
@@ -182,14 +157,16 @@ export default defineContentScript({
         const resp = await fetch(`https://www.youtube.com/watch?v=${videoId}`, {
           credentials: "include",
         })
-        if (!resp.ok) return null
+        if (!resp.ok)
+          return null
         const html = await resp.text()
         const match = html.match(/ytInitialPlayerResponse\s*=\s*(\{.+?\});/)
           ?? html.match(/"captions":\s*(\{.+?\}),\s*"videoDetails"/)
-        if (!match) return null
+        if (!match)
+          return null
 
         let data: any
-        if (match[0].startsWith('"captions"')) {
+        if (match[0].startsWith("\"captions\"")) {
           data = { captions: JSON.parse(match[1]) }
         }
         else {
@@ -229,7 +206,6 @@ export default defineContentScript({
           u.searchParams.set("fmt", "json3")
         const resp = await fetch(u.toString(), { credentials: "include" })
         if (!resp.ok) {
-          console.log("[SkimAI Bridge] Caption fetch failed:", resp.status, url.slice(0, 80))
           return []
         }
         const text = await resp.text()

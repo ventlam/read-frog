@@ -1,6 +1,6 @@
 name: Skim AI
-extName: Skim AI - Переводи и учись
-extDescription: Skim AI — расширение браузера с открытым исходным кодом, которое поможет вам глубоко изучать языки на любом веб-сайте.
+extName: Skim AI - Сводки YouTube и поиск
+extDescription: "ИИ-сводки YouTube и поиска, перевод веб-страниц и субтитров. Для сводок нужен ваш API-ключ ИИ."
 uninstallSurveyUrl: https://tally.so/r/nPK6Ob
 dataTypes:
   string: Текст

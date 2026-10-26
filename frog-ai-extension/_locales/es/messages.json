@@ -3,10 +3,10 @@
     "message": "Skim AI"
   },
   "extName": {
-    "message": "Skim AI - Traduce y aprende"
+    "message": "Skim AI - Resúmenes de YouTube y búsquedas"
   },
   "extDescription": {
-    "message": "Skim AI es una extensión de navegador de código abierto diseñada para ayudarte a aprender idiomas en profundidad desde cualquier sitio web."
+    "message": "Resúmenes con IA de YouTube y búsquedas, y traducción de páginas y subtítulos. Los resúmenes usan tu propia clave de API de IA."
   },
   "uninstallSurveyUrl": {
     "message": "https://tally.so/r/nPK6Ob"

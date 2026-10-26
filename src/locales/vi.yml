@@ -1,6 +1,6 @@
 name: Skim AI
-extName: Skim AI - Dịch và học
-extDescription: Skim AI là tiện ích mở rộng trình duyệt mã nguồn mở được thiết kế để giúp bạn học ngôn ngữ sâu từ bất kỳ trang web nào.
+extName: Skim AI - Tóm tắt YouTube và tìm kiếm
+extDescription: "Tóm tắt YouTube và kết quả tìm kiếm bằng AI, dịch trang web và phụ đề. Dùng khóa API AI của bạn để tóm tắt."
 uninstallSurveyUrl: https://tally.so/r/nPK6Ob
 dataTypes:
   string: Văn bản

@@ -4,6 +4,7 @@ import {
   ENSURE_SUBTITLES_RESPONSE_TYPE,
   PLAYER_DATA_REQUEST_TYPE,
   PLAYER_DATA_RESPONSE_TYPE,
+  PLAYER_RESPONSE_PENDING_ERROR,
   TIMEDTEXT_WAIT_TIMEOUT_MS,
   WAIT_TIMEDTEXT_REQUEST_TYPE,
   WAIT_TIMEDTEXT_RESPONSE_TYPE,
@@ -19,6 +20,7 @@ interface PlayerDataRequest {
 
 interface YouTubePlayer extends HTMLElement {
   getPlayerResponse?: () => any
+  getVideoData?: () => any
   getAudioTrack?: () => any
   getPlayerState?: () => number
   getWebPlayerContextConfig?: () => any
@@ -39,7 +41,28 @@ interface SelectedTrackSnapshot {
   vssId: string | null
 }
 
-function findYoutubePlayer(): YouTubePlayer | null {
+function getPlayerVideoId(player: YouTubePlayer, loaded = false): string | null {
+  try {
+    return loaded
+      ? player.getVideoData?.()?.video_id ?? null
+      : player.getPlayerResponse?.()?.videoDetails?.videoId ?? null
+  }
+  catch {
+    return null
+  }
+}
+
+function findYoutubePlayer(expectedVideoId?: string): YouTubePlayer | null {
+  if (expectedVideoId) {
+    const candidates = [
+      document.querySelector<YouTubePlayer>("#movie_player"),
+      ...document.querySelectorAll<YouTubePlayer>(".html5-video-player"),
+    ]
+    const matched = candidates.find(player => player && getPlayerVideoId(player) === expectedVideoId)
+      ?? candidates.find(player => player && getPlayerVideoId(player, true) === expectedVideoId)
+    if (matched)
+      return matched
+  }
   return document.querySelector(
     ".html5-video-player.playing-mode, .html5-video-player.paused-mode",
   ) ?? document.querySelector(".html5-video-player")
@@ -77,8 +100,8 @@ function handleMessage(event: MessageEvent): void {
   }
 
   if (event.data?.type === ENSURE_SUBTITLES_REQUEST_TYPE) {
-    const { requestId } = event.data
-    ensureSubtitlesEnabled()
+    const { requestId, videoId } = event.data
+    ensureSubtitlesEnabled(videoId)
     window.postMessage({
       type: ENSURE_SUBTITLES_RESPONSE_TYPE,
       requestId,
@@ -90,7 +113,7 @@ function getPlayerData(request: PlayerDataRequest): PlayerDataResponse {
   const { requestId, expectedVideoId } = request
 
   try {
-    const player = findYoutubePlayer()
+    const player = findYoutubePlayer(expectedVideoId)
 
     if (!player)
       return errorResponse(requestId, "PLAYER_NOT_FOUND")
@@ -101,8 +124,10 @@ function getPlayerData(request: PlayerDataRequest): PlayerDataResponse {
     const captionTracks = normalizeTracks(tracks)
     const selectedTrack = getSelectedTrackSnapshot(player, captionTracks)
 
-    if (!videoId || videoId !== expectedVideoId)
-      return errorResponse(requestId, "VIDEO_ID_MISMATCH")
+    if (!videoId || videoId !== expectedVideoId) {
+      const pending = getPlayerVideoId(player, true) === expectedVideoId
+      return errorResponse(requestId, pending ? PLAYER_RESPONSE_PENDING_ERROR : "VIDEO_ID_MISMATCH")
+    }
 
     return {
       type: PLAYER_DATA_RESPONSE_TYPE,
@@ -126,15 +151,15 @@ function getPlayerData(request: PlayerDataRequest): PlayerDataResponse {
   }
 }
 
-function ensureSubtitlesEnabled(): void {
-  const button = document.querySelector(".ytp-subtitles-button") as HTMLElement | null
+function ensureSubtitlesEnabled(videoId?: string): void {
+  const player = findYoutubePlayer(videoId)
+  const button = player?.querySelector<HTMLElement>(".ytp-subtitles-button")
+    ?? document.querySelector<HTMLElement>(".ytp-subtitles-button")
   if (!button)
     return
 
   if (button.getAttribute("aria-pressed") === "true")
     return
-
-  const player = findYoutubePlayer()
 
   if (player?.toggleSubtitles) {
     player.toggleSubtitles()

@@ -1,7 +1,18 @@
+import type { ReactNode } from "react"
 import type { SearchResult } from "../search-engines"
 import type { Config } from "@/types/config/config"
 import { useEffect, useRef, useState } from "react"
+import { getLLMProvidersConfig } from "@/utils/config/helpers"
 import { sendMessage } from "@/utils/message"
+import { getOutputLanguage } from "@/utils/skim-language"
+
+function findLLMProviderId(config: Config): string | null {
+  const llmProviders = getLLMProvidersConfig(config.providersConfig)
+  const translateId = config.translate.providerId
+  if (llmProviders.some(p => p.id === translateId))
+    return translateId
+  return llmProviders[0]?.id ?? null
+}
 
 interface SummaryPanelProps {
   query: string
@@ -11,6 +22,31 @@ interface SummaryPanelProps {
 
 type Status = "idle" | "loading" | "done" | "error"
 type Tab = "answer" | "sources" | "ask"
+
+interface SearchAnswer {
+  summary: string
+  findings: { point: string, sources: number[] }[]
+}
+
+const SEARCH_SCHEMA = {
+  type: "object" as const,
+  properties: {
+    summary: { type: "string", description: "2-3 sentence overview answering the query" },
+    findings: {
+      type: "array",
+      items: {
+        type: "object",
+        properties: {
+          point: { type: "string", description: "A key finding, 1-2 sentences" },
+          sources: { type: "array", items: { type: "number" }, description: "Source numbers like [1, 3]" },
+        },
+        required: ["point", "sources"],
+      },
+      description: "3-6 key findings with source citations",
+    },
+  },
+  required: ["summary", "findings"],
+}
 
 function SkimMark({ size = 18, color = "currentColor" }: { size?: number, color?: string }) {
   return (
@@ -22,33 +58,35 @@ function SkimMark({ size = 18, color = "currentColor" }: { size?: number, color?
   )
 }
 
-function parseCitations(text: string) {
+function parseCitations(text: string, renderCitation: (sourceNumber: number, key: string | number) => ReactNode) {
   const parts = text.split(/(\[\d+\])/)
   return parts.map((p, i) => {
     const m = p.match(/^\[(\d+)\]$/)
     if (m)
-      return <span key={i} className="skim-cite">{m[1]}</span>
+      return renderCitation(Number(m[1]), i)
     return <span key={i}>{p}</span>
   })
 }
 
 export function SummaryPanel({ query, results, config }: SummaryPanelProps) {
-  const [summary, setSummary] = useState("")
+  const [answer, setAnswer] = useState<SearchAnswer | null>(null)
+  const [errorMsg, setErrorMsg] = useState("")
   const [status, setStatus] = useState<Status>("idle")
   const [tab, setTab] = useState<Tab>("answer")
   const [messages, setMessages] = useState<{ role: string, text: string }[]>([])
   const [input, setInput] = useState("")
   const requestedRef = useRef(false)
+  const outputLang = getOutputLanguage(config)
 
   useEffect(() => {
     if (requestedRef.current || !query || results.length === 0)
       return
     requestedRef.current = true
 
-    const providerId = config.translate.providerId
+    const providerId = findLLMProviderId(config)
     if (!providerId) {
       setStatus("error")
-      setSummary("No AI provider configured. Set up a provider in Skim AI settings.")
+      setErrorMsg("请先在 Skim AI 设置中配置 AI 服务。")
       return
     }
 
@@ -58,40 +96,44 @@ export function SummaryPanel({ query, results, config }: SummaryPanelProps) {
       .map((r, i) => `[${i + 1}] ${r.title}\n${r.snippet}`)
       .join("\n\n")
 
-    const prompt = `Based on the following search results for the query "${query}", provide a comprehensive summary. Use citation references like [1], [2] to cite sources.
-
-Search Results:
-${context}
-
-Format your response as:
-1. A concise "in one breath" summary (2-3 sentences)
-2. Then list key findings with citations
-
-Respond in the same language as the search query. Be concise but thorough.
-
-Output language: match the search query language.`
-
-    async function run() {
+    async function run(providerId: string) {
       try {
-        const response = await sendMessage("backgroundGenerateText", {
+        const resp = await sendMessage("backgroundGenerateObject", {
           providerId,
-          prompt,
+          schemaName: "SearchSummary",
+          schemaDescription: "Structured summary of search results",
+          schema: SEARCH_SCHEMA,
+          system: `You are Skim AI. Synthesize search results into a structured answer. Respond in ${outputLang}.`,
+          prompt: `Query: "${query}"\n\nSearch Results:\n${context}\n\nIMPORTANT: Respond in ${outputLang}.`,
           temperature: 0.3,
         })
-        setSummary(response.text)
+        setAnswer(resp.object as unknown as SearchAnswer)
         setStatus("done")
       }
-      catch (err) {
-        setSummary(err instanceof Error ? err.message : "Failed to generate summary")
-        setStatus("error")
+      catch {
+        try {
+          const textResp = await sendMessage("backgroundGenerateText", {
+            providerId,
+            system: `You are Skim AI. Return ONLY valid JSON. Respond in ${outputLang}.`,
+            prompt: `Synthesize these search results for "${query}" as JSON:\n{"summary":"2-3 sentences","findings":[{"point":"finding","sources":[1,2]}]}\n\nResults:\n${context}`,
+            temperature: 0.3,
+          })
+          const parsed = JSON.parse(textResp.text.replace(/^[^{]*/, "").replace(/[^}]*$/, ""))
+          setAnswer(parsed)
+          setStatus("done")
+        }
+        catch (err) {
+          setErrorMsg(err instanceof Error ? err.message : "生成摘要失败，请重试。")
+          setStatus("error")
+        }
       }
     }
 
-    void run()
-  }, [query, results, config])
+    void run(providerId)
+  }, [query, results, config, outputLang])
 
   const handleAsk = (q: string) => {
-    const providerId = config.translate.providerId
+    const providerId = findLLMProviderId(config)
     if (!providerId || !q.trim())
       return
 
@@ -99,7 +141,7 @@ Output language: match the search query language.`
     setMessages(m => [...m, { role: "user", text: userMsg }])
     setInput("")
 
-    async function run() {
+    async function run(providerId: string) {
       try {
         const context = results
           .map((r, i) => `[${i + 1}] ${r.title}: ${r.snippet}`)
@@ -107,25 +149,38 @@ Output language: match the search query language.`
 
         const response = await sendMessage("backgroundGenerateText", {
           providerId,
-          system: `You are Skim AI, an AI search assistant. Answer based on these search results:\n${context}\n\nUse [1], [2] etc to cite sources.`,
+          system: `You are Skim AI, an AI search assistant. Answer based on these search results:\n${context}\n\nUse [1], [2] etc to cite sources. Always respond in ${outputLang}.`,
           prompt: userMsg,
           temperature: 0.3,
         })
         setMessages(m => [...m, { role: "ai", text: response.text }])
       }
       catch {
-        setMessages(m => [...m, { role: "ai", text: "Sorry, I couldn't process that question." }])
+        setMessages(m => [...m, { role: "ai", text: "回答失败，请重试。" }])
       }
     }
 
-    void run()
+    void run(providerId)
   }
 
   const tabs: { id: Tab, label: string }[] = [
-    { id: "answer", label: "Answer" },
-    { id: "sources", label: "Sources" },
-    { id: "ask", label: "Ask" },
+    { id: "answer", label: "回答" },
+    { id: "sources", label: "来源" },
+    { id: "ask", label: "提问" },
   ]
+
+  const renderCitation = (sourceNumber: number, key: string | number, extraClassName = "") => {
+    const result = results[sourceNumber - 1]
+    const className = extraClassName ? `skim-cite ${extraClassName}` : "skim-cite"
+    if (result?.url) {
+      return (
+        <a key={key} className={className} href={result.url} title={result.title}>
+          {sourceNumber}
+        </a>
+      )
+    }
+    return <span key={key} className={className}>{sourceNumber}</span>
+  }
 
   return (
     <div className="skim-panel">
@@ -136,7 +191,7 @@ Output language: match the search query language.`
             <SkimMark size={19} color="var(--brand)" />
             <span>Skim AI</span>
           </span>
-          <span className="skim-context-chip">rail</span>
+          <span className="skim-context-chip">搜索摘要</span>
         </div>
       </div>
 
@@ -158,29 +213,56 @@ Output language: match the search query language.`
         {status === "loading" && (
           <div className="skim-loading">
             <div className="skim-spinner" />
-            <span>Skimming search results...</span>
+            <span>正在整理搜索结果…</span>
           </div>
         )}
 
         {status === "error" && (
-          <div className="skim-error">{summary}</div>
+          <div className="skim-error">{errorMsg}</div>
         )}
 
-        {status === "done" && tab === "answer" && (
+        {status === "done" && tab === "answer" && answer && (
           <>
-            <div className="skim-label">In one breath</div>
-            <div className="skim-summary-text">{parseCitations(summary)}</div>
+            <div className="skim-label">搜索概要</div>
+            <div style={{ fontSize: 13.5, lineHeight: 1.55, color: "var(--ink)", marginBottom: 14 }}>
+              {parseCitations(answer.summary, renderCitation)}
+            </div>
+
+            {answer.findings.length > 0 && (
+              <>
+                <div className="skim-label">主要发现</div>
+                {answer.findings.map((f, i) => (
+                  <div key={i} className="skim-pick">
+                    <div className="skim-pick-desc">
+                      {parseCitations(f.point, renderCitation)}
+                      {f.sources.map(s => (
+                        renderCitation(s, `finding-${i}-${s}`, "offset")
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </>
+            )}
+
             <div className="skim-actions">
-              <button className="skim-btn accent">Save</button>
-              <button className="skim-btn">Copy</button>
+              <button
+                className="skim-btn"
+                onClick={() => {
+                  const text = `${answer.summary}\n\n${answer.findings.map(f => `- ${f.point} [${f.sources.join(",")}]`).join("\n")}`
+                  void navigator.clipboard.writeText(text)
+                }}
+              >
+                复制
+              </button>
               <button
                 className="skim-btn ghost"
                 onClick={() => {
                   requestedRef.current = false
+                  setAnswer(null)
                   setStatus("idle")
                 }}
               >
-                Redo
+                重新生成
               </button>
             </div>
           </>
@@ -191,20 +273,32 @@ Output language: match the search query language.`
             <div className="skim-label">
               {results.length}
               {" "}
-              sources used
+              个来源
             </div>
-            {results.map((r, i) => (
-              <div key={i} className="skim-source">
-                <span className="skim-cite" style={{ flexShrink: 0 }}>{i + 1}</span>
-                <div style={{ minWidth: 0, flex: 1 }}>
-                  <div className="skim-source-title">{r.title}</div>
-                  <div className="skim-source-site">
-                    {r.snippet.slice(0, 80)}
-                    ...
+            {results.map((r, i) => {
+              const content = (
+                <>
+                  <span className="skim-cite source-index">{i + 1}</span>
+                  <div style={{ minWidth: 0, flex: 1 }}>
+                    <div className="skim-source-title">{r.title}</div>
+                    <div className="skim-source-site">
+                      {r.snippet.slice(0, 80)}
+                      ...
+                    </div>
                   </div>
-                </div>
-              </div>
-            ))}
+                </>
+              )
+
+              if (r.url) {
+                return (
+                  <a key={i} className="skim-source" href={r.url} title={r.title}>
+                    {content}
+                  </a>
+                )
+              }
+
+              return <div key={i} className="skim-source">{content}</div>
+            })}
           </>
         )}
 
@@ -213,11 +307,11 @@ Output language: match the search query language.`
             {messages.length === 0
               ? (
                   <>
-                    <div className="skim-ask-empty">Follow-ups Skim AI suggests</div>
+                    <div className="skim-ask-empty">可以继续提问</div>
                     {[
-                      `What are the key differences between these results?`,
-                      `Which source is most reliable for "${query}"?`,
-                      `Summarize the consensus view`,
+                      `这些搜索结果有哪些主要差异？`,
+                      `关于“${query}”，哪个来源最可靠？`,
+                      `总结各方的共同观点`,
                     ].map(q => (
                       <button key={q} className="skim-followup" onClick={() => handleAsk(q)}>
                         {q}
@@ -235,7 +329,7 @@ Output language: match the search query language.`
                           Skim AI
                         </div>
                       )}
-                      <div>{parseCitations(m.text)}</div>
+                      <div>{parseCitations(m.text, renderCitation)}</div>
                     </div>
                   ))
                 )}
@@ -255,7 +349,7 @@ Output language: match the search query language.`
                 if (e.key === "Enter")
                   handleAsk(input)
               }}
-              placeholder="Follow up about this search..."
+              placeholder="继续询问搜索内容…"
             />
             <button
               className="skim-composer-send"
@@ -278,7 +372,7 @@ Output language: match the search query language.`
         <span>
           {results.length}
           {" "}
-          sources
+          个来源
         </span>
       </div>
     </div>

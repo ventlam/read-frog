@@ -25,6 +25,8 @@ export default antfu({
   },
   ignores: [
     "**/skills/**",
+    "frog-ai-extension/**",
+    "assets/skimai/**",
   ],
   rules: {
     "unused-imports/no-unused-imports": "error",

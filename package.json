@@ -1,10 +1,10 @@
 {
   "name": "@skim-ai/extension",
+  "displayName": "Skim AI",
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "private": true,
   "packageManager": "pnpm@10.33.4",
-  "displayName": "Skim AI",
   "description": "AI-enhanced browsing: search summaries, YouTube insights, and translation",
   "scripts": {
     "build": "wxt build",

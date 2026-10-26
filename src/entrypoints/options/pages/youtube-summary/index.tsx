@@ -5,11 +5,11 @@ import { YouTubeSummaryConfig } from "./youtube-summary-config"
 
 export function YouTubeSummaryPage() {
   return (
-    <PageLayout title="YouTube Summary">
+    <PageLayout title="YouTube 视频摘要">
       <div className="space-y-6 py-6">
         <div>
           <p className="text-sm text-muted-foreground max-w-xl">
-            Customize how Skim AI reads YouTube videos for you — pick what gets extracted and tune the prompt.
+            设置 Skim AI 提取的视频内容，并调整摘要提示词。
           </p>
         </div>
         <ExtractionToggles />

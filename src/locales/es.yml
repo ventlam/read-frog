@@ -1,6 +1,6 @@
 name: Skim AI
-extName: Skim AI - Traduce y aprende
-extDescription: Skim AI es una extensión de navegador de código abierto diseñada para ayudarte a aprender idiomas en profundidad desde cualquier sitio web.
+extName: Skim AI - Resúmenes de YouTube y búsquedas
+extDescription: "Resúmenes con IA de YouTube y búsquedas, y traducción de páginas y subtítulos. Los resúmenes usan tu propia clave de API de IA."
 uninstallSurveyUrl: https://tally.so/r/nPK6Ob
 dataTypes:
   string: Texto

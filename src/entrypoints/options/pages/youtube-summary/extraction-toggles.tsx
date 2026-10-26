@@ -1,10 +1,10 @@
 import { useState } from "react"
 
 const TOGGLES = [
-  { id: "chapters", label: "Chapter outline", desc: "Auto-detect and segment." },
-  { id: "timestamps", label: "Timestamp jump", desc: "Click to seek the player." },
-  { id: "highlights", label: "Quote highlights", desc: "Pull memorable lines." },
-  { id: "translate", label: "Translate to your lang", desc: "Run after summarizing." },
+  { id: "chapters", label: "章节大纲", desc: "自动识别并划分章节。" },
+  { id: "timestamps", label: "时间戳跳转", desc: "点击时间戳跳转播放。" },
+  { id: "highlights", label: "精彩观点", desc: "提取值得记录的原话。" },
+  { id: "translate", label: "翻译成目标语言", desc: "生成摘要后翻译。" },
 ] as const
 
 export function ExtractionToggles() {
@@ -20,7 +20,7 @@ export function ExtractionToggles() {
   return (
     <div className="rounded-xl border bg-card p-4">
       <div className="text-xs font-mono text-muted-foreground uppercase tracking-wider mb-3">
-        Extraction
+        提取内容
       </div>
       <div className="grid grid-cols-2 gap-2.5">
         {TOGGLES.map(t => (

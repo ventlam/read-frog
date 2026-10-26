@@ -36,8 +36,8 @@ export function YouTubeSummaryConfig() {
   return (
     <div className="rounded-xl border bg-card overflow-hidden">
       <div className="px-4 py-3 border-b flex items-center gap-3">
-        <span className="text-sm font-semibold">YouTube prompt</span>
-        <span className="text-xs text-muted-foreground">for transcript-based summaries</span>
+        <span className="text-sm font-semibold">YouTube 摘要提示词</span>
+        <span className="text-xs text-muted-foreground">根据字幕生成摘要</span>
       </div>
 
       <div className="p-4 space-y-4">
@@ -50,7 +50,7 @@ export function YouTubeSummaryConfig() {
           />
           <div className="border-t bg-muted/30 px-3 py-2 flex items-center gap-2">
             <span className="text-[10px] font-mono text-muted-foreground uppercase tracking-wider">
-              Variables:
+              可用变量：
             </span>
             {VARIABLES.map(v => (
               <button
@@ -77,20 +77,23 @@ export function YouTubeSummaryConfig() {
             onClick={() => setSaved(true)}
             className="inline-flex items-center gap-1.5 rounded-full bg-primary text-primary-foreground px-4 py-2 text-sm font-medium hover:bg-primary/90 transition-colors"
           >
-            Save changes
+            保存修改
           </button>
           <button
             type="button"
-            onClick={() => { setPrompt(DEFAULT_PROMPT); setSaved(false) }}
+            onClick={() => {
+              setPrompt(DEFAULT_PROMPT)
+              setSaved(false)
+            }}
             className="inline-flex items-center gap-1.5 rounded-full border px-4 py-2 text-sm font-medium hover:bg-muted/50 transition-colors"
           >
-            Use default
+            恢复默认
           </button>
           <div className="flex-1" />
           {!saved && (
             <span className="flex items-center gap-1.5 font-mono text-[10px] text-muted-foreground">
               <span className="w-1.5 h-1.5 rounded-full bg-amber-500" />
-              Unsaved
+              尚未保存
             </span>
           )}
         </div>

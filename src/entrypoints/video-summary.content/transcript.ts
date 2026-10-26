@@ -6,34 +6,47 @@ export interface TranscriptSegment {
   text: string
 }
 
-let fetcher: YoutubeSubtitlesFetcher | null = null
-
-export async function fetchTranscript(_videoId: string): Promise<TranscriptSegment[]> {
+export async function fetchTranscript(videoId: string, signal?: AbortSignal): Promise<TranscriptSegment[]> {
+  const fetcher = new YoutubeSubtitlesFetcher()
+  const cancel = () => fetcher.cleanup()
+  signal?.addEventListener("abort", cancel, { once: true })
   try {
-    if (!fetcher)
-      fetcher = new YoutubeSubtitlesFetcher()
-
+    signal?.throwIfAborted()
+    if (!await fetcher.hasAvailableSubtitles())
+      return []
+    signal?.throwIfAborted()
+    if (getVideoId() !== videoId)
+      throw new Error("视频已切换")
     const fragments = await fetcher.fetch()
+    signal?.throwIfAborted()
     return fragments.map(f => ({
       start: f.start / 1000,
       duration: (f.end - f.start) / 1000,
       text: f.text,
     }))
   }
-  catch (err) {
-    console.warn("[SkimAI] Transcript fetch failed:", err)
-    return []
+  finally {
+    signal?.removeEventListener("abort", cancel)
+    fetcher.cleanup()
   }
 }
 
-export function transcriptToText(segments: TranscriptSegment[], maxChars = 200000): string {
-  let result = ""
-  for (const seg of segments) {
-    if (result.length + seg.text.length > maxChars)
-      break
-    result += `${seg.text} `
-  }
-  return result.trim()
+export function transcriptToText(segments: TranscriptSegment[]): string {
+  return segments.map(segment => segment.text).join(" ").trim()
+}
+
+// Only model input is budgeted; the script view and clipboard always use the full text.
+// Sample across the whole video so long recordings retain their ending in the overview.
+export function transcriptForModel(text: string, maxChars = 200000): string {
+  if (text.length <= maxChars)
+    return text
+  const separator = "\n[…]\n"
+  const samples = 20
+  const chunkSize = Math.floor((maxChars - separator.length * (samples - 1)) / samples)
+  return Array.from({ length: samples }, (_, i) => {
+    const start = Math.floor(i * (text.length - chunkSize) / (samples - 1))
+    return text.slice(start, start + chunkSize)
+  }).join(separator)
 }
 
 export function getVideoTitle(): string {
@@ -63,13 +76,7 @@ export function sliceTranscript(segments: TranscriptSegment[], startSec: number,
 
 export function parseTimestamp(ts: string): number {
   const parts = ts.split(":").map(Number)
-  if (parts.length === 3) return parts[0] * 3600 + parts[1] * 60 + parts[2]
+  if (parts.length === 3)
+    return parts[0] * 3600 + parts[1] * 60 + parts[2]
   return parts[0] * 60 + (parts[1] || 0)
-}
-
-export function resetFetcher(): void {
-  if (fetcher) {
-    fetcher.cleanup()
-    fetcher = null
-  }
 }

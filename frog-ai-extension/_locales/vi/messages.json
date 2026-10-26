@@ -3,10 +3,10 @@
     "message": "Skim AI"
   },
   "extName": {
-    "message": "Skim AI - Dịch và học"
+    "message": "Skim AI - Tóm tắt YouTube và tìm kiếm"
   },
   "extDescription": {
-    "message": "Skim AI là tiện ích mở rộng trình duyệt mã nguồn mở được thiết kế để giúp bạn học ngôn ngữ sâu từ bất kỳ trang web nào."
+    "message": "Tóm tắt YouTube và kết quả tìm kiếm bằng AI, dịch trang web và phụ đề. Dùng khóa API AI của bạn để tóm tắt."
   },
   "uninstallSurveyUrl": {
     "message": "https://tally.so/r/nPK6Ob"

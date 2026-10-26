@@ -1,6 +1,6 @@
 name: Skim AI
-extName: "Skim AI - Search & Video Insights"
-extDescription: AI-powered YouTube video summaries with deep chapter analysis, search enhancement, and translation.
+extName: "Skim AI - YouTube Summaries & Search"
+extDescription: "AI summaries of YouTube videos and search results, plus webpage and subtitle translation. Summaries use your own AI API key."
 uninstallSurveyUrl: https://tally.so/r/nPK6Ob
 dataTypes:
   string: Text

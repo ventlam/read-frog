@@ -22,14 +22,6 @@ async function getConfigOrThrow(): Promise<Config> {
 }
 
 async function isTextAlreadyInTargetLanguage(text: string, targetCode: LangCodeISO6393) {
-  // Fast path: CJK character ratio check for Chinese/Japanese/Korean targets
-  if (targetCode === "cmn" || targetCode === "cmn-Hant" || targetCode === "jpn" || targetCode === "kor") {
-    const cjkChars = text.match(/[一-鿿぀-ゟ゠-ヿ가-힯]/g)
-    const ratio = cjkChars ? cjkChars.length / text.replace(/\s/g, "").length : 0
-    if (ratio > 0.3)
-      return true
-  }
-
   if (text.length < MIN_LENGTH_FOR_TARGET_LANG_DETECTION)
     return false
   const detected = await detectLanguage(text, { enableLLM: false })

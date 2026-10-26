@@ -135,9 +135,9 @@ export const searchSummaryStyles = /* css */ `
   }
 
   .skim-summary-text {
-    font-family: var(--font-display);
-    font-size: 17px;
-    line-height: 1.4;
+    font-family: var(--font-ui);
+    font-size: 13.5px;
+    line-height: 1.55;
     letter-spacing: -0.005em;
     color: var(--ink);
     margin: 0 0 12px;
@@ -164,9 +164,13 @@ export const searchSummaryStyles = /* css */ `
     padding: 1px 5px;
     margin: 0 1px;
     cursor: pointer;
+    text-decoration: none;
     transition: background 0.12s;
     vertical-align: 1px;
   }
+  .skim-cite.offset { margin-left: 4px; }
+  .skim-cite.source-index { flex-shrink: 0; }
+  span.skim-cite { cursor: default; }
   .skim-cite:hover { background: var(--accent); }
 
   .skim-pick {
@@ -215,8 +219,12 @@ export const searchSummaryStyles = /* css */ `
     gap: 10px;
     padding: 10px 0;
     border-top: 1px solid var(--line-soft);
-    cursor: pointer;
+    color: inherit;
+    cursor: default;
+    text-decoration: none;
   }
+  a.skim-source { cursor: pointer; }
+  a.skim-source:hover .skim-source-title { color: var(--brand); }
   .skim-source:first-of-type { border-top: none; }
 
   .skim-source-title {

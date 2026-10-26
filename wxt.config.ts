@@ -1,5 +1,6 @@
 import path from "node:path"
 import process from "node:process"
+import { generateChromeMessagesText, parseMessagesFile } from "@wxt-dev/i18n/build"
 import { defineConfig } from "wxt"
 import { z } from "zod"
 import { createExtensionClientEnvSchema, isLocalPackagesEnabled, resolveExtensionEnv } from "./src/env/shared"
@@ -16,6 +17,19 @@ export default defineConfig({
   srcDir: "src",
   imports: false,
   modules: ["@wxt-dev/module-react", "@wxt-dev/i18n/module"],
+  hooks: {
+    "config:resolved": (wxt) => {
+      // Skim AI uses Chinese UI even when the browser's own language is English.
+      wxt.config.alias["#i18n"] = path.resolve(__dirname, "src/utils/i18n.ts")
+    },
+    "prepare:types": async (_, entries) => {
+      const messages = await parseMessagesFile(path.resolve(__dirname, "src/locales/zh-CN.yml"))
+      entries.push({
+        path: "skim-i18n-messages.ts",
+        text: `export default ${generateChromeMessagesText(messages)};\n`,
+      })
+    },
+  },
   manifestVersion: 3,
   // WXT top level alias - will be automatically synced to tsconfig.json paths and Vite alias
   alias: useLocalPackages
@@ -24,10 +38,10 @@ export default defineConfig({
         "@read-frog/api-contract": path.resolve(__dirname, "../read-frog-monorepo/packages/api-contract/src"),
       }
     : {},
-  manifest: ({ mode, browser }) => ({
+  manifest: ({ browser }) => ({
     name: "__MSG_extName__",
     description: "__MSG_extDescription__",
-    default_locale: "en",
+    default_locale: "zh_CN",
     // Removed fixed extension key to avoid collision with upstream Read Frog
     permissions: [
       "storage",

@@ -3,10 +3,10 @@
     "message": "Skim AI"
   },
   "extName": {
-    "message": "Skim AI - 翻譯與學習"
+    "message": "Skim AI - YouTube 摘要與搜尋"
   },
   "extDescription": {
-    "message": "Skim AI 是一款開放源代碼的瀏覽器插件，旨在幫助您從任何網站深入學習語言。"
+    "message": "AI 總結 YouTube 影片和搜尋結果，並翻譯網頁與字幕。摘要功能需設定自己的 AI API 金鑰。"
   },
   "uninstallSurveyUrl": {
     "message": "https://tally.so/r/3E9XDL"

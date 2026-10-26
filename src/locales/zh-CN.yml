@@ -1,6 +1,6 @@
 name: Skim AI
-extName: Skim AI - 搜索摘要与视频洞察
-extDescription: Skim AI 是一款开源浏览器扩展，通过 AI 驱动的搜索摘要、YouTube 视频洞察和翻译增强你的浏览体验。
+extName: Skim AI - YouTube 摘要与搜索
+extDescription: AI 总结 YouTube 视频和搜索结果，并翻译网页与字幕。摘要功能需配置自己的 AI API 密钥。
 uninstallSurveyUrl: https://tally.so/r/3E9XDL
 dataTypes:
   string: 文本

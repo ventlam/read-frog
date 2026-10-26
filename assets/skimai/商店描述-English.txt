@@ -1,0 +1,25 @@
+Skim AI uses AI to summarize YouTube videos and search results, and provides webpage and subtitle translation to help you understand video and web content quickly.
+
+YouTube video summaries
+• Generate an overview, key takeaways, timestamped chapters, and highlights from available video captions.
+• Adapt the summary structure to the video length and analyze longer videos by chapter.
+• Read and copy the full transcript or download it as TXT. Transcript viewing and export are available while a summary is being generated.
+• Ask follow-up questions about the video.
+• Close the sidebar for the current video. Skim AI checks again when you switch videos. The sidebar appears when readable captions are available.
+
+Search result summaries
+• Show an AI summary sidebar on Google, Bing, and DuckDuckGo search pages.
+• Combine search result titles and snippets with source citations.
+• Ask follow-up questions about the search.
+
+Webpage and subtitle translation
+• Support bilingual webpage display and YouTube subtitle translation.
+• Choose the target language for translation and summaries, and configure AI providers in Settings.
+
+Setup and costs
+• The interface defaults to Simplified Chinese.
+• Video summaries, search summaries, and AI questions require your own configured AI service and API key. Usage costs depend on your chosen provider.
+• Relevant captions, search results, or question text are sent to your configured AI provider when generating summaries and AI answers.
+
+Skim AI is built on Read Frog and is open source under GPL-3.0.
+Source code: https://github.com/ventlam/read-frog

@@ -1,6 +1,6 @@
 const EXAMPLES = [
   {
-    label: "Cited research answer",
+    label: "带引用的研究回答",
     body: `Using the provided web search results, write a comprehensive reply to the given query.
 Cite results using [[number](URL)] notation after the reference.
 If the query is a company name, use only contents of [1].
@@ -11,19 +11,19 @@ Finally, give all references as:
 Use markdown for clear, easy-to-read formatting.`,
   },
   {
-    label: "Three-bullet summary",
+    label: "三点概要",
     body: "Summarize the content below in 3 bullet points.",
   },
   {
-    label: "Key takeaways",
+    label: "关键结论",
     body: "What are the key takeaways from the content below?",
   },
   {
-    label: "Gist extractor",
+    label: "核心内容提取",
     body: "Extract the gist of the content below.",
   },
   {
-    label: "Highlight template",
+    label: "精彩观点模板",
     body: `Your output should use the following template:
 #### Summary
 #### Highlights
@@ -42,8 +42,8 @@ export function ExamplePrompts() {
   return (
     <div>
       <div className="flex items-baseline gap-3 mb-3">
-        <h3 className="text-lg font-bold">Example prompts</h3>
-        <span className="text-xs text-muted-foreground">copy-paste, tweak, mix</span>
+        <h3 className="text-lg font-bold">提示词示例</h3>
+        <span className="text-xs text-muted-foreground">复制后可按需修改和组合</span>
       </div>
       <div className="space-y-2.5">
         {EXAMPLES.map((p, i) => (
@@ -63,7 +63,7 @@ export function ExamplePrompts() {
                 onClick={() => copyToClipboard(p.body)}
                 className="text-xs text-muted-foreground hover:text-foreground px-2 py-1 rounded hover:bg-muted/50 transition-colors"
               >
-                Copy
+                复制
               </button>
             </div>
             <pre className="font-mono text-xs text-muted-foreground leading-relaxed whitespace-pre-wrap max-h-28 overflow-hidden">

@@ -1,4 +1,5 @@
 import "@/utils/zod-config"
+import type { Config } from "@/types/config/config"
 import ReactDOM from "react-dom/client"
 import { defineContentScript } from "#imports"
 import { getLocalConfig } from "@/utils/config/storage"
@@ -18,7 +19,7 @@ function syncHeight(host: HTMLElement) {
     host.style.height = `${h}px`
 }
 
-function mount(config: any) {
+function mount(config: Config) {
   const existing = document.getElementById("skim-ai-video-summary")
   if (existing)
     return
@@ -37,6 +38,7 @@ function mount(config: any) {
   host.setAttribute("translate", "no")
   host.style.marginBottom = "12px"
   host.style.overflow = "hidden"
+  host.hidden = true
   syncHeight(host)
 
   const player = document.querySelector("#movie_player")
@@ -58,7 +60,14 @@ function mount(config: any) {
   anchor.insertAdjacentElement("afterbegin", host)
 
   currentRoot = ReactDOM.createRoot(container)
-  currentRoot.render(<App config={config} />)
+  currentRoot.render(
+    <App
+      config={config}
+      onVisibilityChange={(visible) => {
+        host.hidden = !visible
+      }}
+    />,
+  )
 }
 
 function unmount() {

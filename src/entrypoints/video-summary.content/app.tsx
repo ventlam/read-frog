@@ -5,9 +5,10 @@ import { getVideoId } from "./transcript"
 
 interface AppProps {
   config: Config
+  onVisibilityChange: (visible: boolean) => void
 }
 
-export default function App({ config }: AppProps) {
+export default function App({ config, onVisibilityChange }: AppProps) {
   const [videoId, setVideoId] = useState<string | null>(getVideoId)
 
   useEffect(() => {
@@ -25,5 +26,5 @@ export default function App({ config }: AppProps) {
   if (!videoId)
     return null
 
-  return <VideoSummaryPanel key={videoId} config={config} videoId={videoId} />
+  return <VideoSummaryPanel key={videoId} config={config} videoId={videoId} onVisibilityChange={onVisibilityChange} />
 }

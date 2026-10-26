@@ -35,26 +35,7 @@ export default defineContentScript({
 
     const config = await getLocalConfig() ?? DEFAULT_CONFIG
 
-    const waitForAnchor = (): Promise<Element> => {
-      return new Promise((resolve) => {
-        const existing = document.querySelector(engineConfig.sidebarAnchor)
-        if (existing) {
-          resolve(existing)
-          return
-        }
-
-        const observer = new MutationObserver(() => {
-          const el = document.querySelector(engineConfig.sidebarAnchor)
-          if (el) {
-            observer.disconnect()
-            resolve(el)
-          }
-        })
-        observer.observe(document.body, { childList: true, subtree: true })
-      })
-    }
-
-    const anchor = await waitForAnchor()
+    const rhs = document.querySelector("#rhs")
 
     const host = document.createElement("div")
     host.id = "skim-ai-search-summary"
@@ -69,7 +50,21 @@ export default defineContentScript({
     const container = document.createElement("div")
     shadow.appendChild(container)
 
-    anchor.insertAdjacentElement(engineConfig.sidebarPosition, host)
+    if (rhs) {
+      host.style.marginBottom = "16px"
+      rhs.insertAdjacentElement("afterbegin", host)
+    }
+    else {
+      const rcnt = document.querySelector<HTMLElement>("#rcnt")
+      if (!rcnt)
+        return
+      host.style.position = "absolute"
+      host.style.top = "0"
+      host.style.right = "0"
+      host.style.width = "360px"
+      rcnt.style.position = "relative"
+      rcnt.appendChild(host)
+    }
 
     const root = ReactDOM.createRoot(container)
     root.render(<App config={config} engineConfig={engineConfig} />)

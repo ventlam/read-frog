@@ -68,7 +68,7 @@ export function SettingsNav() {
           <SidebarMenuItem>
             <SidebarMenuButton render={<Link to="/youtube-summary" />} isActive={pathname === "/youtube-summary"}>
               <Icon icon="tabler:brand-youtube" />
-              <span>YouTube Summary</span>
+              <span>YouTube 视频摘要</span>
             </SidebarMenuButton>
           </SidebarMenuItem>
 

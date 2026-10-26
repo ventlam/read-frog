@@ -136,6 +136,14 @@ describe("translate-text", () => {
       }))
     })
 
+    it("translates Japanese text when the target language is Chinese", async () => {
+      mockDetectLanguage.mockResolvedValueOnce("jpn")
+      mockSendMessage.mockResolvedValue("中文译文")
+      const japaneseText = "これは日本語で書かれた十分に長い段落です。中国語への翻訳を選択したときは、日本語の文字を中国語と混同して翻訳を省略してはいけません。"
+      await expect(translateTextForPage(japaneseText)).resolves.toBe("中文译文")
+      expect(mockSendMessage).toHaveBeenCalledWith("enqueueTranslateRequest", expect.objectContaining({ text: japaneseText }))
+    })
+
     it("keeps explicit skipLanguages behavior when target-language precheck is disabled", async () => {
       const config = {
         ...DEFAULT_CONFIG,

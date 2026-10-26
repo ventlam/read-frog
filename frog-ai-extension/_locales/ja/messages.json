@@ -3,10 +3,10 @@
     "message": "Skim AI"
   },
   "extName": {
-    "message": "Skim AI - 翻訳して学ぶ"
+    "message": "Skim AI - YouTube要約と検索"
   },
   "extDescription": {
-    "message": "Skim AI は、あらゆるウェブサイトから言語を深く学ぶために設計されたオープンソースのブラウザ拡張機能です。"
+    "message": "AIでYouTube動画と検索結果を要約し、ウェブページと字幕を翻訳。要約機能には自分のAI APIキーを設定してください。"
   },
   "uninstallSurveyUrl": {
     "message": "https://tally.so/r/nPK6Ob"

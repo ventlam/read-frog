@@ -3,10 +3,10 @@
     "message": "Skim AI"
   },
   "extName": {
-    "message": "Skim AI - Переводи и учись"
+    "message": "Skim AI - Сводки YouTube и поиск"
   },
   "extDescription": {
-    "message": "Skim AI — расширение браузера с открытым исходным кодом, которое поможет вам глубоко изучать языки на любом веб-сайте."
+    "message": "ИИ-сводки YouTube и поиска, перевод веб-страниц и субтитров. Для сводок нужен ваш API-ключ ИИ."
   },
   "uninstallSurveyUrl": {
     "message": "https://tally.so/r/nPK6Ob"
